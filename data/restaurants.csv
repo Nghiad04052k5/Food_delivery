@@ -1,0 +1,201 @@
+id,name,address,rating
+1,Gourmet Station Sushi,248 Bui Vien Street, District 7,4.3
+2,Green House & Co,254 Le Duan Street, District 1,4.5
+3,Little Grill BBQ,85 Bui Vien Street, District 6,4.2
+4,Little Bistro Express,105 Nguyen Hue Street, District 1,4.3
+5,Sweet Station BBQ,146 Nguyen Hue Street, District 12,4.8
+6,Gourmet Hub Noodles,157 Nguyen Trai Street, District 9,4.8
+7,Little Eatery Sushi,163 Nam Ky Khoi Nghia Street, District 6,4.3
+8,Red Grill Sushi,60 Tran Hung Dao Street, District 2,3.8
+9,Spicy Bistro Express,157 Pasteur Street, District 4,4.0
+10,Sweet Palace Deli,18 Pasteur Street, District 4,4.2
+11,Green Station Bakery,130 Nguyen Trai Street, District 11,4.8
+12,Urban Garden Pizza,310 Pasteur Street, District 1,4.5
+13,Happy Bistro Tavern,13 Tran Hung Dao Street, District 2,4.4
+14,Sweet Palace Deli,92 Tran Hung Dao Street, District 8,5.0
+15,Urban Hub Bakery,161 Marie Curie Street, District 1,4.0
+16,Green Grill Tavern,278 Nguyen Hue Street, District 10,4.1
+17,Sweet Corner & Co,171 Nguyen Thi Minh Khai Street, District 4,4.1
+18,Royal Palace Cafe,198 Nguyen Van Troi Street, District 3,3.9
+19,Crazy Palace Sushi,133 Nguyen Van Troi Street, District 7,4.5
+20,Urban Station Express,36 Nguyen Van Troi Street, District 5,4.8
+21,Gourmet Palace Express,104 Nguyen Hue Street, District 5,4.2
+22,Royal Lab Deli,167 Le Duan Street, District 7,4.5
+23,Crazy House & Co,123 Bui Vien Street, District 11,4.3
+24,Little Hub Cafe,217 Pasteur Street, District 10,4.9
+25,Red Grill Cafe,91 Nguyen Hue Street, District 12,4.5
+26,The Golden Corner & Co,99 Nguyen Thi Minh Khai Street, District 6,4.7
+27,The Golden Diner Tavern,238 Bui Vien Street, District 3,4.9
+28,Green Hub Cafe,52 Nguyen Trai Street, District 9,4.1
+29,Gourmet Lab Cafe,118 Le Loi Street, District 3,4.4
+30,Urban Diner Pizza,252 Hai Ba Trung Street, District 1,4.4
+31,Royal Bistro & Co,237 Nam Ky Khoi Nghia Street, District 1,4.2
+32,Sweet Hub BBQ,243 Le Loi Street, District 6,4.0
+33,Happy Station Pizza,265 Hai Ba Trung Street, District 4,4.8
+34,Green Station Pizza,109 Nguyen Van Troi Street, District 4,4.4
+35,Urban Station Deli,297 Le Duan Street, District 7,3.9
+36,Spicy Eatery Tavern,173 Nguyen Thi Minh Khai Street, District 12,4.2
+37,Red Palace Tavern,112 Bui Vien Street, District 8,4.4
+38,Royal Station Cafe,287 Nguyen Thi Minh Khai Street, District 4,4.0
+39,The Golden Eatery BBQ,75 Le Loi Street, District 10,4.0
+40,Tasty Station Noodles,51 Nguyen Van Troi Street, District 5,4.6
+41,Sweet Palace Noodles,58 Nguyen Thi Minh Khai Street, District 11,4.5
+42,The Golden Eatery Express,184 Nguyen Van Troi Street, District 6,4.2
+43,Spicy Grill Deli,173 Le Duan Street, District 2,4.5
+44,The Golden Palace Express,84 Tran Hung Dao Street, District 3,4.1
+45,Tasty Corner Sushi,260 Pasteur Street, District 1,4.7
+46,Red Hub Express,220 Pasteur Street, District 5,4.6
+47,Crazy Eatery BBQ,337 Le Loi Street, District 11,4.6
+48,Spicy House Cafe,126 Nam Ky Khoi Nghia Street, District 7,4.5
+49,Royal Corner Pizza,139 Nguyen Van Troi Street, District 2,4.9
+50,Spicy Corner Bakery,316 Bui Vien Street, District 12,5.0
+51,Happy Station Sushi,292 Marie Curie Street, District 1,4.8
+52,Tasty House Bakery,91 Marie Curie Street, District 6,4.2
+53,Sweet Corner Express,97 Le Loi Street, District 6,4.3
+54,Happy Diner Tavern,346 Nguyen Trai Street, District 11,4.0
+55,Happy Station Cafe,274 Le Duan Street, District 8,3.8
+56,The Golden Kitchen Noodles,262 Le Loi Street, District 6,4.1
+57,Urban Eatery Pizza,296 Tran Hung Dao Street, District 5,4.0
+58,Red Lab & Co,276 Bui Vien Street, District 9,4.8
+59,Happy Diner Deli,264 Hai Ba Trung Street, District 3,3.8
+60,Happy Palace Bakery,83 Le Loi Street, District 8,4.6
+61,Urban Kitchen Cafe,99 Le Duan Street, District 6,4.1
+62,Green Diner Sushi,155 Tran Hung Dao Street, District 12,3.8
+63,Tasty Kitchen Bakery,295 Nam Ky Khoi Nghia Street, District 8,4.6
+64,Gourmet Lab Noodles,324 Nguyen Trai Street, District 12,3.8
+65,Royal Garden Pizza,357 Pasteur Street, District 3,4.0
+66,Urban Kitchen Cafe,251 Tran Hung Dao Street, District 10,4.2
+67,Green House Noodles,253 Nam Ky Khoi Nghia Street, District 9,4.1
+68,Crazy House Sushi,187 Marie Curie Street, District 10,3.8
+69,The Golden Grill Noodles,299 Nam Ky Khoi Nghia Street, District 6,4.7
+70,Urban Kitchen & Co,256 Nguyen Hue Street, District 9,3.9
+71,Spicy Station Cafe,218 Nguyen Thi Minh Khai Street, District 8,4.3
+72,Little Station Deli,232 Nguyen Hue Street, District 9,4.0
+73,The Golden Garden Bakery,354 Nguyen Trai Street, District 5,4.6
+74,Happy House Bakery,350 Tran Hung Dao Street, District 3,4.9
+75,Gourmet Hub Sushi,268 Bui Vien Street, District 7,4.9
+76,Royal Corner BBQ,321 Marie Curie Street, District 11,3.9
+77,Sweet Bistro Noodles,307 Hai Ba Trung Street, District 10,4.6
+78,Little Corner Pizza,171 Le Loi Street, District 1,4.6
+79,Crazy House Bakery,287 Marie Curie Street, District 3,4.6
+80,Tasty Corner Sushi,153 Hai Ba Trung Street, District 3,4.0
+81,Gourmet House Bakery,94 Marie Curie Street, District 6,4.3
+82,Gourmet Corner Cafe,349 Nguyen Van Troi Street, District 11,4.2
+83,Spicy Station Pizza,373 Nguyen Hue Street, District 8,4.4
+84,Urban Lab Bakery,357 Nam Ky Khoi Nghia Street, District 4,4.6
+85,Sweet House & Co,248 Hai Ba Trung Street, District 5,4.9
+86,Green Lab Express,154 Nguyen Hue Street, District 9,4.5
+87,Little Kitchen BBQ,250 Tran Hung Dao Street, District 2,4.1
+88,Spicy Bistro BBQ,157 Le Duan Street, District 11,4.5
+89,The Golden Kitchen Tavern,314 Tran Hung Dao Street, District 3,4.6
+90,Crazy Hub Sushi,258 Nam Ky Khoi Nghia Street, District 11,4.1
+91,Happy Lab & Co,106 Tran Hung Dao Street, District 9,3.8
+92,Royal Kitchen Sushi,242 Le Duan Street, District 5,4.7
+93,Tasty Grill Pizza,353 Nguyen Van Troi Street, District 4,4.0
+94,Red Grill Bakery,380 Tran Hung Dao Street, District 12,3.9
+95,Royal Corner Pizza,277 Le Loi Street, District 9,3.8
+96,Red Hub BBQ,142 Nguyen Van Troi Street, District 4,4.3
+97,Green Hub & Co,227 Marie Curie Street, District 12,4.7
+98,Urban Bistro Noodles,163 Nguyen Thi Minh Khai Street, District 6,4.2
+99,Spicy Kitchen Tavern,155 Tran Hung Dao Street, District 6,4.9
+100,Tasty Palace Pizza,246 Hai Ba Trung Street, District 9,3.9
+101,Tasty Corner Express,368 Nguyen Van Troi Street, District 2,4.1
+102,The Golden Grill & Co,377 Bui Vien Street, District 7,4.5
+103,Sweet Hub Noodles,302 Hai Ba Trung Street, District 4,3.9
+104,The Golden Palace Pizza,226 Pasteur Street, District 4,4.4
+105,Red Grill Noodles,305 Nguyen Trai Street, District 4,4.5
+106,Little House Cafe,302 Nguyen Thi Minh Khai Street, District 9,4.8
+107,The Golden Station Tavern,174 Nguyen Van Troi Street, District 2,4.6
+108,Spicy Eatery Cafe,133 Hai Ba Trung Street, District 1,4.3
+109,Green Garden Bakery,404 Tran Hung Dao Street, District 4,4.4
+110,Urban Bistro Noodles,168 Nguyen Thi Minh Khai Street, District 6,4.1
+111,Happy Palace Sushi,151 Nguyen Trai Street, District 2,4.0
+112,Royal Palace Express,361 Nguyen Van Troi Street, District 12,4.4
+113,Spicy Bistro Cafe,323 Nguyen Van Troi Street, District 8,4.0
+114,Royal Grill Bakery,302 Bui Vien Street, District 4,4.6
+115,Sweet Diner Tavern,270 Nguyen Van Troi Street, District 6,4.9
+116,Crazy Corner Express,273 Pasteur Street, District 4,4.1
+117,Green Diner & Co,321 Nguyen Thi Minh Khai Street, District 10,4.6
+118,Little Grill Pizza,408 Tran Hung Dao Street, District 1,4.2
+119,Tasty Station Tavern,372 Bui Vien Street, District 11,4.1
+120,Tasty Grill Bakery,365 Marie Curie Street, District 3,4.8
+121,Royal Palace Noodles,415 Pasteur Street, District 7,4.6
+122,Gourmet Bistro Express,417 Nguyen Trai Street, District 6,4.3
+123,Red Lab Sushi,382 Tran Hung Dao Street, District 5,4.1
+124,Urban Corner & Co,136 Pasteur Street, District 12,4.9
+125,Happy Corner & Co,404 Nguyen Hue Street, District 8,4.7
+126,Spicy Grill Express,396 Le Duan Street, District 3,4.6
+127,Urban Garden Bakery,200 Nguyen Trai Street, District 8,4.0
+128,Happy Diner Noodles,178 Nam Ky Khoi Nghia Street, District 2,3.9
+129,Tasty Garden Express,411 Hai Ba Trung Street, District 7,3.9
+130,Green Grill Noodles,274 Hai Ba Trung Street, District 12,4.5
+131,Royal Diner BBQ,155 Tran Hung Dao Street, District 12,4.1
+132,Royal Eatery Deli,351 Tran Hung Dao Street, District 10,3.9
+133,Urban Diner Sushi,281 Le Loi Street, District 5,3.8
+134,Royal Corner & Co,179 Nguyen Van Troi Street, District 12,3.9
+135,Spicy Kitchen Pizza,160 Bui Vien Street, District 5,3.9
+136,Royal Palace Tavern,146 Le Duan Street, District 1,4.0
+137,The Golden Kitchen Express,165 Hai Ba Trung Street, District 9,3.9
+138,Crazy Bistro Noodles,138 Bui Vien Street, District 5,4.1
+139,Happy Garden Cafe,399 Nam Ky Khoi Nghia Street, District 7,4.9
+140,Tasty Palace Tavern,357 Tran Hung Dao Street, District 1,4.3
+141,Red Station Noodles,343 Nguyen Hue Street, District 5,4.8
+142,Royal Garden Deli,385 Tran Hung Dao Street, District 2,4.2
+143,Gourmet Eatery BBQ,256 Marie Curie Street, District 10,4.6
+144,Crazy Station Sushi,316 Nguyen Hue Street, District 7,4.9
+145,Spicy Palace & Co,220 Pasteur Street, District 12,3.9
+146,Tasty House Bakery,226 Nguyen Van Troi Street, District 10,4.1
+147,The Golden Eatery BBQ,299 Nguyen Hue Street, District 9,4.4
+148,Urban House Sushi,296 Nguyen Hue Street, District 11,4.3
+149,Green Hub Sushi,412 Nguyen Trai Street, District 5,3.9
+150,Green Diner Sushi,345 Tran Hung Dao Street, District 7,4.7
+151,Red House Cafe,215 Tran Hung Dao Street, District 10,4.2
+152,Sweet Bistro Deli,189 Nguyen Hue Street, District 9,4.0
+153,Royal Diner & Co,444 Marie Curie Street, District 2,4.2
+154,Red Grill Tavern,210 Tran Hung Dao Street, District 3,4.5
+155,Green Hub Cafe,362 Marie Curie Street, District 3,4.9
+156,Happy Corner Tavern,336 Bui Vien Street, District 4,4.9
+157,Urban Lab & Co,375 Nguyen Hue Street, District 5,4.1
+158,Green Corner & Co,416 Nam Ky Khoi Nghia Street, District 3,4.8
+159,Crazy Palace Tavern,337 Le Duan Street, District 10,4.8
+160,Little Garden Noodles,412 Tran Hung Dao Street, District 6,4.9
+161,Gourmet Garden Express,191 Nguyen Hue Street, District 12,5.0
+162,Red Garden Pizza,422 Bui Vien Street, District 7,4.5
+163,Happy House BBQ,200 Le Duan Street, District 9,4.7
+164,Green Corner Cafe,428 Nguyen Van Troi Street, District 10,3.9
+165,Tasty Station Tavern,441 Nguyen Trai Street, District 9,4.3
+166,Green Palace Pizza,200 Nguyen Van Troi Street, District 7,4.1
+167,Urban House Express,242 Le Duan Street, District 1,4.9
+168,Gourmet Station Sushi,207 Tran Hung Dao Street, District 3,3.9
+169,Tasty Lab Bakery,297 Nguyen Hue Street, District 9,4.3
+170,Green Hub Pizza,233 Le Loi Street, District 3,3.8
+171,Red Corner & Co,211 Nguyen Thi Minh Khai Street, District 2,4.3
+172,Green House Sushi,295 Hai Ba Trung Street, District 7,4.1
+173,Happy Corner Bakery,382 Tran Hung Dao Street, District 12,3.9
+174,Happy Station Noodles,276 Marie Curie Street, District 3,4.2
+175,The Golden Lab & Co,319 Le Loi Street, District 12,4.3
+176,Tasty Garden Express,212 Nguyen Van Troi Street, District 4,4.0
+177,Tasty Palace Bakery,249 Le Duan Street, District 10,4.8
+178,Royal Garden Tavern,218 Tran Hung Dao Street, District 11,4.9
+179,Royal House BBQ,397 Nam Ky Khoi Nghia Street, District 3,3.9
+180,Red Diner Sushi,420 Nguyen Van Troi Street, District 3,3.9
+181,Urban Grill Bakery,429 Nguyen Thi Minh Khai Street, District 7,4.5
+182,Little Grill Cafe,410 Pasteur Street, District 11,3.9
+183,The Golden Lab Sushi,408 Nguyen Trai Street, District 11,4.3
+184,Crazy Grill Express,218 Le Duan Street, District 4,4.3
+185,Red Corner Sushi,283 Nam Ky Khoi Nghia Street, District 2,4.9
+186,Gourmet Kitchen BBQ,334 Nguyen Thi Minh Khai Street, District 10,3.9
+187,Sweet Bistro Bakery,472 Marie Curie Street, District 11,4.4
+188,Crazy Grill Deli,208 Nguyen Hue Street, District 3,4.1
+189,Green House & Co,229 Pasteur Street, District 5,4.0
+190,The Golden Garden Tavern,330 Tran Hung Dao Street, District 2,4.5
+191,Spicy Eatery Deli,313 Nam Ky Khoi Nghia Street, District 9,4.9
+192,The Golden Kitchen Bakery,322 Nguyen Trai Street, District 4,4.9
+193,Crazy Diner BBQ,248 Pasteur Street, District 10,4.0
+194,Happy Hub Pizza,363 Nguyen Thi Minh Khai Street, District 5,4.0
+195,Gourmet Palace Tavern,352 Nguyen Van Troi Street, District 12,3.8
+196,Sweet Palace BBQ,434 Nam Ky Khoi Nghia Street, District 7,4.1
+197,Urban Lab BBQ,286 Bui Vien Street, District 3,5.0
+198,Urban Bistro Bakery,294 Nguyen Trai Street, District 8,3.9
+199,Little Lab Sushi,221 Nam Ky Khoi Nghia Street, District 3,4.3
+200,Urban Station Tavern,481 Tran Hung Dao Street, District 4,4.3
