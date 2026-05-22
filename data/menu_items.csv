@@ -1,0 +1,2001 @@
+id,restaurant_id,item_name,price,stock_qty,version
+1,54,Baked Pizza Pepperoni,230000.0,85,0
+2,66,Fresh Sushi Roll,180000.0,77,0
+3,78,Cheesy Chicken Wings,360000.0,79,0
+4,166,Sour Smoothie,270000.0,96,0
+5,108,Sweet Steak,60000.0,51,0
+6,116,Crispy Tacos,290000.0,48,0
+7,160,Baked Fried Rice,300000.0,35,0
+8,18,Grilled Tacos,80000.0,84,0
+9,190,Crispy Waffles,440000.0,41,0
+10,31,Honey Pizza Pepperoni,360000.0,24,0
+11,199,Grilled Waffles,110000.0,93,0
+12,134,Grilled Noodle Soup,450000.0,72,0
+13,17,Honey Sushi Roll,240000.0,92,0
+14,78,Smoked Fried Rice,330000.0,62,0
+15,90,Baked Steak,190000.0,22,0
+16,161,Smoked Beef Burger,250000.0,66,0
+17,15,Sweet Waffles,420000.0,100,0
+18,31,Grilled Chicken Wings,430000.0,76,0
+19,156,Fresh Noodle Soup,270000.0,42,0
+20,180,Baked Sushi Roll,400000.0,94,0
+21,158,Spicy Tacos,450000.0,57,0
+22,69,Cheesy Pizza Pepperoni,460000.0,93,0
+23,73,Crispy Pizza Pepperoni,290000.0,99,0
+24,34,Sweet Salad Caesar,430000.0,72,0
+25,25,Honey Chicken Wings,80000.0,28,0
+26,34,Sweet Tacos,320000.0,47,0
+27,82,Grilled Pasta Carbonara,60000.0,84,0
+28,161,Fresh Tacos,70000.0,69,0
+29,135,Smoked Waffles,260000.0,32,0
+30,140,Sweet Fried Rice,390000.0,35,0
+31,57,Sweet Noodle Soup,350000.0,75,0
+32,178,Crispy Smoothie,230000.0,40,0
+33,80,Sweet Pizza Pepperoni,210000.0,32,0
+34,155,Honey Smoothie,260000.0,21,0
+35,110,Sweet Salad Caesar,370000.0,34,0
+36,192,Sweet Pizza Pepperoni,320000.0,59,0
+37,94,Fresh Noodle Soup,90000.0,42,0
+38,108,Spicy Tacos,490000.0,94,0
+39,24,Sour Salad Caesar,190000.0,96,0
+40,120,Sweet Waffles,260000.0,84,0
+41,24,Honey Salad Caesar,160000.0,48,0
+42,5,Sweet Beef Burger,360000.0,33,0
+43,153,Baked Beef Burger,260000.0,68,0
+44,53,Sour Sushi Roll,100000.0,31,0
+45,122,Garlic Salad Caesar,420000.0,35,0
+46,109,Cheesy Steak,370000.0,49,0
+47,200,Sour Beef Burger,360000.0,32,0
+48,142,Garlic Fried Rice,420000.0,100,0
+49,49,Grilled Smoothie,180000.0,42,0
+50,15,Crispy Tacos,110000.0,65,0
+51,82,Sour Noodle Soup,400000.0,82,0
+52,143,Cheesy Pasta Carbonara,180000.0,52,0
+53,52,Crispy Steak,300000.0,70,0
+54,123,Grilled Smoothie,210000.0,75,0
+55,116,Fresh Beef Burger,410000.0,44,0
+56,160,Fresh Salad Caesar,50000.0,39,0
+57,70,Cheesy Fried Rice,420000.0,92,0
+58,184,Spicy Tacos,270000.0,94,0
+59,24,Grilled Noodle Soup,320000.0,94,0
+60,69,Smoked Chicken Wings,150000.0,42,0
+61,62,Sour Sushi Roll,200000.0,93,0
+62,138,Grilled Smoothie,130000.0,62,0
+63,184,Sweet Steak,210000.0,81,0
+64,92,Crispy Pasta Carbonara,370000.0,31,0
+65,55,Garlic Pasta Carbonara,70000.0,92,0
+66,116,Baked Steak,440000.0,47,0
+67,159,Baked Beef Burger,410000.0,68,0
+68,84,Honey Waffles,370000.0,79,0
+69,68,Baked Fried Rice,300000.0,98,0
+70,114,Sweet Salad Caesar,60000.0,66,0
+71,35,Crispy Fried Rice,170000.0,44,0
+72,96,Cheesy Fried Rice,420000.0,30,0
+73,172,Grilled Pizza Pepperoni,350000.0,67,0
+74,61,Crispy Chicken Wings,90000.0,24,0
+75,79,Crispy Fried Rice,230000.0,96,0
+76,71,Garlic Pizza Pepperoni,450000.0,92,0
+77,133,Sweet Smoothie,90000.0,82,0
+78,195,Crispy Fried Rice,220000.0,31,0
+79,134,Fresh Pasta Carbonara,350000.0,26,0
+80,166,Smoked Sushi Roll,480000.0,37,0
+81,156,Garlic Steak,140000.0,94,0
+82,138,Sour Steak,490000.0,81,0
+83,51,Smoked Steak,380000.0,23,0
+84,5,Baked Waffles,220000.0,21,0
+85,104,Baked Fried Rice,330000.0,77,0
+86,168,Garlic Waffles,480000.0,52,0
+87,60,Sour Tacos,450000.0,71,0
+88,155,Sweet Beef Burger,120000.0,85,0
+89,191,Sweet Smoothie,230000.0,40,0
+90,2,Smoked Sushi Roll,450000.0,38,0
+91,117,Fresh Pizza Pepperoni,250000.0,20,0
+92,127,Sour Steak,160000.0,75,0
+93,65,Honey Fried Rice,150000.0,75,0
+94,192,Honey Beef Burger,380000.0,84,0
+95,73,Fresh Sushi Roll,60000.0,29,0
+96,19,Fresh Smoothie,70000.0,22,0
+97,169,Spicy Waffles,70000.0,20,0
+98,121,Fresh Pizza Pepperoni,180000.0,43,0
+99,60,Honey Pizza Pepperoni,230000.0,48,0
+100,142,Cheesy Noodle Soup,420000.0,97,0
+101,163,Baked Noodle Soup,400000.0,70,0
+102,144,Spicy Beef Burger,490000.0,47,0
+103,84,Garlic Steak,460000.0,88,0
+104,38,Fresh Fried Rice,50000.0,22,0
+105,15,Cheesy Chicken Wings,50000.0,29,0
+106,10,Honey Beef Burger,210000.0,75,0
+107,111,Grilled Fried Rice,460000.0,42,0
+108,40,Garlic Pasta Carbonara,220000.0,53,0
+109,173,Baked Tacos,240000.0,31,0
+110,138,Garlic Salad Caesar,310000.0,85,0
+111,191,Garlic Noodle Soup,330000.0,46,0
+112,62,Honey Pasta Carbonara,220000.0,40,0
+113,82,Sour Noodle Soup,370000.0,71,0
+114,163,Honey Fried Rice,370000.0,72,0
+115,153,Baked Chicken Wings,140000.0,74,0
+116,196,Garlic Pizza Pepperoni,460000.0,49,0
+117,103,Baked Pasta Carbonara,200000.0,45,0
+118,145,Sour Pizza Pepperoni,350000.0,64,0
+119,100,Fresh Pizza Pepperoni,180000.0,37,0
+120,198,Fresh Tacos,80000.0,80,0
+121,73,Baked Steak,400000.0,61,0
+122,156,Crispy Beef Burger,230000.0,98,0
+123,45,Sweet Fried Rice,380000.0,52,0
+124,57,Garlic Chicken Wings,160000.0,52,0
+125,11,Fresh Tacos,440000.0,92,0
+126,130,Baked Smoothie,280000.0,43,0
+127,71,Sour Noodle Soup,240000.0,77,0
+128,164,Sour Sushi Roll,340000.0,43,0
+129,24,Fresh Tacos,250000.0,54,0
+130,160,Grilled Noodle Soup,160000.0,66,0
+131,144,Cheesy Tacos,150000.0,20,0
+132,2,Spicy Waffles,100000.0,26,0
+133,94,Garlic Salad Caesar,470000.0,44,0
+134,44,Grilled Waffles,390000.0,97,0
+135,184,Fresh Fried Rice,200000.0,31,0
+136,39,Sour Pasta Carbonara,470000.0,52,0
+137,21,Honey Smoothie,110000.0,65,0
+138,17,Sour Pizza Pepperoni,480000.0,86,0
+139,36,Smoked Tacos,480000.0,77,0
+140,52,Crispy Noodle Soup,470000.0,100,0
+141,54,Cheesy Waffles,150000.0,46,0
+142,64,Baked Tacos,350000.0,55,0
+143,200,Spicy Salad Caesar,240000.0,71,0
+144,129,Fresh Salad Caesar,280000.0,72,0
+145,55,Crispy Chicken Wings,240000.0,38,0
+146,23,Smoked Waffles,60000.0,52,0
+147,17,Honey Pizza Pepperoni,250000.0,50,0
+148,38,Sour Smoothie,160000.0,100,0
+149,115,Sour Noodle Soup,180000.0,76,0
+150,113,Sour Beef Burger,300000.0,44,0
+151,8,Fresh Beef Burger,460000.0,96,0
+152,141,Sour Smoothie,410000.0,74,0
+153,48,Baked Sushi Roll,230000.0,25,0
+154,18,Honey Pizza Pepperoni,340000.0,58,0
+155,140,Honey Sushi Roll,130000.0,73,0
+156,184,Cheesy Smoothie,300000.0,51,0
+157,56,Sour Beef Burger,210000.0,81,0
+158,180,Baked Sushi Roll,310000.0,76,0
+159,119,Baked Smoothie,80000.0,25,0
+160,58,Sour Beef Burger,220000.0,23,0
+161,66,Crispy Pasta Carbonara,120000.0,39,0
+162,90,Garlic Chicken Wings,420000.0,31,0
+163,89,Baked Steak,80000.0,39,0
+164,140,Sweet Chicken Wings,270000.0,86,0
+165,97,Sour Pasta Carbonara,140000.0,47,0
+166,49,Crispy Noodle Soup,330000.0,98,0
+167,123,Cheesy Chicken Wings,140000.0,96,0
+168,182,Cheesy Chicken Wings,400000.0,39,0
+169,122,Sweet Fried Rice,100000.0,23,0
+170,110,Fresh Noodle Soup,470000.0,23,0
+171,74,Garlic Pizza Pepperoni,200000.0,38,0
+172,103,Sweet Sushi Roll,160000.0,34,0
+173,5,Honey Tacos,320000.0,48,0
+174,183,Sour Chicken Wings,450000.0,81,0
+175,36,Crispy Tacos,130000.0,21,0
+176,99,Sour Fried Rice,80000.0,91,0
+177,89,Honey Waffles,430000.0,94,0
+178,122,Grilled Noodle Soup,460000.0,97,0
+179,111,Honey Steak,110000.0,49,0
+180,192,Crispy Salad Caesar,210000.0,75,0
+181,122,Fresh Noodle Soup,130000.0,97,0
+182,84,Grilled Steak,490000.0,69,0
+183,6,Sweet Salad Caesar,210000.0,75,0
+184,133,Grilled Pasta Carbonara,450000.0,42,0
+185,87,Sour Salad Caesar,250000.0,71,0
+186,183,Cheesy Smoothie,450000.0,82,0
+187,5,Spicy Steak,490000.0,72,0
+188,72,Crispy Steak,140000.0,40,0
+189,37,Sweet Tacos,480000.0,39,0
+190,114,Honey Steak,480000.0,32,0
+191,93,Garlic Smoothie,260000.0,84,0
+192,49,Baked Chicken Wings,60000.0,76,0
+193,72,Sour Tacos,170000.0,70,0
+194,150,Honey Waffles,490000.0,76,0
+195,34,Crispy Fried Rice,170000.0,34,0
+196,24,Garlic Tacos,400000.0,95,0
+197,81,Baked Sushi Roll,350000.0,64,0
+198,3,Crispy Chicken Wings,370000.0,74,0
+199,96,Grilled Noodle Soup,260000.0,22,0
+200,79,Garlic Pasta Carbonara,390000.0,26,0
+201,58,Baked Steak,340000.0,33,0
+202,172,Cheesy Tacos,200000.0,70,0
+203,29,Sweet Steak,240000.0,31,0
+204,109,Smoked Beef Burger,250000.0,25,0
+205,116,Spicy Pasta Carbonara,110000.0,69,0
+206,53,Sweet Smoothie,250000.0,96,0
+207,200,Fresh Salad Caesar,410000.0,51,0
+208,137,Garlic Noodle Soup,320000.0,83,0
+209,42,Crispy Pizza Pepperoni,430000.0,35,0
+210,31,Baked Waffles,270000.0,30,0
+211,200,Garlic Pasta Carbonara,120000.0,35,0
+212,110,Grilled Beef Burger,270000.0,39,0
+213,32,Fresh Pasta Carbonara,90000.0,40,0
+214,110,Smoked Steak,130000.0,24,0
+215,159,Grilled Sushi Roll,130000.0,44,0
+216,89,Cheesy Beef Burger,280000.0,55,0
+217,4,Baked Beef Burger,460000.0,90,0
+218,63,Honey Waffles,460000.0,42,0
+219,198,Honey Sushi Roll,220000.0,43,0
+220,44,Sour Waffles,110000.0,23,0
+221,181,Baked Sushi Roll,100000.0,99,0
+222,185,Cheesy Salad Caesar,90000.0,20,0
+223,116,Sweet Noodle Soup,400000.0,82,0
+224,190,Garlic Fried Rice,270000.0,79,0
+225,137,Smoked Salad Caesar,60000.0,79,0
+226,78,Baked Salad Caesar,330000.0,28,0
+227,87,Garlic Pasta Carbonara,190000.0,32,0
+228,153,Grilled Beef Burger,100000.0,41,0
+229,145,Smoked Pasta Carbonara,160000.0,48,0
+230,6,Sweet Beef Burger,420000.0,87,0
+231,187,Spicy Fried Rice,270000.0,68,0
+232,103,Crispy Salad Caesar,80000.0,46,0
+233,56,Sour Pizza Pepperoni,220000.0,29,0
+234,160,Garlic Pasta Carbonara,80000.0,78,0
+235,81,Garlic Fried Rice,80000.0,28,0
+236,154,Smoked Salad Caesar,70000.0,27,0
+237,105,Honey Salad Caesar,210000.0,55,0
+238,109,Honey Pizza Pepperoni,440000.0,73,0
+239,167,Sweet Waffles,200000.0,37,0
+240,46,Cheesy Tacos,250000.0,58,0
+241,79,Baked Smoothie,440000.0,36,0
+242,52,Honey Waffles,300000.0,49,0
+243,14,Baked Pasta Carbonara,220000.0,47,0
+244,133,Fresh Smoothie,60000.0,75,0
+245,7,Garlic Sushi Roll,240000.0,41,0
+246,35,Sweet Salad Caesar,380000.0,43,0
+247,50,Fresh Fried Rice,440000.0,50,0
+248,14,Fresh Salad Caesar,380000.0,28,0
+249,121,Honey Chicken Wings,150000.0,67,0
+250,128,Honey Beef Burger,120000.0,41,0
+251,186,Baked Beef Burger,390000.0,39,0
+252,154,Spicy Fried Rice,60000.0,49,0
+253,124,Fresh Steak,70000.0,95,0
+254,156,Sour Pizza Pepperoni,230000.0,95,0
+255,120,Baked Salad Caesar,180000.0,98,0
+256,4,Baked Noodle Soup,120000.0,60,0
+257,136,Sour Fried Rice,480000.0,41,0
+258,39,Honey Noodle Soup,370000.0,28,0
+259,28,Honey Tacos,350000.0,86,0
+260,93,Honey Noodle Soup,380000.0,35,0
+261,93,Garlic Steak,420000.0,97,0
+262,86,Sour Pizza Pepperoni,450000.0,54,0
+263,169,Cheesy Steak,460000.0,21,0
+264,161,Garlic Salad Caesar,130000.0,74,0
+265,33,Garlic Pasta Carbonara,210000.0,45,0
+266,118,Grilled Salad Caesar,440000.0,22,0
+267,106,Spicy Chicken Wings,340000.0,27,0
+268,57,Honey Pasta Carbonara,350000.0,44,0
+269,96,Sweet Waffles,260000.0,31,0
+270,84,Grilled Tacos,300000.0,44,0
+271,62,Garlic Steak,270000.0,97,0
+272,70,Garlic Pizza Pepperoni,140000.0,62,0
+273,108,Fresh Chicken Wings,470000.0,69,0
+274,130,Fresh Fried Rice,330000.0,97,0
+275,150,Honey Pizza Pepperoni,340000.0,32,0
+276,143,Cheesy Tacos,70000.0,86,0
+277,37,Grilled Beef Burger,60000.0,40,0
+278,55,Smoked Noodle Soup,190000.0,70,0
+279,128,Honey Waffles,400000.0,50,0
+280,55,Spicy Salad Caesar,60000.0,41,0
+281,59,Baked Salad Caesar,240000.0,76,0
+282,28,Spicy Pizza Pepperoni,410000.0,89,0
+283,69,Honey Sushi Roll,130000.0,94,0
+284,117,Honey Sushi Roll,180000.0,51,0
+285,127,Honey Chicken Wings,190000.0,20,0
+286,118,Sweet Salad Caesar,80000.0,100,0
+287,118,Spicy Pasta Carbonara,410000.0,60,0
+288,144,Sweet Salad Caesar,220000.0,95,0
+289,8,Grilled Pasta Carbonara,60000.0,94,0
+290,85,Smoked Noodle Soup,100000.0,67,0
+291,69,Spicy Sushi Roll,330000.0,80,0
+292,190,Smoked Tacos,230000.0,30,0
+293,137,Smoked Beef Burger,50000.0,57,0
+294,199,Baked Chicken Wings,100000.0,83,0
+295,30,Crispy Pasta Carbonara,110000.0,74,0
+296,58,Fresh Salad Caesar,440000.0,55,0
+297,89,Honey Tacos,200000.0,72,0
+298,81,Sweet Sushi Roll,400000.0,82,0
+299,12,Smoked Fried Rice,60000.0,31,0
+300,160,Cheesy Beef Burger,430000.0,21,0
+301,179,Grilled Fried Rice,310000.0,96,0
+302,52,Sweet Beef Burger,460000.0,82,0
+303,96,Grilled Pasta Carbonara,470000.0,56,0
+304,14,Spicy Pasta Carbonara,280000.0,96,0
+305,21,Sour Steak,130000.0,37,0
+306,48,Sweet Noodle Soup,320000.0,82,0
+307,149,Fresh Sushi Roll,490000.0,28,0
+308,80,Sweet Sushi Roll,190000.0,21,0
+309,165,Grilled Tacos,90000.0,95,0
+310,39,Cheesy Fried Rice,250000.0,64,0
+311,136,Fresh Fried Rice,50000.0,75,0
+312,88,Fresh Sushi Roll,330000.0,48,0
+313,182,Sweet Noodle Soup,270000.0,46,0
+314,64,Cheesy Smoothie,250000.0,53,0
+315,123,Sweet Fried Rice,420000.0,37,0
+316,200,Crispy Pizza Pepperoni,100000.0,63,0
+317,152,Cheesy Steak,50000.0,65,0
+318,165,Smoked Steak,380000.0,20,0
+319,34,Honey Fried Rice,90000.0,51,0
+320,45,Cheesy Smoothie,340000.0,80,0
+321,78,Baked Waffles,380000.0,85,0
+322,107,Garlic Waffles,430000.0,75,0
+323,109,Cheesy Chicken Wings,160000.0,77,0
+324,2,Garlic Waffles,130000.0,58,0
+325,186,Spicy Smoothie,450000.0,21,0
+326,46,Cheesy Waffles,470000.0,34,0
+327,85,Sour Fried Rice,270000.0,61,0
+328,125,Sweet Sushi Roll,140000.0,41,0
+329,100,Fresh Waffles,370000.0,89,0
+330,103,Crispy Pizza Pepperoni,450000.0,20,0
+331,75,Cheesy Beef Burger,300000.0,88,0
+332,153,Crispy Steak,100000.0,21,0
+333,120,Garlic Pizza Pepperoni,70000.0,76,0
+334,11,Sour Fried Rice,80000.0,23,0
+335,34,Garlic Pizza Pepperoni,300000.0,41,0
+336,26,Crispy Noodle Soup,60000.0,25,0
+337,29,Smoked Pizza Pepperoni,270000.0,46,0
+338,136,Smoked Steak,260000.0,64,0
+339,13,Spicy Waffles,90000.0,48,0
+340,54,Crispy Fried Rice,160000.0,55,0
+341,155,Grilled Beef Burger,250000.0,72,0
+342,22,Sour Chicken Wings,110000.0,41,0
+343,108,Spicy Fried Rice,400000.0,61,0
+344,70,Spicy Smoothie,290000.0,62,0
+345,173,Baked Steak,280000.0,95,0
+346,95,Sweet Salad Caesar,340000.0,55,0
+347,200,Honey Pizza Pepperoni,220000.0,39,0
+348,89,Sweet Fried Rice,180000.0,20,0
+349,157,Garlic Beef Burger,70000.0,60,0
+350,140,Sweet Tacos,130000.0,24,0
+351,143,Spicy Fried Rice,470000.0,62,0
+352,160,Baked Chicken Wings,370000.0,41,0
+353,118,Cheesy Salad Caesar,90000.0,62,0
+354,54,Smoked Pizza Pepperoni,250000.0,100,0
+355,34,Garlic Fried Rice,430000.0,84,0
+356,139,Baked Beef Burger,320000.0,78,0
+357,123,Spicy Waffles,230000.0,82,0
+358,70,Garlic Pizza Pepperoni,470000.0,81,0
+359,34,Baked Smoothie,140000.0,95,0
+360,15,Sour Pasta Carbonara,480000.0,88,0
+361,133,Garlic Salad Caesar,170000.0,35,0
+362,113,Sour Chicken Wings,220000.0,80,0
+363,43,Cheesy Pasta Carbonara,130000.0,38,0
+364,98,Grilled Salad Caesar,390000.0,88,0
+365,114,Spicy Chicken Wings,470000.0,33,0
+366,83,Smoked Steak,290000.0,35,0
+367,175,Spicy Tacos,170000.0,51,0
+368,36,Grilled Sushi Roll,340000.0,24,0
+369,186,Sweet Smoothie,260000.0,72,0
+370,190,Spicy Fried Rice,420000.0,68,0
+371,68,Sweet Smoothie,470000.0,83,0
+372,116,Sour Steak,160000.0,87,0
+373,68,Fresh Fried Rice,460000.0,62,0
+374,47,Garlic Steak,70000.0,62,0
+375,56,Garlic Salad Caesar,360000.0,95,0
+376,148,Sweet Sushi Roll,90000.0,23,0
+377,157,Sour Pasta Carbonara,390000.0,49,0
+378,94,Crispy Noodle Soup,430000.0,38,0
+379,9,Spicy Pizza Pepperoni,290000.0,32,0
+380,82,Garlic Tacos,350000.0,25,0
+381,170,Honey Smoothie,440000.0,42,0
+382,200,Spicy Pizza Pepperoni,180000.0,31,0
+383,113,Sour Fried Rice,100000.0,25,0
+384,28,Spicy Chicken Wings,370000.0,96,0
+385,124,Smoked Waffles,350000.0,51,0
+386,178,Cheesy Pasta Carbonara,90000.0,56,0
+387,167,Crispy Tacos,310000.0,58,0
+388,22,Fresh Chicken Wings,430000.0,47,0
+389,16,Honey Sushi Roll,440000.0,31,0
+390,123,Sour Steak,370000.0,64,0
+391,171,Cheesy Waffles,450000.0,24,0
+392,163,Crispy Steak,100000.0,83,0
+393,89,Crispy Beef Burger,450000.0,94,0
+394,46,Sweet Fried Rice,180000.0,36,0
+395,120,Honey Sushi Roll,370000.0,98,0
+396,45,Honey Pasta Carbonara,110000.0,36,0
+397,38,Garlic Pasta Carbonara,400000.0,38,0
+398,18,Fresh Waffles,330000.0,74,0
+399,4,Grilled Fried Rice,240000.0,35,0
+400,91,Crispy Waffles,170000.0,42,0
+401,142,Crispy Noodle Soup,130000.0,67,0
+402,16,Fresh Steak,450000.0,94,0
+403,100,Smoked Steak,220000.0,81,0
+404,22,Baked Fried Rice,160000.0,28,0
+405,187,Sour Tacos,430000.0,41,0
+406,80,Crispy Steak,220000.0,37,0
+407,121,Spicy Noodle Soup,350000.0,93,0
+408,39,Garlic Chicken Wings,170000.0,71,0
+409,155,Honey Pizza Pepperoni,400000.0,60,0
+410,25,Fresh Fried Rice,360000.0,38,0
+411,200,Garlic Tacos,180000.0,81,0
+412,136,Cheesy Pasta Carbonara,480000.0,34,0
+413,49,Smoked Chicken Wings,210000.0,77,0
+414,99,Spicy Sushi Roll,100000.0,80,0
+415,70,Sour Smoothie,340000.0,49,0
+416,93,Sour Chicken Wings,350000.0,96,0
+417,163,Crispy Tacos,190000.0,46,0
+418,138,Honey Tacos,110000.0,32,0
+419,168,Garlic Smoothie,430000.0,47,0
+420,23,Honey Chicken Wings,300000.0,95,0
+421,78,Garlic Noodle Soup,330000.0,89,0
+422,113,Honey Sushi Roll,240000.0,38,0
+423,97,Fresh Tacos,150000.0,52,0
+424,37,Crispy Chicken Wings,460000.0,25,0
+425,172,Cheesy Pizza Pepperoni,390000.0,99,0
+426,16,Garlic Fried Rice,480000.0,54,0
+427,78,Sweet Salad Caesar,130000.0,31,0
+428,167,Cheesy Waffles,300000.0,22,0
+429,23,Garlic Steak,270000.0,40,0
+430,43,Smoked Beef Burger,190000.0,59,0
+431,172,Sour Tacos,150000.0,80,0
+432,184,Fresh Smoothie,460000.0,28,0
+433,126,Sour Beef Burger,220000.0,47,0
+434,144,Grilled Tacos,490000.0,31,0
+435,83,Baked Chicken Wings,220000.0,53,0
+436,71,Sweet Steak,110000.0,36,0
+437,44,Sour Tacos,350000.0,32,0
+438,181,Crispy Salad Caesar,160000.0,86,0
+439,58,Crispy Tacos,350000.0,57,0
+440,178,Baked Salad Caesar,110000.0,68,0
+441,96,Grilled Tacos,490000.0,21,0
+442,123,Grilled Noodle Soup,70000.0,27,0
+443,186,Baked Chicken Wings,420000.0,22,0
+444,31,Crispy Sushi Roll,130000.0,31,0
+445,176,Honey Smoothie,240000.0,93,0
+446,35,Grilled Chicken Wings,480000.0,32,0
+447,143,Smoked Waffles,320000.0,83,0
+448,160,Honey Noodle Soup,390000.0,66,0
+449,200,Grilled Waffles,260000.0,94,0
+450,35,Grilled Pizza Pepperoni,270000.0,98,0
+451,89,Honey Tacos,220000.0,60,0
+452,42,Fresh Pasta Carbonara,70000.0,59,0
+453,144,Fresh Chicken Wings,240000.0,33,0
+454,172,Smoked Beef Burger,490000.0,59,0
+455,114,Baked Beef Burger,240000.0,86,0
+456,74,Smoked Smoothie,300000.0,74,0
+457,98,Honey Noodle Soup,490000.0,24,0
+458,35,Fresh Tacos,210000.0,44,0
+459,121,Honey Beef Burger,390000.0,42,0
+460,60,Sweet Tacos,470000.0,41,0
+461,9,Fresh Beef Burger,470000.0,23,0
+462,34,Garlic Tacos,290000.0,77,0
+463,84,Baked Pasta Carbonara,420000.0,20,0
+464,145,Baked Tacos,180000.0,40,0
+465,85,Grilled Pizza Pepperoni,330000.0,66,0
+466,195,Spicy Pasta Carbonara,470000.0,48,0
+467,139,Baked Beef Burger,390000.0,83,0
+468,125,Crispy Fried Rice,170000.0,28,0
+469,187,Garlic Tacos,220000.0,79,0
+470,176,Sour Pizza Pepperoni,440000.0,90,0
+471,144,Fresh Waffles,100000.0,90,0
+472,81,Fresh Chicken Wings,60000.0,26,0
+473,147,Honey Noodle Soup,220000.0,52,0
+474,73,Sour Pasta Carbonara,360000.0,39,0
+475,3,Sour Pasta Carbonara,400000.0,72,0
+476,131,Fresh Beef Burger,80000.0,71,0
+477,122,Crispy Fried Rice,200000.0,30,0
+478,74,Sweet Tacos,190000.0,60,0
+479,2,Sour Chicken Wings,330000.0,68,0
+480,24,Fresh Noodle Soup,160000.0,87,0
+481,87,Honey Beef Burger,410000.0,30,0
+482,168,Sour Waffles,420000.0,97,0
+483,166,Sour Beef Burger,350000.0,61,0
+484,35,Sweet Smoothie,380000.0,76,0
+485,114,Crispy Steak,360000.0,74,0
+486,96,Honey Sushi Roll,160000.0,93,0
+487,26,Garlic Steak,230000.0,38,0
+488,125,Sweet Smoothie,300000.0,84,0
+489,62,Cheesy Tacos,440000.0,22,0
+490,53,Baked Pasta Carbonara,60000.0,45,0
+491,133,Crispy Beef Burger,450000.0,46,0
+492,24,Sour Pizza Pepperoni,310000.0,99,0
+493,64,Garlic Chicken Wings,240000.0,92,0
+494,123,Sweet Chicken Wings,300000.0,50,0
+495,168,Cheesy Beef Burger,120000.0,41,0
+496,34,Garlic Chicken Wings,130000.0,52,0
+497,25,Sour Pasta Carbonara,100000.0,45,0
+498,124,Sour Smoothie,350000.0,44,0
+499,50,Sweet Tacos,110000.0,91,0
+500,154,Grilled Waffles,220000.0,100,0
+501,61,Sweet Pasta Carbonara,290000.0,93,0
+502,78,Smoked Smoothie,230000.0,90,0
+503,119,Smoked Pizza Pepperoni,90000.0,86,0
+504,105,Grilled Waffles,50000.0,57,0
+505,63,Grilled Pasta Carbonara,170000.0,87,0
+506,103,Fresh Beef Burger,320000.0,49,0
+507,119,Spicy Chicken Wings,370000.0,44,0
+508,176,Crispy Fried Rice,340000.0,37,0
+509,12,Grilled Beef Burger,410000.0,81,0
+510,134,Grilled Fried Rice,240000.0,99,0
+511,75,Crispy Noodle Soup,430000.0,79,0
+512,58,Garlic Smoothie,130000.0,53,0
+513,132,Sour Sushi Roll,450000.0,96,0
+514,158,Honey Chicken Wings,290000.0,50,0
+515,164,Sour Smoothie,230000.0,31,0
+516,22,Sweet Smoothie,70000.0,50,0
+517,56,Smoked Tacos,110000.0,74,0
+518,122,Fresh Pizza Pepperoni,390000.0,59,0
+519,52,Cheesy Tacos,440000.0,82,0
+520,139,Baked Pizza Pepperoni,60000.0,73,0
+521,54,Garlic Pasta Carbonara,400000.0,95,0
+522,128,Garlic Salad Caesar,240000.0,99,0
+523,63,Smoked Beef Burger,150000.0,89,0
+524,15,Grilled Tacos,330000.0,46,0
+525,56,Cheesy Salad Caesar,420000.0,60,0
+526,139,Fresh Smoothie,70000.0,31,0
+527,3,Sweet Pasta Carbonara,200000.0,47,0
+528,117,Sweet Waffles,250000.0,75,0
+529,116,Honey Noodle Soup,250000.0,52,0
+530,192,Fresh Waffles,450000.0,48,0
+531,26,Spicy Sushi Roll,50000.0,44,0
+532,115,Spicy Pasta Carbonara,170000.0,68,0
+533,29,Spicy Sushi Roll,430000.0,84,0
+534,116,Sour Beef Burger,260000.0,49,0
+535,42,Garlic Pasta Carbonara,160000.0,23,0
+536,118,Sweet Smoothie,220000.0,28,0
+537,39,Cheesy Pizza Pepperoni,360000.0,65,0
+538,96,Smoked Pasta Carbonara,310000.0,53,0
+539,186,Baked Chicken Wings,130000.0,73,0
+540,66,Cheesy Tacos,370000.0,24,0
+541,96,Smoked Steak,390000.0,47,0
+542,42,Baked Fried Rice,80000.0,75,0
+543,141,Fresh Chicken Wings,490000.0,22,0
+544,177,Crispy Waffles,290000.0,76,0
+545,42,Sour Tacos,310000.0,65,0
+546,49,Honey Chicken Wings,200000.0,70,0
+547,125,Sweet Beef Burger,330000.0,90,0
+548,102,Honey Smoothie,430000.0,80,0
+549,167,Cheesy Noodle Soup,400000.0,24,0
+550,101,Crispy Tacos,370000.0,45,0
+551,157,Spicy Tacos,350000.0,70,0
+552,31,Sour Waffles,100000.0,69,0
+553,36,Baked Waffles,230000.0,70,0
+554,168,Sweet Pizza Pepperoni,150000.0,87,0
+555,33,Honey Beef Burger,110000.0,84,0
+556,69,Fresh Fried Rice,460000.0,83,0
+557,118,Sour Pizza Pepperoni,210000.0,91,0
+558,69,Honey Chicken Wings,390000.0,69,0
+559,41,Smoked Smoothie,220000.0,91,0
+560,169,Honey Waffles,430000.0,53,0
+561,11,Honey Fried Rice,90000.0,65,0
+562,179,Garlic Pasta Carbonara,250000.0,29,0
+563,49,Honey Waffles,140000.0,70,0
+564,156,Fresh Tacos,50000.0,20,0
+565,199,Smoked Chicken Wings,60000.0,48,0
+566,77,Smoked Waffles,320000.0,95,0
+567,85,Crispy Beef Burger,430000.0,27,0
+568,26,Honey Sushi Roll,140000.0,29,0
+569,152,Cheesy Pasta Carbonara,370000.0,28,0
+570,17,Sweet Beef Burger,130000.0,44,0
+571,73,Cheesy Sushi Roll,350000.0,76,0
+572,61,Garlic Tacos,170000.0,70,0
+573,28,Baked Beef Burger,300000.0,46,0
+574,50,Smoked Sushi Roll,360000.0,79,0
+575,117,Garlic Salad Caesar,260000.0,53,0
+576,145,Cheesy Chicken Wings,150000.0,78,0
+577,119,Baked Tacos,450000.0,85,0
+578,117,Baked Steak,240000.0,73,0
+579,158,Honey Beef Burger,430000.0,39,0
+580,1,Fresh Pasta Carbonara,490000.0,43,0
+581,154,Smoked Beef Burger,490000.0,55,0
+582,181,Crispy Pizza Pepperoni,270000.0,50,0
+583,144,Garlic Chicken Wings,160000.0,35,0
+584,165,Cheesy Noodle Soup,420000.0,64,0
+585,69,Cheesy Fried Rice,240000.0,84,0
+586,66,Sweet Steak,360000.0,70,0
+587,80,Cheesy Salad Caesar,260000.0,43,0
+588,94,Cheesy Smoothie,80000.0,22,0
+589,117,Sweet Tacos,110000.0,99,0
+590,156,Grilled Pizza Pepperoni,490000.0,29,0
+591,112,Cheesy Fried Rice,50000.0,29,0
+592,103,Spicy Chicken Wings,100000.0,57,0
+593,17,Garlic Pizza Pepperoni,440000.0,91,0
+594,32,Smoked Noodle Soup,260000.0,87,0
+595,106,Smoked Chicken Wings,300000.0,24,0
+596,153,Sour Chicken Wings,470000.0,85,0
+597,48,Cheesy Waffles,260000.0,59,0
+598,173,Sour Smoothie,220000.0,95,0
+599,5,Cheesy Pasta Carbonara,360000.0,83,0
+600,115,Sweet Chicken Wings,50000.0,100,0
+601,38,Smoked Chicken Wings,360000.0,47,0
+602,149,Honey Pasta Carbonara,270000.0,85,0
+603,158,Crispy Fried Rice,420000.0,38,0
+604,196,Grilled Beef Burger,60000.0,83,0
+605,52,Fresh Sushi Roll,460000.0,34,0
+606,43,Honey Waffles,360000.0,51,0
+607,15,Baked Smoothie,110000.0,36,0
+608,15,Crispy Sushi Roll,350000.0,88,0
+609,61,Grilled Beef Burger,130000.0,29,0
+610,13,Crispy Fried Rice,350000.0,63,0
+611,35,Honey Steak,150000.0,58,0
+612,2,Sour Smoothie,440000.0,68,0
+613,125,Baked Salad Caesar,460000.0,62,0
+614,94,Cheesy Fried Rice,220000.0,52,0
+615,122,Crispy Pasta Carbonara,140000.0,49,0
+616,114,Crispy Sushi Roll,140000.0,97,0
+617,84,Fresh Salad Caesar,310000.0,91,0
+618,34,Cheesy Beef Burger,360000.0,43,0
+619,81,Sweet Waffles,140000.0,38,0
+620,197,Cheesy Steak,230000.0,78,0
+621,146,Sour Smoothie,160000.0,66,0
+622,38,Honey Sushi Roll,310000.0,38,0
+623,193,Sweet Pizza Pepperoni,70000.0,82,0
+624,21,Sour Tacos,90000.0,46,0
+625,132,Grilled Pizza Pepperoni,90000.0,87,0
+626,132,Fresh Smoothie,450000.0,49,0
+627,104,Crispy Pasta Carbonara,470000.0,93,0
+628,14,Honey Chicken Wings,410000.0,60,0
+629,99,Cheesy Noodle Soup,90000.0,63,0
+630,192,Fresh Chicken Wings,370000.0,92,0
+631,30,Baked Pizza Pepperoni,220000.0,20,0
+632,93,Cheesy Noodle Soup,160000.0,26,0
+633,12,Baked Pasta Carbonara,190000.0,89,0
+634,162,Garlic Pizza Pepperoni,220000.0,34,0
+635,198,Spicy Beef Burger,190000.0,68,0
+636,53,Cheesy Chicken Wings,190000.0,48,0
+637,194,Baked Chicken Wings,430000.0,96,0
+638,175,Cheesy Tacos,160000.0,54,0
+639,157,Grilled Sushi Roll,220000.0,67,0
+640,166,Fresh Noodle Soup,220000.0,89,0
+641,49,Garlic Pasta Carbonara,450000.0,26,0
+642,30,Cheesy Pizza Pepperoni,330000.0,96,0
+643,128,Baked Beef Burger,390000.0,94,0
+644,84,Spicy Noodle Soup,180000.0,68,0
+645,92,Smoked Steak,440000.0,71,0
+646,116,Garlic Salad Caesar,360000.0,42,0
+647,159,Garlic Chicken Wings,130000.0,98,0
+648,25,Crispy Waffles,120000.0,41,0
+649,79,Fresh Steak,390000.0,40,0
+650,4,Cheesy Fried Rice,160000.0,95,0
+651,86,Sour Chicken Wings,180000.0,99,0
+652,176,Honey Steak,200000.0,46,0
+653,80,Spicy Smoothie,320000.0,76,0
+654,190,Fresh Waffles,270000.0,28,0
+655,106,Smoked Salad Caesar,410000.0,35,0
+656,199,Cheesy Beef Burger,420000.0,32,0
+657,134,Spicy Beef Burger,260000.0,64,0
+658,123,Sour Waffles,350000.0,89,0
+659,193,Garlic Pizza Pepperoni,370000.0,80,0
+660,39,Crispy Tacos,450000.0,59,0
+661,140,Sour Steak,180000.0,37,0
+662,2,Smoked Smoothie,390000.0,31,0
+663,27,Cheesy Waffles,90000.0,98,0
+664,171,Baked Tacos,110000.0,68,0
+665,143,Fresh Beef Burger,340000.0,86,0
+666,162,Garlic Waffles,290000.0,75,0
+667,54,Spicy Steak,340000.0,61,0
+668,186,Baked Beef Burger,230000.0,85,0
+669,60,Smoked Sushi Roll,490000.0,27,0
+670,172,Sour Pizza Pepperoni,340000.0,95,0
+671,182,Spicy Fried Rice,400000.0,86,0
+672,75,Sour Fried Rice,90000.0,71,0
+673,190,Grilled Pizza Pepperoni,250000.0,63,0
+674,75,Sour Noodle Soup,470000.0,31,0
+675,146,Spicy Smoothie,340000.0,30,0
+676,148,Smoked Steak,240000.0,62,0
+677,92,Spicy Pizza Pepperoni,320000.0,95,0
+678,107,Garlic Waffles,170000.0,97,0
+679,90,Crispy Tacos,240000.0,40,0
+680,78,Grilled Waffles,170000.0,61,0
+681,136,Grilled Beef Burger,320000.0,71,0
+682,11,Grilled Beef Burger,460000.0,22,0
+683,172,Honey Salad Caesar,420000.0,22,0
+684,25,Crispy Beef Burger,370000.0,49,0
+685,163,Grilled Beef Burger,330000.0,77,0
+686,33,Fresh Steak,110000.0,31,0
+687,71,Garlic Noodle Soup,260000.0,75,0
+688,135,Garlic Tacos,120000.0,48,0
+689,188,Garlic Smoothie,270000.0,52,0
+690,136,Spicy Tacos,380000.0,30,0
+691,176,Smoked Steak,50000.0,44,0
+692,176,Smoked Smoothie,230000.0,28,0
+693,111,Sour Beef Burger,230000.0,66,0
+694,63,Sweet Sushi Roll,100000.0,57,0
+695,9,Sour Smoothie,370000.0,65,0
+696,1,Cheesy Steak,450000.0,82,0
+697,92,Sour Pizza Pepperoni,450000.0,71,0
+698,1,Spicy Chicken Wings,200000.0,35,0
+699,40,Smoked Salad Caesar,110000.0,64,0
+700,177,Honey Beef Burger,290000.0,26,0
+701,141,Spicy Beef Burger,490000.0,32,0
+702,53,Grilled Waffles,460000.0,45,0
+703,36,Fresh Sushi Roll,280000.0,21,0
+704,121,Spicy Pasta Carbonara,350000.0,63,0
+705,50,Grilled Pizza Pepperoni,170000.0,66,0
+706,177,Fresh Pizza Pepperoni,290000.0,48,0
+707,83,Crispy Salad Caesar,440000.0,42,0
+708,175,Sweet Sushi Roll,400000.0,69,0
+709,104,Fresh Pizza Pepperoni,390000.0,32,0
+710,80,Sweet Pizza Pepperoni,220000.0,90,0
+711,103,Grilled Chicken Wings,220000.0,21,0
+712,182,Spicy Waffles,100000.0,97,0
+713,180,Garlic Noodle Soup,270000.0,42,0
+714,100,Sour Fried Rice,70000.0,50,0
+715,88,Spicy Tacos,190000.0,27,0
+716,38,Crispy Waffles,230000.0,54,0
+717,55,Honey Salad Caesar,350000.0,73,0
+718,89,Sweet Fried Rice,390000.0,45,0
+719,155,Garlic Fried Rice,200000.0,55,0
+720,196,Sour Pizza Pepperoni,320000.0,45,0
+721,10,Garlic Steak,270000.0,60,0
+722,40,Sour Tacos,420000.0,40,0
+723,73,Spicy Pizza Pepperoni,430000.0,58,0
+724,181,Cheesy Steak,470000.0,65,0
+725,121,Sweet Salad Caesar,200000.0,69,0
+726,164,Spicy Salad Caesar,280000.0,62,0
+727,51,Cheesy Chicken Wings,220000.0,31,0
+728,164,Grilled Fried Rice,400000.0,63,0
+729,108,Crispy Beef Burger,350000.0,24,0
+730,60,Crispy Beef Burger,80000.0,77,0
+731,90,Sour Waffles,310000.0,63,0
+732,124,Cheesy Salad Caesar,340000.0,30,0
+733,122,Honey Chicken Wings,480000.0,66,0
+734,70,Sweet Noodle Soup,250000.0,21,0
+735,139,Sour Pasta Carbonara,250000.0,39,0
+736,188,Smoked Tacos,140000.0,87,0
+737,87,Grilled Fried Rice,300000.0,75,0
+738,164,Baked Salad Caesar,60000.0,44,0
+739,136,Cheesy Sushi Roll,490000.0,78,0
+740,135,Fresh Tacos,490000.0,86,0
+741,53,Crispy Steak,490000.0,87,0
+742,85,Sour Noodle Soup,220000.0,20,0
+743,115,Sweet Waffles,420000.0,63,0
+744,21,Baked Pizza Pepperoni,420000.0,65,0
+745,55,Grilled Noodle Soup,250000.0,22,0
+746,19,Cheesy Salad Caesar,160000.0,73,0
+747,148,Baked Beef Burger,300000.0,55,0
+748,57,Baked Steak,330000.0,62,0
+749,144,Cheesy Chicken Wings,260000.0,99,0
+750,92,Grilled Sushi Roll,60000.0,85,0
+751,155,Sour Smoothie,240000.0,56,0
+752,151,Grilled Waffles,260000.0,62,0
+753,188,Crispy Salad Caesar,80000.0,39,0
+754,38,Spicy Waffles,420000.0,24,0
+755,152,Grilled Salad Caesar,190000.0,34,0
+756,193,Fresh Sushi Roll,270000.0,85,0
+757,125,Grilled Beef Burger,360000.0,44,0
+758,60,Honey Smoothie,160000.0,21,0
+759,94,Garlic Salad Caesar,490000.0,40,0
+760,159,Sweet Salad Caesar,250000.0,34,0
+761,174,Garlic Pizza Pepperoni,360000.0,64,0
+762,79,Honey Sushi Roll,70000.0,32,0
+763,46,Grilled Waffles,130000.0,82,0
+764,168,Baked Chicken Wings,150000.0,75,0
+765,101,Cheesy Pasta Carbonara,80000.0,64,0
+766,115,Fresh Waffles,380000.0,33,0
+767,48,Sweet Salad Caesar,480000.0,34,0
+768,153,Fresh Noodle Soup,300000.0,70,0
+769,186,Honey Pizza Pepperoni,330000.0,44,0
+770,151,Baked Tacos,70000.0,46,0
+771,165,Smoked Sushi Roll,80000.0,76,0
+772,81,Sweet Noodle Soup,220000.0,91,0
+773,5,Garlic Pizza Pepperoni,240000.0,33,0
+774,176,Sour Salad Caesar,350000.0,21,0
+775,42,Smoked Waffles,210000.0,43,0
+776,150,Fresh Salad Caesar,290000.0,79,0
+777,133,Sweet Chicken Wings,110000.0,67,0
+778,171,Sweet Waffles,300000.0,88,0
+779,198,Spicy Tacos,390000.0,63,0
+780,63,Sweet Salad Caesar,360000.0,39,0
+781,187,Spicy Salad Caesar,290000.0,73,0
+782,60,Sweet Noodle Soup,470000.0,76,0
+783,146,Smoked Tacos,160000.0,72,0
+784,38,Baked Fried Rice,210000.0,86,0
+785,157,Fresh Fried Rice,420000.0,85,0
+786,176,Cheesy Pizza Pepperoni,210000.0,25,0
+787,8,Honey Fried Rice,50000.0,52,0
+788,50,Cheesy Steak,170000.0,82,0
+789,7,Crispy Chicken Wings,170000.0,57,0
+790,123,Honey Chicken Wings,80000.0,82,0
+791,21,Baked Salad Caesar,340000.0,45,0
+792,70,Grilled Waffles,490000.0,33,0
+793,173,Baked Steak,460000.0,88,0
+794,22,Garlic Chicken Wings,270000.0,95,0
+795,146,Baked Pizza Pepperoni,230000.0,70,0
+796,49,Baked Waffles,440000.0,28,0
+797,116,Crispy Chicken Wings,320000.0,41,0
+798,192,Smoked Steak,340000.0,45,0
+799,191,Sour Pasta Carbonara,150000.0,32,0
+800,51,Sweet Noodle Soup,440000.0,82,0
+801,127,Sweet Beef Burger,210000.0,100,0
+802,16,Smoked Waffles,210000.0,77,0
+803,151,Sour Sushi Roll,130000.0,23,0
+804,49,Cheesy Steak,210000.0,38,0
+805,142,Smoked Noodle Soup,280000.0,81,0
+806,84,Crispy Pizza Pepperoni,90000.0,75,0
+807,47,Fresh Noodle Soup,320000.0,52,0
+808,77,Spicy Chicken Wings,150000.0,36,0
+809,105,Baked Pizza Pepperoni,70000.0,61,0
+810,25,Baked Salad Caesar,230000.0,45,0
+811,128,Crispy Fried Rice,320000.0,29,0
+812,180,Garlic Sushi Roll,290000.0,55,0
+813,19,Grilled Salad Caesar,310000.0,49,0
+814,175,Crispy Beef Burger,140000.0,50,0
+815,157,Garlic Steak,200000.0,71,0
+816,189,Garlic Pasta Carbonara,180000.0,97,0
+817,2,Sour Noodle Soup,450000.0,61,0
+818,64,Crispy Salad Caesar,80000.0,71,0
+819,175,Spicy Steak,380000.0,41,0
+820,170,Crispy Steak,250000.0,79,0
+821,196,Spicy Pasta Carbonara,360000.0,70,0
+822,109,Fresh Steak,380000.0,90,0
+823,13,Cheesy Waffles,360000.0,80,0
+824,158,Sour Tacos,90000.0,60,0
+825,108,Crispy Steak,190000.0,38,0
+826,92,Smoked Beef Burger,430000.0,52,0
+827,152,Spicy Chicken Wings,450000.0,24,0
+828,163,Baked Pasta Carbonara,310000.0,98,0
+829,19,Spicy Noodle Soup,150000.0,66,0
+830,170,Smoked Chicken Wings,60000.0,55,0
+831,83,Garlic Smoothie,160000.0,24,0
+832,7,Garlic Chicken Wings,220000.0,22,0
+833,121,Honey Salad Caesar,430000.0,79,0
+834,80,Sour Sushi Roll,110000.0,85,0
+835,96,Garlic Salad Caesar,130000.0,96,0
+836,75,Garlic Waffles,470000.0,67,0
+837,139,Honey Fried Rice,170000.0,28,0
+838,101,Crispy Noodle Soup,430000.0,84,0
+839,102,Sweet Noodle Soup,170000.0,39,0
+840,143,Crispy Tacos,290000.0,42,0
+841,136,Smoked Smoothie,330000.0,86,0
+842,8,Smoked Steak,420000.0,25,0
+843,32,Spicy Chicken Wings,330000.0,25,0
+844,108,Cheesy Chicken Wings,80000.0,90,0
+845,13,Baked Noodle Soup,200000.0,64,0
+846,56,Garlic Tacos,440000.0,47,0
+847,47,Spicy Smoothie,90000.0,32,0
+848,143,Garlic Fried Rice,490000.0,81,0
+849,55,Cheesy Tacos,460000.0,35,0
+850,146,Garlic Pizza Pepperoni,410000.0,45,0
+851,16,Baked Salad Caesar,300000.0,25,0
+852,22,Sour Steak,150000.0,50,0
+853,103,Spicy Salad Caesar,340000.0,48,0
+854,86,Fresh Beef Burger,280000.0,39,0
+855,73,Cheesy Sushi Roll,320000.0,22,0
+856,99,Honey Sushi Roll,380000.0,38,0
+857,8,Garlic Sushi Roll,60000.0,71,0
+858,174,Baked Sushi Roll,200000.0,65,0
+859,86,Spicy Sushi Roll,240000.0,35,0
+860,34,Crispy Pasta Carbonara,80000.0,78,0
+861,68,Sour Fried Rice,480000.0,25,0
+862,75,Baked Pizza Pepperoni,420000.0,93,0
+863,40,Grilled Smoothie,300000.0,31,0
+864,112,Crispy Tacos,430000.0,92,0
+865,126,Grilled Noodle Soup,400000.0,82,0
+866,22,Smoked Sushi Roll,190000.0,27,0
+867,198,Crispy Tacos,440000.0,99,0
+868,130,Grilled Pizza Pepperoni,270000.0,81,0
+869,49,Fresh Waffles,120000.0,73,0
+870,47,Garlic Steak,150000.0,28,0
+871,156,Grilled Waffles,90000.0,99,0
+872,95,Cheesy Smoothie,370000.0,71,0
+873,70,Smoked Smoothie,80000.0,32,0
+874,86,Crispy Noodle Soup,210000.0,51,0
+875,184,Baked Noodle Soup,430000.0,65,0
+876,123,Grilled Pasta Carbonara,230000.0,26,0
+877,43,Sweet Steak,100000.0,79,0
+878,147,Spicy Steak,360000.0,41,0
+879,37,Sweet Pasta Carbonara,430000.0,27,0
+880,144,Sweet Smoothie,480000.0,91,0
+881,200,Garlic Pasta Carbonara,220000.0,90,0
+882,3,Spicy Tacos,260000.0,92,0
+883,63,Fresh Waffles,270000.0,46,0
+884,123,Spicy Waffles,90000.0,92,0
+885,188,Spicy Pasta Carbonara,430000.0,87,0
+886,122,Sweet Pizza Pepperoni,240000.0,42,0
+887,198,Smoked Sushi Roll,460000.0,25,0
+888,95,Grilled Noodle Soup,380000.0,57,0
+889,125,Crispy Steak,270000.0,30,0
+890,127,Garlic Smoothie,390000.0,67,0
+891,22,Spicy Pasta Carbonara,360000.0,89,0
+892,186,Fresh Sushi Roll,320000.0,91,0
+893,69,Sweet Smoothie,460000.0,60,0
+894,49,Baked Chicken Wings,80000.0,28,0
+895,156,Honey Chicken Wings,190000.0,82,0
+896,42,Crispy Sushi Roll,380000.0,67,0
+897,160,Grilled Fried Rice,50000.0,31,0
+898,156,Sweet Pizza Pepperoni,130000.0,26,0
+899,27,Fresh Steak,360000.0,39,0
+900,76,Grilled Waffles,360000.0,30,0
+901,123,Crispy Pasta Carbonara,260000.0,61,0
+902,191,Fresh Pizza Pepperoni,70000.0,51,0
+903,69,Grilled Salad Caesar,440000.0,65,0
+904,113,Honey Noodle Soup,100000.0,73,0
+905,191,Baked Smoothie,120000.0,22,0
+906,100,Smoked Chicken Wings,300000.0,62,0
+907,70,Sweet Smoothie,360000.0,80,0
+908,149,Fresh Noodle Soup,70000.0,46,0
+909,27,Fresh Noodle Soup,100000.0,59,0
+910,13,Cheesy Chicken Wings,430000.0,46,0
+911,18,Spicy Fried Rice,450000.0,48,0
+912,84,Grilled Beef Burger,300000.0,53,0
+913,200,Sour Chicken Wings,390000.0,58,0
+914,71,Sour Beef Burger,270000.0,25,0
+915,184,Fresh Beef Burger,190000.0,75,0
+916,163,Baked Beef Burger,170000.0,28,0
+917,95,Crispy Pizza Pepperoni,90000.0,38,0
+918,134,Cheesy Pasta Carbonara,220000.0,20,0
+919,143,Honey Beef Burger,330000.0,91,0
+920,168,Sour Chicken Wings,270000.0,26,0
+921,126,Cheesy Smoothie,270000.0,44,0
+922,13,Sour Pizza Pepperoni,90000.0,69,0
+923,166,Baked Waffles,220000.0,88,0
+924,143,Honey Beef Burger,330000.0,65,0
+925,25,Baked Waffles,310000.0,60,0
+926,71,Spicy Chicken Wings,290000.0,64,0
+927,32,Grilled Fried Rice,80000.0,62,0
+928,114,Garlic Salad Caesar,280000.0,80,0
+929,124,Garlic Tacos,410000.0,72,0
+930,134,Cheesy Sushi Roll,390000.0,35,0
+931,61,Spicy Steak,80000.0,85,0
+932,124,Fresh Noodle Soup,340000.0,84,0
+933,61,Cheesy Steak,430000.0,37,0
+934,23,Grilled Pizza Pepperoni,310000.0,35,0
+935,20,Spicy Waffles,480000.0,93,0
+936,18,Garlic Beef Burger,230000.0,90,0
+937,38,Grilled Pasta Carbonara,460000.0,75,0
+938,9,Fresh Pasta Carbonara,70000.0,28,0
+939,12,Honey Tacos,300000.0,85,0
+940,165,Cheesy Salad Caesar,170000.0,100,0
+941,177,Baked Sushi Roll,110000.0,83,0
+942,136,Crispy Pasta Carbonara,480000.0,84,0
+943,179,Sour Pasta Carbonara,360000.0,84,0
+944,113,Crispy Salad Caesar,210000.0,58,0
+945,125,Smoked Sushi Roll,370000.0,88,0
+946,122,Smoked Steak,180000.0,31,0
+947,143,Honey Steak,270000.0,47,0
+948,107,Baked Pasta Carbonara,390000.0,54,0
+949,29,Grilled Salad Caesar,230000.0,58,0
+950,100,Garlic Waffles,170000.0,83,0
+951,1,Smoked Beef Burger,260000.0,48,0
+952,186,Crispy Smoothie,380000.0,38,0
+953,177,Smoked Sushi Roll,90000.0,52,0
+954,113,Sweet Steak,370000.0,67,0
+955,192,Cheesy Tacos,390000.0,96,0
+956,117,Sour Sushi Roll,260000.0,29,0
+957,92,Cheesy Chicken Wings,370000.0,91,0
+958,89,Spicy Steak,310000.0,79,0
+959,18,Honey Chicken Wings,180000.0,42,0
+960,116,Spicy Smoothie,430000.0,81,0
+961,165,Spicy Pasta Carbonara,80000.0,27,0
+962,82,Garlic Waffles,360000.0,51,0
+963,6,Cheesy Steak,170000.0,45,0
+964,133,Spicy Sushi Roll,330000.0,98,0
+965,155,Spicy Salad Caesar,220000.0,66,0
+966,133,Spicy Beef Burger,70000.0,98,0
+967,14,Garlic Steak,450000.0,70,0
+968,29,Sour Smoothie,90000.0,40,0
+969,160,Sour Smoothie,180000.0,46,0
+970,79,Honey Tacos,320000.0,50,0
+971,56,Baked Pasta Carbonara,420000.0,27,0
+972,169,Grilled Chicken Wings,150000.0,59,0
+973,79,Garlic Smoothie,350000.0,79,0
+974,66,Garlic Pasta Carbonara,360000.0,52,0
+975,100,Cheesy Pizza Pepperoni,260000.0,29,0
+976,136,Fresh Smoothie,100000.0,54,0
+977,185,Sweet Salad Caesar,150000.0,46,0
+978,55,Spicy Salad Caesar,360000.0,50,0
+979,32,Grilled Sushi Roll,100000.0,77,0
+980,183,Sweet Sushi Roll,250000.0,29,0
+981,25,Cheesy Steak,410000.0,33,0
+982,34,Cheesy Smoothie,150000.0,31,0
+983,184,Grilled Chicken Wings,270000.0,47,0
+984,24,Spicy Salad Caesar,150000.0,78,0
+985,48,Baked Pizza Pepperoni,290000.0,38,0
+986,42,Baked Salad Caesar,360000.0,62,0
+987,90,Smoked Smoothie,450000.0,32,0
+988,135,Crispy Smoothie,170000.0,22,0
+989,195,Crispy Chicken Wings,60000.0,54,0
+990,147,Smoked Fried Rice,320000.0,59,0
+991,14,Sweet Pizza Pepperoni,340000.0,66,0
+992,58,Spicy Steak,340000.0,55,0
+993,81,Smoked Waffles,90000.0,63,0
+994,114,Sweet Fried Rice,480000.0,71,0
+995,124,Smoked Steak,240000.0,96,0
+996,148,Garlic Noodle Soup,250000.0,54,0
+997,130,Grilled Pasta Carbonara,120000.0,57,0
+998,28,Garlic Noodle Soup,100000.0,36,0
+999,70,Sour Beef Burger,80000.0,83,0
+1000,175,Sour Waffles,130000.0,42,0
+1001,1,Spicy Pasta Carbonara,100000.0,84,0
+1002,75,Spicy Steak,280000.0,44,0
+1003,117,Crispy Tacos,150000.0,66,0
+1004,171,Fresh Pizza Pepperoni,90000.0,46,0
+1005,131,Baked Waffles,370000.0,43,0
+1006,182,Baked Sushi Roll,410000.0,89,0
+1007,24,Baked Pasta Carbonara,460000.0,23,0
+1008,63,Grilled Waffles,460000.0,97,0
+1009,145,Sweet Beef Burger,140000.0,26,0
+1010,179,Smoked Tacos,270000.0,44,0
+1011,63,Crispy Noodle Soup,280000.0,96,0
+1012,43,Grilled Pizza Pepperoni,270000.0,73,0
+1013,135,Cheesy Beef Burger,470000.0,98,0
+1014,27,Sweet Salad Caesar,410000.0,43,0
+1015,79,Sweet Pasta Carbonara,470000.0,92,0
+1016,158,Spicy Beef Burger,140000.0,30,0
+1017,192,Cheesy Smoothie,230000.0,44,0
+1018,186,Smoked Waffles,140000.0,57,0
+1019,47,Spicy Beef Burger,280000.0,91,0
+1020,194,Sweet Smoothie,300000.0,38,0
+1021,89,Smoked Pizza Pepperoni,150000.0,60,0
+1022,146,Sour Chicken Wings,310000.0,64,0
+1023,119,Sweet Chicken Wings,230000.0,89,0
+1024,170,Spicy Smoothie,410000.0,57,0
+1025,130,Spicy Pizza Pepperoni,340000.0,29,0
+1026,35,Garlic Smoothie,90000.0,32,0
+1027,9,Grilled Tacos,290000.0,91,0
+1028,134,Fresh Tacos,390000.0,69,0
+1029,141,Spicy Waffles,150000.0,22,0
+1030,192,Honey Beef Burger,480000.0,83,0
+1031,9,Smoked Noodle Soup,140000.0,20,0
+1032,35,Sweet Salad Caesar,210000.0,94,0
+1033,109,Grilled Smoothie,140000.0,42,0
+1034,120,Garlic Salad Caesar,100000.0,91,0
+1035,71,Fresh Smoothie,430000.0,78,0
+1036,169,Smoked Beef Burger,360000.0,52,0
+1037,64,Garlic Pizza Pepperoni,280000.0,84,0
+1038,160,Crispy Tacos,400000.0,36,0
+1039,99,Garlic Beef Burger,410000.0,84,0
+1040,25,Smoked Tacos,360000.0,80,0
+1041,112,Garlic Sushi Roll,130000.0,27,0
+1042,137,Honey Noodle Soup,450000.0,38,0
+1043,64,Spicy Noodle Soup,290000.0,95,0
+1044,58,Smoked Noodle Soup,300000.0,79,0
+1045,52,Baked Beef Burger,110000.0,20,0
+1046,139,Sour Steak,450000.0,70,0
+1047,154,Honey Fried Rice,340000.0,25,0
+1048,137,Crispy Chicken Wings,480000.0,26,0
+1049,188,Sour Beef Burger,160000.0,75,0
+1050,6,Crispy Pasta Carbonara,470000.0,20,0
+1051,179,Fresh Steak,230000.0,35,0
+1052,3,Sour Fried Rice,300000.0,22,0
+1053,146,Garlic Pizza Pepperoni,330000.0,70,0
+1054,152,Garlic Waffles,140000.0,48,0
+1055,58,Sour Salad Caesar,410000.0,42,0
+1056,80,Fresh Noodle Soup,460000.0,48,0
+1057,37,Grilled Sushi Roll,410000.0,47,0
+1058,96,Garlic Beef Burger,160000.0,35,0
+1059,155,Sour Beef Burger,70000.0,44,0
+1060,37,Smoked Beef Burger,380000.0,51,0
+1061,104,Fresh Smoothie,220000.0,34,0
+1062,125,Baked Pasta Carbonara,100000.0,27,0
+1063,10,Baked Noodle Soup,290000.0,61,0
+1064,37,Crispy Salad Caesar,230000.0,42,0
+1065,168,Spicy Smoothie,390000.0,37,0
+1066,27,Honey Smoothie,390000.0,96,0
+1067,113,Crispy Chicken Wings,320000.0,47,0
+1068,125,Sweet Pasta Carbonara,260000.0,66,0
+1069,114,Spicy Pizza Pepperoni,110000.0,60,0
+1070,36,Baked Tacos,320000.0,40,0
+1071,178,Cheesy Waffles,180000.0,36,0
+1072,67,Cheesy Waffles,70000.0,91,0
+1073,172,Cheesy Steak,350000.0,44,0
+1074,199,Garlic Chicken Wings,140000.0,56,0
+1075,48,Sour Salad Caesar,110000.0,25,0
+1076,34,Crispy Waffles,470000.0,89,0
+1077,187,Smoked Pizza Pepperoni,120000.0,94,0
+1078,110,Baked Salad Caesar,60000.0,80,0
+1079,70,Sour Chicken Wings,70000.0,42,0
+1080,188,Spicy Sushi Roll,340000.0,98,0
+1081,138,Cheesy Noodle Soup,470000.0,77,0
+1082,105,Grilled Tacos,180000.0,30,0
+1083,41,Baked Chicken Wings,80000.0,85,0
+1084,116,Cheesy Salad Caesar,220000.0,86,0
+1085,179,Crispy Beef Burger,430000.0,90,0
+1086,195,Spicy Pizza Pepperoni,460000.0,91,0
+1087,42,Baked Waffles,310000.0,37,0
+1088,191,Fresh Steak,180000.0,97,0
+1089,38,Sweet Sushi Roll,400000.0,77,0
+1090,78,Garlic Chicken Wings,330000.0,73,0
+1091,133,Baked Fried Rice,150000.0,53,0
+1092,14,Sweet Pizza Pepperoni,210000.0,43,0
+1093,71,Spicy Steak,490000.0,82,0
+1094,48,Honey Sushi Roll,70000.0,26,0
+1095,38,Honey Waffles,100000.0,24,0
+1096,194,Grilled Salad Caesar,120000.0,79,0
+1097,77,Sweet Pasta Carbonara,180000.0,72,0
+1098,64,Garlic Smoothie,260000.0,100,0
+1099,105,Baked Steak,130000.0,48,0
+1100,44,Cheesy Pasta Carbonara,420000.0,90,0
+1101,38,Fresh Sushi Roll,400000.0,30,0
+1102,190,Baked Salad Caesar,360000.0,50,0
+1103,9,Spicy Salad Caesar,80000.0,90,0
+1104,112,Sour Sushi Roll,250000.0,73,0
+1105,55,Crispy Chicken Wings,50000.0,66,0
+1106,102,Sour Pasta Carbonara,250000.0,46,0
+1107,185,Sweet Smoothie,360000.0,91,0
+1108,14,Sour Smoothie,480000.0,55,0
+1109,152,Baked Sushi Roll,480000.0,42,0
+1110,137,Spicy Salad Caesar,360000.0,94,0
+1111,167,Garlic Tacos,470000.0,43,0
+1112,4,Cheesy Sushi Roll,330000.0,80,0
+1113,44,Sour Fried Rice,340000.0,49,0
+1114,104,Garlic Tacos,440000.0,93,0
+1115,55,Smoked Noodle Soup,200000.0,21,0
+1116,98,Spicy Fried Rice,260000.0,42,0
+1117,31,Smoked Smoothie,370000.0,32,0
+1118,174,Grilled Pasta Carbonara,410000.0,92,0
+1119,52,Spicy Salad Caesar,230000.0,89,0
+1120,83,Grilled Waffles,180000.0,89,0
+1121,33,Sweet Salad Caesar,480000.0,42,0
+1122,57,Baked Noodle Soup,370000.0,100,0
+1123,2,Spicy Tacos,300000.0,97,0
+1124,77,Sweet Tacos,310000.0,84,0
+1125,71,Cheesy Beef Burger,300000.0,32,0
+1126,123,Cheesy Fried Rice,60000.0,78,0
+1127,128,Sour Waffles,90000.0,69,0
+1128,133,Smoked Sushi Roll,150000.0,95,0
+1129,81,Spicy Pasta Carbonara,440000.0,30,0
+1130,3,Spicy Salad Caesar,90000.0,21,0
+1131,42,Baked Smoothie,420000.0,29,0
+1132,90,Smoked Tacos,340000.0,24,0
+1133,111,Fresh Noodle Soup,340000.0,33,0
+1134,170,Honey Waffles,200000.0,26,0
+1135,171,Sweet Smoothie,80000.0,38,0
+1136,165,Baked Pizza Pepperoni,330000.0,57,0
+1137,182,Crispy Pizza Pepperoni,290000.0,99,0
+1138,117,Spicy Steak,260000.0,100,0
+1139,80,Smoked Pasta Carbonara,260000.0,92,0
+1140,57,Cheesy Salad Caesar,400000.0,47,0
+1141,79,Grilled Noodle Soup,360000.0,62,0
+1142,199,Fresh Pasta Carbonara,140000.0,97,0
+1143,152,Spicy Steak,300000.0,73,0
+1144,172,Honey Steak,160000.0,90,0
+1145,39,Sour Salad Caesar,380000.0,62,0
+1146,199,Sour Chicken Wings,350000.0,77,0
+1147,144,Baked Tacos,280000.0,43,0
+1148,65,Sour Pasta Carbonara,130000.0,73,0
+1149,170,Baked Steak,160000.0,43,0
+1150,133,Smoked Waffles,170000.0,60,0
+1151,84,Smoked Pizza Pepperoni,130000.0,66,0
+1152,73,Smoked Waffles,320000.0,69,0
+1153,33,Cheesy Smoothie,330000.0,88,0
+1154,4,Fresh Steak,70000.0,34,0
+1155,192,Grilled Fried Rice,220000.0,47,0
+1156,190,Grilled Sushi Roll,410000.0,86,0
+1157,123,Smoked Fried Rice,180000.0,98,0
+1158,132,Garlic Noodle Soup,270000.0,43,0
+1159,85,Cheesy Pasta Carbonara,90000.0,50,0
+1160,187,Sweet Noodle Soup,470000.0,42,0
+1161,160,Garlic Smoothie,190000.0,62,0
+1162,135,Baked Noodle Soup,310000.0,79,0
+1163,16,Cheesy Pizza Pepperoni,80000.0,48,0
+1164,115,Grilled Salad Caesar,350000.0,26,0
+1165,89,Baked Pizza Pepperoni,350000.0,31,0
+1166,189,Baked Beef Burger,230000.0,95,0
+1167,13,Baked Chicken Wings,330000.0,78,0
+1168,116,Garlic Pizza Pepperoni,330000.0,39,0
+1169,101,Grilled Beef Burger,410000.0,36,0
+1170,54,Cheesy Waffles,260000.0,71,0
+1171,185,Sour Noodle Soup,110000.0,98,0
+1172,104,Crispy Sushi Roll,230000.0,95,0
+1173,61,Grilled Fried Rice,120000.0,27,0
+1174,163,Cheesy Waffles,80000.0,37,0
+1175,38,Baked Smoothie,330000.0,68,0
+1176,160,Fresh Pasta Carbonara,150000.0,62,0
+1177,159,Smoked Tacos,170000.0,89,0
+1178,58,Crispy Pizza Pepperoni,380000.0,77,0
+1179,96,Grilled Salad Caesar,380000.0,79,0
+1180,85,Sweet Smoothie,300000.0,57,0
+1181,96,Baked Pasta Carbonara,290000.0,50,0
+1182,44,Garlic Sushi Roll,380000.0,85,0
+1183,37,Cheesy Pizza Pepperoni,160000.0,35,0
+1184,36,Sweet Fried Rice,470000.0,35,0
+1185,43,Sour Chicken Wings,390000.0,44,0
+1186,20,Cheesy Pasta Carbonara,140000.0,89,0
+1187,58,Garlic Beef Burger,100000.0,51,0
+1188,69,Sour Beef Burger,350000.0,63,0
+1189,103,Smoked Salad Caesar,380000.0,32,0
+1190,30,Sour Chicken Wings,190000.0,91,0
+1191,48,Crispy Smoothie,60000.0,89,0
+1192,191,Honey Pasta Carbonara,410000.0,29,0
+1193,110,Grilled Tacos,170000.0,49,0
+1194,64,Crispy Fried Rice,400000.0,97,0
+1195,39,Grilled Sushi Roll,400000.0,52,0
+1196,123,Crispy Pizza Pepperoni,380000.0,87,0
+1197,1,Garlic Fried Rice,250000.0,35,0
+1198,58,Sweet Waffles,390000.0,46,0
+1199,130,Fresh Pizza Pepperoni,200000.0,56,0
+1200,116,Sweet Steak,50000.0,51,0
+1201,151,Sour Chicken Wings,310000.0,49,0
+1202,142,Garlic Beef Burger,430000.0,46,0
+1203,136,Grilled Fried Rice,270000.0,68,0
+1204,152,Fresh Pizza Pepperoni,280000.0,100,0
+1205,69,Smoked Pasta Carbonara,400000.0,31,0
+1206,35,Spicy Tacos,330000.0,23,0
+1207,164,Sweet Beef Burger,490000.0,71,0
+1208,77,Honey Smoothie,350000.0,43,0
+1209,32,Fresh Pasta Carbonara,290000.0,22,0
+1210,12,Crispy Noodle Soup,440000.0,30,0
+1211,139,Garlic Noodle Soup,240000.0,59,0
+1212,82,Honey Sushi Roll,470000.0,66,0
+1213,190,Grilled Fried Rice,410000.0,26,0
+1214,39,Smoked Fried Rice,130000.0,81,0
+1215,171,Cheesy Salad Caesar,430000.0,74,0
+1216,96,Cheesy Waffles,380000.0,21,0
+1217,67,Sour Salad Caesar,90000.0,49,0
+1218,68,Spicy Waffles,250000.0,44,0
+1219,52,Grilled Pizza Pepperoni,130000.0,46,0
+1220,141,Smoked Chicken Wings,430000.0,24,0
+1221,24,Sweet Beef Burger,180000.0,89,0
+1222,69,Crispy Beef Burger,340000.0,75,0
+1223,22,Crispy Noodle Soup,250000.0,21,0
+1224,78,Baked Fried Rice,470000.0,62,0
+1225,95,Sweet Noodle Soup,330000.0,76,0
+1226,188,Smoked Fried Rice,100000.0,89,0
+1227,67,Garlic Salad Caesar,240000.0,89,0
+1228,134,Sweet Chicken Wings,480000.0,44,0
+1229,129,Fresh Pasta Carbonara,110000.0,73,0
+1230,141,Crispy Sushi Roll,360000.0,36,0
+1231,31,Smoked Tacos,50000.0,81,0
+1232,62,Crispy Chicken Wings,110000.0,26,0
+1233,178,Honey Tacos,210000.0,41,0
+1234,104,Honey Noodle Soup,180000.0,84,0
+1235,90,Honey Beef Burger,80000.0,47,0
+1236,83,Baked Steak,400000.0,22,0
+1237,91,Garlic Tacos,110000.0,47,0
+1238,34,Smoked Pizza Pepperoni,270000.0,23,0
+1239,63,Smoked Fried Rice,460000.0,72,0
+1240,62,Baked Sushi Roll,260000.0,31,0
+1241,37,Sweet Pizza Pepperoni,450000.0,45,0
+1242,137,Smoked Chicken Wings,50000.0,20,0
+1243,85,Grilled Sushi Roll,220000.0,90,0
+1244,108,Cheesy Pizza Pepperoni,140000.0,27,0
+1245,87,Baked Waffles,120000.0,82,0
+1246,19,Honey Smoothie,220000.0,45,0
+1247,19,Sweet Sushi Roll,300000.0,76,0
+1248,130,Fresh Beef Burger,400000.0,70,0
+1249,125,Sour Pizza Pepperoni,490000.0,71,0
+1250,42,Crispy Salad Caesar,370000.0,38,0
+1251,33,Garlic Steak,360000.0,91,0
+1252,196,Honey Noodle Soup,130000.0,73,0
+1253,81,Honey Pasta Carbonara,440000.0,40,0
+1254,13,Sour Tacos,470000.0,59,0
+1255,67,Crispy Pasta Carbonara,70000.0,29,0
+1256,115,Sweet Sushi Roll,90000.0,26,0
+1257,38,Sour Pizza Pepperoni,460000.0,58,0
+1258,149,Fresh Tacos,310000.0,80,0
+1259,128,Sour Tacos,280000.0,66,0
+1260,152,Crispy Beef Burger,120000.0,41,0
+1261,55,Cheesy Waffles,350000.0,50,0
+1262,58,Spicy Noodle Soup,460000.0,51,0
+1263,71,Cheesy Salad Caesar,260000.0,90,0
+1264,33,Sweet Salad Caesar,140000.0,51,0
+1265,56,Garlic Smoothie,100000.0,50,0
+1266,161,Sweet Waffles,70000.0,58,0
+1267,137,Spicy Sushi Roll,490000.0,33,0
+1268,102,Baked Chicken Wings,400000.0,56,0
+1269,3,Sour Pasta Carbonara,310000.0,81,0
+1270,116,Baked Beef Burger,80000.0,39,0
+1271,74,Sour Smoothie,70000.0,50,0
+1272,104,Fresh Pizza Pepperoni,110000.0,52,0
+1273,43,Baked Noodle Soup,100000.0,82,0
+1274,119,Smoked Noodle Soup,110000.0,52,0
+1275,90,Crispy Waffles,350000.0,37,0
+1276,71,Smoked Salad Caesar,90000.0,78,0
+1277,39,Sweet Fried Rice,90000.0,57,0
+1278,162,Baked Tacos,320000.0,72,0
+1279,65,Sweet Beef Burger,300000.0,23,0
+1280,174,Spicy Chicken Wings,230000.0,24,0
+1281,4,Smoked Fried Rice,450000.0,31,0
+1282,104,Sour Waffles,140000.0,24,0
+1283,39,Garlic Waffles,250000.0,52,0
+1284,69,Spicy Noodle Soup,320000.0,84,0
+1285,62,Garlic Pasta Carbonara,450000.0,100,0
+1286,10,Baked Waffles,140000.0,53,0
+1287,162,Smoked Pasta Carbonara,450000.0,62,0
+1288,82,Sweet Waffles,430000.0,52,0
+1289,120,Fresh Chicken Wings,400000.0,32,0
+1290,112,Spicy Fried Rice,180000.0,92,0
+1291,114,Garlic Sushi Roll,180000.0,34,0
+1292,77,Smoked Smoothie,270000.0,34,0
+1293,183,Sweet Pizza Pepperoni,400000.0,36,0
+1294,93,Baked Beef Burger,260000.0,100,0
+1295,55,Garlic Beef Burger,260000.0,59,0
+1296,134,Cheesy Pasta Carbonara,300000.0,53,0
+1297,126,Honey Steak,50000.0,87,0
+1298,117,Crispy Sushi Roll,80000.0,99,0
+1299,58,Smoked Pizza Pepperoni,290000.0,68,0
+1300,13,Crispy Fried Rice,80000.0,51,0
+1301,106,Grilled Smoothie,470000.0,83,0
+1302,30,Crispy Noodle Soup,110000.0,59,0
+1303,154,Garlic Noodle Soup,330000.0,75,0
+1304,118,Sour Pizza Pepperoni,140000.0,72,0
+1305,134,Sweet Fried Rice,470000.0,98,0
+1306,64,Spicy Pasta Carbonara,390000.0,37,0
+1307,134,Grilled Salad Caesar,110000.0,59,0
+1308,166,Smoked Steak,190000.0,60,0
+1309,194,Grilled Tacos,140000.0,97,0
+1310,194,Sour Steak,90000.0,44,0
+1311,56,Cheesy Chicken Wings,470000.0,21,0
+1312,110,Fresh Waffles,480000.0,53,0
+1313,174,Cheesy Noodle Soup,330000.0,63,0
+1314,90,Honey Pasta Carbonara,460000.0,99,0
+1315,89,Garlic Waffles,410000.0,69,0
+1316,115,Fresh Smoothie,480000.0,79,0
+1317,115,Smoked Smoothie,240000.0,28,0
+1318,144,Spicy Tacos,150000.0,88,0
+1319,71,Garlic Waffles,410000.0,23,0
+1320,56,Fresh Smoothie,260000.0,73,0
+1321,33,Spicy Chicken Wings,290000.0,73,0
+1322,72,Smoked Smoothie,400000.0,77,0
+1323,117,Baked Steak,230000.0,71,0
+1324,112,Honey Pasta Carbonara,290000.0,66,0
+1325,51,Crispy Noodle Soup,320000.0,49,0
+1326,66,Sour Pizza Pepperoni,170000.0,50,0
+1327,154,Baked Pizza Pepperoni,70000.0,86,0
+1328,19,Spicy Pasta Carbonara,420000.0,76,0
+1329,135,Honey Pasta Carbonara,420000.0,55,0
+1330,80,Sweet Beef Burger,460000.0,77,0
+1331,66,Garlic Pasta Carbonara,150000.0,93,0
+1332,76,Honey Salad Caesar,70000.0,62,0
+1333,195,Crispy Sushi Roll,360000.0,96,0
+1334,162,Fresh Pizza Pepperoni,110000.0,29,0
+1335,18,Honey Steak,450000.0,89,0
+1336,156,Baked Pasta Carbonara,120000.0,20,0
+1337,178,Spicy Sushi Roll,120000.0,26,0
+1338,49,Baked Smoothie,210000.0,28,0
+1339,69,Grilled Beef Burger,190000.0,80,0
+1340,191,Grilled Salad Caesar,450000.0,49,0
+1341,37,Spicy Pizza Pepperoni,260000.0,99,0
+1342,62,Fresh Waffles,380000.0,100,0
+1343,52,Smoked Noodle Soup,90000.0,20,0
+1344,153,Fresh Beef Burger,160000.0,33,0
+1345,77,Baked Chicken Wings,450000.0,79,0
+1346,141,Baked Beef Burger,300000.0,43,0
+1347,147,Smoked Waffles,250000.0,87,0
+1348,51,Garlic Tacos,340000.0,81,0
+1349,133,Baked Fried Rice,200000.0,96,0
+1350,60,Garlic Fried Rice,300000.0,45,0
+1351,31,Honey Sushi Roll,190000.0,99,0
+1352,64,Sweet Salad Caesar,190000.0,46,0
+1353,37,Baked Steak,340000.0,47,0
+1354,42,Baked Tacos,240000.0,34,0
+1355,69,Fresh Chicken Wings,170000.0,43,0
+1356,79,Smoked Pizza Pepperoni,100000.0,47,0
+1357,161,Baked Tacos,100000.0,78,0
+1358,46,Smoked Salad Caesar,110000.0,67,0
+1359,157,Grilled Fried Rice,50000.0,64,0
+1360,51,Fresh Pizza Pepperoni,130000.0,20,0
+1361,153,Smoked Fried Rice,430000.0,57,0
+1362,69,Sour Noodle Soup,480000.0,87,0
+1363,67,Smoked Chicken Wings,330000.0,78,0
+1364,143,Cheesy Tacos,140000.0,49,0
+1365,155,Grilled Beef Burger,90000.0,41,0
+1366,54,Baked Sushi Roll,300000.0,42,0
+1367,31,Baked Sushi Roll,360000.0,88,0
+1368,7,Sour Beef Burger,200000.0,20,0
+1369,139,Cheesy Pizza Pepperoni,90000.0,65,0
+1370,109,Grilled Tacos,260000.0,83,0
+1371,75,Sweet Pizza Pepperoni,350000.0,31,0
+1372,92,Honey Chicken Wings,60000.0,24,0
+1373,19,Garlic Waffles,400000.0,79,0
+1374,138,Smoked Salad Caesar,270000.0,23,0
+1375,18,Grilled Noodle Soup,220000.0,83,0
+1376,56,Honey Pasta Carbonara,320000.0,48,0
+1377,94,Sweet Pizza Pepperoni,460000.0,34,0
+1378,101,Crispy Beef Burger,370000.0,24,0
+1379,137,Fresh Chicken Wings,460000.0,64,0
+1380,42,Garlic Pasta Carbonara,320000.0,97,0
+1381,47,Honey Sushi Roll,130000.0,50,0
+1382,177,Spicy Waffles,230000.0,62,0
+1383,110,Smoked Chicken Wings,230000.0,74,0
+1384,70,Baked Pasta Carbonara,430000.0,49,0
+1385,167,Sweet Steak,240000.0,96,0
+1386,114,Crispy Chicken Wings,110000.0,66,0
+1387,6,Spicy Chicken Wings,130000.0,26,0
+1388,164,Honey Steak,300000.0,82,0
+1389,172,Cheesy Beef Burger,80000.0,40,0
+1390,35,Cheesy Salad Caesar,300000.0,63,0
+1391,83,Honey Fried Rice,430000.0,77,0
+1392,19,Cheesy Pizza Pepperoni,370000.0,43,0
+1393,118,Sweet Smoothie,490000.0,71,0
+1394,104,Sour Salad Caesar,430000.0,72,0
+1395,43,Crispy Fried Rice,170000.0,30,0
+1396,57,Garlic Waffles,260000.0,87,0
+1397,20,Garlic Pasta Carbonara,100000.0,64,0
+1398,45,Cheesy Noodle Soup,140000.0,61,0
+1399,12,Crispy Fried Rice,360000.0,73,0
+1400,122,Smoked Steak,380000.0,46,0
+1401,76,Smoked Pasta Carbonara,170000.0,20,0
+1402,17,Fresh Waffles,410000.0,69,0
+1403,148,Fresh Sushi Roll,260000.0,67,0
+1404,194,Crispy Steak,460000.0,68,0
+1405,56,Crispy Noodle Soup,280000.0,40,0
+1406,2,Fresh Pasta Carbonara,200000.0,74,0
+1407,126,Cheesy Sushi Roll,280000.0,78,0
+1408,129,Cheesy Noodle Soup,300000.0,59,0
+1409,172,Sweet Sushi Roll,440000.0,79,0
+1410,142,Grilled Steak,270000.0,23,0
+1411,87,Smoked Sushi Roll,130000.0,21,0
+1412,82,Crispy Chicken Wings,100000.0,51,0
+1413,133,Baked Tacos,390000.0,58,0
+1414,195,Spicy Pasta Carbonara,370000.0,69,0
+1415,151,Fresh Chicken Wings,480000.0,51,0
+1416,71,Sour Smoothie,440000.0,65,0
+1417,196,Cheesy Steak,130000.0,44,0
+1418,43,Spicy Tacos,470000.0,82,0
+1419,12,Honey Noodle Soup,200000.0,23,0
+1420,124,Crispy Pizza Pepperoni,460000.0,21,0
+1421,169,Garlic Steak,400000.0,86,0
+1422,143,Crispy Tacos,260000.0,31,0
+1423,161,Fresh Steak,300000.0,72,0
+1424,198,Garlic Beef Burger,200000.0,47,0
+1425,27,Honey Pizza Pepperoni,160000.0,22,0
+1426,127,Spicy Salad Caesar,360000.0,34,0
+1427,180,Honey Steak,370000.0,43,0
+1428,8,Sweet Noodle Soup,250000.0,35,0
+1429,76,Smoked Steak,140000.0,58,0
+1430,43,Sweet Waffles,440000.0,40,0
+1431,30,Crispy Waffles,180000.0,71,0
+1432,178,Sweet Noodle Soup,160000.0,39,0
+1433,194,Fresh Beef Burger,260000.0,79,0
+1434,113,Honey Fried Rice,80000.0,53,0
+1435,196,Fresh Steak,90000.0,23,0
+1436,118,Baked Sushi Roll,100000.0,39,0
+1437,193,Sour Tacos,400000.0,48,0
+1438,163,Honey Sushi Roll,110000.0,71,0
+1439,11,Crispy Noodle Soup,480000.0,40,0
+1440,127,Cheesy Steak,470000.0,97,0
+1441,37,Crispy Noodle Soup,80000.0,25,0
+1442,147,Crispy Waffles,130000.0,99,0
+1443,1,Honey Chicken Wings,130000.0,48,0
+1444,168,Sweet Pizza Pepperoni,390000.0,93,0
+1445,140,Grilled Smoothie,330000.0,91,0
+1446,166,Sweet Fried Rice,490000.0,68,0
+1447,31,Cheesy Beef Burger,100000.0,67,0
+1448,111,Crispy Waffles,330000.0,27,0
+1449,200,Crispy Waffles,340000.0,87,0
+1450,178,Cheesy Pasta Carbonara,400000.0,73,0
+1451,179,Smoked Pizza Pepperoni,440000.0,95,0
+1452,91,Cheesy Noodle Soup,240000.0,43,0
+1453,99,Fresh Pizza Pepperoni,300000.0,61,0
+1454,37,Sour Pizza Pepperoni,490000.0,53,0
+1455,194,Fresh Chicken Wings,100000.0,57,0
+1456,129,Spicy Smoothie,140000.0,77,0
+1457,4,Sweet Smoothie,90000.0,35,0
+1458,156,Garlic Noodle Soup,240000.0,83,0
+1459,164,Cheesy Steak,440000.0,78,0
+1460,46,Garlic Chicken Wings,80000.0,21,0
+1461,22,Honey Fried Rice,180000.0,51,0
+1462,196,Crispy Smoothie,470000.0,36,0
+1463,56,Spicy Sushi Roll,370000.0,44,0
+1464,170,Sour Waffles,380000.0,27,0
+1465,161,Sweet Steak,320000.0,65,0
+1466,40,Baked Steak,100000.0,82,0
+1467,55,Grilled Smoothie,340000.0,67,0
+1468,90,Smoked Tacos,370000.0,43,0
+1469,193,Spicy Waffles,240000.0,55,0
+1470,79,Baked Salad Caesar,440000.0,90,0
+1471,46,Crispy Tacos,250000.0,60,0
+1472,183,Fresh Waffles,330000.0,67,0
+1473,19,Honey Chicken Wings,50000.0,89,0
+1474,89,Garlic Chicken Wings,420000.0,65,0
+1475,3,Crispy Chicken Wings,340000.0,78,0
+1476,104,Sour Salad Caesar,190000.0,75,0
+1477,14,Sour Tacos,260000.0,44,0
+1478,198,Baked Fried Rice,430000.0,39,0
+1479,25,Spicy Steak,480000.0,20,0
+1480,64,Spicy Smoothie,400000.0,83,0
+1481,79,Smoked Sushi Roll,380000.0,78,0
+1482,43,Smoked Waffles,300000.0,79,0
+1483,175,Sour Steak,270000.0,39,0
+1484,125,Grilled Sushi Roll,250000.0,83,0
+1485,62,Sweet Beef Burger,50000.0,49,0
+1486,177,Fresh Pasta Carbonara,370000.0,95,0
+1487,75,Smoked Salad Caesar,320000.0,32,0
+1488,71,Cheesy Tacos,260000.0,37,0
+1489,156,Crispy Tacos,480000.0,79,0
+1490,131,Sour Waffles,460000.0,29,0
+1491,93,Sweet Smoothie,270000.0,92,0
+1492,33,Fresh Fried Rice,200000.0,46,0
+1493,111,Smoked Pasta Carbonara,360000.0,81,0
+1494,92,Sweet Tacos,140000.0,38,0
+1495,23,Smoked Sushi Roll,490000.0,52,0
+1496,86,Baked Waffles,110000.0,96,0
+1497,53,Sweet Tacos,90000.0,49,0
+1498,171,Smoked Noodle Soup,330000.0,93,0
+1499,113,Smoked Smoothie,400000.0,44,0
+1500,75,Cheesy Fried Rice,170000.0,29,0
+1501,76,Smoked Fried Rice,260000.0,38,0
+1502,28,Garlic Salad Caesar,490000.0,65,0
+1503,162,Grilled Pasta Carbonara,280000.0,46,0
+1504,28,Fresh Pasta Carbonara,160000.0,47,0
+1505,99,Fresh Pizza Pepperoni,270000.0,70,0
+1506,52,Baked Sushi Roll,230000.0,69,0
+1507,41,Grilled Chicken Wings,310000.0,40,0
+1508,22,Grilled Sushi Roll,80000.0,53,0
+1509,2,Sweet Steak,60000.0,35,0
+1510,23,Garlic Smoothie,250000.0,97,0
+1511,34,Fresh Waffles,320000.0,66,0
+1512,105,Sour Pizza Pepperoni,210000.0,74,0
+1513,28,Smoked Pasta Carbonara,50000.0,43,0
+1514,169,Grilled Tacos,200000.0,57,0
+1515,68,Honey Beef Burger,170000.0,25,0
+1516,46,Baked Pizza Pepperoni,320000.0,53,0
+1517,198,Fresh Chicken Wings,320000.0,72,0
+1518,168,Sweet Chicken Wings,200000.0,35,0
+1519,40,Fresh Noodle Soup,120000.0,95,0
+1520,180,Fresh Salad Caesar,380000.0,32,0
+1521,65,Crispy Pasta Carbonara,80000.0,86,0
+1522,34,Crispy Sushi Roll,270000.0,27,0
+1523,197,Honey Fried Rice,310000.0,68,0
+1524,115,Crispy Smoothie,400000.0,21,0
+1525,177,Sweet Pizza Pepperoni,380000.0,40,0
+1526,104,Cheesy Tacos,290000.0,90,0
+1527,71,Honey Sushi Roll,400000.0,97,0
+1528,115,Grilled Salad Caesar,270000.0,26,0
+1529,41,Sweet Tacos,380000.0,48,0
+1530,30,Spicy Smoothie,200000.0,26,0
+1531,78,Cheesy Waffles,280000.0,34,0
+1532,149,Baked Beef Burger,280000.0,90,0
+1533,22,Crispy Waffles,480000.0,33,0
+1534,197,Grilled Steak,50000.0,70,0
+1535,196,Sweet Pasta Carbonara,100000.0,89,0
+1536,11,Honey Pasta Carbonara,460000.0,82,0
+1537,137,Baked Tacos,70000.0,85,0
+1538,151,Sweet Fried Rice,260000.0,69,0
+1539,199,Spicy Pasta Carbonara,490000.0,33,0
+1540,62,Spicy Fried Rice,130000.0,51,0
+1541,9,Smoked Beef Burger,290000.0,35,0
+1542,110,Smoked Waffles,150000.0,89,0
+1543,45,Garlic Beef Burger,270000.0,66,0
+1544,123,Sweet Salad Caesar,360000.0,97,0
+1545,13,Sour Smoothie,270000.0,94,0
+1546,193,Honey Beef Burger,130000.0,37,0
+1547,38,Sour Fried Rice,390000.0,80,0
+1548,98,Sweet Noodle Soup,480000.0,80,0
+1549,72,Smoked Sushi Roll,90000.0,54,0
+1550,164,Grilled Chicken Wings,180000.0,95,0
+1551,84,Sour Tacos,150000.0,44,0
+1552,29,Honey Steak,340000.0,100,0
+1553,157,Grilled Beef Burger,480000.0,35,0
+1554,99,Garlic Fried Rice,480000.0,85,0
+1555,6,Grilled Fried Rice,460000.0,73,0
+1556,42,Crispy Salad Caesar,90000.0,84,0
+1557,122,Sour Pizza Pepperoni,370000.0,98,0
+1558,154,Smoked Waffles,300000.0,29,0
+1559,59,Sour Steak,50000.0,85,0
+1560,133,Cheesy Sushi Roll,280000.0,38,0
+1561,178,Smoked Beef Burger,290000.0,85,0
+1562,28,Sweet Fried Rice,190000.0,34,0
+1563,131,Fresh Waffles,100000.0,39,0
+1564,172,Garlic Sushi Roll,130000.0,87,0
+1565,108,Cheesy Smoothie,290000.0,82,0
+1566,150,Cheesy Waffles,290000.0,89,0
+1567,15,Spicy Salad Caesar,370000.0,94,0
+1568,31,Cheesy Pasta Carbonara,220000.0,28,0
+1569,168,Spicy Pizza Pepperoni,270000.0,62,0
+1570,95,Grilled Smoothie,360000.0,49,0
+1571,137,Smoked Steak,470000.0,56,0
+1572,115,Crispy Chicken Wings,170000.0,59,0
+1573,17,Sour Fried Rice,480000.0,52,0
+1574,62,Crispy Sushi Roll,150000.0,41,0
+1575,175,Spicy Salad Caesar,220000.0,66,0
+1576,28,Crispy Noodle Soup,140000.0,81,0
+1577,196,Smoked Chicken Wings,310000.0,48,0
+1578,127,Sweet Sushi Roll,440000.0,33,0
+1579,122,Fresh Noodle Soup,450000.0,23,0
+1580,77,Smoked Noodle Soup,160000.0,53,0
+1581,182,Sweet Tacos,260000.0,51,0
+1582,83,Cheesy Waffles,90000.0,32,0
+1583,139,Baked Pizza Pepperoni,60000.0,83,0
+1584,69,Spicy Sushi Roll,230000.0,39,0
+1585,13,Smoked Tacos,130000.0,39,0
+1586,146,Grilled Steak,280000.0,87,0
+1587,158,Garlic Noodle Soup,470000.0,79,0
+1588,144,Fresh Sushi Roll,130000.0,80,0
+1589,190,Spicy Tacos,360000.0,70,0
+1590,192,Grilled Chicken Wings,190000.0,40,0
+1591,127,Fresh Pizza Pepperoni,70000.0,22,0
+1592,30,Fresh Smoothie,280000.0,84,0
+1593,116,Sour Beef Burger,300000.0,42,0
+1594,34,Garlic Steak,90000.0,80,0
+1595,162,Smoked Beef Burger,100000.0,89,0
+1596,59,Spicy Smoothie,250000.0,83,0
+1597,97,Sour Steak,60000.0,90,0
+1598,155,Fresh Pasta Carbonara,70000.0,62,0
+1599,128,Smoked Smoothie,120000.0,35,0
+1600,140,Cheesy Waffles,440000.0,75,0
+1601,109,Smoked Beef Burger,180000.0,76,0
+1602,199,Smoked Noodle Soup,90000.0,74,0
+1603,43,Honey Tacos,60000.0,68,0
+1604,11,Garlic Steak,70000.0,90,0
+1605,21,Sour Beef Burger,300000.0,86,0
+1606,43,Sweet Pizza Pepperoni,480000.0,70,0
+1607,115,Cheesy Noodle Soup,90000.0,56,0
+1608,103,Fresh Tacos,420000.0,86,0
+1609,78,Garlic Noodle Soup,90000.0,53,0
+1610,78,Smoked Pizza Pepperoni,90000.0,40,0
+1611,130,Sweet Beef Burger,80000.0,66,0
+1612,131,Honey Sushi Roll,120000.0,45,0
+1613,191,Spicy Sushi Roll,410000.0,31,0
+1614,72,Grilled Pasta Carbonara,360000.0,50,0
+1615,50,Fresh Noodle Soup,440000.0,55,0
+1616,121,Cheesy Beef Burger,320000.0,34,0
+1617,13,Cheesy Tacos,100000.0,70,0
+1618,173,Honey Waffles,150000.0,87,0
+1619,32,Cheesy Waffles,340000.0,64,0
+1620,2,Sour Beef Burger,50000.0,34,0
+1621,143,Fresh Fried Rice,430000.0,73,0
+1622,133,Spicy Sushi Roll,60000.0,28,0
+1623,152,Spicy Pasta Carbonara,420000.0,87,0
+1624,164,Garlic Steak,390000.0,51,0
+1625,115,Sour Tacos,50000.0,86,0
+1626,28,Crispy Pizza Pepperoni,340000.0,64,0
+1627,128,Spicy Tacos,130000.0,60,0
+1628,88,Spicy Pasta Carbonara,420000.0,70,0
+1629,169,Fresh Pasta Carbonara,210000.0,81,0
+1630,176,Sweet Noodle Soup,450000.0,99,0
+1631,194,Cheesy Waffles,330000.0,90,0
+1632,159,Honey Salad Caesar,340000.0,73,0
+1633,109,Fresh Beef Burger,380000.0,95,0
+1634,148,Sour Tacos,270000.0,69,0
+1635,34,Smoked Noodle Soup,330000.0,84,0
+1636,128,Honey Sushi Roll,170000.0,47,0
+1637,177,Honey Beef Burger,330000.0,59,0
+1638,25,Cheesy Pasta Carbonara,100000.0,100,0
+1639,46,Fresh Pizza Pepperoni,480000.0,82,0
+1640,9,Grilled Pasta Carbonara,200000.0,20,0
+1641,118,Cheesy Steak,290000.0,58,0
+1642,67,Fresh Salad Caesar,440000.0,63,0
+1643,155,Baked Smoothie,190000.0,58,0
+1644,191,Honey Salad Caesar,140000.0,56,0
+1645,172,Smoked Pizza Pepperoni,220000.0,63,0
+1646,174,Smoked Fried Rice,50000.0,33,0
+1647,85,Garlic Tacos,440000.0,30,0
+1648,20,Spicy Steak,400000.0,79,0
+1649,64,Sour Chicken Wings,340000.0,55,0
+1650,46,Sweet Fried Rice,430000.0,58,0
+1651,175,Crispy Fried Rice,300000.0,78,0
+1652,92,Fresh Waffles,250000.0,85,0
+1653,67,Cheesy Salad Caesar,280000.0,58,0
+1654,149,Honey Smoothie,130000.0,42,0
+1655,58,Sour Waffles,200000.0,74,0
+1656,43,Smoked Pasta Carbonara,130000.0,97,0
+1657,59,Cheesy Pasta Carbonara,440000.0,64,0
+1658,61,Baked Pasta Carbonara,400000.0,89,0
+1659,26,Fresh Sushi Roll,340000.0,58,0
+1660,142,Honey Sushi Roll,270000.0,96,0
+1661,129,Sweet Beef Burger,340000.0,21,0
+1662,154,Sour Fried Rice,450000.0,22,0
+1663,138,Baked Sushi Roll,150000.0,80,0
+1664,43,Sour Noodle Soup,460000.0,26,0
+1665,1,Cheesy Smoothie,440000.0,30,0
+1666,90,Sweet Fried Rice,210000.0,36,0
+1667,104,Cheesy Chicken Wings,90000.0,27,0
+1668,8,Baked Noodle Soup,250000.0,50,0
+1669,161,Cheesy Pasta Carbonara,80000.0,79,0
+1670,100,Honey Pasta Carbonara,420000.0,49,0
+1671,123,Sour Fried Rice,420000.0,90,0
+1672,69,Crispy Pasta Carbonara,180000.0,53,0
+1673,42,Sweet Beef Burger,320000.0,81,0
+1674,50,Sour Smoothie,410000.0,55,0
+1675,2,Honey Steak,370000.0,49,0
+1676,63,Fresh Waffles,170000.0,88,0
+1677,27,Smoked Noodle Soup,230000.0,71,0
+1678,116,Sweet Noodle Soup,280000.0,40,0
+1679,47,Crispy Chicken Wings,370000.0,23,0
+1680,66,Sour Smoothie,470000.0,77,0
+1681,163,Crispy Waffles,300000.0,32,0
+1682,57,Baked Sushi Roll,490000.0,96,0
+1683,73,Baked Noodle Soup,400000.0,73,0
+1684,106,Honey Beef Burger,160000.0,25,0
+1685,69,Crispy Tacos,170000.0,98,0
+1686,100,Sweet Pizza Pepperoni,240000.0,91,0
+1687,40,Crispy Noodle Soup,350000.0,65,0
+1688,94,Spicy Pasta Carbonara,480000.0,55,0
+1689,127,Crispy Waffles,400000.0,72,0
+1690,186,Crispy Salad Caesar,230000.0,57,0
+1691,114,Smoked Pizza Pepperoni,170000.0,74,0
+1692,24,Baked Pizza Pepperoni,140000.0,76,0
+1693,156,Spicy Chicken Wings,270000.0,92,0
+1694,172,Fresh Noodle Soup,260000.0,76,0
+1695,19,Smoked Fried Rice,320000.0,81,0
+1696,37,Garlic Pasta Carbonara,170000.0,77,0
+1697,192,Smoked Beef Burger,60000.0,85,0
+1698,100,Smoked Sushi Roll,230000.0,22,0
+1699,114,Cheesy Noodle Soup,50000.0,98,0
+1700,69,Baked Steak,360000.0,92,0
+1701,42,Garlic Fried Rice,60000.0,45,0
+1702,96,Honey Steak,490000.0,21,0
+1703,111,Grilled Sushi Roll,120000.0,26,0
+1704,64,Sour Noodle Soup,360000.0,77,0
+1705,116,Sweet Sushi Roll,200000.0,96,0
+1706,94,Honey Tacos,230000.0,80,0
+1707,89,Cheesy Noodle Soup,470000.0,94,0
+1708,13,Baked Tacos,320000.0,73,0
+1709,175,Spicy Tacos,310000.0,99,0
+1710,83,Grilled Tacos,140000.0,99,0
+1711,85,Baked Steak,50000.0,86,0
+1712,184,Smoked Pasta Carbonara,440000.0,91,0
+1713,138,Sour Noodle Soup,350000.0,28,0
+1714,196,Baked Noodle Soup,480000.0,20,0
+1715,185,Garlic Waffles,130000.0,94,0
+1716,159,Smoked Fried Rice,360000.0,76,0
+1717,90,Garlic Chicken Wings,340000.0,73,0
+1718,79,Grilled Pizza Pepperoni,130000.0,24,0
+1719,167,Garlic Waffles,370000.0,80,0
+1720,17,Grilled Fried Rice,260000.0,26,0
+1721,52,Fresh Sushi Roll,90000.0,71,0
+1722,190,Baked Pizza Pepperoni,340000.0,64,0
+1723,133,Grilled Pizza Pepperoni,140000.0,67,0
+1724,83,Sweet Waffles,380000.0,97,0
+1725,62,Crispy Chicken Wings,380000.0,47,0
+1726,169,Sour Pasta Carbonara,300000.0,88,0
+1727,26,Crispy Pasta Carbonara,220000.0,49,0
+1728,112,Smoked Salad Caesar,370000.0,83,0
+1729,61,Grilled Sushi Roll,340000.0,22,0
+1730,64,Grilled Tacos,110000.0,88,0
+1731,36,Garlic Tacos,220000.0,86,0
+1732,36,Smoked Smoothie,200000.0,60,0
+1733,167,Baked Smoothie,360000.0,34,0
+1734,170,Sweet Steak,120000.0,71,0
+1735,46,Crispy Chicken Wings,70000.0,20,0
+1736,165,Smoked Sushi Roll,290000.0,44,0
+1737,153,Crispy Pasta Carbonara,90000.0,27,0
+1738,60,Grilled Beef Burger,90000.0,44,0
+1739,54,Spicy Pasta Carbonara,340000.0,49,0
+1740,191,Honey Salad Caesar,420000.0,42,0
+1741,100,Garlic Beef Burger,110000.0,29,0
+1742,16,Spicy Sushi Roll,470000.0,35,0
+1743,82,Honey Noodle Soup,480000.0,51,0
+1744,1,Fresh Chicken Wings,370000.0,85,0
+1745,89,Sweet Chicken Wings,50000.0,99,0
+1746,105,Baked Salad Caesar,230000.0,26,0
+1747,187,Garlic Sushi Roll,200000.0,63,0
+1748,25,Smoked Salad Caesar,390000.0,83,0
+1749,69,Grilled Steak,380000.0,90,0
+1750,176,Smoked Pizza Pepperoni,410000.0,90,0
+1751,162,Cheesy Chicken Wings,270000.0,75,0
+1752,169,Fresh Smoothie,410000.0,45,0
+1753,78,Crispy Chicken Wings,300000.0,23,0
+1754,71,Garlic Waffles,150000.0,92,0
+1755,24,Crispy Fried Rice,280000.0,41,0
+1756,52,Sweet Waffles,110000.0,52,0
+1757,171,Garlic Noodle Soup,70000.0,70,0
+1758,159,Sour Sushi Roll,180000.0,69,0
+1759,107,Honey Salad Caesar,400000.0,36,0
+1760,48,Sweet Fried Rice,220000.0,37,0
+1761,139,Smoked Fried Rice,50000.0,20,0
+1762,31,Cheesy Steak,80000.0,93,0
+1763,3,Spicy Beef Burger,290000.0,31,0
+1764,50,Smoked Salad Caesar,390000.0,32,0
+1765,157,Baked Steak,370000.0,32,0
+1766,76,Smoked Beef Burger,410000.0,22,0
+1767,3,Crispy Smoothie,490000.0,26,0
+1768,48,Cheesy Pizza Pepperoni,300000.0,37,0
+1769,109,Grilled Chicken Wings,160000.0,95,0
+1770,127,Crispy Salad Caesar,230000.0,90,0
+1771,67,Crispy Fried Rice,330000.0,87,0
+1772,71,Smoked Salad Caesar,230000.0,79,0
+1773,183,Crispy Noodle Soup,370000.0,58,0
+1774,200,Fresh Fried Rice,420000.0,88,0
+1775,179,Crispy Waffles,180000.0,80,0
+1776,26,Smoked Tacos,170000.0,68,0
+1777,196,Grilled Salad Caesar,180000.0,96,0
+1778,180,Sweet Steak,390000.0,83,0
+1779,131,Spicy Pizza Pepperoni,70000.0,73,0
+1780,139,Fresh Smoothie,160000.0,44,0
+1781,130,Baked Waffles,160000.0,48,0
+1782,53,Cheesy Sushi Roll,200000.0,64,0
+1783,110,Baked Waffles,410000.0,78,0
+1784,73,Crispy Smoothie,70000.0,25,0
+1785,41,Spicy Chicken Wings,120000.0,96,0
+1786,30,Sweet Beef Burger,410000.0,29,0
+1787,157,Smoked Pasta Carbonara,310000.0,94,0
+1788,181,Sweet Fried Rice,390000.0,70,0
+1789,176,Sour Beef Burger,140000.0,96,0
+1790,170,Fresh Steak,220000.0,75,0
+1791,169,Honey Pizza Pepperoni,470000.0,49,0
+1792,154,Fresh Chicken Wings,350000.0,79,0
+1793,159,Spicy Beef Burger,440000.0,95,0
+1794,48,Fresh Chicken Wings,350000.0,84,0
+1795,145,Spicy Sushi Roll,410000.0,67,0
+1796,17,Crispy Tacos,490000.0,25,0
+1797,70,Crispy Salad Caesar,300000.0,44,0
+1798,116,Sweet Tacos,430000.0,64,0
+1799,186,Garlic Noodle Soup,310000.0,91,0
+1800,38,Garlic Smoothie,180000.0,68,0
+1801,188,Sweet Chicken Wings,300000.0,54,0
+1802,124,Spicy Tacos,50000.0,63,0
+1803,133,Sweet Steak,410000.0,40,0
+1804,170,Baked Sushi Roll,240000.0,63,0
+1805,34,Garlic Tacos,360000.0,59,0
+1806,165,Sour Fried Rice,60000.0,57,0
+1807,139,Crispy Tacos,80000.0,53,0
+1808,30,Smoked Chicken Wings,360000.0,73,0
+1809,174,Spicy Smoothie,370000.0,78,0
+1810,51,Sweet Pizza Pepperoni,370000.0,38,0
+1811,20,Smoked Waffles,480000.0,33,0
+1812,40,Garlic Pasta Carbonara,470000.0,26,0
+1813,117,Smoked Waffles,70000.0,60,0
+1814,169,Sweet Steak,260000.0,71,0
+1815,134,Fresh Pizza Pepperoni,290000.0,38,0
+1816,173,Baked Fried Rice,400000.0,35,0
+1817,8,Sour Fried Rice,130000.0,75,0
+1818,98,Fresh Smoothie,180000.0,47,0
+1819,154,Sour Sushi Roll,300000.0,44,0
+1820,107,Garlic Beef Burger,220000.0,93,0
+1821,32,Cheesy Sushi Roll,100000.0,24,0
+1822,140,Smoked Beef Burger,320000.0,82,0
+1823,40,Crispy Chicken Wings,230000.0,96,0
+1824,66,Fresh Salad Caesar,200000.0,32,0
+1825,29,Garlic Pasta Carbonara,130000.0,39,0
+1826,197,Sour Noodle Soup,370000.0,84,0
+1827,75,Spicy Pasta Carbonara,70000.0,58,0
+1828,14,Spicy Fried Rice,360000.0,94,0
+1829,24,Honey Pasta Carbonara,380000.0,99,0
+1830,101,Garlic Tacos,440000.0,68,0
+1831,32,Cheesy Smoothie,370000.0,26,0
+1832,98,Smoked Waffles,140000.0,31,0
+1833,89,Cheesy Steak,110000.0,91,0
+1834,127,Honey Waffles,60000.0,30,0
+1835,73,Smoked Pizza Pepperoni,130000.0,93,0
+1836,132,Baked Noodle Soup,340000.0,41,0
+1837,171,Baked Pizza Pepperoni,400000.0,32,0
+1838,53,Grilled Smoothie,490000.0,94,0
+1839,159,Honey Waffles,60000.0,31,0
+1840,113,Crispy Pasta Carbonara,250000.0,45,0
+1841,108,Cheesy Sushi Roll,320000.0,91,0
+1842,183,Fresh Waffles,90000.0,26,0
+1843,28,Cheesy Fried Rice,340000.0,49,0
+1844,150,Smoked Salad Caesar,370000.0,25,0
+1845,74,Sour Waffles,50000.0,69,0
+1846,136,Sour Smoothie,180000.0,37,0
+1847,175,Baked Salad Caesar,410000.0,65,0
+1848,58,Sweet Pizza Pepperoni,180000.0,63,0
+1849,144,Spicy Smoothie,230000.0,32,0
+1850,45,Garlic Beef Burger,430000.0,42,0
+1851,97,Baked Pasta Carbonara,370000.0,99,0
+1852,2,Smoked Pasta Carbonara,190000.0,22,0
+1853,135,Spicy Smoothie,50000.0,60,0
+1854,162,Cheesy Beef Burger,250000.0,38,0
+1855,133,Fresh Noodle Soup,350000.0,66,0
+1856,146,Sour Waffles,440000.0,88,0
+1857,16,Fresh Smoothie,200000.0,97,0
+1858,27,Honey Beef Burger,440000.0,83,0
+1859,86,Sweet Waffles,290000.0,44,0
+1860,68,Grilled Pizza Pepperoni,280000.0,62,0
+1861,30,Fresh Fried Rice,200000.0,44,0
+1862,99,Sweet Noodle Soup,300000.0,52,0
+1863,161,Grilled Pizza Pepperoni,480000.0,20,0
+1864,73,Baked Pasta Carbonara,400000.0,29,0
+1865,25,Sweet Sushi Roll,420000.0,43,0
+1866,180,Honey Pizza Pepperoni,260000.0,31,0
+1867,137,Crispy Chicken Wings,140000.0,28,0
+1868,145,Spicy Pasta Carbonara,210000.0,55,0
+1869,30,Honey Tacos,480000.0,72,0
+1870,67,Spicy Tacos,130000.0,58,0
+1871,138,Sweet Steak,260000.0,85,0
+1872,152,Grilled Tacos,410000.0,60,0
+1873,170,Cheesy Sushi Roll,100000.0,60,0
+1874,87,Crispy Tacos,160000.0,96,0
+1875,198,Fresh Tacos,460000.0,74,0
+1876,159,Smoked Salad Caesar,190000.0,99,0
+1877,126,Fresh Beef Burger,350000.0,100,0
+1878,70,Garlic Pizza Pepperoni,210000.0,48,0
+1879,52,Sour Sushi Roll,270000.0,38,0
+1880,124,Honey Noodle Soup,400000.0,23,0
+1881,85,Sweet Steak,430000.0,25,0
+1882,36,Crispy Tacos,120000.0,79,0
+1883,184,Baked Tacos,480000.0,64,0
+1884,166,Fresh Chicken Wings,390000.0,44,0
+1885,26,Sour Waffles,410000.0,74,0
+1886,57,Fresh Waffles,220000.0,62,0
+1887,164,Crispy Salad Caesar,470000.0,100,0
+1888,72,Sour Waffles,230000.0,40,0
+1889,173,Baked Pasta Carbonara,480000.0,84,0
+1890,37,Sweet Smoothie,260000.0,64,0
+1891,132,Cheesy Fried Rice,250000.0,82,0
+1892,137,Honey Pasta Carbonara,60000.0,26,0
+1893,197,Spicy Sushi Roll,90000.0,55,0
+1894,42,Honey Fried Rice,270000.0,71,0
+1895,72,Crispy Waffles,400000.0,28,0
+1896,62,Grilled Noodle Soup,130000.0,89,0
+1897,128,Cheesy Pasta Carbonara,330000.0,83,0
+1898,150,Cheesy Chicken Wings,70000.0,39,0
+1899,139,Honey Pizza Pepperoni,480000.0,31,0
+1900,61,Grilled Smoothie,270000.0,60,0
+1901,78,Grilled Steak,210000.0,53,0
+1902,139,Garlic Steak,290000.0,94,0
+1903,121,Spicy Fried Rice,320000.0,96,0
+1904,111,Baked Chicken Wings,80000.0,74,0
+1905,28,Baked Smoothie,100000.0,88,0
+1906,85,Spicy Fried Rice,210000.0,40,0
+1907,190,Cheesy Beef Burger,290000.0,85,0
+1908,160,Cheesy Pasta Carbonara,320000.0,27,0
+1909,172,Cheesy Pizza Pepperoni,180000.0,76,0
+1910,120,Garlic Noodle Soup,340000.0,23,0
+1911,50,Grilled Pasta Carbonara,150000.0,68,0
+1912,21,Crispy Pasta Carbonara,200000.0,67,0
+1913,131,Sour Steak,160000.0,48,0
+1914,187,Fresh Beef Burger,150000.0,85,0
+1915,177,Grilled Pizza Pepperoni,300000.0,86,0
+1916,99,Sour Steak,480000.0,58,0
+1917,172,Garlic Pizza Pepperoni,60000.0,85,0
+1918,100,Cheesy Pasta Carbonara,150000.0,63,0
+1919,184,Honey Pasta Carbonara,290000.0,31,0
+1920,200,Garlic Sushi Roll,160000.0,97,0
+1921,121,Grilled Waffles,230000.0,55,0
+1922,136,Cheesy Salad Caesar,260000.0,24,0
+1923,171,Smoked Chicken Wings,110000.0,75,0
+1924,184,Crispy Sushi Roll,250000.0,64,0
+1925,136,Cheesy Noodle Soup,360000.0,64,0
+1926,39,Cheesy Sushi Roll,400000.0,49,0
+1927,18,Sour Smoothie,70000.0,32,0
+1928,198,Cheesy Salad Caesar,270000.0,87,0
+1929,170,Baked Noodle Soup,250000.0,48,0
+1930,162,Spicy Beef Burger,210000.0,86,0
+1931,34,Grilled Steak,440000.0,66,0
+1932,124,Sour Steak,270000.0,85,0
+1933,174,Sweet Sushi Roll,230000.0,42,0
+1934,18,Baked Waffles,360000.0,48,0
+1935,159,Crispy Salad Caesar,130000.0,32,0
+1936,40,Baked Noodle Soup,210000.0,68,0
+1937,30,Fresh Steak,470000.0,85,0
+1938,134,Baked Steak,240000.0,45,0
+1939,96,Baked Steak,150000.0,81,0
+1940,61,Fresh Tacos,280000.0,53,0
+1941,153,Sweet Waffles,250000.0,90,0
+1942,32,Cheesy Noodle Soup,140000.0,96,0
+1943,45,Smoked Pizza Pepperoni,400000.0,92,0
+1944,131,Cheesy Noodle Soup,90000.0,98,0
+1945,102,Smoked Pizza Pepperoni,410000.0,53,0
+1946,77,Smoked Tacos,420000.0,49,0
+1947,34,Cheesy Noodle Soup,390000.0,66,0
+1948,53,Sour Noodle Soup,210000.0,99,0
+1949,41,Crispy Noodle Soup,200000.0,27,0
+1950,87,Sweet Pizza Pepperoni,180000.0,31,0
+1951,22,Honey Fried Rice,200000.0,91,0
+1952,77,Fresh Waffles,210000.0,51,0
+1953,54,Sweet Noodle Soup,460000.0,44,0
+1954,32,Honey Beef Burger,330000.0,99,0
+1955,133,Honey Waffles,190000.0,32,0
+1956,132,Fresh Steak,110000.0,26,0
+1957,35,Sour Pizza Pepperoni,50000.0,28,0
+1958,60,Sweet Smoothie,290000.0,72,0
+1959,130,Fresh Beef Burger,390000.0,73,0
+1960,171,Grilled Tacos,80000.0,63,0
+1961,74,Cheesy Salad Caesar,230000.0,29,0
+1962,51,Baked Pizza Pepperoni,380000.0,45,0
+1963,161,Grilled Waffles,380000.0,75,0
+1964,129,Honey Smoothie,270000.0,63,0
+1965,165,Smoked Beef Burger,240000.0,92,0
+1966,82,Spicy Beef Burger,460000.0,30,0
+1967,145,Sour Noodle Soup,380000.0,29,0
+1968,49,Fresh Steak,80000.0,38,0
+1969,179,Honey Chicken Wings,360000.0,86,0
+1970,14,Sour Waffles,490000.0,69,0
+1971,16,Crispy Fried Rice,490000.0,98,0
+1972,106,Fresh Fried Rice,310000.0,53,0
+1973,199,Smoked Noodle Soup,160000.0,62,0
+1974,116,Crispy Smoothie,60000.0,40,0
+1975,175,Spicy Pizza Pepperoni,150000.0,85,0
+1976,122,Garlic Chicken Wings,210000.0,76,0
+1977,113,Fresh Noodle Soup,280000.0,37,0
+1978,103,Crispy Beef Burger,110000.0,53,0
+1979,150,Cheesy Tacos,110000.0,49,0
+1980,39,Honey Tacos,330000.0,79,0
+1981,5,Sour Noodle Soup,90000.0,90,0
+1982,94,Honey Sushi Roll,330000.0,46,0
+1983,177,Grilled Fried Rice,370000.0,70,0
+1984,195,Honey Beef Burger,300000.0,32,0
+1985,24,Baked Waffles,320000.0,27,0
+1986,88,Smoked Steak,460000.0,61,0
+1987,176,Crispy Smoothie,50000.0,23,0
+1988,27,Honey Noodle Soup,300000.0,73,0
+1989,106,Grilled Beef Burger,420000.0,34,0
+1990,63,Sweet Sushi Roll,160000.0,50,0
+1991,28,Garlic Noodle Soup,250000.0,40,0
+1992,188,Sweet Sushi Roll,340000.0,97,0
+1993,45,Crispy Beef Burger,140000.0,93,0
+1994,55,Spicy Waffles,450000.0,26,0
+1995,38,Baked Smoothie,320000.0,23,0
+1996,90,Cheesy Pasta Carbonara,440000.0,87,0
+1997,132,Grilled Waffles,410000.0,76,0
+1998,81,Fresh Pasta Carbonara,90000.0,65,0
+1999,67,Fresh Sushi Roll,430000.0,20,0
+2000,190,Crispy Pizza Pepperoni,230000.0,58,0
