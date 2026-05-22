@@ -1,4 +1,64 @@
 
+theo như mô tả dự án FoodDelivery, hãy xác định cho t biết các đối tượng chính trong dự án
+
+Dựa trên mô tả dự án Food Delivery Network Simulation, dưới đây là các đối tượng chính và yêu cầu về bộ dữ liệu của dự án:
+1. Các đối tượng chính (Entities)
+Theo tài liệu, hệ thống bao gồm 8 đối tượng dữ liệu chính được lưu trữ dưới dạng file CSV
+:
+Customer (Khách hàng): Thông tin người dùng đặt món.
+Restaurant (Nhà hàng): Thông tin các địa điểm cung cấp đồ ăn.
+MenuItem (Món ăn): Danh sách các món của từng nhà hàng (đây là đối tượng quan trọng để xử lý Race Condition về kho hàng)
+.
+Driver (Tài xế): Thông tin tài xế giao hàng (đây là đối tượng quan trọng để xử lý Race Condition về việc gán đơn)
+.
+Order (Đơn hàng): Thông tin tổng quát của một đơn đặt hàng (đối tượng quan trọng để xử lý việc Double Assignment)
+.
+OrderItem (Chi tiết đơn hàng): Các món ăn cụ thể trong một đơn hàng.
+DeliveryRoute (Lộ trình giao hàng): Dữ liệu về việc di chuyển và quãng đường.
+SimulationRun (Lịch sử mô phỏng): Lưu trữ kết quả của các lần chạy mô phỏng hệ thống.
+Lưu ý: Các đối tượng MenuItem, Driver, và Order bắt buộc phải có thuộc tính version để phục vụ cho cơ chế Optimistic Locking nhằm ngăn chặn xung đột dữ liệu
+.
+
+--------------------------------------------------------------------------------
+2. Yêu cầu bộ dữ liệu (Dataset)
+Để đáp ứng yêu cầu dự án (tổng số dòng ≥ 10.000 dòng và cụ thể hơn là ≥ 18.000 dòng để đạt điểm tối đa), bộ dữ liệu của bạn nên được phân bổ như sau
+:
+Tên file CSV
+Số dòng tối thiểu
+Mô tả dữ liệu
+customers.csv
+≥ 2.000
+ID, tên, tọa độ...
+restaurants.csv
+≥ 200
+ID, tên nhà hàng, địa chỉ...
+menu_items.csv
+≥ 2.000
+ID, restaurantId, giá, stockQty, version...
+drivers.csv
+≥ 500
+ID, tên, trạng thái (AVAILABLE/BUSY), version...
+orders.csv
+≥ 3.000
+ID, customerId, status, version...
+order_items.csv
+≥ 9.000
+Chi tiết từng món trong 3.000 đơn hàng trên.
+delivery_routes.csv
+≥ 2.000
+Dữ liệu về khoảng cách/tọa độ.
+Tổng cộng
+≥ 18.700
+Vượt xa mức tối thiểu 10.000 dòng yêu cầu
+.
+Vì việc tạo trực tiếp 10.000 dòng dữ liệu ngay trong cửa sổ chat này sẽ rất dài và khó theo dõi, tôi có thể hỗ trợ bạn bằng cách tạo một Báo cáo tùy chỉnh (Tailored Report) chi tiết. Báo cáo này sẽ bao gồm:
+Cấu trúc chi tiết (Schema) cho từng file CSV (các cột cần có).
+Mẫu dữ liệu thực tế cho từng đối tượng.
+Gợi ý thuật toán/Code mẫu (Java) để bạn tự động sinh ra hàng chục nghìn dòng dữ liệu ngẫu nhiên nhưng vẫn đảm bảo tính logic (ví dụ: order_items phải tham chiếu đúng orderId đang tồn tại).
+Bạn có muốn tôi tạo bản báo cáo chi tiết này để hỗ trợ việc làm dự án không?
+
+
+
 tạo bộ dữ liệu để add vào database SQL:
 
 
