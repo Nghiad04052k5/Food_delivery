@@ -1,201 +1,201 @@
-id,name,address,rating
-1,Crazy Bistro Saigon,"79 Le Loi Street, District 9",4.4
-2,Royal Kitchen Bar,"22 Pasteur Street, District 5",4.6
-3,Sweet Palace Zone,"194 Tran Hung Dao Street, District 10",4.3
-4,Green Lab Express,"106 Dien Bien Phu Street, District 4",4.7
-5,Red Corner Table,"142 Hai Ba Trung Street, District 1",4.1
-6,Happy Palace Bar,"267 Nguyen Hue Street, District 12",4.9
-7,Red Eats Table,"209 Dien Bien Phu Street, District 8",4.5
-8,Happy Bistro Saigon,"171 Nguyen Hue Street, District 9",4.0
-9,Red Kitchen Express,"227 Hai Ba Trung Street, District 10",4.6
-10,Royal Eats Saigon,"218 Le Loi Street, District 9",4.3
-11,Urban Lab Spot,"169 Nguyen Hue Street, District 5",4.6
-12,Happy Kitchen Station,"302 Hai Ba Trung Street, District 7",3.8
-13,Gourmet Palace House,"95 Nam Ky Khoi Nghia Street, District 4",4.9
-14,Neon Kitchen Room,"286 Nam Ky Khoi Nghia Street, District 4",4.8
-15,Red Diner Spot,"60 Tran Hung Dao Street, District 10",4.8
-16,The Golden Hub Spot,"96 Nguyen Hue Street, District 1",4.0
-17,Red Eats Bar,"263 Le Loi Street, District 4",3.9
-18,Crazy Hub Saigon,"311 Nam Ky Khoi Nghia Street, District 10",4.9
-19,Crazy Corner Bar,"161 Le Loi Street, District 2",4.3
-20,Neon Eats Table,"101 Pasteur Street, District 3",4.8
-21,Happy Bistro House,"98 Nam Ky Khoi Nghia Street, District 8",4.9
-22,The Golden Garden Station,"72 Nguyen Hue Street, District 6",4.5
-23,Neon Grill Saigon,"41 Hai Ba Trung Street, District 5",4.7
-24,Red Bistro Saigon,"320 Tran Hung Dao Street, District 10",4.7
-25,Sweet Eats Zone,"220 Tran Hung Dao Street, District 7",3.8
-26,The Golden Hub Bar,"256 Le Loi Street, District 4",3.9
-27,Happy Lab Room,"85 Pasteur Street, District 7",3.8
-28,Royal Eats Saigon,"266 Nguyen Thi Minh Khai Street, District 4",4.8
-29,Sweet Diner Station,"256 Tran Hung Dao Street, District 2",4.1
-30,Happy Grill Room,"172 Hai Ba Trung Street, District 8",4.7
-31,Sweet Bistro Room,"288 Tran Hung Dao Street, District 9",3.9
-32,Neon Garden Saigon,"177 Dien Bien Phu Street, District 3",5.0
-33,Sweet Corner Bar,"305 Nguyen Thi Minh Khai Street, District 11",4.4
-34,Gourmet Hub Saigon,"84 Pasteur Street, District 11",4.2
-35,Neon Hub Zone,"83 Hai Ba Trung Street, District 5",4.3
-36,Happy Bistro House,"302 Le Loi Street, District 11",3.9
-37,Green Palace Express,"181 Pasteur Street, District 5",4.7
-38,Urban Hub Bar,"241 Le Loi Street, District 8",4.2
-39,Gourmet Bistro Express,"277 Cach Mang Thang Tam Street, District 2",4.7
-40,Green Garden Zone,"222 Le Loi Street, District 2",4.0
-41,Gourmet Grill Saigon,"80 Dien Bien Phu Street, District 8",4.6
-42,The Golden Garden Zone,"80 Le Duan Street, District 11",4.6
-43,The Golden Palace Bar,"293 Cach Mang Thang Tam Street, District 9",3.8
-44,Red Palace Saigon,"90 Nguyen Hue Street, District 6",4.6
-45,Crazy Hub Bar,"144 Nguyen Hue Street, District 9",4.1
-46,Urban Grill Room,"207 Nguyen Hue Street, District 9",4.3
-47,Sweet Hub Express,"324 Tran Hung Dao Street, District 12",4.5
-48,Crazy Kitchen Table,"67 Nam Ky Khoi Nghia Street, District 10",4.2
-49,Crazy Lab Room,"89 Nguyen Thi Minh Khai Street, District 3",4.9
-50,Gourmet Palace Station,"167 Le Duan Street, District 4",4.6
-51,Red Grill Table,"131 Nguyen Hue Street, District 6",5.0
-52,Neon Hub Bar,"138 Cach Mang Thang Tam Street, District 11",4.7
-53,Urban Eats Saigon,"263 Pasteur Street, District 2",4.0
-54,Green Hub Saigon,"325 Nam Ky Khoi Nghia Street, District 7",4.5
-55,Sweet Bistro Room,"162 Le Duan Street, District 3",4.3
-56,Urban Hub Table,"76 Nam Ky Khoi Nghia Street, District 12",4.3
-57,Green Garden House,"275 Cach Mang Thang Tam Street, District 2",3.8
-58,Green Garden Room,"248 Nam Ky Khoi Nghia Street, District 7",3.9
-59,Royal Lab Bar,"181 Nguyen Hue Street, District 12",4.7
-60,Green Hub Room,"235 Tran Hung Dao Street, District 1",4.2
-61,Urban Palace Bar,"100 Dien Bien Phu Street, District 4",4.3
-62,Crazy Grill Station,"355 Hai Ba Trung Street, District 10",4.9
-63,Sweet Kitchen Station,"144 Le Loi Street, District 4",5.0
-64,Gourmet Hub Table,"258 Nguyen Thi Minh Khai Street, District 2",4.7
-65,Royal Kitchen Table,"241 Dien Bien Phu Street, District 7",4.4
-66,Green Lab Table,"193 Nguyen Thi Minh Khai Street, District 11",5.0
-67,Royal Eats Saigon,"216 Nguyen Hue Street, District 11",4.6
-68,Green Grill Room,"323 Nguyen Thi Minh Khai Street, District 12",4.3
-69,Urban Lab Bar,"304 Pasteur Street, District 11",4.4
-70,Urban Eats Zone,"313 Cach Mang Thang Tam Street, District 10",4.7
-71,Royal Diner House,"182 Pasteur Street, District 5",4.2
-72,Royal Hub Table,"310 Tran Hung Dao Street, District 1",3.8
-73,Urban Garden House,"104 Nguyen Hue Street, District 5",4.5
-74,Happy Lab Spot,"340 Tran Hung Dao Street, District 3",5.0
-75,Urban Kitchen Zone,"91 Le Duan Street, District 7",4.1
-76,Crazy Grill Room,"80 Pasteur Street, District 8",4.6
-77,Neon Diner Bar,"177 Nguyen Hue Street, District 12",4.5
-78,Sweet Grill Saigon,"177 Hai Ba Trung Street, District 3",4.1
-79,The Golden Lab Station,"89 Dien Bien Phu Street, District 12",4.7
-80,The Golden Hub Table,"296 Nguyen Thi Minh Khai Street, District 6",4.7
-81,Urban Grill Spot,"313 Hai Ba Trung Street, District 4",4.8
-82,Gourmet Garden Room,"296 Nam Ky Khoi Nghia Street, District 1",4.1
-83,Sweet Bistro House,"323 Le Duan Street, District 8",4.1
-84,Red Eats Spot,"268 Cach Mang Thang Tam Street, District 1",4.4
-85,Red Grill Spot,"326 Le Duan Street, District 1",4.6
-86,The Golden Diner Saigon,"212 Le Loi Street, District 1",3.9
-87,Green Eats Saigon,"244 Nguyen Thi Minh Khai Street, District 12",3.9
-88,Royal Hub Spot,"229 Nam Ky Khoi Nghia Street, District 12",4.8
-89,Gourmet Lab Station,"178 Hai Ba Trung Street, District 12",4.5
-90,Sweet Diner Zone,"328 Nguyen Hue Street, District 8",4.8
-91,The Golden Palace Saigon,"128 Cach Mang Thang Tam Street, District 6",4.1
-92,Red Palace Spot,"246 Nam Ky Khoi Nghia Street, District 3",3.9
-93,Neon Diner Bar,"282 Tran Hung Dao Street, District 4",4.4
-94,The Golden Hub Room,"303 Dien Bien Phu Street, District 5",4.6
-95,The Golden Kitchen Bar,"140 Cach Mang Thang Tam Street, District 9",4.4
-96,Royal Kitchen House,"386 Cach Mang Thang Tam Street, District 11",4.0
-97,Red Garden Express,"151 Nguyen Hue Street, District 5",4.1
-98,The Golden Garden Room,"297 Dien Bien Phu Street, District 12",4.1
-99,Sweet Eats Station,"323 Cach Mang Thang Tam Street, District 10",4.2
-100,Green Bistro Station,"252 Hai Ba Trung Street, District 2",4.7
-101,Royal Corner Table,"160 Hai Ba Trung Street, District 12",4.5
-102,Neon Hub Table,"188 Nguyen Hue Street, District 6",4.8
-103,Urban Garden Express,"382 Dien Bien Phu Street, District 7",4.4
-104,Red Lab Table,"284 Le Duan Street, District 11",4.9
-105,Royal Corner Station,"356 Pasteur Street, District 11",4.1
-106,Royal Grill Table,"154 Tran Hung Dao Street, District 9",4.3
-107,Sweet Diner Station,"137 Le Duan Street, District 11",4.3
-108,Sweet Eats House,"249 Le Duan Street, District 7",4.9
-109,Royal Garden Station,"345 Hai Ba Trung Street, District 5",4.9
-110,Green Diner House,"314 Cach Mang Thang Tam Street, District 7",3.9
-111,The Golden Hub Room,"265 Le Loi Street, District 10",4.5
-112,Neon Lab Saigon,"201 Le Loi Street, District 4",4.6
-113,Royal Corner Spot,"304 Le Loi Street, District 7",4.5
-114,Sweet Hub Spot,"370 Dien Bien Phu Street, District 8",4.8
-115,Gourmet Grill Table,"312 Nguyen Hue Street, District 8",4.9
-116,Urban Hub Spot,"304 Nguyen Thi Minh Khai Street, District 1",4.3
-117,Red Diner Spot,"185 Nguyen Hue Street, District 3",4.6
-118,Crazy Kitchen House,"176 Le Duan Street, District 6",4.5
-119,Neon Garden Bar,"238 Nguyen Thi Minh Khai Street, District 2",4.1
-120,Urban Eats Zone,"382 Nguyen Hue Street, District 2",4.8
-121,Urban Eats Bar,"256 Hai Ba Trung Street, District 12",4.3
-122,The Golden Palace Express,"269 Pasteur Street, District 3",4.4
-123,Royal Palace Spot,"179 Dien Bien Phu Street, District 3",4.9
-124,Red Diner Spot,"403 Le Duan Street, District 7",4.5
-125,The Golden Hub House,"171 Nguyen Thi Minh Khai Street, District 10",3.9
-126,Red Garden Zone,"274 Cach Mang Thang Tam Street, District 6",4.7
-127,Gourmet Bistro Express,"152 Dien Bien Phu Street, District 12",4.0
-128,Red Diner Saigon,"425 Cach Mang Thang Tam Street, District 9",4.9
-129,Green Lab Saigon,"402 Hai Ba Trung Street, District 1",4.1
-130,Red Corner Express,"390 Dien Bien Phu Street, District 4",4.1
-131,The Golden Hub Bar,"255 Nguyen Thi Minh Khai Street, District 3",4.2
-132,Crazy Palace Spot,"202 Hai Ba Trung Street, District 3",4.7
-133,Neon Hub Saigon,"402 Hai Ba Trung Street, District 2",4.7
-134,Sweet Hub Saigon,"351 Le Loi Street, District 8",4.7
-135,Sweet Hub House,"160 Cach Mang Thang Tam Street, District 6",4.2
-136,Green Eats Zone,"326 Nam Ky Khoi Nghia Street, District 6",5.0
-137,Happy Palace Express,"163 Le Loi Street, District 12",4.6
-138,Neon Corner Express,"182 Le Loi Street, District 2",4.8
-139,Red Kitchen House,"164 Hai Ba Trung Street, District 8",4.4
-140,Happy Corner Room,"365 Le Loi Street, District 4",4.5
-141,Neon Garden Spot,"304 Nguyen Hue Street, District 11",4.4
-142,Gourmet Hub Express,"248 Le Loi Street, District 10",4.0
-143,Green Grill Table,"356 Dien Bien Phu Street, District 10",4.9
-144,Red Garden Station,"393 Hai Ba Trung Street, District 11",4.2
-145,Urban Corner Station,"198 Dien Bien Phu Street, District 8",4.5
-146,Red Kitchen Spot,"372 Nguyen Hue Street, District 9",4.6
-147,Green Eats Express,"193 Le Duan Street, District 7",3.9
-148,Crazy Hub Spot,"289 Nam Ky Khoi Nghia Street, District 6",4.4
-149,Red Grill Room,"280 Hai Ba Trung Street, District 6",4.1
-150,Green Lab Table,"342 Dien Bien Phu Street, District 5",3.9
-151,Sweet Diner Room,"384 Le Loi Street, District 3",3.9
-152,Red Hub Bar,"327 Hai Ba Trung Street, District 2",3.8
-153,Urban Diner Saigon,"370 Nguyen Hue Street, District 5",4.9
-154,The Golden Grill Spot,"226 Le Duan Street, District 12",4.7
-155,Sweet Kitchen Saigon,"239 Tran Hung Dao Street, District 10",4.3
-156,Neon Grill Spot,"440 Nam Ky Khoi Nghia Street, District 2",4.3
-157,Royal Diner Zone,"375 Tran Hung Dao Street, District 10",4.8
-158,Sweet Lab Express,"304 Dien Bien Phu Street, District 6",4.9
-159,Royal Eats Zone,"440 Nguyen Thi Minh Khai Street, District 5",4.1
-160,Crazy Diner Station,"302 Dien Bien Phu Street, District 2",4.2
-161,Royal Palace Station,"268 Cach Mang Thang Tam Street, District 3",4.5
-162,Crazy Hub Room,"345 Nguyen Hue Street, District 10",4.5
-163,Happy Corner House,"415 Le Duan Street, District 10",4.8
-164,The Golden Garden House,"444 Nguyen Hue Street, District 6",4.2
-165,Gourmet Garden Station,"424 Tran Hung Dao Street, District 2",4.9
-166,Red Eats Saigon,"367 Tran Hung Dao Street, District 4",4.9
-167,Urban Eats Spot,"245 Nguyen Thi Minh Khai Street, District 8",4.0
-168,Royal Grill Room,"310 Nguyen Hue Street, District 7",4.2
-169,Urban Eats Table,"323 Hai Ba Trung Street, District 7",4.7
-170,The Golden Lab Spot,"468 Tran Hung Dao Street, District 8",4.7
-171,Red Bistro Express,"254 Tran Hung Dao Street, District 4",4.1
-172,Neon Diner Table,"360 Pasteur Street, District 4",4.9
-173,Green Grill Express,"178 Cach Mang Thang Tam Street, District 12",4.4
-174,Sweet Kitchen Express,"189 Dien Bien Phu Street, District 2",3.8
-175,Green Kitchen House,"184 Cach Mang Thang Tam Street, District 12",4.9
-176,Sweet Kitchen Table,"381 Tran Hung Dao Street, District 1",4.5
-177,Green Lab Express,"300 Nam Ky Khoi Nghia Street, District 11",3.9
-178,Royal Lab Table,"330 Dien Bien Phu Street, District 7",4.0
-179,Gourmet Grill Saigon,"310 Nguyen Hue Street, District 11",4.3
-180,Royal Diner Table,"360 Nguyen Thi Minh Khai Street, District 6",4.8
-181,Happy Kitchen Station,"455 Le Loi Street, District 11",4.4
-182,Happy Eats House,"479 Nam Ky Khoi Nghia Street, District 2",4.4
-183,Red Eats Station,"376 Nguyen Thi Minh Khai Street, District 1",4.4
-184,Urban Palace Table,"422 Hai Ba Trung Street, District 8",4.2
-185,Sweet Diner Saigon,"222 Le Loi Street, District 9",4.7
-186,Happy Hub Express,"360 Pasteur Street, District 12",4.4
-187,Crazy Kitchen Room,"405 Tran Hung Dao Street, District 11",4.6
-188,Neon Lab House,"253 Pasteur Street, District 10",4.1
-189,The Golden Hub Bar,"238 Le Duan Street, District 3",4.2
-190,Neon Eats Station,"405 Hai Ba Trung Street, District 7",3.8
-191,The Golden Bistro Table,"487 Nam Ky Khoi Nghia Street, District 4",3.9
-192,Sweet Bistro Room,"271 Pasteur Street, District 8",4.6
-193,Red Grill Bar,"322 Nguyen Hue Street, District 7",4.0
-194,Red Hub House,"346 Hai Ba Trung Street, District 9",4.6
-195,Happy Diner Table,"229 Pasteur Street, District 8",4.5
-196,Red Palace Express,"217 Nam Ky Khoi Nghia Street, District 7",4.6
-197,The Golden Diner Room,"451 Pasteur Street, District 5",4.0
-198,Green Kitchen Room,"443 Nam Ky Khoi Nghia Street, District 6",4.7
-199,Green Lab Spot,"226 Nam Ky Khoi Nghia Street, District 11",4.6
-200,Neon Kitchen Bar,"241 Le Loi Street, District 10",3.8
+restaurant_id,name,address,rating
+1,Gourmet Lab Saigon,"162 Dien Bien Phu Street, District 10",4.7
+2,Sweet Corner Saigon,"160 Dien Bien Phu Street, District 4",4.5
+3,Red Diner Saigon,"291 Nguyen Thi Minh Khai Street, District 3",4.7
+4,Royal Diner Room,"103 Le Duan Street, District 5",4.7
+5,Royal Eats Express,"278 Le Duan Street, District 12",4.6
+6,Neon Palace Spot,"289 Nguyen Hue Street, District 1",4.4
+7,Red Bistro Room,"41 Dien Bien Phu Street, District 7",3.9
+8,Urban Diner Table,"92 Tran Hung Dao Street, District 6",4.9
+9,Royal Corner Express,"191 Nguyen Thi Minh Khai Street, District 10",4.3
+10,Royal Kitchen Station,"198 Nguyen Thi Minh Khai Street, District 10",4.1
+11,Red Hub Express,"196 Nguyen Hue Street, District 3",4.7
+12,Urban Corner Spot,"270 Pasteur Street, District 12",4.3
+13,Urban Lab Room,"125 Pasteur Street, District 2",4.2
+14,The Golden Grill Table,"200 Nguyen Thi Minh Khai Street, District 7",3.8
+15,Royal Hub Bar,"209 Cach Mang Thang Tam Street, District 4",4.6
+16,Neon Palace House,"116 Pasteur Street, District 9",4.8
+17,The Golden Eats Bar,"303 Le Loi Street, District 8",3.9
+18,Urban Corner Saigon,"191 Hai Ba Trung Street, District 7",4.3
+19,Sweet Diner Station,"148 Nam Ky Khoi Nghia Street, District 5",4.1
+20,Green Bistro House,"54 Hai Ba Trung Street, District 2",4.6
+21,Happy Palace Bar,"135 Tran Hung Dao Street, District 1",3.8
+22,Crazy Palace Room,"111 Nam Ky Khoi Nghia Street, District 12",5.0
+23,Happy Corner Table,"288 Hai Ba Trung Street, District 3",4.5
+24,Green Bistro Table,"57 Nguyen Thi Minh Khai Street, District 6",4.0
+25,The Golden Corner Bar,"176 Le Duan Street, District 9",4.7
+26,Sweet Bistro Saigon,"32 Tran Hung Dao Street, District 11",4.7
+27,Green Kitchen House,"69 Le Duan Street, District 2",4.2
+28,Happy Bistro Table,"195 Le Duan Street, District 7",3.9
+29,Red Kitchen Zone,"304 Pasteur Street, District 4",4.7
+30,Happy Palace Room,"316 Dien Bien Phu Street, District 7",5.0
+31,Crazy Corner Saigon,"200 Tran Hung Dao Street, District 6",4.2
+32,The Golden Palace Station,"86 Tran Hung Dao Street, District 10",4.6
+33,Green Palace Table,"140 Cach Mang Thang Tam Street, District 5",4.7
+34,Crazy Lab Express,"319 Dien Bien Phu Street, District 6",4.6
+35,Sweet Bistro Table,"105 Dien Bien Phu Street, District 2",3.9
+36,Sweet Garden Bar,"234 Tran Hung Dao Street, District 6",4.7
+37,Urban Bistro Saigon,"61 Nam Ky Khoi Nghia Street, District 1",5.0
+38,The Golden Corner Station,"100 Dien Bien Phu Street, District 8",3.9
+39,Royal Palace Room,"46 Le Duan Street, District 6",4.9
+40,Royal Garden Spot,"97 Cach Mang Thang Tam Street, District 8",4.2
+41,Neon Palace Station,"251 Tran Hung Dao Street, District 8",3.9
+42,Neon Hub Saigon,"78 Hai Ba Trung Street, District 11",4.8
+43,The Golden Grill Spot,"215 Pasteur Street, District 4",4.3
+44,Red Kitchen Spot,"75 Le Loi Street, District 4",4.8
+45,Neon Palace Spot,"266 Le Duan Street, District 1",4.8
+46,Gourmet Hub Bar,"286 Tran Hung Dao Street, District 5",4.8
+47,Gourmet Diner Zone,"254 Nguyen Thi Minh Khai Street, District 10",4.8
+48,The Golden Hub Table,"99 Pasteur Street, District 5",4.6
+49,Crazy Eats Table,"197 Nguyen Thi Minh Khai Street, District 1",4.0
+50,Urban Garden Saigon,"229 Nguyen Thi Minh Khai Street, District 3",4.7
+51,Happy Diner Saigon,"323 Le Loi Street, District 1",4.2
+52,Crazy Palace Spot,"74 Pasteur Street, District 12",4.4
+53,Urban Palace Saigon,"324 Hai Ba Trung Street, District 7",5.0
+54,Sweet Hub Bar,"79 Nam Ky Khoi Nghia Street, District 12",4.5
+55,Neon Diner Table,"307 Cach Mang Thang Tam Street, District 4",4.0
+56,Sweet Hub Room,"182 Pasteur Street, District 9",4.7
+57,Urban Lab Table,"66 Cach Mang Thang Tam Street, District 9",4.4
+58,Urban Palace Express,"347 Nguyen Hue Street, District 5",4.7
+59,Sweet Corner Station,"141 Le Loi Street, District 4",4.2
+60,Gourmet Hub Table,"311 Nam Ky Khoi Nghia Street, District 11",4.5
+61,Crazy Diner Bar,"250 Nguyen Thi Minh Khai Street, District 9",4.6
+62,Royal Kitchen House,"279 Nguyen Thi Minh Khai Street, District 10",5.0
+63,Urban Grill Room,"262 Nam Ky Khoi Nghia Street, District 5",4.4
+64,The Golden Diner Bar,"313 Le Loi Street, District 7",4.4
+65,Green Palace Table,"349 Pasteur Street, District 3",4.0
+66,Happy Bistro Room,"68 Nam Ky Khoi Nghia Street, District 2",4.2
+67,Green Lab Bar,"92 Nguyen Thi Minh Khai Street, District 6",4.0
+68,Neon Lab Zone,"315 Nguyen Hue Street, District 1",4.9
+69,Neon Garden Spot,"207 Le Loi Street, District 4",3.9
+70,Gourmet Kitchen Zone,"265 Dien Bien Phu Street, District 6",3.8
+71,The Golden Kitchen Spot,"135 Le Duan Street, District 8",4.4
+72,Neon Palace Bar,"197 Tran Hung Dao Street, District 4",4.7
+73,Crazy Palace Spot,"286 Le Duan Street, District 12",4.0
+74,Gourmet Palace Express,"94 Nguyen Thi Minh Khai Street, District 5",4.9
+75,The Golden Lab Station,"188 Dien Bien Phu Street, District 7",4.9
+76,Happy Grill Zone,"324 Pasteur Street, District 1",4.1
+77,Neon Eats Station,"282 Nam Ky Khoi Nghia Street, District 3",4.5
+78,Urban Corner Saigon,"366 Dien Bien Phu Street, District 1",4.9
+79,Gourmet Eats Station,"256 Nguyen Thi Minh Khai Street, District 6",4.2
+80,Sweet Hub Station,"108 Le Duan Street, District 3",3.8
+81,Gourmet Diner Spot,"126 Le Loi Street, District 4",4.9
+82,Happy Hub Saigon,"152 Pasteur Street, District 8",4.7
+83,Red Garden Bar,"369 Cach Mang Thang Tam Street, District 6",4.9
+84,Neon Corner Saigon,"88 Nguyen Thi Minh Khai Street, District 8",4.3
+85,Urban Grill House,"249 Nguyen Hue Street, District 8",5.0
+86,Neon Eats Bar,"350 Nguyen Hue Street, District 6",4.2
+87,Gourmet Hub Zone,"328 Dien Bien Phu Street, District 11",4.7
+88,Gourmet Lab Table,"249 Tran Hung Dao Street, District 2",4.5
+89,Crazy Garden Saigon,"271 Nguyen Hue Street, District 2",4.0
+90,Red Lab Express,"370 Tran Hung Dao Street, District 12",4.6
+91,Gourmet Lab Bar,"173 Nguyen Hue Street, District 8",4.8
+92,Crazy Palace Zone,"192 Pasteur Street, District 9",4.7
+93,Crazy Corner Table,"181 Nam Ky Khoi Nghia Street, District 11",4.0
+94,Urban Lab Spot,"195 Nguyen Thi Minh Khai Street, District 6",4.2
+95,The Golden Garden Bar,"110 Nguyen Thi Minh Khai Street, District 6",4.7
+96,Royal Bistro Saigon,"389 Tran Hung Dao Street, District 2",4.0
+97,The Golden Grill Room,"380 Hai Ba Trung Street, District 3",4.4
+98,Green Bistro Spot,"248 Nguyen Hue Street, District 12",4.0
+99,Sweet Bistro Zone,"299 Dien Bien Phu Street, District 4",4.5
+100,Urban Lab Express,"254 Le Loi Street, District 1",4.0
+101,Gourmet Corner Room,"117 Nguyen Hue Street, District 5",4.6
+102,Sweet Grill Station,"141 Cach Mang Thang Tam Street, District 5",4.8
+103,Urban Bistro Room,"271 Le Duan Street, District 4",4.5
+104,Crazy Eats Table,"315 Dien Bien Phu Street, District 6",4.9
+105,Red Grill Saigon,"242 Dien Bien Phu Street, District 2",4.2
+106,Happy Hub Saigon,"251 Pasteur Street, District 10",3.8
+107,Royal Hub Station,"361 Le Loi Street, District 12",5.0
+108,Royal Hub Room,"126 Le Loi Street, District 8",4.7
+109,Happy Eats Express,"301 Tran Hung Dao Street, District 10",4.8
+110,The Golden Corner Express,"265 Nam Ky Khoi Nghia Street, District 11",4.6
+111,Sweet Bistro Table,"216 Nam Ky Khoi Nghia Street, District 4",4.5
+112,Happy Hub Table,"402 Cach Mang Thang Tam Street, District 8",4.3
+113,Neon Corner Spot,"275 Pasteur Street, District 12",4.9
+114,Sweet Garden Zone,"209 Hai Ba Trung Street, District 7",3.8
+115,Red Diner Station,"276 Nguyen Thi Minh Khai Street, District 9",4.7
+116,Green Palace House,"248 Nguyen Hue Street, District 5",4.3
+117,Urban Diner Table,"187 Cach Mang Thang Tam Street, District 10",4.2
+118,Urban Bistro House,"333 Le Duan Street, District 11",4.2
+119,Urban Garden Express,"402 Cach Mang Thang Tam Street, District 3",4.8
+120,Gourmet Garden Saigon,"308 Dien Bien Phu Street, District 1",4.0
+121,Sweet Bistro Spot,"333 Nguyen Hue Street, District 1",4.7
+122,Happy Eats Express,"270 Tran Hung Dao Street, District 6",4.7
+123,Green Hub Bar,"214 Pasteur Street, District 10",4.8
+124,Urban Bistro Saigon,"283 Nguyen Hue Street, District 1",4.0
+125,Sweet Palace Table,"407 Nguyen Hue Street, District 12",4.0
+126,Red Corner Express,"405 Dien Bien Phu Street, District 5",3.9
+127,Sweet Grill Saigon,"297 Dien Bien Phu Street, District 5",4.4
+128,Neon Garden Express,"301 Le Loi Street, District 8",3.9
+129,Sweet Grill Station,"347 Le Loi Street, District 1",4.5
+130,Green Palace House,"180 Nam Ky Khoi Nghia Street, District 4",4.9
+131,Royal Diner Saigon,"192 Nguyen Thi Minh Khai Street, District 5",4.3
+132,Gourmet Kitchen Express,"148 Nguyen Thi Minh Khai Street, District 4",4.9
+133,Royal Eats Express,"313 Le Duan Street, District 4",4.9
+134,Green Lab Room,"354 Le Duan Street, District 6",3.8
+135,Urban Lab Station,"161 Dien Bien Phu Street, District 1",4.8
+136,Royal Grill Station,"425 Le Loi Street, District 6",4.5
+137,Crazy Kitchen Bar,"390 Nguyen Hue Street, District 11",4.9
+138,Gourmet Kitchen House,"325 Cach Mang Thang Tam Street, District 5",4.8
+139,Royal Hub Express,"290 Tran Hung Dao Street, District 11",4.5
+140,The Golden Hub Express,"370 Le Loi Street, District 9",4.3
+141,The Golden Bistro Room,"215 Dien Bien Phu Street, District 4",4.7
+142,Happy Eats Station,"375 Le Duan Street, District 2",3.8
+143,Gourmet Diner Station,"175 Le Duan Street, District 12",4.1
+144,Crazy Palace Station,"162 Nam Ky Khoi Nghia Street, District 2",4.4
+145,Royal Bistro Zone,"357 Le Duan Street, District 3",4.2
+146,Green Grill Zone,"181 Le Loi Street, District 8",4.6
+147,The Golden Garden Station,"343 Nguyen Hue Street, District 11",4.8
+148,Happy Kitchen Express,"158 Cach Mang Thang Tam Street, District 5",4.7
+149,The Golden Eats Express,"177 Nam Ky Khoi Nghia Street, District 10",4.2
+150,Royal Hub Bar,"404 Nguyen Thi Minh Khai Street, District 1",4.0
+151,Royal Bistro Saigon,"258 Dien Bien Phu Street, District 6",4.6
+152,The Golden Palace Saigon,"289 Hai Ba Trung Street, District 6",4.5
+153,Red Hub Station,"189 Tran Hung Dao Street, District 3",3.9
+154,Neon Diner Bar,"258 Le Loi Street, District 2",4.2
+155,Green Hub Spot,"193 Le Loi Street, District 2",4.3
+156,Happy Eats Express,"187 Le Loi Street, District 8",4.5
+157,Sweet Corner Table,"365 Pasteur Street, District 2",4.9
+158,Urban Hub Saigon,"386 Le Duan Street, District 6",4.1
+159,Royal Palace Saigon,"353 Le Loi Street, District 2",5.0
+160,Red Palace Room,"387 Le Duan Street, District 3",4.0
+161,Crazy Lab Room,"425 Nguyen Thi Minh Khai Street, District 4",4.3
+162,Urban Lab Express,"411 Nguyen Thi Minh Khai Street, District 10",4.5
+163,Sweet Eats Saigon,"307 Le Loi Street, District 7",3.8
+164,Royal Eats House,"276 Nguyen Hue Street, District 5",4.0
+165,The Golden Kitchen Room,"283 Nguyen Hue Street, District 5",4.6
+166,Green Palace House,"399 Le Duan Street, District 6",4.5
+167,Gourmet Diner Saigon,"253 Cach Mang Thang Tam Street, District 9",4.1
+168,Green Diner Zone,"322 Dien Bien Phu Street, District 8",3.9
+169,Crazy Diner Station,"299 Le Loi Street, District 1",4.6
+170,The Golden Palace Bar,"259 Pasteur Street, District 1",4.1
+171,Green Diner Saigon,"340 Nam Ky Khoi Nghia Street, District 11",4.8
+172,Royal Lab Room,"334 Le Duan Street, District 12",3.8
+173,Red Eats Spot,"305 Le Duan Street, District 11",4.8
+174,Urban Bistro Table,"294 Nguyen Hue Street, District 4",4.1
+175,The Golden Eats Saigon,"451 Le Loi Street, District 7",4.3
+176,Green Kitchen Room,"384 Hai Ba Trung Street, District 11",4.5
+177,Red Diner Table,"377 Pasteur Street, District 12",4.4
+178,Sweet Kitchen Zone,"189 Pasteur Street, District 11",4.5
+179,Sweet Corner Bar,"348 Pasteur Street, District 6",4.7
+180,The Golden Corner Express,"340 Dien Bien Phu Street, District 3",4.4
+181,The Golden Lab House,"284 Tran Hung Dao Street, District 4",4.2
+182,Sweet Palace Express,"410 Hai Ba Trung Street, District 1",4.0
+183,The Golden Hub Table,"432 Nam Ky Khoi Nghia Street, District 11",4.8
+184,The Golden Grill Saigon,"316 Tran Hung Dao Street, District 5",4.9
+185,Red Eats Spot,"335 Le Duan Street, District 2",4.0
+186,Gourmet Eats Saigon,"311 Pasteur Street, District 11",4.3
+187,The Golden Garden Saigon,"412 Cach Mang Thang Tam Street, District 12",5.0
+188,The Golden Diner Spot,"357 Cach Mang Thang Tam Street, District 8",4.1
+189,Urban Eats Express,"421 Nguyen Thi Minh Khai Street, District 7",4.8
+190,Royal Eats Bar,"419 Tran Hung Dao Street, District 5",4.6
+191,Royal Bistro House,"321 Hai Ba Trung Street, District 9",3.9
+192,Sweet Diner Express,"272 Nguyen Hue Street, District 9",4.8
+193,Neon Palace Zone,"417 Hai Ba Trung Street, District 6",4.3
+194,Red Corner Bar,"263 Nguyen Thi Minh Khai Street, District 10",4.9
+195,The Golden Lab Spot,"294 Nguyen Thi Minh Khai Street, District 8",4.2
+196,Neon Eats Express,"470 Hai Ba Trung Street, District 7",4.7
+197,Royal Palace Bar,"372 Nguyen Thi Minh Khai Street, District 12",4.8
+198,Urban Grill Bar,"406 Tran Hung Dao Street, District 3",4.5
+199,Gourmet Lab Express,"244 Nguyen Hue Street, District 7",4.3
+200,Urban Grill Station,"282 Nguyen Thi Minh Khai Street, District 12",4.7
