@@ -1,2001 +1,1501 @@
 id,restaurant_id,item_name,price,stock_qty,version
-1,54,Baked Pizza Pepperoni,230000.0,85,0
-2,66,Fresh Sushi Roll,180000.0,77,0
-3,78,Cheesy Chicken Wings,360000.0,79,0
-4,166,Sour Smoothie,270000.0,96,0
-5,108,Sweet Steak,60000.0,51,0
-6,116,Crispy Tacos,290000.0,48,0
-7,160,Baked Fried Rice,300000.0,35,0
-8,18,Grilled Tacos,80000.0,84,0
-9,190,Crispy Waffles,440000.0,41,0
-10,31,Honey Pizza Pepperoni,360000.0,24,0
-11,199,Grilled Waffles,110000.0,93,0
-12,134,Grilled Noodle Soup,450000.0,72,0
-13,17,Honey Sushi Roll,240000.0,92,0
-14,78,Smoked Fried Rice,330000.0,62,0
-15,90,Baked Steak,190000.0,22,0
-16,161,Smoked Beef Burger,250000.0,66,0
-17,15,Sweet Waffles,420000.0,100,0
-18,31,Grilled Chicken Wings,430000.0,76,0
-19,156,Fresh Noodle Soup,270000.0,42,0
-20,180,Baked Sushi Roll,400000.0,94,0
-21,158,Spicy Tacos,450000.0,57,0
-22,69,Cheesy Pizza Pepperoni,460000.0,93,0
-23,73,Crispy Pizza Pepperoni,290000.0,99,0
-24,34,Sweet Salad Caesar,430000.0,72,0
-25,25,Honey Chicken Wings,80000.0,28,0
-26,34,Sweet Tacos,320000.0,47,0
-27,82,Grilled Pasta Carbonara,60000.0,84,0
-28,161,Fresh Tacos,70000.0,69,0
-29,135,Smoked Waffles,260000.0,32,0
-30,140,Sweet Fried Rice,390000.0,35,0
-31,57,Sweet Noodle Soup,350000.0,75,0
-32,178,Crispy Smoothie,230000.0,40,0
-33,80,Sweet Pizza Pepperoni,210000.0,32,0
-34,155,Honey Smoothie,260000.0,21,0
-35,110,Sweet Salad Caesar,370000.0,34,0
-36,192,Sweet Pizza Pepperoni,320000.0,59,0
-37,94,Fresh Noodle Soup,90000.0,42,0
-38,108,Spicy Tacos,490000.0,94,0
-39,24,Sour Salad Caesar,190000.0,96,0
-40,120,Sweet Waffles,260000.0,84,0
-41,24,Honey Salad Caesar,160000.0,48,0
-42,5,Sweet Beef Burger,360000.0,33,0
-43,153,Baked Beef Burger,260000.0,68,0
-44,53,Sour Sushi Roll,100000.0,31,0
-45,122,Garlic Salad Caesar,420000.0,35,0
-46,109,Cheesy Steak,370000.0,49,0
-47,200,Sour Beef Burger,360000.0,32,0
-48,142,Garlic Fried Rice,420000.0,100,0
-49,49,Grilled Smoothie,180000.0,42,0
-50,15,Crispy Tacos,110000.0,65,0
-51,82,Sour Noodle Soup,400000.0,82,0
-52,143,Cheesy Pasta Carbonara,180000.0,52,0
-53,52,Crispy Steak,300000.0,70,0
-54,123,Grilled Smoothie,210000.0,75,0
-55,116,Fresh Beef Burger,410000.0,44,0
-56,160,Fresh Salad Caesar,50000.0,39,0
-57,70,Cheesy Fried Rice,420000.0,92,0
-58,184,Spicy Tacos,270000.0,94,0
-59,24,Grilled Noodle Soup,320000.0,94,0
-60,69,Smoked Chicken Wings,150000.0,42,0
-61,62,Sour Sushi Roll,200000.0,93,0
-62,138,Grilled Smoothie,130000.0,62,0
-63,184,Sweet Steak,210000.0,81,0
-64,92,Crispy Pasta Carbonara,370000.0,31,0
-65,55,Garlic Pasta Carbonara,70000.0,92,0
-66,116,Baked Steak,440000.0,47,0
-67,159,Baked Beef Burger,410000.0,68,0
-68,84,Honey Waffles,370000.0,79,0
-69,68,Baked Fried Rice,300000.0,98,0
-70,114,Sweet Salad Caesar,60000.0,66,0
-71,35,Crispy Fried Rice,170000.0,44,0
-72,96,Cheesy Fried Rice,420000.0,30,0
-73,172,Grilled Pizza Pepperoni,350000.0,67,0
-74,61,Crispy Chicken Wings,90000.0,24,0
-75,79,Crispy Fried Rice,230000.0,96,0
-76,71,Garlic Pizza Pepperoni,450000.0,92,0
-77,133,Sweet Smoothie,90000.0,82,0
-78,195,Crispy Fried Rice,220000.0,31,0
-79,134,Fresh Pasta Carbonara,350000.0,26,0
-80,166,Smoked Sushi Roll,480000.0,37,0
-81,156,Garlic Steak,140000.0,94,0
-82,138,Sour Steak,490000.0,81,0
-83,51,Smoked Steak,380000.0,23,0
-84,5,Baked Waffles,220000.0,21,0
-85,104,Baked Fried Rice,330000.0,77,0
-86,168,Garlic Waffles,480000.0,52,0
-87,60,Sour Tacos,450000.0,71,0
-88,155,Sweet Beef Burger,120000.0,85,0
-89,191,Sweet Smoothie,230000.0,40,0
-90,2,Smoked Sushi Roll,450000.0,38,0
-91,117,Fresh Pizza Pepperoni,250000.0,20,0
-92,127,Sour Steak,160000.0,75,0
-93,65,Honey Fried Rice,150000.0,75,0
-94,192,Honey Beef Burger,380000.0,84,0
-95,73,Fresh Sushi Roll,60000.0,29,0
-96,19,Fresh Smoothie,70000.0,22,0
-97,169,Spicy Waffles,70000.0,20,0
-98,121,Fresh Pizza Pepperoni,180000.0,43,0
-99,60,Honey Pizza Pepperoni,230000.0,48,0
-100,142,Cheesy Noodle Soup,420000.0,97,0
-101,163,Baked Noodle Soup,400000.0,70,0
-102,144,Spicy Beef Burger,490000.0,47,0
-103,84,Garlic Steak,460000.0,88,0
-104,38,Fresh Fried Rice,50000.0,22,0
-105,15,Cheesy Chicken Wings,50000.0,29,0
-106,10,Honey Beef Burger,210000.0,75,0
-107,111,Grilled Fried Rice,460000.0,42,0
-108,40,Garlic Pasta Carbonara,220000.0,53,0
-109,173,Baked Tacos,240000.0,31,0
-110,138,Garlic Salad Caesar,310000.0,85,0
-111,191,Garlic Noodle Soup,330000.0,46,0
-112,62,Honey Pasta Carbonara,220000.0,40,0
-113,82,Sour Noodle Soup,370000.0,71,0
-114,163,Honey Fried Rice,370000.0,72,0
-115,153,Baked Chicken Wings,140000.0,74,0
-116,196,Garlic Pizza Pepperoni,460000.0,49,0
-117,103,Baked Pasta Carbonara,200000.0,45,0
-118,145,Sour Pizza Pepperoni,350000.0,64,0
-119,100,Fresh Pizza Pepperoni,180000.0,37,0
-120,198,Fresh Tacos,80000.0,80,0
-121,73,Baked Steak,400000.0,61,0
-122,156,Crispy Beef Burger,230000.0,98,0
-123,45,Sweet Fried Rice,380000.0,52,0
-124,57,Garlic Chicken Wings,160000.0,52,0
-125,11,Fresh Tacos,440000.0,92,0
-126,130,Baked Smoothie,280000.0,43,0
-127,71,Sour Noodle Soup,240000.0,77,0
-128,164,Sour Sushi Roll,340000.0,43,0
-129,24,Fresh Tacos,250000.0,54,0
-130,160,Grilled Noodle Soup,160000.0,66,0
-131,144,Cheesy Tacos,150000.0,20,0
-132,2,Spicy Waffles,100000.0,26,0
-133,94,Garlic Salad Caesar,470000.0,44,0
-134,44,Grilled Waffles,390000.0,97,0
-135,184,Fresh Fried Rice,200000.0,31,0
-136,39,Sour Pasta Carbonara,470000.0,52,0
-137,21,Honey Smoothie,110000.0,65,0
-138,17,Sour Pizza Pepperoni,480000.0,86,0
-139,36,Smoked Tacos,480000.0,77,0
-140,52,Crispy Noodle Soup,470000.0,100,0
-141,54,Cheesy Waffles,150000.0,46,0
-142,64,Baked Tacos,350000.0,55,0
-143,200,Spicy Salad Caesar,240000.0,71,0
-144,129,Fresh Salad Caesar,280000.0,72,0
-145,55,Crispy Chicken Wings,240000.0,38,0
-146,23,Smoked Waffles,60000.0,52,0
-147,17,Honey Pizza Pepperoni,250000.0,50,0
-148,38,Sour Smoothie,160000.0,100,0
-149,115,Sour Noodle Soup,180000.0,76,0
-150,113,Sour Beef Burger,300000.0,44,0
-151,8,Fresh Beef Burger,460000.0,96,0
-152,141,Sour Smoothie,410000.0,74,0
-153,48,Baked Sushi Roll,230000.0,25,0
-154,18,Honey Pizza Pepperoni,340000.0,58,0
-155,140,Honey Sushi Roll,130000.0,73,0
-156,184,Cheesy Smoothie,300000.0,51,0
-157,56,Sour Beef Burger,210000.0,81,0
-158,180,Baked Sushi Roll,310000.0,76,0
-159,119,Baked Smoothie,80000.0,25,0
-160,58,Sour Beef Burger,220000.0,23,0
-161,66,Crispy Pasta Carbonara,120000.0,39,0
-162,90,Garlic Chicken Wings,420000.0,31,0
-163,89,Baked Steak,80000.0,39,0
-164,140,Sweet Chicken Wings,270000.0,86,0
-165,97,Sour Pasta Carbonara,140000.0,47,0
-166,49,Crispy Noodle Soup,330000.0,98,0
-167,123,Cheesy Chicken Wings,140000.0,96,0
-168,182,Cheesy Chicken Wings,400000.0,39,0
-169,122,Sweet Fried Rice,100000.0,23,0
-170,110,Fresh Noodle Soup,470000.0,23,0
-171,74,Garlic Pizza Pepperoni,200000.0,38,0
-172,103,Sweet Sushi Roll,160000.0,34,0
-173,5,Honey Tacos,320000.0,48,0
-174,183,Sour Chicken Wings,450000.0,81,0
-175,36,Crispy Tacos,130000.0,21,0
-176,99,Sour Fried Rice,80000.0,91,0
-177,89,Honey Waffles,430000.0,94,0
-178,122,Grilled Noodle Soup,460000.0,97,0
-179,111,Honey Steak,110000.0,49,0
-180,192,Crispy Salad Caesar,210000.0,75,0
-181,122,Fresh Noodle Soup,130000.0,97,0
-182,84,Grilled Steak,490000.0,69,0
-183,6,Sweet Salad Caesar,210000.0,75,0
-184,133,Grilled Pasta Carbonara,450000.0,42,0
-185,87,Sour Salad Caesar,250000.0,71,0
-186,183,Cheesy Smoothie,450000.0,82,0
-187,5,Spicy Steak,490000.0,72,0
-188,72,Crispy Steak,140000.0,40,0
-189,37,Sweet Tacos,480000.0,39,0
-190,114,Honey Steak,480000.0,32,0
-191,93,Garlic Smoothie,260000.0,84,0
-192,49,Baked Chicken Wings,60000.0,76,0
-193,72,Sour Tacos,170000.0,70,0
-194,150,Honey Waffles,490000.0,76,0
-195,34,Crispy Fried Rice,170000.0,34,0
-196,24,Garlic Tacos,400000.0,95,0
-197,81,Baked Sushi Roll,350000.0,64,0
-198,3,Crispy Chicken Wings,370000.0,74,0
-199,96,Grilled Noodle Soup,260000.0,22,0
-200,79,Garlic Pasta Carbonara,390000.0,26,0
-201,58,Baked Steak,340000.0,33,0
-202,172,Cheesy Tacos,200000.0,70,0
-203,29,Sweet Steak,240000.0,31,0
-204,109,Smoked Beef Burger,250000.0,25,0
-205,116,Spicy Pasta Carbonara,110000.0,69,0
-206,53,Sweet Smoothie,250000.0,96,0
-207,200,Fresh Salad Caesar,410000.0,51,0
-208,137,Garlic Noodle Soup,320000.0,83,0
-209,42,Crispy Pizza Pepperoni,430000.0,35,0
-210,31,Baked Waffles,270000.0,30,0
-211,200,Garlic Pasta Carbonara,120000.0,35,0
-212,110,Grilled Beef Burger,270000.0,39,0
-213,32,Fresh Pasta Carbonara,90000.0,40,0
-214,110,Smoked Steak,130000.0,24,0
-215,159,Grilled Sushi Roll,130000.0,44,0
-216,89,Cheesy Beef Burger,280000.0,55,0
-217,4,Baked Beef Burger,460000.0,90,0
-218,63,Honey Waffles,460000.0,42,0
-219,198,Honey Sushi Roll,220000.0,43,0
-220,44,Sour Waffles,110000.0,23,0
-221,181,Baked Sushi Roll,100000.0,99,0
-222,185,Cheesy Salad Caesar,90000.0,20,0
-223,116,Sweet Noodle Soup,400000.0,82,0
-224,190,Garlic Fried Rice,270000.0,79,0
-225,137,Smoked Salad Caesar,60000.0,79,0
-226,78,Baked Salad Caesar,330000.0,28,0
-227,87,Garlic Pasta Carbonara,190000.0,32,0
-228,153,Grilled Beef Burger,100000.0,41,0
-229,145,Smoked Pasta Carbonara,160000.0,48,0
-230,6,Sweet Beef Burger,420000.0,87,0
-231,187,Spicy Fried Rice,270000.0,68,0
-232,103,Crispy Salad Caesar,80000.0,46,0
-233,56,Sour Pizza Pepperoni,220000.0,29,0
-234,160,Garlic Pasta Carbonara,80000.0,78,0
-235,81,Garlic Fried Rice,80000.0,28,0
-236,154,Smoked Salad Caesar,70000.0,27,0
-237,105,Honey Salad Caesar,210000.0,55,0
-238,109,Honey Pizza Pepperoni,440000.0,73,0
-239,167,Sweet Waffles,200000.0,37,0
-240,46,Cheesy Tacos,250000.0,58,0
-241,79,Baked Smoothie,440000.0,36,0
-242,52,Honey Waffles,300000.0,49,0
-243,14,Baked Pasta Carbonara,220000.0,47,0
-244,133,Fresh Smoothie,60000.0,75,0
-245,7,Garlic Sushi Roll,240000.0,41,0
-246,35,Sweet Salad Caesar,380000.0,43,0
-247,50,Fresh Fried Rice,440000.0,50,0
-248,14,Fresh Salad Caesar,380000.0,28,0
-249,121,Honey Chicken Wings,150000.0,67,0
-250,128,Honey Beef Burger,120000.0,41,0
-251,186,Baked Beef Burger,390000.0,39,0
-252,154,Spicy Fried Rice,60000.0,49,0
-253,124,Fresh Steak,70000.0,95,0
-254,156,Sour Pizza Pepperoni,230000.0,95,0
-255,120,Baked Salad Caesar,180000.0,98,0
-256,4,Baked Noodle Soup,120000.0,60,0
-257,136,Sour Fried Rice,480000.0,41,0
-258,39,Honey Noodle Soup,370000.0,28,0
-259,28,Honey Tacos,350000.0,86,0
-260,93,Honey Noodle Soup,380000.0,35,0
-261,93,Garlic Steak,420000.0,97,0
-262,86,Sour Pizza Pepperoni,450000.0,54,0
-263,169,Cheesy Steak,460000.0,21,0
-264,161,Garlic Salad Caesar,130000.0,74,0
-265,33,Garlic Pasta Carbonara,210000.0,45,0
-266,118,Grilled Salad Caesar,440000.0,22,0
-267,106,Spicy Chicken Wings,340000.0,27,0
-268,57,Honey Pasta Carbonara,350000.0,44,0
-269,96,Sweet Waffles,260000.0,31,0
-270,84,Grilled Tacos,300000.0,44,0
-271,62,Garlic Steak,270000.0,97,0
-272,70,Garlic Pizza Pepperoni,140000.0,62,0
-273,108,Fresh Chicken Wings,470000.0,69,0
-274,130,Fresh Fried Rice,330000.0,97,0
-275,150,Honey Pizza Pepperoni,340000.0,32,0
-276,143,Cheesy Tacos,70000.0,86,0
-277,37,Grilled Beef Burger,60000.0,40,0
-278,55,Smoked Noodle Soup,190000.0,70,0
-279,128,Honey Waffles,400000.0,50,0
-280,55,Spicy Salad Caesar,60000.0,41,0
-281,59,Baked Salad Caesar,240000.0,76,0
-282,28,Spicy Pizza Pepperoni,410000.0,89,0
-283,69,Honey Sushi Roll,130000.0,94,0
-284,117,Honey Sushi Roll,180000.0,51,0
-285,127,Honey Chicken Wings,190000.0,20,0
-286,118,Sweet Salad Caesar,80000.0,100,0
-287,118,Spicy Pasta Carbonara,410000.0,60,0
-288,144,Sweet Salad Caesar,220000.0,95,0
-289,8,Grilled Pasta Carbonara,60000.0,94,0
-290,85,Smoked Noodle Soup,100000.0,67,0
-291,69,Spicy Sushi Roll,330000.0,80,0
-292,190,Smoked Tacos,230000.0,30,0
-293,137,Smoked Beef Burger,50000.0,57,0
-294,199,Baked Chicken Wings,100000.0,83,0
-295,30,Crispy Pasta Carbonara,110000.0,74,0
-296,58,Fresh Salad Caesar,440000.0,55,0
-297,89,Honey Tacos,200000.0,72,0
-298,81,Sweet Sushi Roll,400000.0,82,0
-299,12,Smoked Fried Rice,60000.0,31,0
-300,160,Cheesy Beef Burger,430000.0,21,0
-301,179,Grilled Fried Rice,310000.0,96,0
-302,52,Sweet Beef Burger,460000.0,82,0
-303,96,Grilled Pasta Carbonara,470000.0,56,0
-304,14,Spicy Pasta Carbonara,280000.0,96,0
-305,21,Sour Steak,130000.0,37,0
-306,48,Sweet Noodle Soup,320000.0,82,0
-307,149,Fresh Sushi Roll,490000.0,28,0
-308,80,Sweet Sushi Roll,190000.0,21,0
-309,165,Grilled Tacos,90000.0,95,0
-310,39,Cheesy Fried Rice,250000.0,64,0
-311,136,Fresh Fried Rice,50000.0,75,0
-312,88,Fresh Sushi Roll,330000.0,48,0
-313,182,Sweet Noodle Soup,270000.0,46,0
-314,64,Cheesy Smoothie,250000.0,53,0
-315,123,Sweet Fried Rice,420000.0,37,0
-316,200,Crispy Pizza Pepperoni,100000.0,63,0
-317,152,Cheesy Steak,50000.0,65,0
-318,165,Smoked Steak,380000.0,20,0
-319,34,Honey Fried Rice,90000.0,51,0
-320,45,Cheesy Smoothie,340000.0,80,0
-321,78,Baked Waffles,380000.0,85,0
-322,107,Garlic Waffles,430000.0,75,0
-323,109,Cheesy Chicken Wings,160000.0,77,0
-324,2,Garlic Waffles,130000.0,58,0
-325,186,Spicy Smoothie,450000.0,21,0
-326,46,Cheesy Waffles,470000.0,34,0
-327,85,Sour Fried Rice,270000.0,61,0
-328,125,Sweet Sushi Roll,140000.0,41,0
-329,100,Fresh Waffles,370000.0,89,0
-330,103,Crispy Pizza Pepperoni,450000.0,20,0
-331,75,Cheesy Beef Burger,300000.0,88,0
-332,153,Crispy Steak,100000.0,21,0
-333,120,Garlic Pizza Pepperoni,70000.0,76,0
-334,11,Sour Fried Rice,80000.0,23,0
-335,34,Garlic Pizza Pepperoni,300000.0,41,0
-336,26,Crispy Noodle Soup,60000.0,25,0
-337,29,Smoked Pizza Pepperoni,270000.0,46,0
-338,136,Smoked Steak,260000.0,64,0
-339,13,Spicy Waffles,90000.0,48,0
-340,54,Crispy Fried Rice,160000.0,55,0
-341,155,Grilled Beef Burger,250000.0,72,0
-342,22,Sour Chicken Wings,110000.0,41,0
-343,108,Spicy Fried Rice,400000.0,61,0
-344,70,Spicy Smoothie,290000.0,62,0
-345,173,Baked Steak,280000.0,95,0
-346,95,Sweet Salad Caesar,340000.0,55,0
-347,200,Honey Pizza Pepperoni,220000.0,39,0
-348,89,Sweet Fried Rice,180000.0,20,0
-349,157,Garlic Beef Burger,70000.0,60,0
-350,140,Sweet Tacos,130000.0,24,0
-351,143,Spicy Fried Rice,470000.0,62,0
-352,160,Baked Chicken Wings,370000.0,41,0
-353,118,Cheesy Salad Caesar,90000.0,62,0
-354,54,Smoked Pizza Pepperoni,250000.0,100,0
-355,34,Garlic Fried Rice,430000.0,84,0
-356,139,Baked Beef Burger,320000.0,78,0
-357,123,Spicy Waffles,230000.0,82,0
-358,70,Garlic Pizza Pepperoni,470000.0,81,0
-359,34,Baked Smoothie,140000.0,95,0
-360,15,Sour Pasta Carbonara,480000.0,88,0
-361,133,Garlic Salad Caesar,170000.0,35,0
-362,113,Sour Chicken Wings,220000.0,80,0
-363,43,Cheesy Pasta Carbonara,130000.0,38,0
-364,98,Grilled Salad Caesar,390000.0,88,0
-365,114,Spicy Chicken Wings,470000.0,33,0
-366,83,Smoked Steak,290000.0,35,0
-367,175,Spicy Tacos,170000.0,51,0
-368,36,Grilled Sushi Roll,340000.0,24,0
-369,186,Sweet Smoothie,260000.0,72,0
-370,190,Spicy Fried Rice,420000.0,68,0
-371,68,Sweet Smoothie,470000.0,83,0
-372,116,Sour Steak,160000.0,87,0
-373,68,Fresh Fried Rice,460000.0,62,0
-374,47,Garlic Steak,70000.0,62,0
-375,56,Garlic Salad Caesar,360000.0,95,0
-376,148,Sweet Sushi Roll,90000.0,23,0
-377,157,Sour Pasta Carbonara,390000.0,49,0
-378,94,Crispy Noodle Soup,430000.0,38,0
-379,9,Spicy Pizza Pepperoni,290000.0,32,0
-380,82,Garlic Tacos,350000.0,25,0
-381,170,Honey Smoothie,440000.0,42,0
-382,200,Spicy Pizza Pepperoni,180000.0,31,0
-383,113,Sour Fried Rice,100000.0,25,0
-384,28,Spicy Chicken Wings,370000.0,96,0
-385,124,Smoked Waffles,350000.0,51,0
-386,178,Cheesy Pasta Carbonara,90000.0,56,0
-387,167,Crispy Tacos,310000.0,58,0
-388,22,Fresh Chicken Wings,430000.0,47,0
-389,16,Honey Sushi Roll,440000.0,31,0
-390,123,Sour Steak,370000.0,64,0
-391,171,Cheesy Waffles,450000.0,24,0
-392,163,Crispy Steak,100000.0,83,0
-393,89,Crispy Beef Burger,450000.0,94,0
-394,46,Sweet Fried Rice,180000.0,36,0
-395,120,Honey Sushi Roll,370000.0,98,0
-396,45,Honey Pasta Carbonara,110000.0,36,0
-397,38,Garlic Pasta Carbonara,400000.0,38,0
-398,18,Fresh Waffles,330000.0,74,0
-399,4,Grilled Fried Rice,240000.0,35,0
-400,91,Crispy Waffles,170000.0,42,0
-401,142,Crispy Noodle Soup,130000.0,67,0
-402,16,Fresh Steak,450000.0,94,0
-403,100,Smoked Steak,220000.0,81,0
-404,22,Baked Fried Rice,160000.0,28,0
-405,187,Sour Tacos,430000.0,41,0
-406,80,Crispy Steak,220000.0,37,0
-407,121,Spicy Noodle Soup,350000.0,93,0
-408,39,Garlic Chicken Wings,170000.0,71,0
-409,155,Honey Pizza Pepperoni,400000.0,60,0
-410,25,Fresh Fried Rice,360000.0,38,0
-411,200,Garlic Tacos,180000.0,81,0
-412,136,Cheesy Pasta Carbonara,480000.0,34,0
-413,49,Smoked Chicken Wings,210000.0,77,0
-414,99,Spicy Sushi Roll,100000.0,80,0
-415,70,Sour Smoothie,340000.0,49,0
-416,93,Sour Chicken Wings,350000.0,96,0
-417,163,Crispy Tacos,190000.0,46,0
-418,138,Honey Tacos,110000.0,32,0
-419,168,Garlic Smoothie,430000.0,47,0
-420,23,Honey Chicken Wings,300000.0,95,0
-421,78,Garlic Noodle Soup,330000.0,89,0
-422,113,Honey Sushi Roll,240000.0,38,0
-423,97,Fresh Tacos,150000.0,52,0
-424,37,Crispy Chicken Wings,460000.0,25,0
-425,172,Cheesy Pizza Pepperoni,390000.0,99,0
-426,16,Garlic Fried Rice,480000.0,54,0
-427,78,Sweet Salad Caesar,130000.0,31,0
-428,167,Cheesy Waffles,300000.0,22,0
-429,23,Garlic Steak,270000.0,40,0
-430,43,Smoked Beef Burger,190000.0,59,0
-431,172,Sour Tacos,150000.0,80,0
-432,184,Fresh Smoothie,460000.0,28,0
-433,126,Sour Beef Burger,220000.0,47,0
-434,144,Grilled Tacos,490000.0,31,0
-435,83,Baked Chicken Wings,220000.0,53,0
-436,71,Sweet Steak,110000.0,36,0
-437,44,Sour Tacos,350000.0,32,0
-438,181,Crispy Salad Caesar,160000.0,86,0
-439,58,Crispy Tacos,350000.0,57,0
-440,178,Baked Salad Caesar,110000.0,68,0
-441,96,Grilled Tacos,490000.0,21,0
-442,123,Grilled Noodle Soup,70000.0,27,0
-443,186,Baked Chicken Wings,420000.0,22,0
-444,31,Crispy Sushi Roll,130000.0,31,0
-445,176,Honey Smoothie,240000.0,93,0
-446,35,Grilled Chicken Wings,480000.0,32,0
-447,143,Smoked Waffles,320000.0,83,0
-448,160,Honey Noodle Soup,390000.0,66,0
-449,200,Grilled Waffles,260000.0,94,0
-450,35,Grilled Pizza Pepperoni,270000.0,98,0
-451,89,Honey Tacos,220000.0,60,0
-452,42,Fresh Pasta Carbonara,70000.0,59,0
-453,144,Fresh Chicken Wings,240000.0,33,0
-454,172,Smoked Beef Burger,490000.0,59,0
-455,114,Baked Beef Burger,240000.0,86,0
-456,74,Smoked Smoothie,300000.0,74,0
-457,98,Honey Noodle Soup,490000.0,24,0
-458,35,Fresh Tacos,210000.0,44,0
-459,121,Honey Beef Burger,390000.0,42,0
-460,60,Sweet Tacos,470000.0,41,0
-461,9,Fresh Beef Burger,470000.0,23,0
-462,34,Garlic Tacos,290000.0,77,0
-463,84,Baked Pasta Carbonara,420000.0,20,0
-464,145,Baked Tacos,180000.0,40,0
-465,85,Grilled Pizza Pepperoni,330000.0,66,0
-466,195,Spicy Pasta Carbonara,470000.0,48,0
-467,139,Baked Beef Burger,390000.0,83,0
-468,125,Crispy Fried Rice,170000.0,28,0
-469,187,Garlic Tacos,220000.0,79,0
-470,176,Sour Pizza Pepperoni,440000.0,90,0
-471,144,Fresh Waffles,100000.0,90,0
-472,81,Fresh Chicken Wings,60000.0,26,0
-473,147,Honey Noodle Soup,220000.0,52,0
-474,73,Sour Pasta Carbonara,360000.0,39,0
-475,3,Sour Pasta Carbonara,400000.0,72,0
-476,131,Fresh Beef Burger,80000.0,71,0
-477,122,Crispy Fried Rice,200000.0,30,0
-478,74,Sweet Tacos,190000.0,60,0
-479,2,Sour Chicken Wings,330000.0,68,0
-480,24,Fresh Noodle Soup,160000.0,87,0
-481,87,Honey Beef Burger,410000.0,30,0
-482,168,Sour Waffles,420000.0,97,0
-483,166,Sour Beef Burger,350000.0,61,0
-484,35,Sweet Smoothie,380000.0,76,0
-485,114,Crispy Steak,360000.0,74,0
-486,96,Honey Sushi Roll,160000.0,93,0
-487,26,Garlic Steak,230000.0,38,0
-488,125,Sweet Smoothie,300000.0,84,0
-489,62,Cheesy Tacos,440000.0,22,0
-490,53,Baked Pasta Carbonara,60000.0,45,0
-491,133,Crispy Beef Burger,450000.0,46,0
-492,24,Sour Pizza Pepperoni,310000.0,99,0
-493,64,Garlic Chicken Wings,240000.0,92,0
-494,123,Sweet Chicken Wings,300000.0,50,0
-495,168,Cheesy Beef Burger,120000.0,41,0
-496,34,Garlic Chicken Wings,130000.0,52,0
-497,25,Sour Pasta Carbonara,100000.0,45,0
-498,124,Sour Smoothie,350000.0,44,0
-499,50,Sweet Tacos,110000.0,91,0
-500,154,Grilled Waffles,220000.0,100,0
-501,61,Sweet Pasta Carbonara,290000.0,93,0
-502,78,Smoked Smoothie,230000.0,90,0
-503,119,Smoked Pizza Pepperoni,90000.0,86,0
-504,105,Grilled Waffles,50000.0,57,0
-505,63,Grilled Pasta Carbonara,170000.0,87,0
-506,103,Fresh Beef Burger,320000.0,49,0
-507,119,Spicy Chicken Wings,370000.0,44,0
-508,176,Crispy Fried Rice,340000.0,37,0
-509,12,Grilled Beef Burger,410000.0,81,0
-510,134,Grilled Fried Rice,240000.0,99,0
-511,75,Crispy Noodle Soup,430000.0,79,0
-512,58,Garlic Smoothie,130000.0,53,0
-513,132,Sour Sushi Roll,450000.0,96,0
-514,158,Honey Chicken Wings,290000.0,50,0
-515,164,Sour Smoothie,230000.0,31,0
-516,22,Sweet Smoothie,70000.0,50,0
-517,56,Smoked Tacos,110000.0,74,0
-518,122,Fresh Pizza Pepperoni,390000.0,59,0
-519,52,Cheesy Tacos,440000.0,82,0
-520,139,Baked Pizza Pepperoni,60000.0,73,0
-521,54,Garlic Pasta Carbonara,400000.0,95,0
-522,128,Garlic Salad Caesar,240000.0,99,0
-523,63,Smoked Beef Burger,150000.0,89,0
-524,15,Grilled Tacos,330000.0,46,0
-525,56,Cheesy Salad Caesar,420000.0,60,0
-526,139,Fresh Smoothie,70000.0,31,0
-527,3,Sweet Pasta Carbonara,200000.0,47,0
-528,117,Sweet Waffles,250000.0,75,0
-529,116,Honey Noodle Soup,250000.0,52,0
-530,192,Fresh Waffles,450000.0,48,0
-531,26,Spicy Sushi Roll,50000.0,44,0
-532,115,Spicy Pasta Carbonara,170000.0,68,0
-533,29,Spicy Sushi Roll,430000.0,84,0
-534,116,Sour Beef Burger,260000.0,49,0
-535,42,Garlic Pasta Carbonara,160000.0,23,0
-536,118,Sweet Smoothie,220000.0,28,0
-537,39,Cheesy Pizza Pepperoni,360000.0,65,0
-538,96,Smoked Pasta Carbonara,310000.0,53,0
-539,186,Baked Chicken Wings,130000.0,73,0
-540,66,Cheesy Tacos,370000.0,24,0
-541,96,Smoked Steak,390000.0,47,0
-542,42,Baked Fried Rice,80000.0,75,0
-543,141,Fresh Chicken Wings,490000.0,22,0
-544,177,Crispy Waffles,290000.0,76,0
-545,42,Sour Tacos,310000.0,65,0
-546,49,Honey Chicken Wings,200000.0,70,0
-547,125,Sweet Beef Burger,330000.0,90,0
-548,102,Honey Smoothie,430000.0,80,0
-549,167,Cheesy Noodle Soup,400000.0,24,0
-550,101,Crispy Tacos,370000.0,45,0
-551,157,Spicy Tacos,350000.0,70,0
-552,31,Sour Waffles,100000.0,69,0
-553,36,Baked Waffles,230000.0,70,0
-554,168,Sweet Pizza Pepperoni,150000.0,87,0
-555,33,Honey Beef Burger,110000.0,84,0
-556,69,Fresh Fried Rice,460000.0,83,0
-557,118,Sour Pizza Pepperoni,210000.0,91,0
-558,69,Honey Chicken Wings,390000.0,69,0
-559,41,Smoked Smoothie,220000.0,91,0
-560,169,Honey Waffles,430000.0,53,0
-561,11,Honey Fried Rice,90000.0,65,0
-562,179,Garlic Pasta Carbonara,250000.0,29,0
-563,49,Honey Waffles,140000.0,70,0
-564,156,Fresh Tacos,50000.0,20,0
-565,199,Smoked Chicken Wings,60000.0,48,0
-566,77,Smoked Waffles,320000.0,95,0
-567,85,Crispy Beef Burger,430000.0,27,0
-568,26,Honey Sushi Roll,140000.0,29,0
-569,152,Cheesy Pasta Carbonara,370000.0,28,0
-570,17,Sweet Beef Burger,130000.0,44,0
-571,73,Cheesy Sushi Roll,350000.0,76,0
-572,61,Garlic Tacos,170000.0,70,0
-573,28,Baked Beef Burger,300000.0,46,0
-574,50,Smoked Sushi Roll,360000.0,79,0
-575,117,Garlic Salad Caesar,260000.0,53,0
-576,145,Cheesy Chicken Wings,150000.0,78,0
-577,119,Baked Tacos,450000.0,85,0
-578,117,Baked Steak,240000.0,73,0
-579,158,Honey Beef Burger,430000.0,39,0
-580,1,Fresh Pasta Carbonara,490000.0,43,0
-581,154,Smoked Beef Burger,490000.0,55,0
-582,181,Crispy Pizza Pepperoni,270000.0,50,0
-583,144,Garlic Chicken Wings,160000.0,35,0
-584,165,Cheesy Noodle Soup,420000.0,64,0
-585,69,Cheesy Fried Rice,240000.0,84,0
-586,66,Sweet Steak,360000.0,70,0
-587,80,Cheesy Salad Caesar,260000.0,43,0
-588,94,Cheesy Smoothie,80000.0,22,0
-589,117,Sweet Tacos,110000.0,99,0
-590,156,Grilled Pizza Pepperoni,490000.0,29,0
-591,112,Cheesy Fried Rice,50000.0,29,0
-592,103,Spicy Chicken Wings,100000.0,57,0
-593,17,Garlic Pizza Pepperoni,440000.0,91,0
-594,32,Smoked Noodle Soup,260000.0,87,0
-595,106,Smoked Chicken Wings,300000.0,24,0
-596,153,Sour Chicken Wings,470000.0,85,0
-597,48,Cheesy Waffles,260000.0,59,0
-598,173,Sour Smoothie,220000.0,95,0
-599,5,Cheesy Pasta Carbonara,360000.0,83,0
-600,115,Sweet Chicken Wings,50000.0,100,0
-601,38,Smoked Chicken Wings,360000.0,47,0
-602,149,Honey Pasta Carbonara,270000.0,85,0
-603,158,Crispy Fried Rice,420000.0,38,0
-604,196,Grilled Beef Burger,60000.0,83,0
-605,52,Fresh Sushi Roll,460000.0,34,0
-606,43,Honey Waffles,360000.0,51,0
-607,15,Baked Smoothie,110000.0,36,0
-608,15,Crispy Sushi Roll,350000.0,88,0
-609,61,Grilled Beef Burger,130000.0,29,0
-610,13,Crispy Fried Rice,350000.0,63,0
-611,35,Honey Steak,150000.0,58,0
-612,2,Sour Smoothie,440000.0,68,0
-613,125,Baked Salad Caesar,460000.0,62,0
-614,94,Cheesy Fried Rice,220000.0,52,0
-615,122,Crispy Pasta Carbonara,140000.0,49,0
-616,114,Crispy Sushi Roll,140000.0,97,0
-617,84,Fresh Salad Caesar,310000.0,91,0
-618,34,Cheesy Beef Burger,360000.0,43,0
-619,81,Sweet Waffles,140000.0,38,0
-620,197,Cheesy Steak,230000.0,78,0
-621,146,Sour Smoothie,160000.0,66,0
-622,38,Honey Sushi Roll,310000.0,38,0
-623,193,Sweet Pizza Pepperoni,70000.0,82,0
-624,21,Sour Tacos,90000.0,46,0
-625,132,Grilled Pizza Pepperoni,90000.0,87,0
-626,132,Fresh Smoothie,450000.0,49,0
-627,104,Crispy Pasta Carbonara,470000.0,93,0
-628,14,Honey Chicken Wings,410000.0,60,0
-629,99,Cheesy Noodle Soup,90000.0,63,0
-630,192,Fresh Chicken Wings,370000.0,92,0
-631,30,Baked Pizza Pepperoni,220000.0,20,0
-632,93,Cheesy Noodle Soup,160000.0,26,0
-633,12,Baked Pasta Carbonara,190000.0,89,0
-634,162,Garlic Pizza Pepperoni,220000.0,34,0
-635,198,Spicy Beef Burger,190000.0,68,0
-636,53,Cheesy Chicken Wings,190000.0,48,0
-637,194,Baked Chicken Wings,430000.0,96,0
-638,175,Cheesy Tacos,160000.0,54,0
-639,157,Grilled Sushi Roll,220000.0,67,0
-640,166,Fresh Noodle Soup,220000.0,89,0
-641,49,Garlic Pasta Carbonara,450000.0,26,0
-642,30,Cheesy Pizza Pepperoni,330000.0,96,0
-643,128,Baked Beef Burger,390000.0,94,0
-644,84,Spicy Noodle Soup,180000.0,68,0
-645,92,Smoked Steak,440000.0,71,0
-646,116,Garlic Salad Caesar,360000.0,42,0
-647,159,Garlic Chicken Wings,130000.0,98,0
-648,25,Crispy Waffles,120000.0,41,0
-649,79,Fresh Steak,390000.0,40,0
-650,4,Cheesy Fried Rice,160000.0,95,0
-651,86,Sour Chicken Wings,180000.0,99,0
-652,176,Honey Steak,200000.0,46,0
-653,80,Spicy Smoothie,320000.0,76,0
-654,190,Fresh Waffles,270000.0,28,0
-655,106,Smoked Salad Caesar,410000.0,35,0
-656,199,Cheesy Beef Burger,420000.0,32,0
-657,134,Spicy Beef Burger,260000.0,64,0
-658,123,Sour Waffles,350000.0,89,0
-659,193,Garlic Pizza Pepperoni,370000.0,80,0
-660,39,Crispy Tacos,450000.0,59,0
-661,140,Sour Steak,180000.0,37,0
-662,2,Smoked Smoothie,390000.0,31,0
-663,27,Cheesy Waffles,90000.0,98,0
-664,171,Baked Tacos,110000.0,68,0
-665,143,Fresh Beef Burger,340000.0,86,0
-666,162,Garlic Waffles,290000.0,75,0
-667,54,Spicy Steak,340000.0,61,0
-668,186,Baked Beef Burger,230000.0,85,0
-669,60,Smoked Sushi Roll,490000.0,27,0
-670,172,Sour Pizza Pepperoni,340000.0,95,0
-671,182,Spicy Fried Rice,400000.0,86,0
-672,75,Sour Fried Rice,90000.0,71,0
-673,190,Grilled Pizza Pepperoni,250000.0,63,0
-674,75,Sour Noodle Soup,470000.0,31,0
-675,146,Spicy Smoothie,340000.0,30,0
-676,148,Smoked Steak,240000.0,62,0
-677,92,Spicy Pizza Pepperoni,320000.0,95,0
-678,107,Garlic Waffles,170000.0,97,0
-679,90,Crispy Tacos,240000.0,40,0
-680,78,Grilled Waffles,170000.0,61,0
-681,136,Grilled Beef Burger,320000.0,71,0
-682,11,Grilled Beef Burger,460000.0,22,0
-683,172,Honey Salad Caesar,420000.0,22,0
-684,25,Crispy Beef Burger,370000.0,49,0
-685,163,Grilled Beef Burger,330000.0,77,0
-686,33,Fresh Steak,110000.0,31,0
-687,71,Garlic Noodle Soup,260000.0,75,0
-688,135,Garlic Tacos,120000.0,48,0
-689,188,Garlic Smoothie,270000.0,52,0
-690,136,Spicy Tacos,380000.0,30,0
-691,176,Smoked Steak,50000.0,44,0
-692,176,Smoked Smoothie,230000.0,28,0
-693,111,Sour Beef Burger,230000.0,66,0
-694,63,Sweet Sushi Roll,100000.0,57,0
-695,9,Sour Smoothie,370000.0,65,0
-696,1,Cheesy Steak,450000.0,82,0
-697,92,Sour Pizza Pepperoni,450000.0,71,0
-698,1,Spicy Chicken Wings,200000.0,35,0
-699,40,Smoked Salad Caesar,110000.0,64,0
-700,177,Honey Beef Burger,290000.0,26,0
-701,141,Spicy Beef Burger,490000.0,32,0
-702,53,Grilled Waffles,460000.0,45,0
-703,36,Fresh Sushi Roll,280000.0,21,0
-704,121,Spicy Pasta Carbonara,350000.0,63,0
-705,50,Grilled Pizza Pepperoni,170000.0,66,0
-706,177,Fresh Pizza Pepperoni,290000.0,48,0
-707,83,Crispy Salad Caesar,440000.0,42,0
-708,175,Sweet Sushi Roll,400000.0,69,0
-709,104,Fresh Pizza Pepperoni,390000.0,32,0
-710,80,Sweet Pizza Pepperoni,220000.0,90,0
-711,103,Grilled Chicken Wings,220000.0,21,0
-712,182,Spicy Waffles,100000.0,97,0
-713,180,Garlic Noodle Soup,270000.0,42,0
-714,100,Sour Fried Rice,70000.0,50,0
-715,88,Spicy Tacos,190000.0,27,0
-716,38,Crispy Waffles,230000.0,54,0
-717,55,Honey Salad Caesar,350000.0,73,0
-718,89,Sweet Fried Rice,390000.0,45,0
-719,155,Garlic Fried Rice,200000.0,55,0
-720,196,Sour Pizza Pepperoni,320000.0,45,0
-721,10,Garlic Steak,270000.0,60,0
-722,40,Sour Tacos,420000.0,40,0
-723,73,Spicy Pizza Pepperoni,430000.0,58,0
-724,181,Cheesy Steak,470000.0,65,0
-725,121,Sweet Salad Caesar,200000.0,69,0
-726,164,Spicy Salad Caesar,280000.0,62,0
-727,51,Cheesy Chicken Wings,220000.0,31,0
-728,164,Grilled Fried Rice,400000.0,63,0
-729,108,Crispy Beef Burger,350000.0,24,0
-730,60,Crispy Beef Burger,80000.0,77,0
-731,90,Sour Waffles,310000.0,63,0
-732,124,Cheesy Salad Caesar,340000.0,30,0
-733,122,Honey Chicken Wings,480000.0,66,0
-734,70,Sweet Noodle Soup,250000.0,21,0
-735,139,Sour Pasta Carbonara,250000.0,39,0
-736,188,Smoked Tacos,140000.0,87,0
-737,87,Grilled Fried Rice,300000.0,75,0
-738,164,Baked Salad Caesar,60000.0,44,0
-739,136,Cheesy Sushi Roll,490000.0,78,0
-740,135,Fresh Tacos,490000.0,86,0
-741,53,Crispy Steak,490000.0,87,0
-742,85,Sour Noodle Soup,220000.0,20,0
-743,115,Sweet Waffles,420000.0,63,0
-744,21,Baked Pizza Pepperoni,420000.0,65,0
-745,55,Grilled Noodle Soup,250000.0,22,0
-746,19,Cheesy Salad Caesar,160000.0,73,0
-747,148,Baked Beef Burger,300000.0,55,0
-748,57,Baked Steak,330000.0,62,0
-749,144,Cheesy Chicken Wings,260000.0,99,0
-750,92,Grilled Sushi Roll,60000.0,85,0
-751,155,Sour Smoothie,240000.0,56,0
-752,151,Grilled Waffles,260000.0,62,0
-753,188,Crispy Salad Caesar,80000.0,39,0
-754,38,Spicy Waffles,420000.0,24,0
-755,152,Grilled Salad Caesar,190000.0,34,0
-756,193,Fresh Sushi Roll,270000.0,85,0
-757,125,Grilled Beef Burger,360000.0,44,0
-758,60,Honey Smoothie,160000.0,21,0
-759,94,Garlic Salad Caesar,490000.0,40,0
-760,159,Sweet Salad Caesar,250000.0,34,0
-761,174,Garlic Pizza Pepperoni,360000.0,64,0
-762,79,Honey Sushi Roll,70000.0,32,0
-763,46,Grilled Waffles,130000.0,82,0
-764,168,Baked Chicken Wings,150000.0,75,0
-765,101,Cheesy Pasta Carbonara,80000.0,64,0
-766,115,Fresh Waffles,380000.0,33,0
-767,48,Sweet Salad Caesar,480000.0,34,0
-768,153,Fresh Noodle Soup,300000.0,70,0
-769,186,Honey Pizza Pepperoni,330000.0,44,0
-770,151,Baked Tacos,70000.0,46,0
-771,165,Smoked Sushi Roll,80000.0,76,0
-772,81,Sweet Noodle Soup,220000.0,91,0
-773,5,Garlic Pizza Pepperoni,240000.0,33,0
-774,176,Sour Salad Caesar,350000.0,21,0
-775,42,Smoked Waffles,210000.0,43,0
-776,150,Fresh Salad Caesar,290000.0,79,0
-777,133,Sweet Chicken Wings,110000.0,67,0
-778,171,Sweet Waffles,300000.0,88,0
-779,198,Spicy Tacos,390000.0,63,0
-780,63,Sweet Salad Caesar,360000.0,39,0
-781,187,Spicy Salad Caesar,290000.0,73,0
-782,60,Sweet Noodle Soup,470000.0,76,0
-783,146,Smoked Tacos,160000.0,72,0
-784,38,Baked Fried Rice,210000.0,86,0
-785,157,Fresh Fried Rice,420000.0,85,0
-786,176,Cheesy Pizza Pepperoni,210000.0,25,0
-787,8,Honey Fried Rice,50000.0,52,0
-788,50,Cheesy Steak,170000.0,82,0
-789,7,Crispy Chicken Wings,170000.0,57,0
-790,123,Honey Chicken Wings,80000.0,82,0
-791,21,Baked Salad Caesar,340000.0,45,0
-792,70,Grilled Waffles,490000.0,33,0
-793,173,Baked Steak,460000.0,88,0
-794,22,Garlic Chicken Wings,270000.0,95,0
-795,146,Baked Pizza Pepperoni,230000.0,70,0
-796,49,Baked Waffles,440000.0,28,0
-797,116,Crispy Chicken Wings,320000.0,41,0
-798,192,Smoked Steak,340000.0,45,0
-799,191,Sour Pasta Carbonara,150000.0,32,0
-800,51,Sweet Noodle Soup,440000.0,82,0
-801,127,Sweet Beef Burger,210000.0,100,0
-802,16,Smoked Waffles,210000.0,77,0
-803,151,Sour Sushi Roll,130000.0,23,0
-804,49,Cheesy Steak,210000.0,38,0
-805,142,Smoked Noodle Soup,280000.0,81,0
-806,84,Crispy Pizza Pepperoni,90000.0,75,0
-807,47,Fresh Noodle Soup,320000.0,52,0
-808,77,Spicy Chicken Wings,150000.0,36,0
-809,105,Baked Pizza Pepperoni,70000.0,61,0
-810,25,Baked Salad Caesar,230000.0,45,0
-811,128,Crispy Fried Rice,320000.0,29,0
-812,180,Garlic Sushi Roll,290000.0,55,0
-813,19,Grilled Salad Caesar,310000.0,49,0
-814,175,Crispy Beef Burger,140000.0,50,0
-815,157,Garlic Steak,200000.0,71,0
-816,189,Garlic Pasta Carbonara,180000.0,97,0
-817,2,Sour Noodle Soup,450000.0,61,0
-818,64,Crispy Salad Caesar,80000.0,71,0
-819,175,Spicy Steak,380000.0,41,0
-820,170,Crispy Steak,250000.0,79,0
-821,196,Spicy Pasta Carbonara,360000.0,70,0
-822,109,Fresh Steak,380000.0,90,0
-823,13,Cheesy Waffles,360000.0,80,0
-824,158,Sour Tacos,90000.0,60,0
-825,108,Crispy Steak,190000.0,38,0
-826,92,Smoked Beef Burger,430000.0,52,0
-827,152,Spicy Chicken Wings,450000.0,24,0
-828,163,Baked Pasta Carbonara,310000.0,98,0
-829,19,Spicy Noodle Soup,150000.0,66,0
-830,170,Smoked Chicken Wings,60000.0,55,0
-831,83,Garlic Smoothie,160000.0,24,0
-832,7,Garlic Chicken Wings,220000.0,22,0
-833,121,Honey Salad Caesar,430000.0,79,0
-834,80,Sour Sushi Roll,110000.0,85,0
-835,96,Garlic Salad Caesar,130000.0,96,0
-836,75,Garlic Waffles,470000.0,67,0
-837,139,Honey Fried Rice,170000.0,28,0
-838,101,Crispy Noodle Soup,430000.0,84,0
-839,102,Sweet Noodle Soup,170000.0,39,0
-840,143,Crispy Tacos,290000.0,42,0
-841,136,Smoked Smoothie,330000.0,86,0
-842,8,Smoked Steak,420000.0,25,0
-843,32,Spicy Chicken Wings,330000.0,25,0
-844,108,Cheesy Chicken Wings,80000.0,90,0
-845,13,Baked Noodle Soup,200000.0,64,0
-846,56,Garlic Tacos,440000.0,47,0
-847,47,Spicy Smoothie,90000.0,32,0
-848,143,Garlic Fried Rice,490000.0,81,0
-849,55,Cheesy Tacos,460000.0,35,0
-850,146,Garlic Pizza Pepperoni,410000.0,45,0
-851,16,Baked Salad Caesar,300000.0,25,0
-852,22,Sour Steak,150000.0,50,0
-853,103,Spicy Salad Caesar,340000.0,48,0
-854,86,Fresh Beef Burger,280000.0,39,0
-855,73,Cheesy Sushi Roll,320000.0,22,0
-856,99,Honey Sushi Roll,380000.0,38,0
-857,8,Garlic Sushi Roll,60000.0,71,0
-858,174,Baked Sushi Roll,200000.0,65,0
-859,86,Spicy Sushi Roll,240000.0,35,0
-860,34,Crispy Pasta Carbonara,80000.0,78,0
-861,68,Sour Fried Rice,480000.0,25,0
-862,75,Baked Pizza Pepperoni,420000.0,93,0
-863,40,Grilled Smoothie,300000.0,31,0
-864,112,Crispy Tacos,430000.0,92,0
-865,126,Grilled Noodle Soup,400000.0,82,0
-866,22,Smoked Sushi Roll,190000.0,27,0
-867,198,Crispy Tacos,440000.0,99,0
-868,130,Grilled Pizza Pepperoni,270000.0,81,0
-869,49,Fresh Waffles,120000.0,73,0
-870,47,Garlic Steak,150000.0,28,0
-871,156,Grilled Waffles,90000.0,99,0
-872,95,Cheesy Smoothie,370000.0,71,0
-873,70,Smoked Smoothie,80000.0,32,0
-874,86,Crispy Noodle Soup,210000.0,51,0
-875,184,Baked Noodle Soup,430000.0,65,0
-876,123,Grilled Pasta Carbonara,230000.0,26,0
-877,43,Sweet Steak,100000.0,79,0
-878,147,Spicy Steak,360000.0,41,0
-879,37,Sweet Pasta Carbonara,430000.0,27,0
-880,144,Sweet Smoothie,480000.0,91,0
-881,200,Garlic Pasta Carbonara,220000.0,90,0
-882,3,Spicy Tacos,260000.0,92,0
-883,63,Fresh Waffles,270000.0,46,0
-884,123,Spicy Waffles,90000.0,92,0
-885,188,Spicy Pasta Carbonara,430000.0,87,0
-886,122,Sweet Pizza Pepperoni,240000.0,42,0
-887,198,Smoked Sushi Roll,460000.0,25,0
-888,95,Grilled Noodle Soup,380000.0,57,0
-889,125,Crispy Steak,270000.0,30,0
-890,127,Garlic Smoothie,390000.0,67,0
-891,22,Spicy Pasta Carbonara,360000.0,89,0
-892,186,Fresh Sushi Roll,320000.0,91,0
-893,69,Sweet Smoothie,460000.0,60,0
-894,49,Baked Chicken Wings,80000.0,28,0
-895,156,Honey Chicken Wings,190000.0,82,0
-896,42,Crispy Sushi Roll,380000.0,67,0
-897,160,Grilled Fried Rice,50000.0,31,0
-898,156,Sweet Pizza Pepperoni,130000.0,26,0
-899,27,Fresh Steak,360000.0,39,0
-900,76,Grilled Waffles,360000.0,30,0
-901,123,Crispy Pasta Carbonara,260000.0,61,0
-902,191,Fresh Pizza Pepperoni,70000.0,51,0
-903,69,Grilled Salad Caesar,440000.0,65,0
-904,113,Honey Noodle Soup,100000.0,73,0
-905,191,Baked Smoothie,120000.0,22,0
-906,100,Smoked Chicken Wings,300000.0,62,0
-907,70,Sweet Smoothie,360000.0,80,0
-908,149,Fresh Noodle Soup,70000.0,46,0
-909,27,Fresh Noodle Soup,100000.0,59,0
-910,13,Cheesy Chicken Wings,430000.0,46,0
-911,18,Spicy Fried Rice,450000.0,48,0
-912,84,Grilled Beef Burger,300000.0,53,0
-913,200,Sour Chicken Wings,390000.0,58,0
-914,71,Sour Beef Burger,270000.0,25,0
-915,184,Fresh Beef Burger,190000.0,75,0
-916,163,Baked Beef Burger,170000.0,28,0
-917,95,Crispy Pizza Pepperoni,90000.0,38,0
-918,134,Cheesy Pasta Carbonara,220000.0,20,0
-919,143,Honey Beef Burger,330000.0,91,0
-920,168,Sour Chicken Wings,270000.0,26,0
-921,126,Cheesy Smoothie,270000.0,44,0
-922,13,Sour Pizza Pepperoni,90000.0,69,0
-923,166,Baked Waffles,220000.0,88,0
-924,143,Honey Beef Burger,330000.0,65,0
-925,25,Baked Waffles,310000.0,60,0
-926,71,Spicy Chicken Wings,290000.0,64,0
-927,32,Grilled Fried Rice,80000.0,62,0
-928,114,Garlic Salad Caesar,280000.0,80,0
-929,124,Garlic Tacos,410000.0,72,0
-930,134,Cheesy Sushi Roll,390000.0,35,0
-931,61,Spicy Steak,80000.0,85,0
-932,124,Fresh Noodle Soup,340000.0,84,0
-933,61,Cheesy Steak,430000.0,37,0
-934,23,Grilled Pizza Pepperoni,310000.0,35,0
-935,20,Spicy Waffles,480000.0,93,0
-936,18,Garlic Beef Burger,230000.0,90,0
-937,38,Grilled Pasta Carbonara,460000.0,75,0
-938,9,Fresh Pasta Carbonara,70000.0,28,0
-939,12,Honey Tacos,300000.0,85,0
-940,165,Cheesy Salad Caesar,170000.0,100,0
-941,177,Baked Sushi Roll,110000.0,83,0
-942,136,Crispy Pasta Carbonara,480000.0,84,0
-943,179,Sour Pasta Carbonara,360000.0,84,0
-944,113,Crispy Salad Caesar,210000.0,58,0
-945,125,Smoked Sushi Roll,370000.0,88,0
-946,122,Smoked Steak,180000.0,31,0
-947,143,Honey Steak,270000.0,47,0
-948,107,Baked Pasta Carbonara,390000.0,54,0
-949,29,Grilled Salad Caesar,230000.0,58,0
-950,100,Garlic Waffles,170000.0,83,0
-951,1,Smoked Beef Burger,260000.0,48,0
-952,186,Crispy Smoothie,380000.0,38,0
-953,177,Smoked Sushi Roll,90000.0,52,0
-954,113,Sweet Steak,370000.0,67,0
-955,192,Cheesy Tacos,390000.0,96,0
-956,117,Sour Sushi Roll,260000.0,29,0
-957,92,Cheesy Chicken Wings,370000.0,91,0
-958,89,Spicy Steak,310000.0,79,0
-959,18,Honey Chicken Wings,180000.0,42,0
-960,116,Spicy Smoothie,430000.0,81,0
-961,165,Spicy Pasta Carbonara,80000.0,27,0
-962,82,Garlic Waffles,360000.0,51,0
-963,6,Cheesy Steak,170000.0,45,0
-964,133,Spicy Sushi Roll,330000.0,98,0
-965,155,Spicy Salad Caesar,220000.0,66,0
-966,133,Spicy Beef Burger,70000.0,98,0
-967,14,Garlic Steak,450000.0,70,0
-968,29,Sour Smoothie,90000.0,40,0
-969,160,Sour Smoothie,180000.0,46,0
-970,79,Honey Tacos,320000.0,50,0
-971,56,Baked Pasta Carbonara,420000.0,27,0
-972,169,Grilled Chicken Wings,150000.0,59,0
-973,79,Garlic Smoothie,350000.0,79,0
-974,66,Garlic Pasta Carbonara,360000.0,52,0
-975,100,Cheesy Pizza Pepperoni,260000.0,29,0
-976,136,Fresh Smoothie,100000.0,54,0
-977,185,Sweet Salad Caesar,150000.0,46,0
-978,55,Spicy Salad Caesar,360000.0,50,0
-979,32,Grilled Sushi Roll,100000.0,77,0
-980,183,Sweet Sushi Roll,250000.0,29,0
-981,25,Cheesy Steak,410000.0,33,0
-982,34,Cheesy Smoothie,150000.0,31,0
-983,184,Grilled Chicken Wings,270000.0,47,0
-984,24,Spicy Salad Caesar,150000.0,78,0
-985,48,Baked Pizza Pepperoni,290000.0,38,0
-986,42,Baked Salad Caesar,360000.0,62,0
-987,90,Smoked Smoothie,450000.0,32,0
-988,135,Crispy Smoothie,170000.0,22,0
-989,195,Crispy Chicken Wings,60000.0,54,0
-990,147,Smoked Fried Rice,320000.0,59,0
-991,14,Sweet Pizza Pepperoni,340000.0,66,0
-992,58,Spicy Steak,340000.0,55,0
-993,81,Smoked Waffles,90000.0,63,0
-994,114,Sweet Fried Rice,480000.0,71,0
-995,124,Smoked Steak,240000.0,96,0
-996,148,Garlic Noodle Soup,250000.0,54,0
-997,130,Grilled Pasta Carbonara,120000.0,57,0
-998,28,Garlic Noodle Soup,100000.0,36,0
-999,70,Sour Beef Burger,80000.0,83,0
-1000,175,Sour Waffles,130000.0,42,0
-1001,1,Spicy Pasta Carbonara,100000.0,84,0
-1002,75,Spicy Steak,280000.0,44,0
-1003,117,Crispy Tacos,150000.0,66,0
-1004,171,Fresh Pizza Pepperoni,90000.0,46,0
-1005,131,Baked Waffles,370000.0,43,0
-1006,182,Baked Sushi Roll,410000.0,89,0
-1007,24,Baked Pasta Carbonara,460000.0,23,0
-1008,63,Grilled Waffles,460000.0,97,0
-1009,145,Sweet Beef Burger,140000.0,26,0
-1010,179,Smoked Tacos,270000.0,44,0
-1011,63,Crispy Noodle Soup,280000.0,96,0
-1012,43,Grilled Pizza Pepperoni,270000.0,73,0
-1013,135,Cheesy Beef Burger,470000.0,98,0
-1014,27,Sweet Salad Caesar,410000.0,43,0
-1015,79,Sweet Pasta Carbonara,470000.0,92,0
-1016,158,Spicy Beef Burger,140000.0,30,0
-1017,192,Cheesy Smoothie,230000.0,44,0
-1018,186,Smoked Waffles,140000.0,57,0
-1019,47,Spicy Beef Burger,280000.0,91,0
-1020,194,Sweet Smoothie,300000.0,38,0
-1021,89,Smoked Pizza Pepperoni,150000.0,60,0
-1022,146,Sour Chicken Wings,310000.0,64,0
-1023,119,Sweet Chicken Wings,230000.0,89,0
-1024,170,Spicy Smoothie,410000.0,57,0
-1025,130,Spicy Pizza Pepperoni,340000.0,29,0
-1026,35,Garlic Smoothie,90000.0,32,0
-1027,9,Grilled Tacos,290000.0,91,0
-1028,134,Fresh Tacos,390000.0,69,0
-1029,141,Spicy Waffles,150000.0,22,0
-1030,192,Honey Beef Burger,480000.0,83,0
-1031,9,Smoked Noodle Soup,140000.0,20,0
-1032,35,Sweet Salad Caesar,210000.0,94,0
-1033,109,Grilled Smoothie,140000.0,42,0
-1034,120,Garlic Salad Caesar,100000.0,91,0
-1035,71,Fresh Smoothie,430000.0,78,0
-1036,169,Smoked Beef Burger,360000.0,52,0
-1037,64,Garlic Pizza Pepperoni,280000.0,84,0
-1038,160,Crispy Tacos,400000.0,36,0
-1039,99,Garlic Beef Burger,410000.0,84,0
-1040,25,Smoked Tacos,360000.0,80,0
-1041,112,Garlic Sushi Roll,130000.0,27,0
-1042,137,Honey Noodle Soup,450000.0,38,0
-1043,64,Spicy Noodle Soup,290000.0,95,0
-1044,58,Smoked Noodle Soup,300000.0,79,0
-1045,52,Baked Beef Burger,110000.0,20,0
-1046,139,Sour Steak,450000.0,70,0
-1047,154,Honey Fried Rice,340000.0,25,0
-1048,137,Crispy Chicken Wings,480000.0,26,0
-1049,188,Sour Beef Burger,160000.0,75,0
-1050,6,Crispy Pasta Carbonara,470000.0,20,0
-1051,179,Fresh Steak,230000.0,35,0
-1052,3,Sour Fried Rice,300000.0,22,0
-1053,146,Garlic Pizza Pepperoni,330000.0,70,0
-1054,152,Garlic Waffles,140000.0,48,0
-1055,58,Sour Salad Caesar,410000.0,42,0
-1056,80,Fresh Noodle Soup,460000.0,48,0
-1057,37,Grilled Sushi Roll,410000.0,47,0
-1058,96,Garlic Beef Burger,160000.0,35,0
-1059,155,Sour Beef Burger,70000.0,44,0
-1060,37,Smoked Beef Burger,380000.0,51,0
-1061,104,Fresh Smoothie,220000.0,34,0
-1062,125,Baked Pasta Carbonara,100000.0,27,0
-1063,10,Baked Noodle Soup,290000.0,61,0
-1064,37,Crispy Salad Caesar,230000.0,42,0
-1065,168,Spicy Smoothie,390000.0,37,0
-1066,27,Honey Smoothie,390000.0,96,0
-1067,113,Crispy Chicken Wings,320000.0,47,0
-1068,125,Sweet Pasta Carbonara,260000.0,66,0
-1069,114,Spicy Pizza Pepperoni,110000.0,60,0
-1070,36,Baked Tacos,320000.0,40,0
-1071,178,Cheesy Waffles,180000.0,36,0
-1072,67,Cheesy Waffles,70000.0,91,0
-1073,172,Cheesy Steak,350000.0,44,0
-1074,199,Garlic Chicken Wings,140000.0,56,0
-1075,48,Sour Salad Caesar,110000.0,25,0
-1076,34,Crispy Waffles,470000.0,89,0
-1077,187,Smoked Pizza Pepperoni,120000.0,94,0
-1078,110,Baked Salad Caesar,60000.0,80,0
-1079,70,Sour Chicken Wings,70000.0,42,0
-1080,188,Spicy Sushi Roll,340000.0,98,0
-1081,138,Cheesy Noodle Soup,470000.0,77,0
-1082,105,Grilled Tacos,180000.0,30,0
-1083,41,Baked Chicken Wings,80000.0,85,0
-1084,116,Cheesy Salad Caesar,220000.0,86,0
-1085,179,Crispy Beef Burger,430000.0,90,0
-1086,195,Spicy Pizza Pepperoni,460000.0,91,0
-1087,42,Baked Waffles,310000.0,37,0
-1088,191,Fresh Steak,180000.0,97,0
-1089,38,Sweet Sushi Roll,400000.0,77,0
-1090,78,Garlic Chicken Wings,330000.0,73,0
-1091,133,Baked Fried Rice,150000.0,53,0
-1092,14,Sweet Pizza Pepperoni,210000.0,43,0
-1093,71,Spicy Steak,490000.0,82,0
-1094,48,Honey Sushi Roll,70000.0,26,0
-1095,38,Honey Waffles,100000.0,24,0
-1096,194,Grilled Salad Caesar,120000.0,79,0
-1097,77,Sweet Pasta Carbonara,180000.0,72,0
-1098,64,Garlic Smoothie,260000.0,100,0
-1099,105,Baked Steak,130000.0,48,0
-1100,44,Cheesy Pasta Carbonara,420000.0,90,0
-1101,38,Fresh Sushi Roll,400000.0,30,0
-1102,190,Baked Salad Caesar,360000.0,50,0
-1103,9,Spicy Salad Caesar,80000.0,90,0
-1104,112,Sour Sushi Roll,250000.0,73,0
-1105,55,Crispy Chicken Wings,50000.0,66,0
-1106,102,Sour Pasta Carbonara,250000.0,46,0
-1107,185,Sweet Smoothie,360000.0,91,0
-1108,14,Sour Smoothie,480000.0,55,0
-1109,152,Baked Sushi Roll,480000.0,42,0
-1110,137,Spicy Salad Caesar,360000.0,94,0
-1111,167,Garlic Tacos,470000.0,43,0
-1112,4,Cheesy Sushi Roll,330000.0,80,0
-1113,44,Sour Fried Rice,340000.0,49,0
-1114,104,Garlic Tacos,440000.0,93,0
-1115,55,Smoked Noodle Soup,200000.0,21,0
-1116,98,Spicy Fried Rice,260000.0,42,0
-1117,31,Smoked Smoothie,370000.0,32,0
-1118,174,Grilled Pasta Carbonara,410000.0,92,0
-1119,52,Spicy Salad Caesar,230000.0,89,0
-1120,83,Grilled Waffles,180000.0,89,0
-1121,33,Sweet Salad Caesar,480000.0,42,0
-1122,57,Baked Noodle Soup,370000.0,100,0
-1123,2,Spicy Tacos,300000.0,97,0
-1124,77,Sweet Tacos,310000.0,84,0
-1125,71,Cheesy Beef Burger,300000.0,32,0
-1126,123,Cheesy Fried Rice,60000.0,78,0
-1127,128,Sour Waffles,90000.0,69,0
-1128,133,Smoked Sushi Roll,150000.0,95,0
-1129,81,Spicy Pasta Carbonara,440000.0,30,0
-1130,3,Spicy Salad Caesar,90000.0,21,0
-1131,42,Baked Smoothie,420000.0,29,0
-1132,90,Smoked Tacos,340000.0,24,0
-1133,111,Fresh Noodle Soup,340000.0,33,0
-1134,170,Honey Waffles,200000.0,26,0
-1135,171,Sweet Smoothie,80000.0,38,0
-1136,165,Baked Pizza Pepperoni,330000.0,57,0
-1137,182,Crispy Pizza Pepperoni,290000.0,99,0
-1138,117,Spicy Steak,260000.0,100,0
-1139,80,Smoked Pasta Carbonara,260000.0,92,0
-1140,57,Cheesy Salad Caesar,400000.0,47,0
-1141,79,Grilled Noodle Soup,360000.0,62,0
-1142,199,Fresh Pasta Carbonara,140000.0,97,0
-1143,152,Spicy Steak,300000.0,73,0
-1144,172,Honey Steak,160000.0,90,0
-1145,39,Sour Salad Caesar,380000.0,62,0
-1146,199,Sour Chicken Wings,350000.0,77,0
-1147,144,Baked Tacos,280000.0,43,0
-1148,65,Sour Pasta Carbonara,130000.0,73,0
-1149,170,Baked Steak,160000.0,43,0
-1150,133,Smoked Waffles,170000.0,60,0
-1151,84,Smoked Pizza Pepperoni,130000.0,66,0
-1152,73,Smoked Waffles,320000.0,69,0
-1153,33,Cheesy Smoothie,330000.0,88,0
-1154,4,Fresh Steak,70000.0,34,0
-1155,192,Grilled Fried Rice,220000.0,47,0
-1156,190,Grilled Sushi Roll,410000.0,86,0
-1157,123,Smoked Fried Rice,180000.0,98,0
-1158,132,Garlic Noodle Soup,270000.0,43,0
-1159,85,Cheesy Pasta Carbonara,90000.0,50,0
-1160,187,Sweet Noodle Soup,470000.0,42,0
-1161,160,Garlic Smoothie,190000.0,62,0
-1162,135,Baked Noodle Soup,310000.0,79,0
-1163,16,Cheesy Pizza Pepperoni,80000.0,48,0
-1164,115,Grilled Salad Caesar,350000.0,26,0
-1165,89,Baked Pizza Pepperoni,350000.0,31,0
-1166,189,Baked Beef Burger,230000.0,95,0
-1167,13,Baked Chicken Wings,330000.0,78,0
-1168,116,Garlic Pizza Pepperoni,330000.0,39,0
-1169,101,Grilled Beef Burger,410000.0,36,0
-1170,54,Cheesy Waffles,260000.0,71,0
-1171,185,Sour Noodle Soup,110000.0,98,0
-1172,104,Crispy Sushi Roll,230000.0,95,0
-1173,61,Grilled Fried Rice,120000.0,27,0
-1174,163,Cheesy Waffles,80000.0,37,0
-1175,38,Baked Smoothie,330000.0,68,0
-1176,160,Fresh Pasta Carbonara,150000.0,62,0
-1177,159,Smoked Tacos,170000.0,89,0
-1178,58,Crispy Pizza Pepperoni,380000.0,77,0
-1179,96,Grilled Salad Caesar,380000.0,79,0
-1180,85,Sweet Smoothie,300000.0,57,0
-1181,96,Baked Pasta Carbonara,290000.0,50,0
-1182,44,Garlic Sushi Roll,380000.0,85,0
-1183,37,Cheesy Pizza Pepperoni,160000.0,35,0
-1184,36,Sweet Fried Rice,470000.0,35,0
-1185,43,Sour Chicken Wings,390000.0,44,0
-1186,20,Cheesy Pasta Carbonara,140000.0,89,0
-1187,58,Garlic Beef Burger,100000.0,51,0
-1188,69,Sour Beef Burger,350000.0,63,0
-1189,103,Smoked Salad Caesar,380000.0,32,0
-1190,30,Sour Chicken Wings,190000.0,91,0
-1191,48,Crispy Smoothie,60000.0,89,0
-1192,191,Honey Pasta Carbonara,410000.0,29,0
-1193,110,Grilled Tacos,170000.0,49,0
-1194,64,Crispy Fried Rice,400000.0,97,0
-1195,39,Grilled Sushi Roll,400000.0,52,0
-1196,123,Crispy Pizza Pepperoni,380000.0,87,0
-1197,1,Garlic Fried Rice,250000.0,35,0
-1198,58,Sweet Waffles,390000.0,46,0
-1199,130,Fresh Pizza Pepperoni,200000.0,56,0
-1200,116,Sweet Steak,50000.0,51,0
-1201,151,Sour Chicken Wings,310000.0,49,0
-1202,142,Garlic Beef Burger,430000.0,46,0
-1203,136,Grilled Fried Rice,270000.0,68,0
-1204,152,Fresh Pizza Pepperoni,280000.0,100,0
-1205,69,Smoked Pasta Carbonara,400000.0,31,0
-1206,35,Spicy Tacos,330000.0,23,0
-1207,164,Sweet Beef Burger,490000.0,71,0
-1208,77,Honey Smoothie,350000.0,43,0
-1209,32,Fresh Pasta Carbonara,290000.0,22,0
-1210,12,Crispy Noodle Soup,440000.0,30,0
-1211,139,Garlic Noodle Soup,240000.0,59,0
-1212,82,Honey Sushi Roll,470000.0,66,0
-1213,190,Grilled Fried Rice,410000.0,26,0
-1214,39,Smoked Fried Rice,130000.0,81,0
-1215,171,Cheesy Salad Caesar,430000.0,74,0
-1216,96,Cheesy Waffles,380000.0,21,0
-1217,67,Sour Salad Caesar,90000.0,49,0
-1218,68,Spicy Waffles,250000.0,44,0
-1219,52,Grilled Pizza Pepperoni,130000.0,46,0
-1220,141,Smoked Chicken Wings,430000.0,24,0
-1221,24,Sweet Beef Burger,180000.0,89,0
-1222,69,Crispy Beef Burger,340000.0,75,0
-1223,22,Crispy Noodle Soup,250000.0,21,0
-1224,78,Baked Fried Rice,470000.0,62,0
-1225,95,Sweet Noodle Soup,330000.0,76,0
-1226,188,Smoked Fried Rice,100000.0,89,0
-1227,67,Garlic Salad Caesar,240000.0,89,0
-1228,134,Sweet Chicken Wings,480000.0,44,0
-1229,129,Fresh Pasta Carbonara,110000.0,73,0
-1230,141,Crispy Sushi Roll,360000.0,36,0
-1231,31,Smoked Tacos,50000.0,81,0
-1232,62,Crispy Chicken Wings,110000.0,26,0
-1233,178,Honey Tacos,210000.0,41,0
-1234,104,Honey Noodle Soup,180000.0,84,0
-1235,90,Honey Beef Burger,80000.0,47,0
-1236,83,Baked Steak,400000.0,22,0
-1237,91,Garlic Tacos,110000.0,47,0
-1238,34,Smoked Pizza Pepperoni,270000.0,23,0
-1239,63,Smoked Fried Rice,460000.0,72,0
-1240,62,Baked Sushi Roll,260000.0,31,0
-1241,37,Sweet Pizza Pepperoni,450000.0,45,0
-1242,137,Smoked Chicken Wings,50000.0,20,0
-1243,85,Grilled Sushi Roll,220000.0,90,0
-1244,108,Cheesy Pizza Pepperoni,140000.0,27,0
-1245,87,Baked Waffles,120000.0,82,0
-1246,19,Honey Smoothie,220000.0,45,0
-1247,19,Sweet Sushi Roll,300000.0,76,0
-1248,130,Fresh Beef Burger,400000.0,70,0
-1249,125,Sour Pizza Pepperoni,490000.0,71,0
-1250,42,Crispy Salad Caesar,370000.0,38,0
-1251,33,Garlic Steak,360000.0,91,0
-1252,196,Honey Noodle Soup,130000.0,73,0
-1253,81,Honey Pasta Carbonara,440000.0,40,0
-1254,13,Sour Tacos,470000.0,59,0
-1255,67,Crispy Pasta Carbonara,70000.0,29,0
-1256,115,Sweet Sushi Roll,90000.0,26,0
-1257,38,Sour Pizza Pepperoni,460000.0,58,0
-1258,149,Fresh Tacos,310000.0,80,0
-1259,128,Sour Tacos,280000.0,66,0
-1260,152,Crispy Beef Burger,120000.0,41,0
-1261,55,Cheesy Waffles,350000.0,50,0
-1262,58,Spicy Noodle Soup,460000.0,51,0
-1263,71,Cheesy Salad Caesar,260000.0,90,0
-1264,33,Sweet Salad Caesar,140000.0,51,0
-1265,56,Garlic Smoothie,100000.0,50,0
-1266,161,Sweet Waffles,70000.0,58,0
-1267,137,Spicy Sushi Roll,490000.0,33,0
-1268,102,Baked Chicken Wings,400000.0,56,0
-1269,3,Sour Pasta Carbonara,310000.0,81,0
-1270,116,Baked Beef Burger,80000.0,39,0
-1271,74,Sour Smoothie,70000.0,50,0
-1272,104,Fresh Pizza Pepperoni,110000.0,52,0
-1273,43,Baked Noodle Soup,100000.0,82,0
-1274,119,Smoked Noodle Soup,110000.0,52,0
-1275,90,Crispy Waffles,350000.0,37,0
-1276,71,Smoked Salad Caesar,90000.0,78,0
-1277,39,Sweet Fried Rice,90000.0,57,0
-1278,162,Baked Tacos,320000.0,72,0
-1279,65,Sweet Beef Burger,300000.0,23,0
-1280,174,Spicy Chicken Wings,230000.0,24,0
-1281,4,Smoked Fried Rice,450000.0,31,0
-1282,104,Sour Waffles,140000.0,24,0
-1283,39,Garlic Waffles,250000.0,52,0
-1284,69,Spicy Noodle Soup,320000.0,84,0
-1285,62,Garlic Pasta Carbonara,450000.0,100,0
-1286,10,Baked Waffles,140000.0,53,0
-1287,162,Smoked Pasta Carbonara,450000.0,62,0
-1288,82,Sweet Waffles,430000.0,52,0
-1289,120,Fresh Chicken Wings,400000.0,32,0
-1290,112,Spicy Fried Rice,180000.0,92,0
-1291,114,Garlic Sushi Roll,180000.0,34,0
-1292,77,Smoked Smoothie,270000.0,34,0
-1293,183,Sweet Pizza Pepperoni,400000.0,36,0
-1294,93,Baked Beef Burger,260000.0,100,0
-1295,55,Garlic Beef Burger,260000.0,59,0
-1296,134,Cheesy Pasta Carbonara,300000.0,53,0
-1297,126,Honey Steak,50000.0,87,0
-1298,117,Crispy Sushi Roll,80000.0,99,0
-1299,58,Smoked Pizza Pepperoni,290000.0,68,0
-1300,13,Crispy Fried Rice,80000.0,51,0
-1301,106,Grilled Smoothie,470000.0,83,0
-1302,30,Crispy Noodle Soup,110000.0,59,0
-1303,154,Garlic Noodle Soup,330000.0,75,0
-1304,118,Sour Pizza Pepperoni,140000.0,72,0
-1305,134,Sweet Fried Rice,470000.0,98,0
-1306,64,Spicy Pasta Carbonara,390000.0,37,0
-1307,134,Grilled Salad Caesar,110000.0,59,0
-1308,166,Smoked Steak,190000.0,60,0
-1309,194,Grilled Tacos,140000.0,97,0
-1310,194,Sour Steak,90000.0,44,0
-1311,56,Cheesy Chicken Wings,470000.0,21,0
-1312,110,Fresh Waffles,480000.0,53,0
-1313,174,Cheesy Noodle Soup,330000.0,63,0
-1314,90,Honey Pasta Carbonara,460000.0,99,0
-1315,89,Garlic Waffles,410000.0,69,0
-1316,115,Fresh Smoothie,480000.0,79,0
-1317,115,Smoked Smoothie,240000.0,28,0
-1318,144,Spicy Tacos,150000.0,88,0
-1319,71,Garlic Waffles,410000.0,23,0
-1320,56,Fresh Smoothie,260000.0,73,0
-1321,33,Spicy Chicken Wings,290000.0,73,0
-1322,72,Smoked Smoothie,400000.0,77,0
-1323,117,Baked Steak,230000.0,71,0
-1324,112,Honey Pasta Carbonara,290000.0,66,0
-1325,51,Crispy Noodle Soup,320000.0,49,0
-1326,66,Sour Pizza Pepperoni,170000.0,50,0
-1327,154,Baked Pizza Pepperoni,70000.0,86,0
-1328,19,Spicy Pasta Carbonara,420000.0,76,0
-1329,135,Honey Pasta Carbonara,420000.0,55,0
-1330,80,Sweet Beef Burger,460000.0,77,0
-1331,66,Garlic Pasta Carbonara,150000.0,93,0
-1332,76,Honey Salad Caesar,70000.0,62,0
-1333,195,Crispy Sushi Roll,360000.0,96,0
-1334,162,Fresh Pizza Pepperoni,110000.0,29,0
-1335,18,Honey Steak,450000.0,89,0
-1336,156,Baked Pasta Carbonara,120000.0,20,0
-1337,178,Spicy Sushi Roll,120000.0,26,0
-1338,49,Baked Smoothie,210000.0,28,0
-1339,69,Grilled Beef Burger,190000.0,80,0
-1340,191,Grilled Salad Caesar,450000.0,49,0
-1341,37,Spicy Pizza Pepperoni,260000.0,99,0
-1342,62,Fresh Waffles,380000.0,100,0
-1343,52,Smoked Noodle Soup,90000.0,20,0
-1344,153,Fresh Beef Burger,160000.0,33,0
-1345,77,Baked Chicken Wings,450000.0,79,0
-1346,141,Baked Beef Burger,300000.0,43,0
-1347,147,Smoked Waffles,250000.0,87,0
-1348,51,Garlic Tacos,340000.0,81,0
-1349,133,Baked Fried Rice,200000.0,96,0
-1350,60,Garlic Fried Rice,300000.0,45,0
-1351,31,Honey Sushi Roll,190000.0,99,0
-1352,64,Sweet Salad Caesar,190000.0,46,0
-1353,37,Baked Steak,340000.0,47,0
-1354,42,Baked Tacos,240000.0,34,0
-1355,69,Fresh Chicken Wings,170000.0,43,0
-1356,79,Smoked Pizza Pepperoni,100000.0,47,0
-1357,161,Baked Tacos,100000.0,78,0
-1358,46,Smoked Salad Caesar,110000.0,67,0
-1359,157,Grilled Fried Rice,50000.0,64,0
-1360,51,Fresh Pizza Pepperoni,130000.0,20,0
-1361,153,Smoked Fried Rice,430000.0,57,0
-1362,69,Sour Noodle Soup,480000.0,87,0
-1363,67,Smoked Chicken Wings,330000.0,78,0
-1364,143,Cheesy Tacos,140000.0,49,0
-1365,155,Grilled Beef Burger,90000.0,41,0
-1366,54,Baked Sushi Roll,300000.0,42,0
-1367,31,Baked Sushi Roll,360000.0,88,0
-1368,7,Sour Beef Burger,200000.0,20,0
-1369,139,Cheesy Pizza Pepperoni,90000.0,65,0
-1370,109,Grilled Tacos,260000.0,83,0
-1371,75,Sweet Pizza Pepperoni,350000.0,31,0
-1372,92,Honey Chicken Wings,60000.0,24,0
-1373,19,Garlic Waffles,400000.0,79,0
-1374,138,Smoked Salad Caesar,270000.0,23,0
-1375,18,Grilled Noodle Soup,220000.0,83,0
-1376,56,Honey Pasta Carbonara,320000.0,48,0
-1377,94,Sweet Pizza Pepperoni,460000.0,34,0
-1378,101,Crispy Beef Burger,370000.0,24,0
-1379,137,Fresh Chicken Wings,460000.0,64,0
-1380,42,Garlic Pasta Carbonara,320000.0,97,0
-1381,47,Honey Sushi Roll,130000.0,50,0
-1382,177,Spicy Waffles,230000.0,62,0
-1383,110,Smoked Chicken Wings,230000.0,74,0
-1384,70,Baked Pasta Carbonara,430000.0,49,0
-1385,167,Sweet Steak,240000.0,96,0
-1386,114,Crispy Chicken Wings,110000.0,66,0
-1387,6,Spicy Chicken Wings,130000.0,26,0
-1388,164,Honey Steak,300000.0,82,0
-1389,172,Cheesy Beef Burger,80000.0,40,0
-1390,35,Cheesy Salad Caesar,300000.0,63,0
-1391,83,Honey Fried Rice,430000.0,77,0
-1392,19,Cheesy Pizza Pepperoni,370000.0,43,0
-1393,118,Sweet Smoothie,490000.0,71,0
-1394,104,Sour Salad Caesar,430000.0,72,0
-1395,43,Crispy Fried Rice,170000.0,30,0
-1396,57,Garlic Waffles,260000.0,87,0
-1397,20,Garlic Pasta Carbonara,100000.0,64,0
-1398,45,Cheesy Noodle Soup,140000.0,61,0
-1399,12,Crispy Fried Rice,360000.0,73,0
-1400,122,Smoked Steak,380000.0,46,0
-1401,76,Smoked Pasta Carbonara,170000.0,20,0
-1402,17,Fresh Waffles,410000.0,69,0
-1403,148,Fresh Sushi Roll,260000.0,67,0
-1404,194,Crispy Steak,460000.0,68,0
-1405,56,Crispy Noodle Soup,280000.0,40,0
-1406,2,Fresh Pasta Carbonara,200000.0,74,0
-1407,126,Cheesy Sushi Roll,280000.0,78,0
-1408,129,Cheesy Noodle Soup,300000.0,59,0
-1409,172,Sweet Sushi Roll,440000.0,79,0
-1410,142,Grilled Steak,270000.0,23,0
-1411,87,Smoked Sushi Roll,130000.0,21,0
-1412,82,Crispy Chicken Wings,100000.0,51,0
-1413,133,Baked Tacos,390000.0,58,0
-1414,195,Spicy Pasta Carbonara,370000.0,69,0
-1415,151,Fresh Chicken Wings,480000.0,51,0
-1416,71,Sour Smoothie,440000.0,65,0
-1417,196,Cheesy Steak,130000.0,44,0
-1418,43,Spicy Tacos,470000.0,82,0
-1419,12,Honey Noodle Soup,200000.0,23,0
-1420,124,Crispy Pizza Pepperoni,460000.0,21,0
-1421,169,Garlic Steak,400000.0,86,0
-1422,143,Crispy Tacos,260000.0,31,0
-1423,161,Fresh Steak,300000.0,72,0
-1424,198,Garlic Beef Burger,200000.0,47,0
-1425,27,Honey Pizza Pepperoni,160000.0,22,0
-1426,127,Spicy Salad Caesar,360000.0,34,0
-1427,180,Honey Steak,370000.0,43,0
-1428,8,Sweet Noodle Soup,250000.0,35,0
-1429,76,Smoked Steak,140000.0,58,0
-1430,43,Sweet Waffles,440000.0,40,0
-1431,30,Crispy Waffles,180000.0,71,0
-1432,178,Sweet Noodle Soup,160000.0,39,0
-1433,194,Fresh Beef Burger,260000.0,79,0
-1434,113,Honey Fried Rice,80000.0,53,0
-1435,196,Fresh Steak,90000.0,23,0
-1436,118,Baked Sushi Roll,100000.0,39,0
-1437,193,Sour Tacos,400000.0,48,0
-1438,163,Honey Sushi Roll,110000.0,71,0
-1439,11,Crispy Noodle Soup,480000.0,40,0
-1440,127,Cheesy Steak,470000.0,97,0
-1441,37,Crispy Noodle Soup,80000.0,25,0
-1442,147,Crispy Waffles,130000.0,99,0
-1443,1,Honey Chicken Wings,130000.0,48,0
-1444,168,Sweet Pizza Pepperoni,390000.0,93,0
-1445,140,Grilled Smoothie,330000.0,91,0
-1446,166,Sweet Fried Rice,490000.0,68,0
-1447,31,Cheesy Beef Burger,100000.0,67,0
-1448,111,Crispy Waffles,330000.0,27,0
-1449,200,Crispy Waffles,340000.0,87,0
-1450,178,Cheesy Pasta Carbonara,400000.0,73,0
-1451,179,Smoked Pizza Pepperoni,440000.0,95,0
-1452,91,Cheesy Noodle Soup,240000.0,43,0
-1453,99,Fresh Pizza Pepperoni,300000.0,61,0
-1454,37,Sour Pizza Pepperoni,490000.0,53,0
-1455,194,Fresh Chicken Wings,100000.0,57,0
-1456,129,Spicy Smoothie,140000.0,77,0
-1457,4,Sweet Smoothie,90000.0,35,0
-1458,156,Garlic Noodle Soup,240000.0,83,0
-1459,164,Cheesy Steak,440000.0,78,0
-1460,46,Garlic Chicken Wings,80000.0,21,0
-1461,22,Honey Fried Rice,180000.0,51,0
-1462,196,Crispy Smoothie,470000.0,36,0
-1463,56,Spicy Sushi Roll,370000.0,44,0
-1464,170,Sour Waffles,380000.0,27,0
-1465,161,Sweet Steak,320000.0,65,0
-1466,40,Baked Steak,100000.0,82,0
-1467,55,Grilled Smoothie,340000.0,67,0
-1468,90,Smoked Tacos,370000.0,43,0
-1469,193,Spicy Waffles,240000.0,55,0
-1470,79,Baked Salad Caesar,440000.0,90,0
-1471,46,Crispy Tacos,250000.0,60,0
-1472,183,Fresh Waffles,330000.0,67,0
-1473,19,Honey Chicken Wings,50000.0,89,0
-1474,89,Garlic Chicken Wings,420000.0,65,0
-1475,3,Crispy Chicken Wings,340000.0,78,0
-1476,104,Sour Salad Caesar,190000.0,75,0
-1477,14,Sour Tacos,260000.0,44,0
-1478,198,Baked Fried Rice,430000.0,39,0
-1479,25,Spicy Steak,480000.0,20,0
-1480,64,Spicy Smoothie,400000.0,83,0
-1481,79,Smoked Sushi Roll,380000.0,78,0
-1482,43,Smoked Waffles,300000.0,79,0
-1483,175,Sour Steak,270000.0,39,0
-1484,125,Grilled Sushi Roll,250000.0,83,0
-1485,62,Sweet Beef Burger,50000.0,49,0
-1486,177,Fresh Pasta Carbonara,370000.0,95,0
-1487,75,Smoked Salad Caesar,320000.0,32,0
-1488,71,Cheesy Tacos,260000.0,37,0
-1489,156,Crispy Tacos,480000.0,79,0
-1490,131,Sour Waffles,460000.0,29,0
-1491,93,Sweet Smoothie,270000.0,92,0
-1492,33,Fresh Fried Rice,200000.0,46,0
-1493,111,Smoked Pasta Carbonara,360000.0,81,0
-1494,92,Sweet Tacos,140000.0,38,0
-1495,23,Smoked Sushi Roll,490000.0,52,0
-1496,86,Baked Waffles,110000.0,96,0
-1497,53,Sweet Tacos,90000.0,49,0
-1498,171,Smoked Noodle Soup,330000.0,93,0
-1499,113,Smoked Smoothie,400000.0,44,0
-1500,75,Cheesy Fried Rice,170000.0,29,0
-1501,76,Smoked Fried Rice,260000.0,38,0
-1502,28,Garlic Salad Caesar,490000.0,65,0
-1503,162,Grilled Pasta Carbonara,280000.0,46,0
-1504,28,Fresh Pasta Carbonara,160000.0,47,0
-1505,99,Fresh Pizza Pepperoni,270000.0,70,0
-1506,52,Baked Sushi Roll,230000.0,69,0
-1507,41,Grilled Chicken Wings,310000.0,40,0
-1508,22,Grilled Sushi Roll,80000.0,53,0
-1509,2,Sweet Steak,60000.0,35,0
-1510,23,Garlic Smoothie,250000.0,97,0
-1511,34,Fresh Waffles,320000.0,66,0
-1512,105,Sour Pizza Pepperoni,210000.0,74,0
-1513,28,Smoked Pasta Carbonara,50000.0,43,0
-1514,169,Grilled Tacos,200000.0,57,0
-1515,68,Honey Beef Burger,170000.0,25,0
-1516,46,Baked Pizza Pepperoni,320000.0,53,0
-1517,198,Fresh Chicken Wings,320000.0,72,0
-1518,168,Sweet Chicken Wings,200000.0,35,0
-1519,40,Fresh Noodle Soup,120000.0,95,0
-1520,180,Fresh Salad Caesar,380000.0,32,0
-1521,65,Crispy Pasta Carbonara,80000.0,86,0
-1522,34,Crispy Sushi Roll,270000.0,27,0
-1523,197,Honey Fried Rice,310000.0,68,0
-1524,115,Crispy Smoothie,400000.0,21,0
-1525,177,Sweet Pizza Pepperoni,380000.0,40,0
-1526,104,Cheesy Tacos,290000.0,90,0
-1527,71,Honey Sushi Roll,400000.0,97,0
-1528,115,Grilled Salad Caesar,270000.0,26,0
-1529,41,Sweet Tacos,380000.0,48,0
-1530,30,Spicy Smoothie,200000.0,26,0
-1531,78,Cheesy Waffles,280000.0,34,0
-1532,149,Baked Beef Burger,280000.0,90,0
-1533,22,Crispy Waffles,480000.0,33,0
-1534,197,Grilled Steak,50000.0,70,0
-1535,196,Sweet Pasta Carbonara,100000.0,89,0
-1536,11,Honey Pasta Carbonara,460000.0,82,0
-1537,137,Baked Tacos,70000.0,85,0
-1538,151,Sweet Fried Rice,260000.0,69,0
-1539,199,Spicy Pasta Carbonara,490000.0,33,0
-1540,62,Spicy Fried Rice,130000.0,51,0
-1541,9,Smoked Beef Burger,290000.0,35,0
-1542,110,Smoked Waffles,150000.0,89,0
-1543,45,Garlic Beef Burger,270000.0,66,0
-1544,123,Sweet Salad Caesar,360000.0,97,0
-1545,13,Sour Smoothie,270000.0,94,0
-1546,193,Honey Beef Burger,130000.0,37,0
-1547,38,Sour Fried Rice,390000.0,80,0
-1548,98,Sweet Noodle Soup,480000.0,80,0
-1549,72,Smoked Sushi Roll,90000.0,54,0
-1550,164,Grilled Chicken Wings,180000.0,95,0
-1551,84,Sour Tacos,150000.0,44,0
-1552,29,Honey Steak,340000.0,100,0
-1553,157,Grilled Beef Burger,480000.0,35,0
-1554,99,Garlic Fried Rice,480000.0,85,0
-1555,6,Grilled Fried Rice,460000.0,73,0
-1556,42,Crispy Salad Caesar,90000.0,84,0
-1557,122,Sour Pizza Pepperoni,370000.0,98,0
-1558,154,Smoked Waffles,300000.0,29,0
-1559,59,Sour Steak,50000.0,85,0
-1560,133,Cheesy Sushi Roll,280000.0,38,0
-1561,178,Smoked Beef Burger,290000.0,85,0
-1562,28,Sweet Fried Rice,190000.0,34,0
-1563,131,Fresh Waffles,100000.0,39,0
-1564,172,Garlic Sushi Roll,130000.0,87,0
-1565,108,Cheesy Smoothie,290000.0,82,0
-1566,150,Cheesy Waffles,290000.0,89,0
-1567,15,Spicy Salad Caesar,370000.0,94,0
-1568,31,Cheesy Pasta Carbonara,220000.0,28,0
-1569,168,Spicy Pizza Pepperoni,270000.0,62,0
-1570,95,Grilled Smoothie,360000.0,49,0
-1571,137,Smoked Steak,470000.0,56,0
-1572,115,Crispy Chicken Wings,170000.0,59,0
-1573,17,Sour Fried Rice,480000.0,52,0
-1574,62,Crispy Sushi Roll,150000.0,41,0
-1575,175,Spicy Salad Caesar,220000.0,66,0
-1576,28,Crispy Noodle Soup,140000.0,81,0
-1577,196,Smoked Chicken Wings,310000.0,48,0
-1578,127,Sweet Sushi Roll,440000.0,33,0
-1579,122,Fresh Noodle Soup,450000.0,23,0
-1580,77,Smoked Noodle Soup,160000.0,53,0
-1581,182,Sweet Tacos,260000.0,51,0
-1582,83,Cheesy Waffles,90000.0,32,0
-1583,139,Baked Pizza Pepperoni,60000.0,83,0
-1584,69,Spicy Sushi Roll,230000.0,39,0
-1585,13,Smoked Tacos,130000.0,39,0
-1586,146,Grilled Steak,280000.0,87,0
-1587,158,Garlic Noodle Soup,470000.0,79,0
-1588,144,Fresh Sushi Roll,130000.0,80,0
-1589,190,Spicy Tacos,360000.0,70,0
-1590,192,Grilled Chicken Wings,190000.0,40,0
-1591,127,Fresh Pizza Pepperoni,70000.0,22,0
-1592,30,Fresh Smoothie,280000.0,84,0
-1593,116,Sour Beef Burger,300000.0,42,0
-1594,34,Garlic Steak,90000.0,80,0
-1595,162,Smoked Beef Burger,100000.0,89,0
-1596,59,Spicy Smoothie,250000.0,83,0
-1597,97,Sour Steak,60000.0,90,0
-1598,155,Fresh Pasta Carbonara,70000.0,62,0
-1599,128,Smoked Smoothie,120000.0,35,0
-1600,140,Cheesy Waffles,440000.0,75,0
-1601,109,Smoked Beef Burger,180000.0,76,0
-1602,199,Smoked Noodle Soup,90000.0,74,0
-1603,43,Honey Tacos,60000.0,68,0
-1604,11,Garlic Steak,70000.0,90,0
-1605,21,Sour Beef Burger,300000.0,86,0
-1606,43,Sweet Pizza Pepperoni,480000.0,70,0
-1607,115,Cheesy Noodle Soup,90000.0,56,0
-1608,103,Fresh Tacos,420000.0,86,0
-1609,78,Garlic Noodle Soup,90000.0,53,0
-1610,78,Smoked Pizza Pepperoni,90000.0,40,0
-1611,130,Sweet Beef Burger,80000.0,66,0
-1612,131,Honey Sushi Roll,120000.0,45,0
-1613,191,Spicy Sushi Roll,410000.0,31,0
-1614,72,Grilled Pasta Carbonara,360000.0,50,0
-1615,50,Fresh Noodle Soup,440000.0,55,0
-1616,121,Cheesy Beef Burger,320000.0,34,0
-1617,13,Cheesy Tacos,100000.0,70,0
-1618,173,Honey Waffles,150000.0,87,0
-1619,32,Cheesy Waffles,340000.0,64,0
-1620,2,Sour Beef Burger,50000.0,34,0
-1621,143,Fresh Fried Rice,430000.0,73,0
-1622,133,Spicy Sushi Roll,60000.0,28,0
-1623,152,Spicy Pasta Carbonara,420000.0,87,0
-1624,164,Garlic Steak,390000.0,51,0
-1625,115,Sour Tacos,50000.0,86,0
-1626,28,Crispy Pizza Pepperoni,340000.0,64,0
-1627,128,Spicy Tacos,130000.0,60,0
-1628,88,Spicy Pasta Carbonara,420000.0,70,0
-1629,169,Fresh Pasta Carbonara,210000.0,81,0
-1630,176,Sweet Noodle Soup,450000.0,99,0
-1631,194,Cheesy Waffles,330000.0,90,0
-1632,159,Honey Salad Caesar,340000.0,73,0
-1633,109,Fresh Beef Burger,380000.0,95,0
-1634,148,Sour Tacos,270000.0,69,0
-1635,34,Smoked Noodle Soup,330000.0,84,0
-1636,128,Honey Sushi Roll,170000.0,47,0
-1637,177,Honey Beef Burger,330000.0,59,0
-1638,25,Cheesy Pasta Carbonara,100000.0,100,0
-1639,46,Fresh Pizza Pepperoni,480000.0,82,0
-1640,9,Grilled Pasta Carbonara,200000.0,20,0
-1641,118,Cheesy Steak,290000.0,58,0
-1642,67,Fresh Salad Caesar,440000.0,63,0
-1643,155,Baked Smoothie,190000.0,58,0
-1644,191,Honey Salad Caesar,140000.0,56,0
-1645,172,Smoked Pizza Pepperoni,220000.0,63,0
-1646,174,Smoked Fried Rice,50000.0,33,0
-1647,85,Garlic Tacos,440000.0,30,0
-1648,20,Spicy Steak,400000.0,79,0
-1649,64,Sour Chicken Wings,340000.0,55,0
-1650,46,Sweet Fried Rice,430000.0,58,0
-1651,175,Crispy Fried Rice,300000.0,78,0
-1652,92,Fresh Waffles,250000.0,85,0
-1653,67,Cheesy Salad Caesar,280000.0,58,0
-1654,149,Honey Smoothie,130000.0,42,0
-1655,58,Sour Waffles,200000.0,74,0
-1656,43,Smoked Pasta Carbonara,130000.0,97,0
-1657,59,Cheesy Pasta Carbonara,440000.0,64,0
-1658,61,Baked Pasta Carbonara,400000.0,89,0
-1659,26,Fresh Sushi Roll,340000.0,58,0
-1660,142,Honey Sushi Roll,270000.0,96,0
-1661,129,Sweet Beef Burger,340000.0,21,0
-1662,154,Sour Fried Rice,450000.0,22,0
-1663,138,Baked Sushi Roll,150000.0,80,0
-1664,43,Sour Noodle Soup,460000.0,26,0
-1665,1,Cheesy Smoothie,440000.0,30,0
-1666,90,Sweet Fried Rice,210000.0,36,0
-1667,104,Cheesy Chicken Wings,90000.0,27,0
-1668,8,Baked Noodle Soup,250000.0,50,0
-1669,161,Cheesy Pasta Carbonara,80000.0,79,0
-1670,100,Honey Pasta Carbonara,420000.0,49,0
-1671,123,Sour Fried Rice,420000.0,90,0
-1672,69,Crispy Pasta Carbonara,180000.0,53,0
-1673,42,Sweet Beef Burger,320000.0,81,0
-1674,50,Sour Smoothie,410000.0,55,0
-1675,2,Honey Steak,370000.0,49,0
-1676,63,Fresh Waffles,170000.0,88,0
-1677,27,Smoked Noodle Soup,230000.0,71,0
-1678,116,Sweet Noodle Soup,280000.0,40,0
-1679,47,Crispy Chicken Wings,370000.0,23,0
-1680,66,Sour Smoothie,470000.0,77,0
-1681,163,Crispy Waffles,300000.0,32,0
-1682,57,Baked Sushi Roll,490000.0,96,0
-1683,73,Baked Noodle Soup,400000.0,73,0
-1684,106,Honey Beef Burger,160000.0,25,0
-1685,69,Crispy Tacos,170000.0,98,0
-1686,100,Sweet Pizza Pepperoni,240000.0,91,0
-1687,40,Crispy Noodle Soup,350000.0,65,0
-1688,94,Spicy Pasta Carbonara,480000.0,55,0
-1689,127,Crispy Waffles,400000.0,72,0
-1690,186,Crispy Salad Caesar,230000.0,57,0
-1691,114,Smoked Pizza Pepperoni,170000.0,74,0
-1692,24,Baked Pizza Pepperoni,140000.0,76,0
-1693,156,Spicy Chicken Wings,270000.0,92,0
-1694,172,Fresh Noodle Soup,260000.0,76,0
-1695,19,Smoked Fried Rice,320000.0,81,0
-1696,37,Garlic Pasta Carbonara,170000.0,77,0
-1697,192,Smoked Beef Burger,60000.0,85,0
-1698,100,Smoked Sushi Roll,230000.0,22,0
-1699,114,Cheesy Noodle Soup,50000.0,98,0
-1700,69,Baked Steak,360000.0,92,0
-1701,42,Garlic Fried Rice,60000.0,45,0
-1702,96,Honey Steak,490000.0,21,0
-1703,111,Grilled Sushi Roll,120000.0,26,0
-1704,64,Sour Noodle Soup,360000.0,77,0
-1705,116,Sweet Sushi Roll,200000.0,96,0
-1706,94,Honey Tacos,230000.0,80,0
-1707,89,Cheesy Noodle Soup,470000.0,94,0
-1708,13,Baked Tacos,320000.0,73,0
-1709,175,Spicy Tacos,310000.0,99,0
-1710,83,Grilled Tacos,140000.0,99,0
-1711,85,Baked Steak,50000.0,86,0
-1712,184,Smoked Pasta Carbonara,440000.0,91,0
-1713,138,Sour Noodle Soup,350000.0,28,0
-1714,196,Baked Noodle Soup,480000.0,20,0
-1715,185,Garlic Waffles,130000.0,94,0
-1716,159,Smoked Fried Rice,360000.0,76,0
-1717,90,Garlic Chicken Wings,340000.0,73,0
-1718,79,Grilled Pizza Pepperoni,130000.0,24,0
-1719,167,Garlic Waffles,370000.0,80,0
-1720,17,Grilled Fried Rice,260000.0,26,0
-1721,52,Fresh Sushi Roll,90000.0,71,0
-1722,190,Baked Pizza Pepperoni,340000.0,64,0
-1723,133,Grilled Pizza Pepperoni,140000.0,67,0
-1724,83,Sweet Waffles,380000.0,97,0
-1725,62,Crispy Chicken Wings,380000.0,47,0
-1726,169,Sour Pasta Carbonara,300000.0,88,0
-1727,26,Crispy Pasta Carbonara,220000.0,49,0
-1728,112,Smoked Salad Caesar,370000.0,83,0
-1729,61,Grilled Sushi Roll,340000.0,22,0
-1730,64,Grilled Tacos,110000.0,88,0
-1731,36,Garlic Tacos,220000.0,86,0
-1732,36,Smoked Smoothie,200000.0,60,0
-1733,167,Baked Smoothie,360000.0,34,0
-1734,170,Sweet Steak,120000.0,71,0
-1735,46,Crispy Chicken Wings,70000.0,20,0
-1736,165,Smoked Sushi Roll,290000.0,44,0
-1737,153,Crispy Pasta Carbonara,90000.0,27,0
-1738,60,Grilled Beef Burger,90000.0,44,0
-1739,54,Spicy Pasta Carbonara,340000.0,49,0
-1740,191,Honey Salad Caesar,420000.0,42,0
-1741,100,Garlic Beef Burger,110000.0,29,0
-1742,16,Spicy Sushi Roll,470000.0,35,0
-1743,82,Honey Noodle Soup,480000.0,51,0
-1744,1,Fresh Chicken Wings,370000.0,85,0
-1745,89,Sweet Chicken Wings,50000.0,99,0
-1746,105,Baked Salad Caesar,230000.0,26,0
-1747,187,Garlic Sushi Roll,200000.0,63,0
-1748,25,Smoked Salad Caesar,390000.0,83,0
-1749,69,Grilled Steak,380000.0,90,0
-1750,176,Smoked Pizza Pepperoni,410000.0,90,0
-1751,162,Cheesy Chicken Wings,270000.0,75,0
-1752,169,Fresh Smoothie,410000.0,45,0
-1753,78,Crispy Chicken Wings,300000.0,23,0
-1754,71,Garlic Waffles,150000.0,92,0
-1755,24,Crispy Fried Rice,280000.0,41,0
-1756,52,Sweet Waffles,110000.0,52,0
-1757,171,Garlic Noodle Soup,70000.0,70,0
-1758,159,Sour Sushi Roll,180000.0,69,0
-1759,107,Honey Salad Caesar,400000.0,36,0
-1760,48,Sweet Fried Rice,220000.0,37,0
-1761,139,Smoked Fried Rice,50000.0,20,0
-1762,31,Cheesy Steak,80000.0,93,0
-1763,3,Spicy Beef Burger,290000.0,31,0
-1764,50,Smoked Salad Caesar,390000.0,32,0
-1765,157,Baked Steak,370000.0,32,0
-1766,76,Smoked Beef Burger,410000.0,22,0
-1767,3,Crispy Smoothie,490000.0,26,0
-1768,48,Cheesy Pizza Pepperoni,300000.0,37,0
-1769,109,Grilled Chicken Wings,160000.0,95,0
-1770,127,Crispy Salad Caesar,230000.0,90,0
-1771,67,Crispy Fried Rice,330000.0,87,0
-1772,71,Smoked Salad Caesar,230000.0,79,0
-1773,183,Crispy Noodle Soup,370000.0,58,0
-1774,200,Fresh Fried Rice,420000.0,88,0
-1775,179,Crispy Waffles,180000.0,80,0
-1776,26,Smoked Tacos,170000.0,68,0
-1777,196,Grilled Salad Caesar,180000.0,96,0
-1778,180,Sweet Steak,390000.0,83,0
-1779,131,Spicy Pizza Pepperoni,70000.0,73,0
-1780,139,Fresh Smoothie,160000.0,44,0
-1781,130,Baked Waffles,160000.0,48,0
-1782,53,Cheesy Sushi Roll,200000.0,64,0
-1783,110,Baked Waffles,410000.0,78,0
-1784,73,Crispy Smoothie,70000.0,25,0
-1785,41,Spicy Chicken Wings,120000.0,96,0
-1786,30,Sweet Beef Burger,410000.0,29,0
-1787,157,Smoked Pasta Carbonara,310000.0,94,0
-1788,181,Sweet Fried Rice,390000.0,70,0
-1789,176,Sour Beef Burger,140000.0,96,0
-1790,170,Fresh Steak,220000.0,75,0
-1791,169,Honey Pizza Pepperoni,470000.0,49,0
-1792,154,Fresh Chicken Wings,350000.0,79,0
-1793,159,Spicy Beef Burger,440000.0,95,0
-1794,48,Fresh Chicken Wings,350000.0,84,0
-1795,145,Spicy Sushi Roll,410000.0,67,0
-1796,17,Crispy Tacos,490000.0,25,0
-1797,70,Crispy Salad Caesar,300000.0,44,0
-1798,116,Sweet Tacos,430000.0,64,0
-1799,186,Garlic Noodle Soup,310000.0,91,0
-1800,38,Garlic Smoothie,180000.0,68,0
-1801,188,Sweet Chicken Wings,300000.0,54,0
-1802,124,Spicy Tacos,50000.0,63,0
-1803,133,Sweet Steak,410000.0,40,0
-1804,170,Baked Sushi Roll,240000.0,63,0
-1805,34,Garlic Tacos,360000.0,59,0
-1806,165,Sour Fried Rice,60000.0,57,0
-1807,139,Crispy Tacos,80000.0,53,0
-1808,30,Smoked Chicken Wings,360000.0,73,0
-1809,174,Spicy Smoothie,370000.0,78,0
-1810,51,Sweet Pizza Pepperoni,370000.0,38,0
-1811,20,Smoked Waffles,480000.0,33,0
-1812,40,Garlic Pasta Carbonara,470000.0,26,0
-1813,117,Smoked Waffles,70000.0,60,0
-1814,169,Sweet Steak,260000.0,71,0
-1815,134,Fresh Pizza Pepperoni,290000.0,38,0
-1816,173,Baked Fried Rice,400000.0,35,0
-1817,8,Sour Fried Rice,130000.0,75,0
-1818,98,Fresh Smoothie,180000.0,47,0
-1819,154,Sour Sushi Roll,300000.0,44,0
-1820,107,Garlic Beef Burger,220000.0,93,0
-1821,32,Cheesy Sushi Roll,100000.0,24,0
-1822,140,Smoked Beef Burger,320000.0,82,0
-1823,40,Crispy Chicken Wings,230000.0,96,0
-1824,66,Fresh Salad Caesar,200000.0,32,0
-1825,29,Garlic Pasta Carbonara,130000.0,39,0
-1826,197,Sour Noodle Soup,370000.0,84,0
-1827,75,Spicy Pasta Carbonara,70000.0,58,0
-1828,14,Spicy Fried Rice,360000.0,94,0
-1829,24,Honey Pasta Carbonara,380000.0,99,0
-1830,101,Garlic Tacos,440000.0,68,0
-1831,32,Cheesy Smoothie,370000.0,26,0
-1832,98,Smoked Waffles,140000.0,31,0
-1833,89,Cheesy Steak,110000.0,91,0
-1834,127,Honey Waffles,60000.0,30,0
-1835,73,Smoked Pizza Pepperoni,130000.0,93,0
-1836,132,Baked Noodle Soup,340000.0,41,0
-1837,171,Baked Pizza Pepperoni,400000.0,32,0
-1838,53,Grilled Smoothie,490000.0,94,0
-1839,159,Honey Waffles,60000.0,31,0
-1840,113,Crispy Pasta Carbonara,250000.0,45,0
-1841,108,Cheesy Sushi Roll,320000.0,91,0
-1842,183,Fresh Waffles,90000.0,26,0
-1843,28,Cheesy Fried Rice,340000.0,49,0
-1844,150,Smoked Salad Caesar,370000.0,25,0
-1845,74,Sour Waffles,50000.0,69,0
-1846,136,Sour Smoothie,180000.0,37,0
-1847,175,Baked Salad Caesar,410000.0,65,0
-1848,58,Sweet Pizza Pepperoni,180000.0,63,0
-1849,144,Spicy Smoothie,230000.0,32,0
-1850,45,Garlic Beef Burger,430000.0,42,0
-1851,97,Baked Pasta Carbonara,370000.0,99,0
-1852,2,Smoked Pasta Carbonara,190000.0,22,0
-1853,135,Spicy Smoothie,50000.0,60,0
-1854,162,Cheesy Beef Burger,250000.0,38,0
-1855,133,Fresh Noodle Soup,350000.0,66,0
-1856,146,Sour Waffles,440000.0,88,0
-1857,16,Fresh Smoothie,200000.0,97,0
-1858,27,Honey Beef Burger,440000.0,83,0
-1859,86,Sweet Waffles,290000.0,44,0
-1860,68,Grilled Pizza Pepperoni,280000.0,62,0
-1861,30,Fresh Fried Rice,200000.0,44,0
-1862,99,Sweet Noodle Soup,300000.0,52,0
-1863,161,Grilled Pizza Pepperoni,480000.0,20,0
-1864,73,Baked Pasta Carbonara,400000.0,29,0
-1865,25,Sweet Sushi Roll,420000.0,43,0
-1866,180,Honey Pizza Pepperoni,260000.0,31,0
-1867,137,Crispy Chicken Wings,140000.0,28,0
-1868,145,Spicy Pasta Carbonara,210000.0,55,0
-1869,30,Honey Tacos,480000.0,72,0
-1870,67,Spicy Tacos,130000.0,58,0
-1871,138,Sweet Steak,260000.0,85,0
-1872,152,Grilled Tacos,410000.0,60,0
-1873,170,Cheesy Sushi Roll,100000.0,60,0
-1874,87,Crispy Tacos,160000.0,96,0
-1875,198,Fresh Tacos,460000.0,74,0
-1876,159,Smoked Salad Caesar,190000.0,99,0
-1877,126,Fresh Beef Burger,350000.0,100,0
-1878,70,Garlic Pizza Pepperoni,210000.0,48,0
-1879,52,Sour Sushi Roll,270000.0,38,0
-1880,124,Honey Noodle Soup,400000.0,23,0
-1881,85,Sweet Steak,430000.0,25,0
-1882,36,Crispy Tacos,120000.0,79,0
-1883,184,Baked Tacos,480000.0,64,0
-1884,166,Fresh Chicken Wings,390000.0,44,0
-1885,26,Sour Waffles,410000.0,74,0
-1886,57,Fresh Waffles,220000.0,62,0
-1887,164,Crispy Salad Caesar,470000.0,100,0
-1888,72,Sour Waffles,230000.0,40,0
-1889,173,Baked Pasta Carbonara,480000.0,84,0
-1890,37,Sweet Smoothie,260000.0,64,0
-1891,132,Cheesy Fried Rice,250000.0,82,0
-1892,137,Honey Pasta Carbonara,60000.0,26,0
-1893,197,Spicy Sushi Roll,90000.0,55,0
-1894,42,Honey Fried Rice,270000.0,71,0
-1895,72,Crispy Waffles,400000.0,28,0
-1896,62,Grilled Noodle Soup,130000.0,89,0
-1897,128,Cheesy Pasta Carbonara,330000.0,83,0
-1898,150,Cheesy Chicken Wings,70000.0,39,0
-1899,139,Honey Pizza Pepperoni,480000.0,31,0
-1900,61,Grilled Smoothie,270000.0,60,0
-1901,78,Grilled Steak,210000.0,53,0
-1902,139,Garlic Steak,290000.0,94,0
-1903,121,Spicy Fried Rice,320000.0,96,0
-1904,111,Baked Chicken Wings,80000.0,74,0
-1905,28,Baked Smoothie,100000.0,88,0
-1906,85,Spicy Fried Rice,210000.0,40,0
-1907,190,Cheesy Beef Burger,290000.0,85,0
-1908,160,Cheesy Pasta Carbonara,320000.0,27,0
-1909,172,Cheesy Pizza Pepperoni,180000.0,76,0
-1910,120,Garlic Noodle Soup,340000.0,23,0
-1911,50,Grilled Pasta Carbonara,150000.0,68,0
-1912,21,Crispy Pasta Carbonara,200000.0,67,0
-1913,131,Sour Steak,160000.0,48,0
-1914,187,Fresh Beef Burger,150000.0,85,0
-1915,177,Grilled Pizza Pepperoni,300000.0,86,0
-1916,99,Sour Steak,480000.0,58,0
-1917,172,Garlic Pizza Pepperoni,60000.0,85,0
-1918,100,Cheesy Pasta Carbonara,150000.0,63,0
-1919,184,Honey Pasta Carbonara,290000.0,31,0
-1920,200,Garlic Sushi Roll,160000.0,97,0
-1921,121,Grilled Waffles,230000.0,55,0
-1922,136,Cheesy Salad Caesar,260000.0,24,0
-1923,171,Smoked Chicken Wings,110000.0,75,0
-1924,184,Crispy Sushi Roll,250000.0,64,0
-1925,136,Cheesy Noodle Soup,360000.0,64,0
-1926,39,Cheesy Sushi Roll,400000.0,49,0
-1927,18,Sour Smoothie,70000.0,32,0
-1928,198,Cheesy Salad Caesar,270000.0,87,0
-1929,170,Baked Noodle Soup,250000.0,48,0
-1930,162,Spicy Beef Burger,210000.0,86,0
-1931,34,Grilled Steak,440000.0,66,0
-1932,124,Sour Steak,270000.0,85,0
-1933,174,Sweet Sushi Roll,230000.0,42,0
-1934,18,Baked Waffles,360000.0,48,0
-1935,159,Crispy Salad Caesar,130000.0,32,0
-1936,40,Baked Noodle Soup,210000.0,68,0
-1937,30,Fresh Steak,470000.0,85,0
-1938,134,Baked Steak,240000.0,45,0
-1939,96,Baked Steak,150000.0,81,0
-1940,61,Fresh Tacos,280000.0,53,0
-1941,153,Sweet Waffles,250000.0,90,0
-1942,32,Cheesy Noodle Soup,140000.0,96,0
-1943,45,Smoked Pizza Pepperoni,400000.0,92,0
-1944,131,Cheesy Noodle Soup,90000.0,98,0
-1945,102,Smoked Pizza Pepperoni,410000.0,53,0
-1946,77,Smoked Tacos,420000.0,49,0
-1947,34,Cheesy Noodle Soup,390000.0,66,0
-1948,53,Sour Noodle Soup,210000.0,99,0
-1949,41,Crispy Noodle Soup,200000.0,27,0
-1950,87,Sweet Pizza Pepperoni,180000.0,31,0
-1951,22,Honey Fried Rice,200000.0,91,0
-1952,77,Fresh Waffles,210000.0,51,0
-1953,54,Sweet Noodle Soup,460000.0,44,0
-1954,32,Honey Beef Burger,330000.0,99,0
-1955,133,Honey Waffles,190000.0,32,0
-1956,132,Fresh Steak,110000.0,26,0
-1957,35,Sour Pizza Pepperoni,50000.0,28,0
-1958,60,Sweet Smoothie,290000.0,72,0
-1959,130,Fresh Beef Burger,390000.0,73,0
-1960,171,Grilled Tacos,80000.0,63,0
-1961,74,Cheesy Salad Caesar,230000.0,29,0
-1962,51,Baked Pizza Pepperoni,380000.0,45,0
-1963,161,Grilled Waffles,380000.0,75,0
-1964,129,Honey Smoothie,270000.0,63,0
-1965,165,Smoked Beef Burger,240000.0,92,0
-1966,82,Spicy Beef Burger,460000.0,30,0
-1967,145,Sour Noodle Soup,380000.0,29,0
-1968,49,Fresh Steak,80000.0,38,0
-1969,179,Honey Chicken Wings,360000.0,86,0
-1970,14,Sour Waffles,490000.0,69,0
-1971,16,Crispy Fried Rice,490000.0,98,0
-1972,106,Fresh Fried Rice,310000.0,53,0
-1973,199,Smoked Noodle Soup,160000.0,62,0
-1974,116,Crispy Smoothie,60000.0,40,0
-1975,175,Spicy Pizza Pepperoni,150000.0,85,0
-1976,122,Garlic Chicken Wings,210000.0,76,0
-1977,113,Fresh Noodle Soup,280000.0,37,0
-1978,103,Crispy Beef Burger,110000.0,53,0
-1979,150,Cheesy Tacos,110000.0,49,0
-1980,39,Honey Tacos,330000.0,79,0
-1981,5,Sour Noodle Soup,90000.0,90,0
-1982,94,Honey Sushi Roll,330000.0,46,0
-1983,177,Grilled Fried Rice,370000.0,70,0
-1984,195,Honey Beef Burger,300000.0,32,0
-1985,24,Baked Waffles,320000.0,27,0
-1986,88,Smoked Steak,460000.0,61,0
-1987,176,Crispy Smoothie,50000.0,23,0
-1988,27,Honey Noodle Soup,300000.0,73,0
-1989,106,Grilled Beef Burger,420000.0,34,0
-1990,63,Sweet Sushi Roll,160000.0,50,0
-1991,28,Garlic Noodle Soup,250000.0,40,0
-1992,188,Sweet Sushi Roll,340000.0,97,0
-1993,45,Crispy Beef Burger,140000.0,93,0
-1994,55,Spicy Waffles,450000.0,26,0
-1995,38,Baked Smoothie,320000.0,23,0
-1996,90,Cheesy Pasta Carbonara,440000.0,87,0
-1997,132,Grilled Waffles,410000.0,76,0
-1998,81,Fresh Pasta Carbonara,90000.0,65,0
-1999,67,Fresh Sushi Roll,430000.0,20,0
-2000,190,Crispy Pizza Pepperoni,230000.0,58,0
+1,78,Bun Cha,130000.0,74,0
+2,118,Banh Trang Tron,135000.0,54,0
+3,142,Ca Phe Sua Da,150000.0,36,0
+4,1,Hu Tieu,55000.0,94,0
+5,194,Banh Moouse,90000.0,63,0
+6,145,Ga Ran,80000.0,48,0
+7,27,Che Thap Cam,40000.0,91,0
+8,101,Pizza Hai San,105000.0,49,0
+9,148,Sua Chua,150000.0,55,0
+10,180,Tiramisu Cake,100000.0,26,0
+11,130,Sua Chua,110000.0,35,0
+12,64,Tra Sua Tran Chau,70000.0,38,0
+13,118,Sua Chua,45000.0,52,0
+14,119,Banh Moouse,60000.0,65,0
+15,63,Com Tam Suon Nuong,150000.0,32,0
+16,30,Ca Phe Sua Da,30000.0,26,0
+17,33,Banh Mi Dac Biet,90000.0,45,0
+18,54,Mi Cay,55000.0,33,0
+19,74,Com Tam Suon Nuong,100000.0,54,0
+20,114,Ga Ran,35000.0,89,0
+21,18,Sam Bo Luong,35000.0,69,0
+22,164,Trai Cay Tuoi,55000.0,86,0
+23,184,Hu Tieu,135000.0,26,0
+24,60,Ca Phe Sua Da,95000.0,48,0
+25,169,Che Thap Cam,115000.0,50,0
+26,155,Tra Sua Tran Chau,115000.0,94,0
+27,154,Hu Tieu,135000.0,95,0
+28,49,Pizza Hai San,55000.0,44,0
+29,75,Banh Trang Tron,85000.0,86,0
+30,157,Ga Ran,115000.0,37,0
+31,131,Com Tam Suon Nuong,140000.0,76,0
+32,163,Banh Mi Dac Biet,30000.0,88,0
+33,64,Pizza Hai San,70000.0,72,0
+34,28,Ga Ran,115000.0,38,0
+35,134,Banh Moouse,40000.0,20,0
+36,155,Goi Cuon,115000.0,50,0
+37,84,Sam Bo Luong,110000.0,28,0
+38,84,Tra Sua Tran Chau,150000.0,63,0
+39,69,Mi Cay,150000.0,60,0
+40,190,Banh Mi Dac Biet,130000.0,37,0
+41,106,Trai Cay Tuoi,85000.0,21,0
+42,63,Pizza Hai San,60000.0,60,0
+43,10,Com Tam Suon Nuong,110000.0,88,0
+44,156,Banh Trang Tron,80000.0,63,0
+45,43,Che Thap Cam,90000.0,73,0
+46,40,Goi Cuon,45000.0,42,0
+47,24,Pho Bo,95000.0,77,0
+48,161,Pho Bo,130000.0,60,0
+49,107,Che Thap Cam,120000.0,27,0
+50,168,Hu Tieu,80000.0,37,0
+51,9,Banh Trang Tron,60000.0,79,0
+52,103,Com Tam Suon Nuong,150000.0,40,0
+53,195,Ga Ran,115000.0,82,0
+54,58,Tra Sua Tran Chau,55000.0,26,0
+55,57,Ga Ran,35000.0,34,0
+56,144,Banh Moouse,45000.0,65,0
+57,182,Tra Sua Tran Chau,110000.0,96,0
+58,186,Trai Cay Tuoi,135000.0,53,0
+59,185,Pho Bo,110000.0,44,0
+60,152,Trai Cay Tuoi,30000.0,97,0
+61,167,Banh Moouse,145000.0,59,0
+62,48,Che Thap Cam,95000.0,82,0
+63,60,Ga Ran,140000.0,81,0
+64,193,Pizza Hai San,130000.0,39,0
+65,129,Hu Tieu,115000.0,55,0
+66,137,Sua Chua,60000.0,47,0
+67,140,Banh Moouse,95000.0,21,0
+68,164,Hu Tieu,125000.0,77,0
+69,21,Goi Cuon,95000.0,56,0
+70,14,Sua Chua,80000.0,39,0
+71,52,Ca Phe Sua Da,60000.0,93,0
+72,165,Hu Tieu,45000.0,82,0
+73,78,Ga Ran,140000.0,51,0
+74,186,Banh Mi Dac Biet,100000.0,55,0
+75,167,Sua Chua,90000.0,29,0
+76,54,Pizza Hai San,65000.0,81,0
+77,143,Pho Bo,95000.0,93,0
+78,15,Sua Chua,145000.0,92,0
+79,87,Sua Chua,120000.0,42,0
+80,66,Bun Cha,50000.0,23,0
+81,2,Ca Phe Sua Da,100000.0,58,0
+82,96,Com Tam Suon Nuong,100000.0,34,0
+83,14,Goi Cuon,85000.0,40,0
+84,123,Tiramisu Cake,120000.0,96,0
+85,42,Goi Cuon,70000.0,95,0
+86,127,Com Tam Suon Nuong,30000.0,86,0
+87,64,Ca Phe Sua Da,50000.0,76,0
+88,59,Hu Tieu,75000.0,42,0
+89,194,Banh Trang Tron,80000.0,31,0
+90,199,Ca Phe Sua Da,105000.0,84,0
+91,117,Hu Tieu,130000.0,58,0
+92,166,Banh Mi Dac Biet,40000.0,63,0
+93,195,Sua Chua,90000.0,48,0
+94,83,Banh Moouse,80000.0,88,0
+95,42,Goi Cuon,85000.0,71,0
+96,53,Hu Tieu,35000.0,46,0
+97,96,Com Tam Suon Nuong,130000.0,38,0
+98,68,Banh Moouse,105000.0,96,0
+99,144,Pizza Hai San,100000.0,23,0
+100,179,Bun Cha,140000.0,50,0
+101,196,Mi Cay,60000.0,21,0
+102,110,Ga Ran,150000.0,87,0
+103,179,Pho Bo,115000.0,79,0
+104,99,Tra Sua Tran Chau,55000.0,55,0
+105,57,Hu Tieu,85000.0,99,0
+106,82,Che Thap Cam,85000.0,75,0
+107,75,Banh Moouse,120000.0,67,0
+108,191,Ga Ran,55000.0,27,0
+109,154,Goi Cuon,70000.0,35,0
+110,68,Sua Chua,70000.0,87,0
+111,157,Banh Mi Dac Biet,90000.0,72,0
+112,145,Trai Cay Tuoi,35000.0,58,0
+113,153,Sua Chua,140000.0,58,0
+114,118,Banh Mi Dac Biet,65000.0,72,0
+115,138,Bun Cha,55000.0,98,0
+116,37,Tiramisu Cake,85000.0,33,0
+117,41,Banh Moouse,90000.0,60,0
+118,58,Ca Phe Sua Da,120000.0,42,0
+119,21,Pho Bo,70000.0,86,0
+120,68,Banh Mi Dac Biet,95000.0,43,0
+121,4,Bun Cha,70000.0,62,0
+122,75,Ga Ran,80000.0,27,0
+123,121,Tiramisu Cake,90000.0,24,0
+124,106,Goi Cuon,55000.0,86,0
+125,44,Che Thap Cam,125000.0,37,0
+126,44,Ga Ran,120000.0,71,0
+127,39,Com Tam Suon Nuong,60000.0,61,0
+128,112,Banh Moouse,95000.0,45,0
+129,69,Sam Bo Luong,65000.0,69,0
+130,158,Tra Sua Tran Chau,30000.0,58,0
+131,99,Trai Cay Tuoi,110000.0,89,0
+132,49,Banh Mi Dac Biet,125000.0,94,0
+133,25,Ca Phe Sua Da,30000.0,99,0
+134,4,Tiramisu Cake,150000.0,48,0
+135,95,Ga Ran,125000.0,65,0
+136,31,Ga Ran,45000.0,85,0
+137,114,Pho Bo,125000.0,50,0
+138,178,Pizza Hai San,60000.0,22,0
+139,190,Hu Tieu,130000.0,41,0
+140,38,Mi Cay,40000.0,94,0
+141,155,Banh Mi Dac Biet,50000.0,72,0
+142,176,Hu Tieu,80000.0,41,0
+143,161,Sam Bo Luong,135000.0,54,0
+144,127,Goi Cuon,30000.0,38,0
+145,110,Bun Cha,140000.0,57,0
+146,91,Tiramisu Cake,35000.0,38,0
+147,20,Sua Chua,45000.0,60,0
+148,94,Pho Bo,65000.0,26,0
+149,85,Ca Phe Sua Da,110000.0,58,0
+150,196,Mi Cay,75000.0,23,0
+151,113,Mi Cay,135000.0,96,0
+152,124,Sua Chua,55000.0,21,0
+153,76,Sam Bo Luong,65000.0,30,0
+154,94,Tra Sua Tran Chau,45000.0,59,0
+155,67,Com Tam Suon Nuong,140000.0,70,0
+156,116,Trai Cay Tuoi,30000.0,85,0
+157,141,Banh Moouse,80000.0,75,0
+158,131,Com Tam Suon Nuong,135000.0,94,0
+159,11,Banh Trang Tron,90000.0,83,0
+160,153,Banh Mi Dac Biet,65000.0,21,0
+161,81,Bun Cha,60000.0,69,0
+162,86,Sua Chua,70000.0,44,0
+163,13,Banh Mi Dac Biet,125000.0,91,0
+164,189,Goi Cuon,130000.0,35,0
+165,37,Banh Moouse,70000.0,81,0
+166,137,Tiramisu Cake,90000.0,49,0
+167,131,Pizza Hai San,145000.0,51,0
+168,34,Che Thap Cam,115000.0,75,0
+169,42,Pho Bo,45000.0,50,0
+170,167,Goi Cuon,85000.0,27,0
+171,183,Com Tam Suon Nuong,65000.0,96,0
+172,28,Sua Chua,55000.0,90,0
+173,18,Che Thap Cam,140000.0,78,0
+174,187,Goi Cuon,65000.0,85,0
+175,156,Sua Chua,95000.0,37,0
+176,196,Sam Bo Luong,60000.0,43,0
+177,97,Banh Trang Tron,105000.0,90,0
+178,110,Banh Moouse,75000.0,28,0
+179,181,Hu Tieu,65000.0,23,0
+180,45,Hu Tieu,140000.0,43,0
+181,40,Trai Cay Tuoi,80000.0,56,0
+182,68,Banh Trang Tron,70000.0,93,0
+183,132,Tiramisu Cake,45000.0,27,0
+184,10,Com Tam Suon Nuong,115000.0,40,0
+185,155,Sam Bo Luong,40000.0,47,0
+186,63,Banh Mi Dac Biet,150000.0,68,0
+187,171,Com Tam Suon Nuong,60000.0,69,0
+188,37,Che Thap Cam,75000.0,92,0
+189,51,Che Thap Cam,60000.0,34,0
+190,73,Mi Cay,140000.0,46,0
+191,117,Ca Phe Sua Da,35000.0,90,0
+192,153,Che Thap Cam,120000.0,70,0
+193,124,Tiramisu Cake,140000.0,38,0
+194,29,Che Thap Cam,95000.0,86,0
+195,61,Pho Bo,130000.0,94,0
+196,7,Com Tam Suon Nuong,105000.0,97,0
+197,23,Bun Cha,45000.0,31,0
+198,93,Com Tam Suon Nuong,80000.0,43,0
+199,149,Tiramisu Cake,35000.0,54,0
+200,131,Trai Cay Tuoi,60000.0,90,0
+201,48,Pizza Hai San,40000.0,99,0
+202,28,Mi Cay,120000.0,87,0
+203,151,Goi Cuon,145000.0,39,0
+204,24,Banh Mi Dac Biet,115000.0,77,0
+205,104,Sua Chua,75000.0,53,0
+206,196,Banh Mi Dac Biet,65000.0,25,0
+207,14,Che Thap Cam,70000.0,36,0
+208,55,Banh Trang Tron,55000.0,24,0
+209,11,Mi Cay,70000.0,58,0
+210,144,Hu Tieu,140000.0,27,0
+211,76,Tiramisu Cake,120000.0,66,0
+212,171,Banh Moouse,110000.0,53,0
+213,26,Tra Sua Tran Chau,110000.0,23,0
+214,195,Ga Ran,70000.0,75,0
+215,173,Trai Cay Tuoi,35000.0,22,0
+216,191,Com Tam Suon Nuong,45000.0,99,0
+217,192,Sua Chua,150000.0,80,0
+218,38,Tiramisu Cake,95000.0,37,0
+219,146,Sam Bo Luong,120000.0,37,0
+220,124,Mi Cay,115000.0,92,0
+221,73,Pho Bo,80000.0,25,0
+222,109,Tiramisu Cake,95000.0,22,0
+223,6,Pizza Hai San,150000.0,66,0
+224,135,Mi Cay,140000.0,63,0
+225,13,Tiramisu Cake,80000.0,87,0
+226,90,Tra Sua Tran Chau,125000.0,58,0
+227,11,Banh Mi Dac Biet,105000.0,34,0
+228,168,Sua Chua,55000.0,23,0
+229,88,Tra Sua Tran Chau,100000.0,47,0
+230,167,Ca Phe Sua Da,115000.0,61,0
+231,141,Com Tam Suon Nuong,115000.0,90,0
+232,27,Tiramisu Cake,125000.0,65,0
+233,109,Sua Chua,70000.0,52,0
+234,143,Che Thap Cam,75000.0,45,0
+235,101,Tra Sua Tran Chau,70000.0,94,0
+236,43,Banh Trang Tron,65000.0,90,0
+237,149,Goi Cuon,65000.0,92,0
+238,12,Sua Chua,40000.0,85,0
+239,118,Tiramisu Cake,45000.0,36,0
+240,48,Com Tam Suon Nuong,95000.0,93,0
+241,51,Mi Cay,125000.0,44,0
+242,193,Banh Moouse,120000.0,66,0
+243,82,Hu Tieu,145000.0,46,0
+244,143,Banh Moouse,30000.0,72,0
+245,122,Che Thap Cam,60000.0,38,0
+246,120,Trai Cay Tuoi,135000.0,81,0
+247,180,Mi Cay,70000.0,34,0
+248,42,Banh Mi Dac Biet,135000.0,86,0
+249,4,Tiramisu Cake,75000.0,97,0
+250,84,Banh Mi Dac Biet,55000.0,78,0
+251,183,Sua Chua,40000.0,53,0
+252,122,Goi Cuon,70000.0,37,0
+253,132,Banh Moouse,45000.0,96,0
+254,96,Trai Cay Tuoi,150000.0,22,0
+255,109,Tra Sua Tran Chau,110000.0,26,0
+256,60,Bun Cha,45000.0,81,0
+257,117,Goi Cuon,35000.0,88,0
+258,173,Mi Cay,125000.0,37,0
+259,136,Tra Sua Tran Chau,120000.0,22,0
+260,16,Goi Cuon,70000.0,38,0
+261,184,Pho Bo,145000.0,30,0
+262,31,Banh Trang Tron,140000.0,40,0
+263,20,Mi Cay,75000.0,46,0
+264,114,Ca Phe Sua Da,130000.0,81,0
+265,56,Che Thap Cam,80000.0,38,0
+266,120,Che Thap Cam,115000.0,90,0
+267,153,Com Tam Suon Nuong,60000.0,55,0
+268,124,Pho Bo,130000.0,31,0
+269,120,Goi Cuon,70000.0,20,0
+270,74,Mi Cay,90000.0,90,0
+271,164,Che Thap Cam,85000.0,52,0
+272,136,Goi Cuon,130000.0,91,0
+273,34,Banh Mi Dac Biet,70000.0,61,0
+274,160,Tiramisu Cake,85000.0,34,0
+275,102,Tiramisu Cake,135000.0,74,0
+276,194,Che Thap Cam,130000.0,51,0
+277,57,Com Tam Suon Nuong,145000.0,86,0
+278,76,Ga Ran,140000.0,48,0
+279,51,Pho Bo,135000.0,30,0
+280,123,Che Thap Cam,120000.0,50,0
+281,63,Ca Phe Sua Da,135000.0,99,0
+282,9,Hu Tieu,65000.0,97,0
+283,11,Che Thap Cam,60000.0,21,0
+284,31,Che Thap Cam,140000.0,70,0
+285,135,Pizza Hai San,95000.0,56,0
+286,41,Hu Tieu,110000.0,63,0
+287,195,Sam Bo Luong,65000.0,50,0
+288,127,Banh Moouse,135000.0,91,0
+289,11,Tiramisu Cake,125000.0,26,0
+290,96,Trai Cay Tuoi,55000.0,89,0
+291,4,Goi Cuon,55000.0,59,0
+292,198,Mi Cay,110000.0,93,0
+293,158,Pizza Hai San,115000.0,78,0
+294,6,Banh Mi Dac Biet,65000.0,91,0
+295,17,Bun Cha,145000.0,83,0
+296,55,Bun Cha,95000.0,25,0
+297,74,Goi Cuon,130000.0,72,0
+298,16,Tra Sua Tran Chau,30000.0,81,0
+299,133,Bun Cha,95000.0,79,0
+300,99,Tra Sua Tran Chau,65000.0,76,0
+301,153,Trai Cay Tuoi,80000.0,76,0
+302,182,Pho Bo,35000.0,55,0
+303,153,Che Thap Cam,105000.0,69,0
+304,111,Che Thap Cam,90000.0,81,0
+305,119,Banh Trang Tron,110000.0,32,0
+306,29,Hu Tieu,45000.0,27,0
+307,49,Goi Cuon,70000.0,71,0
+308,51,Banh Mi Dac Biet,100000.0,70,0
+309,150,Banh Trang Tron,150000.0,86,0
+310,6,Sam Bo Luong,85000.0,56,0
+311,111,Trai Cay Tuoi,35000.0,75,0
+312,140,Com Tam Suon Nuong,120000.0,23,0
+313,144,Sam Bo Luong,30000.0,85,0
+314,172,Che Thap Cam,110000.0,75,0
+315,38,Mi Cay,125000.0,54,0
+316,82,Banh Trang Tron,85000.0,80,0
+317,199,Ga Ran,80000.0,97,0
+318,113,Tra Sua Tran Chau,145000.0,49,0
+319,7,Mi Cay,45000.0,27,0
+320,9,Com Tam Suon Nuong,100000.0,94,0
+321,71,Mi Cay,120000.0,93,0
+322,56,Ca Phe Sua Da,135000.0,86,0
+323,166,Tra Sua Tran Chau,75000.0,64,0
+324,130,Pho Bo,90000.0,61,0
+325,58,Banh Moouse,125000.0,47,0
+326,188,Tiramisu Cake,90000.0,55,0
+327,77,Trai Cay Tuoi,120000.0,72,0
+328,42,Che Thap Cam,60000.0,26,0
+329,146,Com Tam Suon Nuong,75000.0,59,0
+330,150,Sam Bo Luong,80000.0,96,0
+331,110,Ga Ran,140000.0,73,0
+332,114,Pho Bo,135000.0,82,0
+333,1,Sam Bo Luong,30000.0,85,0
+334,10,Banh Moouse,40000.0,29,0
+335,132,Ga Ran,80000.0,38,0
+336,164,Hu Tieu,85000.0,64,0
+337,171,Tiramisu Cake,115000.0,66,0
+338,177,Bun Cha,120000.0,76,0
+339,154,Banh Moouse,100000.0,84,0
+340,139,Goi Cuon,135000.0,50,0
+341,66,Mi Cay,45000.0,87,0
+342,31,Ga Ran,125000.0,40,0
+343,34,Banh Trang Tron,30000.0,89,0
+344,170,Goi Cuon,115000.0,20,0
+345,63,Trai Cay Tuoi,150000.0,40,0
+346,157,Ca Phe Sua Da,125000.0,94,0
+347,38,Sua Chua,40000.0,71,0
+348,3,Banh Moouse,30000.0,82,0
+349,63,Hu Tieu,50000.0,26,0
+350,168,Banh Mi Dac Biet,45000.0,59,0
+351,10,Mi Cay,120000.0,37,0
+352,65,Sam Bo Luong,60000.0,41,0
+353,18,Sua Chua,115000.0,96,0
+354,167,Pho Bo,40000.0,91,0
+355,110,Sua Chua,120000.0,53,0
+356,70,Che Thap Cam,85000.0,53,0
+357,165,Com Tam Suon Nuong,50000.0,80,0
+358,56,Trai Cay Tuoi,55000.0,27,0
+359,55,Bun Cha,65000.0,78,0
+360,132,Mi Cay,55000.0,67,0
+361,104,Sam Bo Luong,105000.0,94,0
+362,83,Tra Sua Tran Chau,105000.0,55,0
+363,158,Banh Moouse,135000.0,98,0
+364,142,Ca Phe Sua Da,30000.0,96,0
+365,184,Banh Trang Tron,120000.0,46,0
+366,171,Banh Mi Dac Biet,85000.0,75,0
+367,46,Sua Chua,115000.0,72,0
+368,63,Banh Moouse,55000.0,55,0
+369,93,Sua Chua,45000.0,22,0
+370,3,Ca Phe Sua Da,75000.0,53,0
+371,50,Trai Cay Tuoi,65000.0,98,0
+372,162,Tra Sua Tran Chau,85000.0,86,0
+373,108,Pho Bo,65000.0,89,0
+374,126,Che Thap Cam,130000.0,80,0
+375,68,Hu Tieu,135000.0,87,0
+376,183,Bun Cha,40000.0,41,0
+377,85,Banh Mi Dac Biet,105000.0,44,0
+378,6,Che Thap Cam,45000.0,26,0
+379,14,Ca Phe Sua Da,75000.0,73,0
+380,187,Banh Trang Tron,100000.0,92,0
+381,21,Sam Bo Luong,80000.0,51,0
+382,116,Ca Phe Sua Da,50000.0,94,0
+383,139,Pho Bo,50000.0,63,0
+384,64,Banh Mi Dac Biet,125000.0,76,0
+385,68,Ga Ran,75000.0,68,0
+386,165,Tiramisu Cake,40000.0,41,0
+387,5,Trai Cay Tuoi,115000.0,43,0
+388,135,Tra Sua Tran Chau,80000.0,70,0
+389,46,Tra Sua Tran Chau,110000.0,81,0
+390,106,Sam Bo Luong,55000.0,40,0
+391,56,Trai Cay Tuoi,50000.0,20,0
+392,100,Pho Bo,150000.0,53,0
+393,166,Trai Cay Tuoi,125000.0,65,0
+394,78,Sua Chua,100000.0,87,0
+395,85,Mi Cay,65000.0,44,0
+396,122,Trai Cay Tuoi,60000.0,55,0
+397,125,Tiramisu Cake,40000.0,24,0
+398,155,Hu Tieu,55000.0,66,0
+399,79,Banh Moouse,90000.0,42,0
+400,121,Ga Ran,60000.0,71,0
+401,30,Banh Trang Tron,95000.0,57,0
+402,188,Com Tam Suon Nuong,95000.0,23,0
+403,24,Com Tam Suon Nuong,145000.0,33,0
+404,118,Sam Bo Luong,150000.0,83,0
+405,156,Pizza Hai San,115000.0,26,0
+406,36,Tra Sua Tran Chau,30000.0,81,0
+407,188,Pho Bo,50000.0,21,0
+408,59,Tiramisu Cake,35000.0,23,0
+409,58,Che Thap Cam,145000.0,63,0
+410,12,Pho Bo,85000.0,94,0
+411,20,Trai Cay Tuoi,125000.0,92,0
+412,170,Pho Bo,120000.0,63,0
+413,177,Che Thap Cam,40000.0,61,0
+414,96,Tiramisu Cake,95000.0,57,0
+415,90,Hu Tieu,115000.0,57,0
+416,53,Ga Ran,40000.0,40,0
+417,164,Banh Mi Dac Biet,100000.0,56,0
+418,33,Mi Cay,45000.0,95,0
+419,43,Trai Cay Tuoi,115000.0,34,0
+420,71,Banh Mi Dac Biet,65000.0,31,0
+421,198,Com Tam Suon Nuong,135000.0,52,0
+422,163,Sua Chua,50000.0,77,0
+423,87,Banh Mi Dac Biet,80000.0,90,0
+424,123,Banh Mi Dac Biet,75000.0,63,0
+425,33,Pizza Hai San,110000.0,54,0
+426,80,Che Thap Cam,135000.0,63,0
+427,186,Trai Cay Tuoi,115000.0,87,0
+428,51,Tiramisu Cake,150000.0,70,0
+429,152,Banh Trang Tron,95000.0,34,0
+430,178,Banh Trang Tron,125000.0,82,0
+431,150,Banh Mi Dac Biet,130000.0,77,0
+432,162,Banh Mi Dac Biet,60000.0,80,0
+433,6,Goi Cuon,150000.0,62,0
+434,172,Bun Cha,110000.0,33,0
+435,61,Banh Trang Tron,75000.0,47,0
+436,26,Banh Trang Tron,110000.0,57,0
+437,171,Pho Bo,50000.0,29,0
+438,144,Ca Phe Sua Da,120000.0,91,0
+439,42,Banh Mi Dac Biet,80000.0,20,0
+440,157,Com Tam Suon Nuong,40000.0,46,0
+441,61,Pizza Hai San,65000.0,52,0
+442,121,Trai Cay Tuoi,60000.0,58,0
+443,128,Ca Phe Sua Da,120000.0,79,0
+444,47,Banh Trang Tron,110000.0,59,0
+445,132,Pho Bo,140000.0,71,0
+446,42,Ga Ran,120000.0,60,0
+447,17,Hu Tieu,125000.0,36,0
+448,177,Pizza Hai San,90000.0,61,0
+449,139,Che Thap Cam,85000.0,44,0
+450,124,Mi Cay,45000.0,30,0
+451,87,Com Tam Suon Nuong,45000.0,57,0
+452,134,Goi Cuon,130000.0,33,0
+453,93,Com Tam Suon Nuong,150000.0,22,0
+454,51,Banh Moouse,35000.0,27,0
+455,101,Mi Cay,55000.0,81,0
+456,89,Bun Cha,140000.0,50,0
+457,140,Pizza Hai San,90000.0,58,0
+458,176,Pho Bo,110000.0,80,0
+459,142,Mi Cay,65000.0,98,0
+460,35,Mi Cay,50000.0,46,0
+461,90,Sua Chua,150000.0,93,0
+462,119,Bun Cha,65000.0,73,0
+463,11,Che Thap Cam,35000.0,64,0
+464,97,Pizza Hai San,115000.0,65,0
+465,179,Pho Bo,55000.0,51,0
+466,74,Sam Bo Luong,70000.0,68,0
+467,88,Tiramisu Cake,115000.0,47,0
+468,35,Trai Cay Tuoi,70000.0,71,0
+469,33,Sam Bo Luong,80000.0,48,0
+470,99,Pizza Hai San,45000.0,61,0
+471,199,Goi Cuon,135000.0,67,0
+472,142,Pho Bo,135000.0,29,0
+473,6,Tra Sua Tran Chau,145000.0,25,0
+474,125,Hu Tieu,125000.0,95,0
+475,163,Bun Cha,145000.0,66,0
+476,42,Ga Ran,140000.0,31,0
+477,133,Pho Bo,65000.0,50,0
+478,98,Tiramisu Cake,150000.0,73,0
+479,77,Ca Phe Sua Da,85000.0,96,0
+480,3,Banh Moouse,55000.0,42,0
+481,48,Banh Trang Tron,75000.0,33,0
+482,77,Sua Chua,100000.0,69,0
+483,113,Bun Cha,100000.0,80,0
+484,91,Trai Cay Tuoi,80000.0,75,0
+485,17,Ca Phe Sua Da,60000.0,25,0
+486,121,Pho Bo,105000.0,33,0
+487,89,Hu Tieu,105000.0,25,0
+488,28,Ca Phe Sua Da,80000.0,61,0
+489,196,Pizza Hai San,65000.0,95,0
+490,79,Goi Cuon,50000.0,41,0
+491,8,Mi Cay,130000.0,62,0
+492,138,Goi Cuon,90000.0,46,0
+493,11,Pho Bo,135000.0,24,0
+494,131,Mi Cay,125000.0,26,0
+495,39,Com Tam Suon Nuong,95000.0,52,0
+496,86,Tiramisu Cake,115000.0,58,0
+497,128,Banh Trang Tron,135000.0,72,0
+498,158,Banh Trang Tron,70000.0,80,0
+499,170,Ga Ran,130000.0,78,0
+500,12,Goi Cuon,60000.0,93,0
+501,189,Sua Chua,80000.0,51,0
+502,28,Banh Moouse,115000.0,39,0
+503,35,Goi Cuon,150000.0,51,0
+504,101,Banh Trang Tron,135000.0,36,0
+505,126,Ca Phe Sua Da,140000.0,94,0
+506,151,Bun Cha,130000.0,77,0
+507,44,Ca Phe Sua Da,85000.0,86,0
+508,124,Tiramisu Cake,45000.0,60,0
+509,125,Com Tam Suon Nuong,65000.0,46,0
+510,9,Tra Sua Tran Chau,100000.0,45,0
+511,81,Pizza Hai San,120000.0,60,0
+512,84,Ga Ran,75000.0,32,0
+513,19,Trai Cay Tuoi,80000.0,23,0
+514,189,Mi Cay,40000.0,37,0
+515,114,Sua Chua,45000.0,25,0
+516,62,Sam Bo Luong,30000.0,62,0
+517,181,Banh Moouse,95000.0,29,0
+518,109,Mi Cay,115000.0,96,0
+519,76,Tiramisu Cake,75000.0,49,0
+520,175,Trai Cay Tuoi,150000.0,49,0
+521,83,Pizza Hai San,85000.0,37,0
+522,180,Mi Cay,60000.0,59,0
+523,56,Tiramisu Cake,55000.0,58,0
+524,55,Sam Bo Luong,120000.0,87,0
+525,122,Pho Bo,135000.0,36,0
+526,13,Banh Moouse,115000.0,99,0
+527,82,Tra Sua Tran Chau,95000.0,40,0
+528,122,Tra Sua Tran Chau,110000.0,28,0
+529,107,Trai Cay Tuoi,120000.0,94,0
+530,9,Pho Bo,85000.0,68,0
+531,106,Bun Cha,145000.0,47,0
+532,187,Tra Sua Tran Chau,75000.0,60,0
+533,104,Tiramisu Cake,120000.0,39,0
+534,164,Pho Bo,130000.0,74,0
+535,37,Sua Chua,55000.0,67,0
+536,10,Goi Cuon,100000.0,68,0
+537,173,Ca Phe Sua Da,140000.0,84,0
+538,71,Banh Mi Dac Biet,65000.0,51,0
+539,140,Trai Cay Tuoi,30000.0,74,0
+540,188,Tra Sua Tran Chau,145000.0,33,0
+541,179,Ga Ran,120000.0,74,0
+542,62,Mi Cay,65000.0,74,0
+543,26,Mi Cay,125000.0,88,0
+544,187,Pho Bo,105000.0,46,0
+545,197,Hu Tieu,70000.0,93,0
+546,35,Trai Cay Tuoi,110000.0,93,0
+547,34,Pizza Hai San,65000.0,97,0
+548,24,Sam Bo Luong,140000.0,57,0
+549,199,Ca Phe Sua Da,50000.0,33,0
+550,72,Tiramisu Cake,50000.0,71,0
+551,69,Com Tam Suon Nuong,150000.0,90,0
+552,144,Trai Cay Tuoi,75000.0,77,0
+553,193,Bun Cha,135000.0,59,0
+554,88,Mi Cay,60000.0,85,0
+555,87,Bun Cha,100000.0,23,0
+556,195,Mi Cay,130000.0,40,0
+557,167,Tiramisu Cake,100000.0,80,0
+558,133,Pho Bo,40000.0,52,0
+559,106,Tiramisu Cake,125000.0,29,0
+560,37,Che Thap Cam,125000.0,54,0
+561,76,Hu Tieu,70000.0,68,0
+562,50,Pho Bo,65000.0,64,0
+563,177,Sam Bo Luong,95000.0,32,0
+564,200,Sua Chua,60000.0,20,0
+565,97,Ga Ran,130000.0,43,0
+566,58,Trai Cay Tuoi,95000.0,22,0
+567,141,Sam Bo Luong,130000.0,36,0
+568,111,Ga Ran,30000.0,45,0
+569,9,Ca Phe Sua Da,135000.0,42,0
+570,78,Ca Phe Sua Da,100000.0,49,0
+571,58,Ga Ran,65000.0,79,0
+572,171,Pizza Hai San,115000.0,78,0
+573,8,Hu Tieu,145000.0,54,0
+574,34,Tiramisu Cake,145000.0,64,0
+575,154,Bun Cha,65000.0,21,0
+576,57,Goi Cuon,30000.0,53,0
+577,94,Goi Cuon,70000.0,51,0
+578,192,Banh Trang Tron,35000.0,45,0
+579,16,Hu Tieu,45000.0,74,0
+580,185,Bun Cha,55000.0,44,0
+581,143,Banh Trang Tron,125000.0,22,0
+582,41,Bun Cha,130000.0,87,0
+583,101,Com Tam Suon Nuong,30000.0,51,0
+584,95,Pho Bo,80000.0,66,0
+585,37,Mi Cay,150000.0,98,0
+586,138,Trai Cay Tuoi,125000.0,40,0
+587,5,Tiramisu Cake,135000.0,84,0
+588,133,Che Thap Cam,105000.0,66,0
+589,19,Mi Cay,110000.0,77,0
+590,148,Mi Cay,40000.0,30,0
+591,138,Sam Bo Luong,80000.0,34,0
+592,182,Hu Tieu,115000.0,57,0
+593,164,Che Thap Cam,50000.0,59,0
+594,114,Mi Cay,40000.0,69,0
+595,30,Goi Cuon,135000.0,33,0
+596,4,Bun Cha,90000.0,36,0
+597,89,Banh Trang Tron,65000.0,32,0
+598,111,Goi Cuon,75000.0,90,0
+599,189,Ga Ran,65000.0,70,0
+600,25,Banh Moouse,105000.0,94,0
+601,109,Mi Cay,55000.0,33,0
+602,4,Pizza Hai San,95000.0,72,0
+603,95,Sam Bo Luong,80000.0,21,0
+604,161,Sam Bo Luong,70000.0,52,0
+605,195,Bun Cha,140000.0,99,0
+606,140,Sam Bo Luong,35000.0,46,0
+607,193,Mi Cay,145000.0,83,0
+608,189,Pizza Hai San,45000.0,68,0
+609,173,Banh Mi Dac Biet,35000.0,90,0
+610,155,Che Thap Cam,150000.0,55,0
+611,108,Trai Cay Tuoi,120000.0,84,0
+612,112,Mi Cay,50000.0,73,0
+613,86,Ca Phe Sua Da,40000.0,27,0
+614,57,Ga Ran,55000.0,63,0
+615,27,Com Tam Suon Nuong,85000.0,29,0
+616,109,Trai Cay Tuoi,55000.0,31,0
+617,128,Che Thap Cam,110000.0,41,0
+618,59,Sua Chua,95000.0,83,0
+619,73,Com Tam Suon Nuong,105000.0,50,0
+620,150,Mi Cay,145000.0,85,0
+621,126,Che Thap Cam,40000.0,42,0
+622,122,Hu Tieu,135000.0,32,0
+623,112,Ga Ran,30000.0,88,0
+624,93,Sua Chua,100000.0,69,0
+625,50,Tra Sua Tran Chau,125000.0,66,0
+626,113,Tra Sua Tran Chau,80000.0,82,0
+627,138,Banh Moouse,35000.0,99,0
+628,190,Hu Tieu,150000.0,60,0
+629,103,Ga Ran,60000.0,53,0
+630,178,Ca Phe Sua Da,65000.0,86,0
+631,10,Trai Cay Tuoi,115000.0,40,0
+632,34,Che Thap Cam,30000.0,23,0
+633,103,Tra Sua Tran Chau,55000.0,89,0
+634,40,Trai Cay Tuoi,70000.0,40,0
+635,19,Bun Cha,135000.0,27,0
+636,37,Goi Cuon,75000.0,51,0
+637,149,Sua Chua,30000.0,49,0
+638,173,Ca Phe Sua Da,150000.0,85,0
+639,46,Trai Cay Tuoi,70000.0,65,0
+640,152,Banh Mi Dac Biet,45000.0,43,0
+641,155,Ca Phe Sua Da,65000.0,98,0
+642,4,Sam Bo Luong,100000.0,40,0
+643,143,Hu Tieu,45000.0,46,0
+644,190,Banh Mi Dac Biet,115000.0,45,0
+645,147,Com Tam Suon Nuong,115000.0,96,0
+646,128,Trai Cay Tuoi,50000.0,95,0
+647,16,Ga Ran,40000.0,87,0
+648,1,Mi Cay,105000.0,53,0
+649,185,Ga Ran,55000.0,65,0
+650,58,Ga Ran,45000.0,39,0
+651,164,Hu Tieu,50000.0,64,0
+652,133,Goi Cuon,115000.0,63,0
+653,103,Che Thap Cam,140000.0,72,0
+654,94,Banh Moouse,70000.0,43,0
+655,116,Sua Chua,55000.0,78,0
+656,59,Bun Cha,120000.0,56,0
+657,167,Tra Sua Tran Chau,55000.0,42,0
+658,6,Sam Bo Luong,30000.0,24,0
+659,188,Tra Sua Tran Chau,140000.0,85,0
+660,159,Trai Cay Tuoi,60000.0,45,0
+661,108,Bun Cha,120000.0,43,0
+662,52,Banh Moouse,75000.0,43,0
+663,126,Mi Cay,35000.0,74,0
+664,138,Ca Phe Sua Da,35000.0,41,0
+665,119,Goi Cuon,150000.0,49,0
+666,2,Banh Mi Dac Biet,35000.0,96,0
+667,85,Pizza Hai San,80000.0,81,0
+668,23,Tiramisu Cake,65000.0,74,0
+669,197,Com Tam Suon Nuong,85000.0,47,0
+670,5,Com Tam Suon Nuong,75000.0,52,0
+671,98,Sam Bo Luong,125000.0,79,0
+672,105,Goi Cuon,95000.0,44,0
+673,7,Tiramisu Cake,95000.0,90,0
+674,85,Tiramisu Cake,80000.0,66,0
+675,97,Hu Tieu,45000.0,24,0
+676,2,Goi Cuon,70000.0,27,0
+677,191,Sua Chua,140000.0,54,0
+678,61,Trai Cay Tuoi,150000.0,57,0
+679,52,Che Thap Cam,120000.0,65,0
+680,100,Goi Cuon,65000.0,99,0
+681,169,Mi Cay,85000.0,73,0
+682,176,Banh Mi Dac Biet,145000.0,67,0
+683,93,Pho Bo,40000.0,63,0
+684,115,Pho Bo,115000.0,35,0
+685,39,Tra Sua Tran Chau,130000.0,54,0
+686,9,Tiramisu Cake,55000.0,78,0
+687,39,Pizza Hai San,65000.0,69,0
+688,152,Banh Mi Dac Biet,80000.0,85,0
+689,42,Ga Ran,100000.0,50,0
+690,73,Banh Trang Tron,30000.0,55,0
+691,77,Trai Cay Tuoi,110000.0,56,0
+692,190,Bun Cha,110000.0,38,0
+693,55,Mi Cay,95000.0,98,0
+694,132,Trai Cay Tuoi,115000.0,73,0
+695,41,Banh Mi Dac Biet,105000.0,29,0
+696,80,Sua Chua,40000.0,68,0
+697,30,Ca Phe Sua Da,100000.0,57,0
+698,115,Com Tam Suon Nuong,135000.0,33,0
+699,109,Banh Mi Dac Biet,130000.0,56,0
+700,168,Che Thap Cam,115000.0,42,0
+701,180,Goi Cuon,150000.0,77,0
+702,122,Banh Mi Dac Biet,75000.0,59,0
+703,196,Banh Mi Dac Biet,50000.0,62,0
+704,169,Trai Cay Tuoi,60000.0,52,0
+705,193,Ca Phe Sua Da,65000.0,98,0
+706,171,Ca Phe Sua Da,65000.0,53,0
+707,121,Bun Cha,45000.0,35,0
+708,92,Bun Cha,120000.0,32,0
+709,114,Sua Chua,90000.0,45,0
+710,72,Trai Cay Tuoi,35000.0,90,0
+711,173,Banh Trang Tron,110000.0,60,0
+712,62,Banh Trang Tron,60000.0,90,0
+713,87,Sam Bo Luong,80000.0,81,0
+714,116,Tiramisu Cake,100000.0,40,0
+715,21,Banh Moouse,30000.0,78,0
+716,127,Ca Phe Sua Da,90000.0,47,0
+717,125,Sua Chua,50000.0,69,0
+718,122,Ga Ran,70000.0,74,0
+719,9,Ca Phe Sua Da,90000.0,60,0
+720,83,Hu Tieu,35000.0,26,0
+721,148,Banh Trang Tron,145000.0,75,0
+722,139,Tra Sua Tran Chau,30000.0,78,0
+723,52,Mi Cay,115000.0,27,0
+724,12,Che Thap Cam,45000.0,56,0
+725,136,Com Tam Suon Nuong,85000.0,24,0
+726,187,Ca Phe Sua Da,30000.0,79,0
+727,90,Sam Bo Luong,35000.0,80,0
+728,21,Mi Cay,100000.0,39,0
+729,100,Trai Cay Tuoi,35000.0,66,0
+730,19,Bun Cha,90000.0,74,0
+731,132,Ca Phe Sua Da,80000.0,47,0
+732,111,Sua Chua,150000.0,34,0
+733,145,Pizza Hai San,75000.0,44,0
+734,39,Banh Trang Tron,150000.0,27,0
+735,61,Sam Bo Luong,110000.0,78,0
+736,143,Che Thap Cam,130000.0,53,0
+737,162,Tiramisu Cake,65000.0,59,0
+738,184,Banh Moouse,50000.0,96,0
+739,199,Trai Cay Tuoi,125000.0,31,0
+740,93,Sam Bo Luong,45000.0,78,0
+741,147,Che Thap Cam,130000.0,68,0
+742,66,Hu Tieu,120000.0,53,0
+743,70,Bun Cha,95000.0,40,0
+744,93,Sam Bo Luong,35000.0,41,0
+745,36,Com Tam Suon Nuong,110000.0,43,0
+746,111,Banh Moouse,110000.0,69,0
+747,51,Hu Tieu,95000.0,93,0
+748,82,Com Tam Suon Nuong,145000.0,99,0
+749,113,Ga Ran,115000.0,68,0
+750,33,Sua Chua,55000.0,95,0
+751,41,Tra Sua Tran Chau,70000.0,67,0
+752,188,Banh Trang Tron,60000.0,87,0
+753,140,Tra Sua Tran Chau,115000.0,68,0
+754,83,Com Tam Suon Nuong,95000.0,93,0
+755,18,Com Tam Suon Nuong,75000.0,31,0
+756,24,Mi Cay,120000.0,67,0
+757,24,Banh Moouse,95000.0,96,0
+758,32,Banh Trang Tron,120000.0,77,0
+759,81,Banh Mi Dac Biet,145000.0,20,0
+760,104,Goi Cuon,35000.0,98,0
+761,80,Ca Phe Sua Da,55000.0,43,0
+762,193,Trai Cay Tuoi,35000.0,59,0
+763,105,Banh Mi Dac Biet,85000.0,71,0
+764,5,Banh Trang Tron,55000.0,66,0
+765,93,Che Thap Cam,100000.0,92,0
+766,170,Goi Cuon,90000.0,36,0
+767,172,Ga Ran,125000.0,94,0
+768,36,Che Thap Cam,135000.0,79,0
+769,2,Pho Bo,30000.0,37,0
+770,124,Trai Cay Tuoi,95000.0,20,0
+771,140,Mi Cay,55000.0,43,0
+772,85,Banh Mi Dac Biet,50000.0,53,0
+773,98,Pizza Hai San,50000.0,28,0
+774,51,Tiramisu Cake,150000.0,55,0
+775,84,Sua Chua,65000.0,36,0
+776,68,Tra Sua Tran Chau,45000.0,65,0
+777,191,Mi Cay,55000.0,68,0
+778,48,Sam Bo Luong,55000.0,27,0
+779,15,Che Thap Cam,65000.0,46,0
+780,91,Ca Phe Sua Da,75000.0,80,0
+781,4,Trai Cay Tuoi,80000.0,36,0
+782,103,Banh Mi Dac Biet,50000.0,59,0
+783,191,Banh Trang Tron,135000.0,28,0
+784,84,Pho Bo,95000.0,61,0
+785,155,Banh Trang Tron,85000.0,78,0
+786,18,Ga Ran,75000.0,37,0
+787,22,Com Tam Suon Nuong,35000.0,83,0
+788,115,Ca Phe Sua Da,150000.0,70,0
+789,63,Hu Tieu,40000.0,40,0
+790,147,Sam Bo Luong,90000.0,52,0
+791,199,Ga Ran,145000.0,40,0
+792,129,Mi Cay,120000.0,70,0
+793,98,Goi Cuon,110000.0,53,0
+794,181,Tiramisu Cake,60000.0,85,0
+795,181,Bun Cha,95000.0,64,0
+796,34,Tiramisu Cake,30000.0,91,0
+797,127,Banh Mi Dac Biet,110000.0,92,0
+798,147,Hu Tieu,75000.0,53,0
+799,114,Bun Cha,115000.0,94,0
+800,71,Com Tam Suon Nuong,90000.0,65,0
+801,128,Hu Tieu,125000.0,63,0
+802,70,Banh Moouse,110000.0,48,0
+803,120,Banh Moouse,55000.0,88,0
+804,83,Banh Trang Tron,125000.0,36,0
+805,48,Tra Sua Tran Chau,140000.0,52,0
+806,106,Bun Cha,100000.0,99,0
+807,146,Mi Cay,45000.0,33,0
+808,153,Bun Cha,60000.0,97,0
+809,113,Banh Mi Dac Biet,70000.0,78,0
+810,128,Ga Ran,130000.0,73,0
+811,130,Tra Sua Tran Chau,35000.0,94,0
+812,131,Sam Bo Luong,40000.0,85,0
+813,150,Hu Tieu,95000.0,36,0
+814,20,Tiramisu Cake,80000.0,33,0
+815,140,Bun Cha,40000.0,84,0
+816,99,Hu Tieu,65000.0,91,0
+817,113,Ga Ran,85000.0,72,0
+818,8,Com Tam Suon Nuong,150000.0,21,0
+819,105,Com Tam Suon Nuong,125000.0,72,0
+820,132,Pizza Hai San,125000.0,65,0
+821,68,Che Thap Cam,140000.0,80,0
+822,198,Sua Chua,105000.0,99,0
+823,36,Tiramisu Cake,50000.0,29,0
+824,122,Pizza Hai San,90000.0,35,0
+825,11,Pho Bo,30000.0,48,0
+826,57,Sua Chua,115000.0,72,0
+827,23,Ca Phe Sua Da,75000.0,25,0
+828,37,Banh Trang Tron,55000.0,61,0
+829,144,Sam Bo Luong,150000.0,44,0
+830,43,Banh Trang Tron,65000.0,95,0
+831,78,Trai Cay Tuoi,110000.0,63,0
+832,121,Bun Cha,85000.0,44,0
+833,181,Trai Cay Tuoi,55000.0,25,0
+834,175,Goi Cuon,65000.0,85,0
+835,74,Banh Moouse,125000.0,69,0
+836,88,Banh Mi Dac Biet,50000.0,44,0
+837,100,Banh Mi Dac Biet,30000.0,76,0
+838,159,Goi Cuon,65000.0,22,0
+839,30,Banh Mi Dac Biet,100000.0,94,0
+840,172,Banh Mi Dac Biet,90000.0,58,0
+841,129,Banh Moouse,65000.0,73,0
+842,150,Tra Sua Tran Chau,75000.0,48,0
+843,36,Goi Cuon,90000.0,95,0
+844,65,Tra Sua Tran Chau,95000.0,35,0
+845,38,Hu Tieu,120000.0,20,0
+846,119,Ga Ran,30000.0,95,0
+847,191,Pizza Hai San,45000.0,46,0
+848,88,Trai Cay Tuoi,80000.0,34,0
+849,100,Tra Sua Tran Chau,105000.0,67,0
+850,188,Che Thap Cam,75000.0,94,0
+851,90,Banh Trang Tron,130000.0,29,0
+852,108,Tra Sua Tran Chau,80000.0,53,0
+853,24,Sua Chua,65000.0,57,0
+854,102,Sam Bo Luong,140000.0,91,0
+855,151,Che Thap Cam,115000.0,35,0
+856,152,Sua Chua,95000.0,88,0
+857,51,Sam Bo Luong,110000.0,43,0
+858,194,Tiramisu Cake,45000.0,51,0
+859,88,Goi Cuon,145000.0,50,0
+860,70,Tra Sua Tran Chau,100000.0,87,0
+861,127,Sam Bo Luong,130000.0,29,0
+862,41,Ga Ran,110000.0,97,0
+863,96,Mi Cay,70000.0,49,0
+864,65,Pizza Hai San,90000.0,79,0
+865,72,Banh Trang Tron,85000.0,52,0
+866,62,Ga Ran,95000.0,82,0
+867,106,Tra Sua Tran Chau,45000.0,34,0
+868,123,Sua Chua,40000.0,92,0
+869,167,Goi Cuon,75000.0,69,0
+870,3,Trai Cay Tuoi,85000.0,83,0
+871,136,Mi Cay,100000.0,59,0
+872,134,Mi Cay,125000.0,91,0
+873,192,Sua Chua,55000.0,20,0
+874,123,Banh Mi Dac Biet,125000.0,63,0
+875,196,Trai Cay Tuoi,150000.0,81,0
+876,117,Trai Cay Tuoi,105000.0,73,0
+877,100,Sua Chua,120000.0,54,0
+878,161,Ga Ran,80000.0,85,0
+879,25,Ca Phe Sua Da,95000.0,87,0
+880,3,Sam Bo Luong,85000.0,82,0
+881,175,Banh Trang Tron,75000.0,94,0
+882,86,Tra Sua Tran Chau,40000.0,32,0
+883,138,Hu Tieu,40000.0,35,0
+884,19,Banh Trang Tron,65000.0,98,0
+885,122,Trai Cay Tuoi,100000.0,66,0
+886,6,Trai Cay Tuoi,65000.0,44,0
+887,56,Ca Phe Sua Da,70000.0,88,0
+888,5,Hu Tieu,100000.0,21,0
+889,161,Sam Bo Luong,100000.0,70,0
+890,90,Banh Mi Dac Biet,125000.0,22,0
+891,128,Ga Ran,135000.0,60,0
+892,142,Tra Sua Tran Chau,150000.0,73,0
+893,197,Ga Ran,80000.0,94,0
+894,110,Bun Cha,85000.0,27,0
+895,50,Banh Moouse,135000.0,67,0
+896,176,Tiramisu Cake,95000.0,91,0
+897,129,Com Tam Suon Nuong,80000.0,96,0
+898,116,Mi Cay,85000.0,56,0
+899,65,Pizza Hai San,75000.0,48,0
+900,44,Com Tam Suon Nuong,100000.0,69,0
+901,121,Mi Cay,145000.0,47,0
+902,118,Ca Phe Sua Da,35000.0,55,0
+903,49,Trai Cay Tuoi,145000.0,58,0
+904,46,Goi Cuon,75000.0,69,0
+905,13,Sam Bo Luong,45000.0,96,0
+906,39,Tra Sua Tran Chau,30000.0,87,0
+907,35,Com Tam Suon Nuong,80000.0,35,0
+908,41,Tra Sua Tran Chau,30000.0,56,0
+909,49,Che Thap Cam,100000.0,87,0
+910,97,Mi Cay,70000.0,68,0
+911,130,Bun Cha,145000.0,66,0
+912,21,Sua Chua,105000.0,26,0
+913,160,Com Tam Suon Nuong,70000.0,90,0
+914,39,Banh Moouse,35000.0,90,0
+915,80,Banh Moouse,65000.0,57,0
+916,119,Banh Moouse,85000.0,70,0
+917,115,Pho Bo,90000.0,28,0
+918,51,Trai Cay Tuoi,65000.0,85,0
+919,17,Trai Cay Tuoi,115000.0,47,0
+920,105,Che Thap Cam,35000.0,27,0
+921,149,Banh Mi Dac Biet,130000.0,98,0
+922,137,Hu Tieu,125000.0,82,0
+923,29,Ca Phe Sua Da,100000.0,87,0
+924,69,Sua Chua,125000.0,37,0
+925,57,Pho Bo,85000.0,48,0
+926,161,Com Tam Suon Nuong,95000.0,46,0
+927,153,Bun Cha,95000.0,85,0
+928,69,Banh Trang Tron,70000.0,63,0
+929,89,Tra Sua Tran Chau,75000.0,28,0
+930,88,Goi Cuon,150000.0,70,0
+931,55,Mi Cay,80000.0,95,0
+932,116,Sua Chua,115000.0,38,0
+933,136,Banh Mi Dac Biet,60000.0,57,0
+934,87,Ca Phe Sua Da,65000.0,69,0
+935,128,Banh Mi Dac Biet,35000.0,56,0
+936,189,Pho Bo,130000.0,87,0
+937,73,Che Thap Cam,80000.0,44,0
+938,136,Banh Moouse,90000.0,40,0
+939,40,Banh Moouse,55000.0,70,0
+940,186,Che Thap Cam,120000.0,79,0
+941,21,Ca Phe Sua Da,115000.0,26,0
+942,135,Tiramisu Cake,135000.0,43,0
+943,161,Tra Sua Tran Chau,115000.0,92,0
+944,150,Goi Cuon,120000.0,42,0
+945,31,Banh Mi Dac Biet,90000.0,22,0
+946,70,Banh Trang Tron,120000.0,92,0
+947,125,Hu Tieu,70000.0,32,0
+948,51,Trai Cay Tuoi,140000.0,84,0
+949,2,Goi Cuon,70000.0,54,0
+950,144,Trai Cay Tuoi,145000.0,38,0
+951,95,Banh Trang Tron,125000.0,54,0
+952,27,Tra Sua Tran Chau,90000.0,26,0
+953,80,Banh Mi Dac Biet,145000.0,62,0
+954,30,Ga Ran,55000.0,23,0
+955,18,Pho Bo,40000.0,49,0
+956,50,Com Tam Suon Nuong,55000.0,24,0
+957,132,Tra Sua Tran Chau,55000.0,35,0
+958,131,Hu Tieu,80000.0,26,0
+959,7,Com Tam Suon Nuong,140000.0,56,0
+960,193,Sua Chua,85000.0,75,0
+961,48,Banh Moouse,35000.0,24,0
+962,122,Goi Cuon,115000.0,76,0
+963,75,Goi Cuon,110000.0,62,0
+964,179,Che Thap Cam,40000.0,32,0
+965,143,Che Thap Cam,80000.0,36,0
+966,22,Bun Cha,85000.0,42,0
+967,198,Hu Tieu,65000.0,71,0
+968,83,Pizza Hai San,80000.0,50,0
+969,195,Tra Sua Tran Chau,135000.0,57,0
+970,33,Banh Mi Dac Biet,105000.0,48,0
+971,107,Mi Cay,90000.0,73,0
+972,74,Che Thap Cam,135000.0,63,0
+973,31,Sam Bo Luong,80000.0,44,0
+974,173,Ca Phe Sua Da,110000.0,91,0
+975,22,Sua Chua,40000.0,72,0
+976,61,Sua Chua,50000.0,99,0
+977,125,Banh Trang Tron,70000.0,67,0
+978,4,Pizza Hai San,30000.0,71,0
+979,200,Banh Trang Tron,115000.0,72,0
+980,69,Banh Mi Dac Biet,150000.0,74,0
+981,135,Banh Moouse,70000.0,81,0
+982,130,Che Thap Cam,65000.0,48,0
+983,44,Com Tam Suon Nuong,105000.0,77,0
+984,132,Pho Bo,130000.0,81,0
+985,73,Banh Moouse,55000.0,91,0
+986,9,Pizza Hai San,125000.0,36,0
+987,93,Goi Cuon,105000.0,29,0
+988,45,Com Tam Suon Nuong,85000.0,36,0
+989,173,Tra Sua Tran Chau,65000.0,38,0
+990,51,Goi Cuon,75000.0,46,0
+991,188,Sam Bo Luong,35000.0,28,0
+992,83,Pizza Hai San,125000.0,80,0
+993,101,Banh Mi Dac Biet,135000.0,53,0
+994,180,Com Tam Suon Nuong,30000.0,92,0
+995,13,Bun Cha,45000.0,29,0
+996,120,Tiramisu Cake,95000.0,66,0
+997,60,Mi Cay,120000.0,47,0
+998,28,Pho Bo,140000.0,89,0
+999,154,Che Thap Cam,55000.0,55,0
+1000,158,Che Thap Cam,110000.0,22,0
+1001,164,Banh Mi Dac Biet,45000.0,38,0
+1002,87,Banh Mi Dac Biet,100000.0,50,0
+1003,86,Hu Tieu,140000.0,29,0
+1004,65,Bun Cha,90000.0,71,0
+1005,111,Mi Cay,70000.0,80,0
+1006,48,Banh Moouse,110000.0,67,0
+1007,74,Pho Bo,120000.0,83,0
+1008,154,Tra Sua Tran Chau,40000.0,68,0
+1009,73,Goi Cuon,55000.0,80,0
+1010,89,Sua Chua,40000.0,26,0
+1011,90,Bun Cha,70000.0,63,0
+1012,109,Ca Phe Sua Da,80000.0,72,0
+1013,156,Che Thap Cam,150000.0,60,0
+1014,12,Sua Chua,30000.0,51,0
+1015,8,Hu Tieu,125000.0,85,0
+1016,67,Ca Phe Sua Da,125000.0,96,0
+1017,145,Goi Cuon,130000.0,73,0
+1018,11,Pizza Hai San,135000.0,41,0
+1019,86,Com Tam Suon Nuong,85000.0,57,0
+1020,135,Pho Bo,45000.0,89,0
+1021,141,Goi Cuon,70000.0,89,0
+1022,58,Tra Sua Tran Chau,35000.0,43,0
+1023,199,Banh Moouse,35000.0,95,0
+1024,196,Tra Sua Tran Chau,115000.0,94,0
+1025,145,Sam Bo Luong,80000.0,83,0
+1026,51,Tiramisu Cake,60000.0,51,0
+1027,94,Com Tam Suon Nuong,110000.0,77,0
+1028,91,Goi Cuon,125000.0,29,0
+1029,199,Mi Cay,30000.0,58,0
+1030,33,Banh Mi Dac Biet,95000.0,63,0
+1031,197,Banh Mi Dac Biet,120000.0,23,0
+1032,137,Bun Cha,60000.0,49,0
+1033,155,Pho Bo,60000.0,51,0
+1034,173,Pho Bo,45000.0,27,0
+1035,14,Bun Cha,90000.0,65,0
+1036,78,Hu Tieu,110000.0,72,0
+1037,6,Com Tam Suon Nuong,70000.0,67,0
+1038,82,Bun Cha,120000.0,20,0
+1039,76,Banh Trang Tron,95000.0,64,0
+1040,30,Trai Cay Tuoi,130000.0,30,0
+1041,4,Banh Mi Dac Biet,40000.0,46,0
+1042,116,Bun Cha,140000.0,86,0
+1043,194,Tiramisu Cake,105000.0,24,0
+1044,164,Goi Cuon,30000.0,95,0
+1045,142,Pizza Hai San,60000.0,56,0
+1046,163,Com Tam Suon Nuong,45000.0,46,0
+1047,58,Banh Trang Tron,80000.0,93,0
+1048,9,Banh Trang Tron,50000.0,56,0
+1049,104,Che Thap Cam,95000.0,54,0
+1050,196,Goi Cuon,145000.0,71,0
+1051,190,Sam Bo Luong,135000.0,37,0
+1052,143,Banh Moouse,100000.0,54,0
+1053,163,Sam Bo Luong,110000.0,29,0
+1054,128,Banh Mi Dac Biet,50000.0,32,0
+1055,161,Sam Bo Luong,45000.0,20,0
+1056,19,Trai Cay Tuoi,80000.0,68,0
+1057,11,Sam Bo Luong,115000.0,33,0
+1058,81,Banh Moouse,65000.0,35,0
+1059,174,Tra Sua Tran Chau,90000.0,62,0
+1060,38,Banh Mi Dac Biet,45000.0,96,0
+1061,9,Banh Moouse,125000.0,70,0
+1062,44,Sam Bo Luong,145000.0,94,0
+1063,86,Tiramisu Cake,115000.0,40,0
+1064,130,Pho Bo,130000.0,54,0
+1065,137,Pho Bo,105000.0,98,0
+1066,192,Tiramisu Cake,140000.0,62,0
+1067,181,Che Thap Cam,150000.0,22,0
+1068,162,Banh Moouse,130000.0,98,0
+1069,20,Mi Cay,75000.0,71,0
+1070,131,Com Tam Suon Nuong,115000.0,62,0
+1071,21,Mi Cay,115000.0,76,0
+1072,9,Hu Tieu,90000.0,64,0
+1073,85,Banh Moouse,65000.0,44,0
+1074,85,Mi Cay,85000.0,91,0
+1075,65,Banh Trang Tron,65000.0,64,0
+1076,41,Bun Cha,105000.0,47,0
+1077,159,Banh Mi Dac Biet,50000.0,85,0
+1078,65,Goi Cuon,115000.0,33,0
+1079,98,Sua Chua,85000.0,70,0
+1080,61,Tiramisu Cake,35000.0,57,0
+1081,53,Goi Cuon,115000.0,85,0
+1082,19,Che Thap Cam,125000.0,46,0
+1083,68,Trai Cay Tuoi,150000.0,98,0
+1084,14,Banh Moouse,35000.0,59,0
+1085,24,Sam Bo Luong,105000.0,66,0
+1086,84,Trai Cay Tuoi,145000.0,61,0
+1087,57,Pizza Hai San,150000.0,41,0
+1088,97,Sam Bo Luong,95000.0,67,0
+1089,123,Com Tam Suon Nuong,95000.0,96,0
+1090,190,Sua Chua,95000.0,92,0
+1091,84,Goi Cuon,80000.0,63,0
+1092,158,Tra Sua Tran Chau,40000.0,76,0
+1093,17,Banh Mi Dac Biet,80000.0,83,0
+1094,85,Mi Cay,30000.0,38,0
+1095,78,Tra Sua Tran Chau,145000.0,25,0
+1096,33,Goi Cuon,140000.0,66,0
+1097,109,Com Tam Suon Nuong,85000.0,80,0
+1098,107,Banh Moouse,70000.0,72,0
+1099,11,Goi Cuon,90000.0,27,0
+1100,116,Mi Cay,35000.0,51,0
+1101,16,Ca Phe Sua Da,55000.0,28,0
+1102,18,Sua Chua,60000.0,63,0
+1103,197,Che Thap Cam,45000.0,74,0
+1104,2,Tiramisu Cake,125000.0,43,0
+1105,69,Bun Cha,30000.0,43,0
+1106,141,Pho Bo,150000.0,40,0
+1107,198,Sua Chua,110000.0,74,0
+1108,101,Ga Ran,115000.0,23,0
+1109,199,Mi Cay,130000.0,97,0
+1110,6,Pizza Hai San,30000.0,77,0
+1111,153,Ga Ran,65000.0,96,0
+1112,191,Tra Sua Tran Chau,40000.0,82,0
+1113,120,Tiramisu Cake,90000.0,84,0
+1114,48,Hu Tieu,145000.0,77,0
+1115,41,Banh Trang Tron,55000.0,64,0
+1116,172,Com Tam Suon Nuong,80000.0,41,0
+1117,107,Banh Mi Dac Biet,125000.0,55,0
+1118,22,Banh Moouse,130000.0,68,0
+1119,88,Hu Tieu,75000.0,30,0
+1120,101,Com Tam Suon Nuong,135000.0,90,0
+1121,42,Pho Bo,130000.0,95,0
+1122,89,Sam Bo Luong,105000.0,29,0
+1123,128,Mi Cay,150000.0,65,0
+1124,181,Tra Sua Tran Chau,145000.0,96,0
+1125,176,Banh Moouse,115000.0,96,0
+1126,101,Banh Moouse,150000.0,38,0
+1127,28,Com Tam Suon Nuong,135000.0,26,0
+1128,79,Ga Ran,55000.0,72,0
+1129,63,Hu Tieu,45000.0,31,0
+1130,100,Banh Trang Tron,50000.0,44,0
+1131,159,Tiramisu Cake,85000.0,33,0
+1132,117,Pizza Hai San,80000.0,46,0
+1133,2,Sua Chua,65000.0,65,0
+1134,47,Hu Tieu,65000.0,74,0
+1135,19,Ga Ran,130000.0,87,0
+1136,81,Bun Cha,115000.0,31,0
+1137,91,Com Tam Suon Nuong,125000.0,26,0
+1138,171,Banh Moouse,110000.0,29,0
+1139,138,Goi Cuon,60000.0,84,0
+1140,7,Ga Ran,90000.0,55,0
+1141,125,Hu Tieu,140000.0,47,0
+1142,169,Banh Moouse,45000.0,82,0
+1143,23,Tiramisu Cake,130000.0,73,0
+1144,144,Ca Phe Sua Da,60000.0,99,0
+1145,170,Sua Chua,90000.0,51,0
+1146,188,Banh Mi Dac Biet,140000.0,37,0
+1147,140,Che Thap Cam,115000.0,78,0
+1148,152,Mi Cay,135000.0,64,0
+1149,45,Hu Tieu,75000.0,60,0
+1150,87,Ga Ran,75000.0,82,0
+1151,149,Bun Cha,30000.0,68,0
+1152,96,Tra Sua Tran Chau,55000.0,90,0
+1153,48,Goi Cuon,105000.0,46,0
+1154,107,Pho Bo,65000.0,71,0
+1155,75,Tra Sua Tran Chau,45000.0,99,0
+1156,83,Com Tam Suon Nuong,90000.0,93,0
+1157,62,Tiramisu Cake,60000.0,94,0
+1158,139,Trai Cay Tuoi,145000.0,47,0
+1159,185,Sam Bo Luong,90000.0,93,0
+1160,163,Banh Trang Tron,65000.0,85,0
+1161,9,Pho Bo,100000.0,31,0
+1162,99,Che Thap Cam,150000.0,56,0
+1163,162,Pho Bo,55000.0,71,0
+1164,172,Trai Cay Tuoi,80000.0,97,0
+1165,131,Tra Sua Tran Chau,110000.0,39,0
+1166,76,Ca Phe Sua Da,75000.0,93,0
+1167,135,Mi Cay,140000.0,54,0
+1168,48,Banh Mi Dac Biet,100000.0,27,0
+1169,8,Banh Mi Dac Biet,100000.0,74,0
+1170,96,Goi Cuon,80000.0,27,0
+1171,172,Banh Trang Tron,140000.0,78,0
+1172,16,Ca Phe Sua Da,65000.0,32,0
+1173,122,Banh Moouse,105000.0,45,0
+1174,147,Mi Cay,145000.0,95,0
+1175,11,Ga Ran,135000.0,20,0
+1176,16,Trai Cay Tuoi,85000.0,61,0
+1177,91,Che Thap Cam,150000.0,83,0
+1178,199,Pizza Hai San,90000.0,69,0
+1179,142,Hu Tieu,90000.0,28,0
+1180,162,Hu Tieu,125000.0,63,0
+1181,117,Com Tam Suon Nuong,70000.0,34,0
+1182,182,Pho Bo,75000.0,73,0
+1183,193,Sua Chua,50000.0,59,0
+1184,113,Tra Sua Tran Chau,95000.0,98,0
+1185,52,Ca Phe Sua Da,135000.0,94,0
+1186,155,Sam Bo Luong,35000.0,41,0
+1187,13,Banh Trang Tron,50000.0,69,0
+1188,159,Ca Phe Sua Da,100000.0,50,0
+1189,66,Pho Bo,70000.0,92,0
+1190,64,Banh Trang Tron,105000.0,48,0
+1191,28,Banh Trang Tron,145000.0,95,0
+1192,22,Banh Mi Dac Biet,115000.0,28,0
+1193,32,Tiramisu Cake,80000.0,95,0
+1194,97,Pho Bo,65000.0,44,0
+1195,179,Ga Ran,30000.0,29,0
+1196,106,Trai Cay Tuoi,145000.0,60,0
+1197,3,Ga Ran,80000.0,45,0
+1198,134,Pho Bo,115000.0,40,0
+1199,10,Trai Cay Tuoi,65000.0,68,0
+1200,108,Tra Sua Tran Chau,115000.0,95,0
+1201,4,Tiramisu Cake,60000.0,58,0
+1202,180,Ca Phe Sua Da,90000.0,49,0
+1203,117,Tiramisu Cake,30000.0,89,0
+1204,183,Goi Cuon,30000.0,65,0
+1205,189,Ga Ran,125000.0,27,0
+1206,155,Ga Ran,80000.0,52,0
+1207,190,Bun Cha,70000.0,95,0
+1208,166,Banh Moouse,70000.0,80,0
+1209,138,Com Tam Suon Nuong,140000.0,51,0
+1210,8,Banh Moouse,55000.0,29,0
+1211,71,Tra Sua Tran Chau,120000.0,27,0
+1212,59,Mi Cay,100000.0,55,0
+1213,84,Com Tam Suon Nuong,30000.0,25,0
+1214,44,Hu Tieu,65000.0,73,0
+1215,19,Che Thap Cam,140000.0,50,0
+1216,25,Mi Cay,40000.0,98,0
+1217,31,Tiramisu Cake,75000.0,79,0
+1218,2,Goi Cuon,85000.0,20,0
+1219,29,Goi Cuon,70000.0,40,0
+1220,145,Mi Cay,130000.0,31,0
+1221,44,Ca Phe Sua Da,130000.0,58,0
+1222,28,Tra Sua Tran Chau,125000.0,42,0
+1223,78,Goi Cuon,110000.0,82,0
+1224,40,Sua Chua,30000.0,42,0
+1225,87,Banh Trang Tron,50000.0,80,0
+1226,173,Bun Cha,135000.0,73,0
+1227,186,Pho Bo,115000.0,85,0
+1228,126,Che Thap Cam,35000.0,48,0
+1229,97,Ga Ran,150000.0,52,0
+1230,199,Ga Ran,40000.0,44,0
+1231,83,Mi Cay,125000.0,20,0
+1232,87,Sua Chua,70000.0,28,0
+1233,173,Ca Phe Sua Da,115000.0,75,0
+1234,46,Banh Moouse,150000.0,32,0
+1235,20,Tiramisu Cake,45000.0,84,0
+1236,189,Tra Sua Tran Chau,45000.0,59,0
+1237,135,Tiramisu Cake,45000.0,58,0
+1238,162,Sam Bo Luong,35000.0,50,0
+1239,31,Banh Moouse,140000.0,90,0
+1240,147,Ga Ran,100000.0,27,0
+1241,87,Bun Cha,95000.0,36,0
+1242,200,Banh Trang Tron,95000.0,30,0
+1243,46,Tiramisu Cake,75000.0,58,0
+1244,115,Tiramisu Cake,90000.0,55,0
+1245,145,Tra Sua Tran Chau,45000.0,32,0
+1246,16,Trai Cay Tuoi,35000.0,65,0
+1247,12,Ga Ran,75000.0,25,0
+1248,55,Banh Trang Tron,150000.0,75,0
+1249,24,Mi Cay,80000.0,96,0
+1250,191,Trai Cay Tuoi,35000.0,71,0
+1251,115,Banh Mi Dac Biet,140000.0,76,0
+1252,34,Tra Sua Tran Chau,90000.0,38,0
+1253,109,Che Thap Cam,30000.0,25,0
+1254,142,Banh Mi Dac Biet,60000.0,92,0
+1255,23,Mi Cay,140000.0,70,0
+1256,128,Banh Mi Dac Biet,90000.0,98,0
+1257,187,Ga Ran,140000.0,65,0
+1258,160,Trai Cay Tuoi,35000.0,94,0
+1259,176,Pizza Hai San,105000.0,76,0
+1260,89,Sam Bo Luong,125000.0,44,0
+1261,125,Sua Chua,100000.0,75,0
+1262,111,Ga Ran,80000.0,56,0
+1263,155,Tiramisu Cake,90000.0,83,0
+1264,153,Ca Phe Sua Da,45000.0,97,0
+1265,78,Mi Cay,85000.0,76,0
+1266,110,Ga Ran,90000.0,72,0
+1267,10,Ca Phe Sua Da,140000.0,96,0
+1268,57,Pho Bo,70000.0,78,0
+1269,23,Ga Ran,105000.0,73,0
+1270,55,Tiramisu Cake,80000.0,73,0
+1271,158,Tra Sua Tran Chau,145000.0,54,0
+1272,22,Pizza Hai San,140000.0,62,0
+1273,67,Pizza Hai San,30000.0,22,0
+1274,14,Ga Ran,145000.0,24,0
+1275,171,Tra Sua Tran Chau,150000.0,58,0
+1276,41,Banh Moouse,105000.0,63,0
+1277,77,Banh Trang Tron,65000.0,23,0
+1278,67,Tiramisu Cake,55000.0,50,0
+1279,147,Banh Mi Dac Biet,45000.0,81,0
+1280,156,Pho Bo,80000.0,29,0
+1281,135,Mi Cay,110000.0,65,0
+1282,59,Ga Ran,50000.0,82,0
+1283,168,Sam Bo Luong,105000.0,48,0
+1284,50,Mi Cay,80000.0,84,0
+1285,20,Goi Cuon,45000.0,73,0
+1286,198,Pho Bo,70000.0,39,0
+1287,29,Tiramisu Cake,125000.0,26,0
+1288,38,Banh Trang Tron,90000.0,33,0
+1289,110,Tiramisu Cake,90000.0,35,0
+1290,169,Trai Cay Tuoi,35000.0,60,0
+1291,5,Hu Tieu,75000.0,20,0
+1292,74,Banh Moouse,145000.0,97,0
+1293,80,Pho Bo,75000.0,51,0
+1294,93,Banh Moouse,115000.0,61,0
+1295,82,Com Tam Suon Nuong,30000.0,36,0
+1296,137,Bun Cha,95000.0,95,0
+1297,133,Ga Ran,115000.0,30,0
+1298,189,Trai Cay Tuoi,60000.0,40,0
+1299,30,Bun Cha,130000.0,92,0
+1300,180,Banh Mi Dac Biet,100000.0,25,0
+1301,117,Bun Cha,140000.0,57,0
+1302,59,Mi Cay,40000.0,40,0
+1303,140,Ca Phe Sua Da,125000.0,34,0
+1304,32,Ga Ran,115000.0,90,0
+1305,22,Banh Mi Dac Biet,115000.0,88,0
+1306,130,Banh Moouse,115000.0,58,0
+1307,31,Mi Cay,90000.0,59,0
+1308,53,Ca Phe Sua Da,45000.0,80,0
+1309,79,Banh Moouse,65000.0,95,0
+1310,108,Banh Moouse,85000.0,91,0
+1311,128,Banh Mi Dac Biet,80000.0,74,0
+1312,79,Goi Cuon,125000.0,71,0
+1313,69,Trai Cay Tuoi,140000.0,67,0
+1314,13,Tiramisu Cake,45000.0,87,0
+1315,172,Trai Cay Tuoi,40000.0,52,0
+1316,120,Tra Sua Tran Chau,110000.0,91,0
+1317,146,Pizza Hai San,100000.0,57,0
+1318,141,Tiramisu Cake,35000.0,26,0
+1319,83,Sam Bo Luong,110000.0,95,0
+1320,195,Pho Bo,45000.0,74,0
+1321,184,Banh Moouse,90000.0,69,0
+1322,153,Banh Trang Tron,80000.0,66,0
+1323,24,Pho Bo,120000.0,45,0
+1324,106,Banh Moouse,50000.0,30,0
+1325,18,Mi Cay,105000.0,59,0
+1326,74,Pho Bo,30000.0,58,0
+1327,31,Banh Moouse,125000.0,36,0
+1328,103,Hu Tieu,150000.0,69,0
+1329,106,Pizza Hai San,110000.0,96,0
+1330,82,Bun Cha,135000.0,80,0
+1331,193,Sam Bo Luong,35000.0,57,0
+1332,134,Com Tam Suon Nuong,105000.0,60,0
+1333,27,Sua Chua,55000.0,73,0
+1334,165,Ga Ran,30000.0,63,0
+1335,137,Goi Cuon,85000.0,95,0
+1336,168,Banh Mi Dac Biet,50000.0,47,0
+1337,190,Ga Ran,115000.0,26,0
+1338,189,Tiramisu Cake,150000.0,20,0
+1339,89,Pizza Hai San,65000.0,60,0
+1340,48,Sua Chua,135000.0,26,0
+1341,24,Banh Mi Dac Biet,55000.0,55,0
+1342,164,Pho Bo,75000.0,44,0
+1343,93,Tiramisu Cake,100000.0,51,0
+1344,145,Mi Cay,65000.0,26,0
+1345,130,Sam Bo Luong,40000.0,54,0
+1346,141,Com Tam Suon Nuong,55000.0,51,0
+1347,102,Ga Ran,130000.0,89,0
+1348,85,Sam Bo Luong,75000.0,91,0
+1349,39,Pho Bo,70000.0,42,0
+1350,131,Pho Bo,145000.0,86,0
+1351,78,Ga Ran,105000.0,20,0
+1352,102,Hu Tieu,85000.0,42,0
+1353,32,Tra Sua Tran Chau,40000.0,23,0
+1354,135,Sua Chua,45000.0,81,0
+1355,42,Mi Cay,50000.0,38,0
+1356,168,Sam Bo Luong,45000.0,52,0
+1357,170,Bun Cha,100000.0,84,0
+1358,109,Bun Cha,135000.0,80,0
+1359,114,Goi Cuon,105000.0,86,0
+1360,116,Tra Sua Tran Chau,60000.0,84,0
+1361,118,Bun Cha,45000.0,83,0
+1362,126,Mi Cay,125000.0,33,0
+1363,122,Com Tam Suon Nuong,40000.0,22,0
+1364,197,Bun Cha,40000.0,56,0
+1365,54,Goi Cuon,75000.0,90,0
+1366,86,Mi Cay,30000.0,47,0
+1367,44,Ca Phe Sua Da,120000.0,76,0
+1368,142,Sua Chua,115000.0,76,0
+1369,158,Ca Phe Sua Da,55000.0,77,0
+1370,151,Ca Phe Sua Da,140000.0,55,0
+1371,186,Goi Cuon,95000.0,29,0
+1372,17,Pho Bo,75000.0,60,0
+1373,95,Sam Bo Luong,45000.0,80,0
+1374,99,Bun Cha,130000.0,70,0
+1375,95,Banh Moouse,65000.0,92,0
+1376,9,Che Thap Cam,55000.0,85,0
+1377,173,Com Tam Suon Nuong,120000.0,73,0
+1378,93,Pho Bo,60000.0,40,0
+1379,14,Sua Chua,145000.0,63,0
+1380,32,Hu Tieu,110000.0,83,0
+1381,193,Banh Moouse,70000.0,59,0
+1382,167,Goi Cuon,80000.0,26,0
+1383,121,Bun Cha,120000.0,73,0
+1384,72,Banh Trang Tron,45000.0,84,0
+1385,31,Goi Cuon,30000.0,59,0
+1386,124,Trai Cay Tuoi,40000.0,72,0
+1387,114,Banh Mi Dac Biet,55000.0,80,0
+1388,180,Pizza Hai San,55000.0,66,0
+1389,128,Hu Tieu,30000.0,29,0
+1390,198,Hu Tieu,70000.0,63,0
+1391,92,Banh Moouse,110000.0,39,0
+1392,168,Goi Cuon,120000.0,76,0
+1393,24,Banh Mi Dac Biet,90000.0,22,0
+1394,185,Sam Bo Luong,105000.0,90,0
+1395,50,Bun Cha,50000.0,52,0
+1396,28,Ca Phe Sua Da,40000.0,77,0
+1397,32,Banh Trang Tron,55000.0,75,0
+1398,141,Tra Sua Tran Chau,150000.0,72,0
+1399,37,Sam Bo Luong,85000.0,42,0
+1400,11,Goi Cuon,45000.0,97,0
+1401,108,Pho Bo,85000.0,32,0
+1402,175,Trai Cay Tuoi,85000.0,99,0
+1403,121,Goi Cuon,80000.0,63,0
+1404,177,Mi Cay,75000.0,39,0
+1405,189,Ga Ran,145000.0,90,0
+1406,128,Bun Cha,115000.0,25,0
+1407,104,Mi Cay,130000.0,38,0
+1408,136,Goi Cuon,150000.0,57,0
+1409,87,Com Tam Suon Nuong,45000.0,92,0
+1410,42,Tra Sua Tran Chau,50000.0,22,0
+1411,101,Banh Moouse,145000.0,53,0
+1412,57,Hu Tieu,70000.0,84,0
+1413,187,Sam Bo Luong,80000.0,92,0
+1414,17,Banh Mi Dac Biet,35000.0,87,0
+1415,170,Pizza Hai San,45000.0,95,0
+1416,192,Bun Cha,140000.0,37,0
+1417,188,Bun Cha,125000.0,30,0
+1418,135,Banh Moouse,70000.0,24,0
+1419,81,Pho Bo,90000.0,74,0
+1420,16,Banh Moouse,70000.0,25,0
+1421,189,Pizza Hai San,40000.0,71,0
+1422,6,Bun Cha,135000.0,85,0
+1423,60,Sua Chua,140000.0,42,0
+1424,42,Com Tam Suon Nuong,135000.0,44,0
+1425,177,Ga Ran,45000.0,90,0
+1426,1,Goi Cuon,105000.0,28,0
+1427,56,Pho Bo,30000.0,34,0
+1428,32,Pizza Hai San,55000.0,26,0
+1429,185,Tra Sua Tran Chau,30000.0,45,0
+1430,19,Goi Cuon,60000.0,73,0
+1431,69,Tra Sua Tran Chau,125000.0,57,0
+1432,39,Bun Cha,45000.0,31,0
+1433,104,Pizza Hai San,110000.0,36,0
+1434,37,Tra Sua Tran Chau,35000.0,87,0
+1435,167,Sam Bo Luong,140000.0,49,0
+1436,24,Sam Bo Luong,45000.0,90,0
+1437,153,Tiramisu Cake,50000.0,68,0
+1438,99,Banh Trang Tron,30000.0,84,0
+1439,160,Sua Chua,85000.0,81,0
+1440,21,Pho Bo,120000.0,37,0
+1441,103,Ga Ran,145000.0,48,0
+1442,62,Sua Chua,110000.0,60,0
+1443,74,Ca Phe Sua Da,115000.0,76,0
+1444,89,Banh Trang Tron,100000.0,77,0
+1445,179,Bun Cha,35000.0,46,0
+1446,122,Hu Tieu,60000.0,92,0
+1447,137,Trai Cay Tuoi,100000.0,54,0
+1448,199,Pho Bo,60000.0,48,0
+1449,200,Banh Moouse,75000.0,50,0
+1450,113,Banh Trang Tron,70000.0,32,0
+1451,174,Banh Mi Dac Biet,80000.0,85,0
+1452,169,Banh Mi Dac Biet,130000.0,72,0
+1453,153,Hu Tieu,130000.0,97,0
+1454,37,Pho Bo,50000.0,53,0
+1455,3,Banh Trang Tron,90000.0,92,0
+1456,34,Tra Sua Tran Chau,70000.0,68,0
+1457,56,Trai Cay Tuoi,130000.0,47,0
+1458,177,Banh Mi Dac Biet,110000.0,55,0
+1459,173,Com Tam Suon Nuong,115000.0,97,0
+1460,76,Banh Mi Dac Biet,50000.0,47,0
+1461,104,Pizza Hai San,100000.0,80,0
+1462,199,Pho Bo,130000.0,98,0
+1463,68,Com Tam Suon Nuong,105000.0,56,0
+1464,169,Sam Bo Luong,95000.0,54,0
+1465,99,Che Thap Cam,80000.0,41,0
+1466,106,Tiramisu Cake,95000.0,20,0
+1467,52,Che Thap Cam,55000.0,52,0
+1468,21,Ga Ran,100000.0,53,0
+1469,44,Sam Bo Luong,150000.0,46,0
+1470,197,Bun Cha,115000.0,40,0
+1471,6,Tra Sua Tran Chau,125000.0,76,0
+1472,57,Bun Cha,90000.0,41,0
+1473,77,Trai Cay Tuoi,40000.0,69,0
+1474,41,Banh Moouse,45000.0,27,0
+1475,166,Sam Bo Luong,45000.0,67,0
+1476,56,Banh Moouse,75000.0,47,0
+1477,1,Che Thap Cam,95000.0,33,0
+1478,130,Banh Mi Dac Biet,30000.0,58,0
+1479,23,Banh Trang Tron,130000.0,29,0
+1480,93,Pho Bo,50000.0,34,0
+1481,146,Sam Bo Luong,60000.0,23,0
+1482,97,Tra Sua Tran Chau,65000.0,33,0
+1483,153,Tra Sua Tran Chau,35000.0,64,0
+1484,34,Trai Cay Tuoi,45000.0,48,0
+1485,123,Hu Tieu,90000.0,76,0
+1486,146,Mi Cay,115000.0,29,0
+1487,89,Sam Bo Luong,30000.0,96,0
+1488,177,Banh Moouse,75000.0,69,0
+1489,174,Banh Moouse,35000.0,67,0
+1490,47,Sua Chua,130000.0,26,0
+1491,72,Ga Ran,145000.0,48,0
+1492,118,Mi Cay,115000.0,77,0
+1493,158,Sam Bo Luong,95000.0,66,0
+1494,122,Trai Cay Tuoi,110000.0,68,0
+1495,25,Goi Cuon,140000.0,39,0
+1496,2,Banh Mi Dac Biet,80000.0,37,0
+1497,165,Trai Cay Tuoi,45000.0,94,0
+1498,150,Banh Moouse,145000.0,73,0
+1499,102,Hu Tieu,40000.0,56,0
+1500,104,Tra Sua Tran Chau,135000.0,89,0

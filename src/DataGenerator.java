@@ -1,174 +1,250 @@
+package com.delivery;
+
 import java.io.BufferedWriter;
-import java.io.FileOutputStream;
+import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
-import java.io.OutputStreamWriter;
 import java.nio.charset.StandardCharsets;
-import java.util.Locale;
-import java.util.Random;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.util.*;
 
 public class DataGenerator {
 
+    // Cấu hình số lượng dữ liệu mô phỏng
     private static final int NUM_CUSTOMERS = 2000;
     private static final int NUM_RESTAURANTS = 200;
-    private static final int NUM_MENU_ITEMS = 2000;
-    private static final int NUM_DRIVERS = 500;
-    private static final int NUM_ORDERS = 3000;
-    private static final int NUM_ORDER_ITEMS = 9000;
-    private static final int NUM_ROUTES = 2000;
+    private static final int NUM_MENU_ITEMS = 1500; // Khoảng ~7 món mỗi nhà hàng
+    private static final int NUM_DRIVERS = 300;
+    private static final int NUM_ORDERS = 5000;
 
+    private static final String OUTPUT_DIR = "C:/Users/ADMIN/Downloads/SUM26/labl/LAB211/";
     private static final Random random = new Random();
 
-    // Dữ liệu mẫu để sinh tên Tiếng Việt (Khách hàng & Tài xế)
-    private static final String[] VIET_HOS = {"Nguyen", "Tran", "Le", "Pham", "Hoang", "Huynh", "Phan", "Vu", "Vo", "Dang", "Bui", "Do", "Ho", "Ngo"};
-    private static final String[] VIET_DEMS = {"Van", "Thi", "Minh", "Anh", "Quang", "Duy", "Hoang", "Ngoc", "Tuan", "Duc", "Xuan", "Phuong", "Khanh", "Thu"};
-    private static final String[] VIET_TENS = {"Anh", "Binh", "Cuong", "Dung", "Em", "Gia", "Hai", "Huy", "Hung", "Khoa", "Linh", "Long", "Minh", "Nam", "Phong", "Quan", "Son", "Thanh", "Trang", "Tuan", "Viet", "Vy"};
+    // Các mảng dữ liệu mẫu để sinh ngẫu nhiên tên tiếng Việt sạch
+    private static final String[] HO = {"Nguyen", "Tran", "Le", "Pham", "Hoang", "Huynh", "Phan", "Vu", "Dang", "Bui"};
+    private static final String[] DEM = {"Van", "Thi", "Minh", "Anh", "Duc", "Duy", "Hoang", "Ngoc", "Khanh", "Tuan"};
+    private static final String[] TEN = {"Minh", "Anh", "Tuan", "Hung", "Linh", "Huong", "Lan", "Long", "Phuong", "Hai"};
 
-    // Dữ liệu mẫu tiếng Anh cho Nhà hàng
-    private static final String[] REST_PREFIX = {"The Golden", "Red", "Green", "Happy", "Urban", "Tasty", "Royal", "Spicy", "Sweet", "Crazy", "Gourmet", "Little"};
-    private static final String[] REST_NOUN = {"Kitchen", "Bistro", "Garden", "Palace", "House", "Station", "Corner", "Diner", "Grill", "Hub", "Lab", "Eatery"};
-    private static final String[] REST_SUFFIX = {"& Co", "BBQ", "Noodles", "Bakery", "Cafe", "Sushi", "Pizza", "Express", "Tavern", "Deli"};
+    private static final String[] REST_PREFIX = {"The Golden", "Green", "Crazy", "Sweet", "Gourmet", "Red", "Happy", "Royal", "Urban", "Neon"};
+    private static final String[] REST_NOUN = {"Kitchen", "Grill", "Hub", "Lab", "Bistro", "Garden", "Palace", "Corner", "Eats", "Diner"};
+    private static final String[] REST_SUFFIX = {"Saigon", "Express", "Station", "House", "Zone", "Room", "Spot", "Table", "Bar"};
 
-    // Dữ liệu mẫu tiếng Anh cho Món ăn
-    private static final String[] FOOD_ADJ = {"Crispy", "Spicy", "Grilled", "Baked", "Sweet", "Sour", "Fresh", "Smoked", "Cheesy", "Garlic", "Honey"};
-    private static final String[] FOOD_NOUN = {"Chicken Wings", "Beef Burger", "Fried Rice", "Pasta Carbonara", "Pizza Pepperoni", "Salad Caesar", "Sushi Roll", "Tacos", "Noodle Soup", "Steak", "Waffles", "Smoothie"};
+    private static final String[] STREETS = {"Nguyen Hue", "Le Loi", "Hai Ba Trung", "Pasteur", "Nam Ky Khoi Nghia", "Le Duan", "Tran Hung Dao", "Nguyen Thi Minh Khai", "Cach Mang Thang Tam", "Dien Bien Phu"};
 
-    // Dữ liệu mẫu tên đường phố TP.HCM để làm địa chỉ nhà hàng
-    private static final String[] STREETS = {"Nguyen Hue", "Le Loi", "Pasteur", "Nam Ky Khoi Nghia", "Bui Vien", "Tran Hung Dao", "Nguyen Thi Minh Khai", "Le Duan", "Hai Ba Trung", "Nguyen Trai", "Marie Curie", "Nguyen Van Troi"};
+    private static final String[] FOOD_NAMES = {"Pho Bo", "Banh Mi Dac Biet", "Com Tam Suon Nuong", "Bun Cha", "Goi Cuon", "Ga Ran", "Tra Sua Tran Chau", "Ca Phe Sua Da", "Pizza Hai San", "Mi Cay", "Banh Trang Tron", "Hu Tieu", "Che Thap Cam", "Sam Bo Luong" ,"Trai Cay Tuoi", "Banh Moouse", "Tiramisu Cake","Sua Chua"};
+
+    // Lớp cấu trúc để lưu thông tin món ăn phục vụ cho việc gán đơn hàng chuẩn
+    static class MenuItem {
+
+        int id;
+        int restaurantId;
+        double price;
+
+        public MenuItem(int id, int restaurantId, double price) {
+            this.id = id;
+            this.restaurantId = restaurantId;
+            this.price = price;
+        }
+    }
 
     public static void main(String[] args) {
-        System.out.println("Starting clean data generation...");
+        System.out.println("🚀 Bắt đầu quá trình sinh dữ liệu mẫu sạch...");
+
+        // Tạo thư mục nếu chưa tồn tại
+        File dir = new File(OUTPUT_DIR);
+        if (!dir.exists()) {
+            dir.mkdirs();
+        }
 
         generateCustomers();
         generateRestaurants();
-        generateMenuItems();
+        List<MenuItem> allMenuItems = generateMenuItems();
         generateDrivers();
-        generateOrders();
-        generateOrderItems();
-        generateDeliveryRoutes();
+        generateOrdersAndItemsAndRoutes(allMenuItems);
 
-        System.out.println("🎉 Done! Generated over 18,000 rows of clean, realistic data.");
+        System.out.println("🎉 Đã hoàn thành sinh toàn bộ 7 file CSV đồng nhất 100% tại: " + OUTPUT_DIR);
+    }
+
+    private static BufferedWriter getWriter(String fileName) throws IOException {
+        return new BufferedWriter(new FileWriter(OUTPUT_DIR + fileName, StandardCharsets.UTF_8));
+    }
+
+    // 1. Hàm băm SHA-256 bảo mật mật khẩu
+    private static String hashPassword(String password) {
+        try {
+            MessageDigest digest = MessageDigest.getInstance("SHA-256");
+            byte[] hash = digest.digest(password.getBytes(StandardCharsets.UTF_8));
+            StringBuilder hexString = new StringBuilder();
+            for (byte b : hash) {
+                String hex = Integer.toHexString(0xff & b);
+                if (hex.length() == 1) {
+                    hexString.append('0');
+                }
+                hexString.append(hex);
+            }
+            return hexString.toString();
+        } catch (NoSuchAlgorithmException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     private static String getRandomVietName() {
-        String ho = VIET_HOS[random.nextInt(VIET_HOS.length)];
-        String dem = VIET_DEMS[random.nextInt(VIET_DEMS.length)];
-        String ten = VIET_TENS[random.nextInt(VIET_TENS.length)];
-        return ho + " " + dem + " " + ten;
+        return HO[random.nextInt(HO.length)] + " " + DEM[random.nextInt(DEM.length)] + " " + TEN[random.nextInt(TEN.length)];
     }
 
-    private static String getRandomEmail(String fullName, int id) {
-        // Chuyển "Nguyen Van Anh" -> "nguyenvananh123@gmail.com"
-        String cleanName = fullName.toLowerCase().replaceAll("\\s+", "");
-        return cleanName + id + "@gmail.com";
-    }
-
-    // 1. Customers (2.000 dòng)
+    // 2. Sinh dữ liệu Customers (Mật khẩu riêng biệt băm SHA-256)
     private static void generateCustomers() {
         try (BufferedWriter writer = getWriter("customers.csv")) {
-            writer.write("id,name,email,latitude,longitude\n");
+            writer.write("id,name,phone,email,latitude,longitude,password\n");
             for (int i = 1; i <= NUM_CUSTOMERS; i++) {
                 String name = getRandomVietName();
-                String email = getRandomEmail(name, i);
-                double lat = 10.730000 + (random.nextDouble() * 0.15); // Tọa độ thực tế quanh nội thành HCM
+                String cleanNameForEmail = name.toLowerCase().replaceAll("\\s+", "");
+                String email = cleanNameForEmail + i + "@gmail.com";
+
+                String[] prefixes = {"090", "091", "093", "097", "098", "032", "035", "077"};
+                String phone = prefixes[random.nextInt(prefixes.length)] + String.format("%07d", random.nextInt(10000000));
+
+                double lat = 10.730000 + (random.nextDouble() * 0.15);
                 double lng = 106.600000 + (random.nextDouble() * 0.15);
-                writer.write(String.format(Locale.US, "%d,%s,%s,%.6f,%.6f\n", i, name, email, lat, lng));
+
+                String rawPassword = "CustomerPass" + i + "!";
+                String hashedPassword = hashPassword(rawPassword);
+
+                writer.write(String.format(Locale.US, "%d,%s,%s,%s,%.6f,%.6f,%s\n",
+                        i, name, phone, email, lat, lng, hashedPassword));
             }
-        } catch (IOException e) { e.printStackTrace(); }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
-    // 2. Restaurants (200 dòng)
+    // 3. Sinh dữ liệu Restaurants (Dùng dấu phân tách cột là Chấm Phẩy ';' để loại bỏ lệch cột địa chỉ)
     private static void generateRestaurants() {
         try (BufferedWriter writer = getWriter("restaurants.csv")) {
             writer.write("id,name,address,rating\n");
             for (int i = 1; i <= NUM_RESTAURANTS; i++) {
-                String restName = REST_PREFIX[random.nextInt(REST_PREFIX.length)] + " " + 
-                                  REST_NOUN[random.nextInt(REST_NOUN.length)] + " " + 
-                                  REST_SUFFIX[random.nextInt(REST_SUFFIX.length)];
+                String restName = REST_PREFIX[random.nextInt(REST_PREFIX.length)] + " "
+                        + REST_NOUN[random.nextInt(REST_NOUN.length)] + " "
+                        + REST_SUFFIX[random.nextInt(REST_SUFFIX.length)];
+
                 String address = (random.nextInt(299) + i) + " " + STREETS[random.nextInt(STREETS.length)] + " Street, District " + (random.nextInt(12) + 1);
                 double rating = 3.8 + (random.nextDouble() * 1.2);
-                writer.write(String.format(Locale.US, "%d,%s,%s,%.1f\n", i, restName, address, rating));
+
+                // SỬA TẠI ĐÂY: Thêm dấu \" bọc quanh %s của address
+                writer.write(String.format(Locale.US, "%d,%s,\"%s\",%.1f\n", i, restName, address, rating));
             }
-        } catch (IOException e) { e.printStackTrace(); }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
-    // 3. MenuItems (2.000 dòng)
-    private static void generateMenuItems() {
+    // 4. Sinh dữ liệu Menu Items
+    private static List<MenuItem> generateMenuItems() {
+        List<MenuItem> list = new ArrayList<>();
         try (BufferedWriter writer = getWriter("menu_items.csv")) {
             writer.write("id,restaurant_id,item_name,price,stock_qty,version\n");
             for (int i = 1; i <= NUM_MENU_ITEMS; i++) {
-                int restaurantId = random.nextInt(NUM_RESTAURANTS) + 1;
-                String foodName = FOOD_ADJ[random.nextInt(FOOD_ADJ.length)] + " " + FOOD_NOUN[random.nextInt(FOOD_NOUN.length)];
-                double price = (random.nextInt(45) + 5) * 10000; // 50,000đ - 500,000đ
-                int stockQty = random.nextInt(81) + 20; // 20 - 100
-                int version = 0;
-                writer.write(String.format(Locale.US, "%d,%d,%s,%.1f,%d,%d\n", i, restaurantId, foodName, price, stockQty, version));
+                int restId = random.nextInt(NUM_RESTAURANTS) + 1;
+                String foodName = FOOD_NAMES[random.nextInt(FOOD_NAMES.length)];
+                double price = 30000 + (random.nextInt(25) * 5000); // Giá từ 30k đến 150k VNĐ
+                int stock = 20 + random.nextInt(80);
+
+                writer.write(String.format(Locale.US, "%d,%d,%s,%.1f,%d,0\n", i, restId, foodName, price, stock));
+                list.add(new MenuItem(i, restId, price));
             }
-        } catch (IOException e) { e.printStackTrace(); }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return list;
     }
 
-    // 4. Drivers (500 dòng)
+    // 5. Sinh dữ liệu Drivers
     private static void generateDrivers() {
-        String[] statuses = {"AVAILABLE", "BUSY"};
         try (BufferedWriter writer = getWriter("drivers.csv")) {
             writer.write("id,name,status,current_lat,current_lng,version\n");
+            String[] statuses = {"AVAILABLE", "BUSY"};
             for (int i = 1; i <= NUM_DRIVERS; i++) {
                 String name = getRandomVietName();
                 String status = statuses[random.nextInt(statuses.length)];
                 double lat = 10.730000 + (random.nextDouble() * 0.15);
                 double lng = 106.600000 + (random.nextDouble() * 0.15);
-                int version = 0;
-                writer.write(String.format(Locale.US, "%d,%s,%s,%.6f,%.6f,%d\n", i, name, status, lat, lng, version));
+
+                writer.write(String.format(Locale.US, "%d,%s,%s,%.6f,%.6f,0\n", i, name, status, lat, lng));
             }
-        } catch (IOException e) { e.printStackTrace(); }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
-    // 5. Orders (3.000 dòng)
-    private static void generateOrders() {
-        String[] statuses = {"PENDING", "ASSIGNED", "DELIVERED"};
-        try (BufferedWriter writer = getWriter("orders.csv")) {
-            writer.write("id,customer_id,driver_id,total_price,status,version\n");
-            for (int i = 1; i <= NUM_ORDERS; i++) {
+    // 6. ĐỒNG BỘ TUYỆT ĐỐI: Sinh dữ liệu Orders, Order Items (Sửa triệt để lỗi 2, 3) và Delivery Routes
+    private static void generateOrdersAndItemsAndRoutes(List<MenuItem> allMenuItems) {
+        // Phân nhóm món ăn theo Nhà hàng để phục vụ việc chọn món không chéo hàng
+        Map<Integer, List<MenuItem>> itemsByRest = new HashMap<>();
+        for (MenuItem item : allMenuItems) {
+            itemsByRest.computeIfAbsent(item.restaurantId, k -> new ArrayList<>()).add(item);
+        }
+
+        try (BufferedWriter orderWriter = getWriter("orders.csv"); BufferedWriter itemWriter = getWriter("order_items.csv"); BufferedWriter routeWriter = getWriter("delivery_routes.csv")) {
+
+            orderWriter.write("id,customer_id,driver_id,total_price,status,version\n");
+            itemWriter.write("id,order_id,menu_item_id,quantity,price_at_time\n");
+            routeWriter.write("id,order_id,distance_km,estimated_time_min\n");
+
+            int itemGlobalId = 1;
+
+            for (int orderId = 1; orderId <= NUM_ORDERS; orderId++) {
                 int customerId = random.nextInt(NUM_CUSTOMERS) + 1;
-                String driverIdStr = ""; 
-                String status = statuses[random.nextInt(statuses.length)];
-                if (!status.equals("PENDING")) {
-                    driverIdStr = String.valueOf(random.nextInt(NUM_DRIVERS) + 1);
+
+                // Chọn một nhà hàng bất kỳ để đặt đơn
+                int targetRestId = random.nextInt(NUM_RESTAURANTS) + 1;
+                List<MenuItem> availableItems = itemsByRest.get(targetRestId);
+
+                // Phòng trường hợp nhà hàng rỗng món, chọn tạm sang nhà hàng số 1
+                if (availableItems == null || availableItems.isEmpty()) {
+                    targetRestId = 1;
+                    availableItems = itemsByRest.get(1);
                 }
-                double totalPrice = (random.nextInt(35) + 5) * 10000; // 50,000đ - 400,000đ
-                int version = 0;
-                writer.write(String.format(Locale.US, "%d,%d,%s,%.1f,%s,%d\n", i, customerId, driverIdStr, totalPrice, status, version));
-            }
-        } catch (IOException e) { e.printStackTrace(); }
-    }
 
-    // 6. OrderItems (9.000 dòng)
-    private static void generateOrderItems() {
-        try (BufferedWriter writer = getWriter("order_items.csv")) {
-            writer.write("id,order_id,menu_item_id,quantity,price_at_time\n");
-            for (int i = 1; i <= NUM_ORDER_ITEMS; i++) {
-                int orderId = random.nextInt(NUM_ORDERS) + 1;
-                int menuItemId = random.nextInt(NUM_MENU_ITEMS) + 1;
-                int quantity = random.nextInt(3) + 1;
-                double priceAtTime = (random.nextInt(25) + 5) * 10000;
-                writer.write(String.format(Locale.US, "%d,%d,%d,%d,%.1f\n", i, orderId, menuItemId, quantity, priceAtTime));
-            }
-        } catch (IOException e) { e.printStackTrace(); }
-    }
+                int numItemsInOrder = random.nextInt(3) + 1; // 1 đến 3 món khác nhau
+                double computedTotalPrice = 0;
+                List<String> bufferedItemsLines = new ArrayList<>();
 
-    // 7. DeliveryRoutes (2.000 dòng)
-    private static void generateDeliveryRoutes() {
-        try (BufferedWriter writer = getWriter("delivery_routes.csv")) {
-            writer.write("id,order_id,distance_km,estimated_time_min\n");
-            for (int i = 1; i <= NUM_ROUTES; i++) {
-                int orderId = i; 
-                double distance = 1.2 + (random.nextDouble() * 12.0); // 1.2km - 13.2km
-                int estTime = (int) (distance * 4) + random.nextInt(6); 
-                writer.write(String.format(Locale.US, "%d,%d,%.2f,%d\n", i, orderId, distance, estTime));
-            }
-        } catch (IOException e) { e.printStackTrace(); }
-    }
+                // Trộn danh sách món của nhà hàng đó để bốc ngẫu nhiên
+                Collections.shuffle(availableItems);
+                int countToPick = Math.min(numItemsInOrder, availableItems.size());
 
-    private static BufferedWriter getWriter(String fileName) throws IOException {
-        return new BufferedWriter(new OutputStreamWriter(new FileOutputStream(fileName), StandardCharsets.UTF_8));
+                for (int m = 0; m < countToPick; m++) {
+                    MenuItem pickedItem = availableItems.get(m);
+                    int qty = random.nextInt(3) + 1; // Số lượng từ 1 đến 3 phần
+                    computedTotalPrice += (pickedItem.price * qty);
+
+                    String itemLine = String.format(Locale.US, "%d,%d,%d,%d,%.1f\n",
+                            itemGlobalId++, orderId, pickedItem.id, qty, pickedItem.price);
+                    bufferedItemsLines.add(itemLine);
+                }
+
+                // Gán tài xế hợp lệ
+                Integer driverId = (random.nextDouble() > 0.15) ? (random.nextInt(NUM_DRIVERS) + 1) : null;
+                String orderStatus = (driverId == null) ? "PENDING" : (random.nextBoolean() ? "DELIVERING" : "DELIVERED");
+
+                // Ghi vào file orders.csv với tổng tiền THỰC TẾ đã cộng dồn thành công
+                orderWriter.write(String.format(Locale.US, "%d,%d,%s,%.1f,%s,0\n",
+                        orderId, customerId, (driverId == null ? "" : driverId), computedTotalPrice, orderStatus));
+
+                // Xả dữ liệu chi tiết tương ứng vào file order_items.csv
+                for (String line : bufferedItemsLines) {
+                    itemWriter.write(line);
+                }
+
+                // Tiện tay tạo luôn lộ trình giao hàng cho đơn này tương ứng
+                double distance = 1.0 + (random.nextDouble() * 14.0); // 1km - 15km
+                int estTime = (int) (distance * 3) + random.nextInt(5); // ~3 phút/km
+
+                routeWriter.write(String.format(Locale.US, "%d,%d,%.2f,%d\n", orderId, orderId, distance, estTime));
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
