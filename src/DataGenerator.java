@@ -17,6 +17,7 @@ public class DataGenerator {
     private static final int NUM_MENU_ITEMS = 1500; // Khoảng ~7 món mỗi nhà hàng
     private static final int NUM_DRIVERS = 300;
     private static final int NUM_ORDERS = 5000;
+    private static final int NUM_SIMULATION_RUNS = 20; // Sinh ra lịch sử của 20 lần chạy mô phỏng trước đó
 
     private static final String OUTPUT_DIR = "C:/Users/ADMIN/Downloads/SUM26/labl/LAB211/";
     private static final Random random = new Random();
@@ -32,7 +33,7 @@ public class DataGenerator {
 
     private static final String[] STREETS = {"Nguyen Hue", "Le Loi", "Hai Ba Trung", "Pasteur", "Nam Ky Khoi Nghia", "Le Duan", "Tran Hung Dao", "Nguyen Thi Minh Khai", "Cach Mang Thang Tam", "Dien Bien Phu"};
 
-    private static final String[] FOOD_NAMES = {"Pho Bo", "Banh Mi Dac Biet", "Com Tam Suon Nuong", "Bun Cha", "Goi Cuon", "Ga Ran", "Tra Sua Tran Chau", "Ca Phe Sua Da", "Pizza Hai San", "Mi Cay", "Banh Trang Tron", "Hu Tieu", "Che Thap Cam", "Sam Bo Luong" ,"Trai Cay Tuoi", "Banh Moouse", "Tiramisu Cake","Sua Chua"};
+    private static final String[] FOOD_NAMES = {"Pho Bo", "Banh Mi Dac Biet", "Com Tam Suon Nuong", "Bun Cha", "Goi Cuon", "Ga Ran", "Tra Sua Tran Chau", "Ca Phe Sua Da", "Pizza Hai San", "Mi Cay", "Banh Trang Tron", "Hu Tieu", "Che Thap Cam", "Sam Bo Luong", "Trai Cay Tuoi", "Banh Moouse", "Tiramisu Cake", "Sua Chua"};
 
     // Lớp cấu trúc để lưu thông tin món ăn phục vụ cho việc gán đơn hàng chuẩn
     static class MenuItem {
@@ -62,8 +63,9 @@ public class DataGenerator {
         List<MenuItem> allMenuItems = generateMenuItems();
         generateDrivers();
         generateOrdersAndItemsAndRoutes(allMenuItems);
+        generateSimulationRuns();
 
-        System.out.println("🎉 Đã hoàn thành sinh toàn bộ 7 file CSV đồng nhất 100% tại: " + OUTPUT_DIR);
+        System.out.println("🎉 Đã hoàn thành sinh toàn bộ 8 file CSV đồng nhất 100% tại: " + OUTPUT_DIR);
     }
 
     private static BufferedWriter getWriter(String fileName) throws IOException {
@@ -89,30 +91,27 @@ public class DataGenerator {
         }
     }
 
-    private static String getRandomVietName() {
+    private static String getRandomName() {
         return HO[random.nextInt(HO.length)] + " " + DEM[random.nextInt(DEM.length)] + " " + TEN[random.nextInt(TEN.length)];
     }
 
     // 2. Sinh dữ liệu Customers (Mật khẩu riêng biệt băm SHA-256)
     private static void generateCustomers() {
         try (BufferedWriter writer = getWriter("customers.csv")) {
-            writer.write("id,name,phone,email,latitude,longitude,password\n");
+            writer.write("customer_id,name,phone,email,password\n");
             for (int i = 1; i <= NUM_CUSTOMERS; i++) {
-                String name = getRandomVietName();
+                String name = getRandomName();
                 String cleanNameForEmail = name.toLowerCase().replaceAll("\\s+", "");
                 String email = cleanNameForEmail + i + "@gmail.com";
 
                 String[] prefixes = {"090", "091", "093", "097", "098", "032", "035", "077"};
                 String phone = prefixes[random.nextInt(prefixes.length)] + String.format("%07d", random.nextInt(10000000));
 
-                double lat = 10.730000 + (random.nextDouble() * 0.15);
-                double lng = 106.600000 + (random.nextDouble() * 0.15);
-
                 String rawPassword = "CustomerPass" + i + "!";
                 String hashedPassword = hashPassword(rawPassword);
 
-                writer.write(String.format(Locale.US, "%d,%s,%s,%s,%.6f,%.6f,%s\n",
-                        i, name, phone, email, lat, lng, hashedPassword));
+                writer.write(String.format(Locale.US, "%d,%s,%s,%s,%s\n",
+                        i, name, phone, email, hashedPassword));
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -122,7 +121,7 @@ public class DataGenerator {
     // 3. Sinh dữ liệu Restaurants (Dùng dấu phân tách cột là Chấm Phẩy ';' để loại bỏ lệch cột địa chỉ)
     private static void generateRestaurants() {
         try (BufferedWriter writer = getWriter("restaurants.csv")) {
-            writer.write("id,name,address,rating\n");
+            writer.write("restaurant_id,name,address,rating\n");
             for (int i = 1; i <= NUM_RESTAURANTS; i++) {
                 String restName = REST_PREFIX[random.nextInt(REST_PREFIX.length)] + " "
                         + REST_NOUN[random.nextInt(REST_NOUN.length)] + " "
@@ -143,7 +142,7 @@ public class DataGenerator {
     private static List<MenuItem> generateMenuItems() {
         List<MenuItem> list = new ArrayList<>();
         try (BufferedWriter writer = getWriter("menu_items.csv")) {
-            writer.write("id,restaurant_id,item_name,price,stock_qty,version\n");
+            writer.write("menu_item_id,restaurant_id,item_name,price,stock_qty,version\n");
             for (int i = 1; i <= NUM_MENU_ITEMS; i++) {
                 int restId = random.nextInt(NUM_RESTAURANTS) + 1;
                 String foodName = FOOD_NAMES[random.nextInt(FOOD_NAMES.length)];
@@ -165,7 +164,7 @@ public class DataGenerator {
             writer.write("id,name,status,current_lat,current_lng,version\n");
             String[] statuses = {"AVAILABLE", "BUSY"};
             for (int i = 1; i <= NUM_DRIVERS; i++) {
-                String name = getRandomVietName();
+                String name = getRandomName();
                 String status = statuses[random.nextInt(statuses.length)];
                 double lat = 10.730000 + (random.nextDouble() * 0.15);
                 double lng = 106.600000 + (random.nextDouble() * 0.15);
@@ -187,9 +186,9 @@ public class DataGenerator {
 
         try (BufferedWriter orderWriter = getWriter("orders.csv"); BufferedWriter itemWriter = getWriter("order_items.csv"); BufferedWriter routeWriter = getWriter("delivery_routes.csv")) {
 
-            orderWriter.write("id,customer_id,driver_id,total_price,status,version\n");
-            itemWriter.write("id,order_id,menu_item_id,quantity,price_at_time\n");
-            routeWriter.write("id,order_id,distance_km,estimated_time_min\n");
+            orderWriter.write("order_id,customer_id,driver_id,total_price,status,version\n");
+            itemWriter.write("order_item_id,order_id,menu_item_id,quantity,price_at_time\n");
+            routeWriter.write("delivery_route_id,order_id,distance_km,estimated_time_min\n");
 
             int itemGlobalId = 1;
 
@@ -243,6 +242,36 @@ public class DataGenerator {
 
                 routeWriter.write(String.format(Locale.US, "%d,%d,%.2f,%d\n", orderId, orderId, distance, estTime));
             }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    private static void generateSimulationRuns() {
+        try (BufferedWriter writer = getWriter("simulation_runs.csv")) {
+            // Dòng tiêu đề chuẩn theo yêu cầu của bạn
+            writer.write("simulation_run_id,total_orders,total_success,total_failed,duration_ms\n");
+
+            for (int i = 1; i <= NUM_SIMULATION_RUNS; i++) {
+                // Tổng số đơn mô phỏng từ 200 đến 1000 đơn
+                int totalOrders = 200 + random.nextInt(800);
+
+                // Tính toán tỷ lệ thành công ngẫu nhiên cao (từ 90% đến 98%) để dữ liệu thực tế
+                double successRate = 0.90 + (random.nextDouble() * 0.08);
+                int totalSuccess = (int) (totalOrders * successRate);
+
+                // Số đơn thất bại là phần còn lại
+                int totalFailed = totalOrders - totalSuccess;
+
+                // Thời gian chạy tính bằng mili-giây (ví dụ từ 500ms đến 3000ms cho các thuật toán tối ưu)
+                int durationMs = 500 + random.nextInt(2500);
+
+                // Ghi thẳng hàng vào file CSV
+                writer.write(String.format(Locale.US, "%d,%d,%d,%d,%d\n",
+                        i, totalOrders, totalSuccess, totalFailed, durationMs));
+            }
+            System.out.println("✅ Nạp xong file dữ liệu cấu trúc mới: simulation_runs.csv");
         } catch (IOException e) {
             e.printStackTrace();
         }
