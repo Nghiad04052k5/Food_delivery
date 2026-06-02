@@ -1,3 +1,5 @@
+Group 6
+
 Food Delivery Network (Mô hình GrabFood/ShopeeFood)
 
 This project include the following members:
