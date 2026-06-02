@@ -1,4 +1,4 @@
-Group 6
+LAB211-Group 6
 
 Food Delivery Network (Mô hình GrabFood/ShopeeFood)
 
