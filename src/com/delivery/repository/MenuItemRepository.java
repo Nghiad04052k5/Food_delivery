@@ -60,7 +60,7 @@ public class MenuItemRepository extends CsvRepository<MenuItem> {
         }
 
         if (targetItem == null) {
-            System.out.println("Thread [" + Thread.currentThread().getName() + "]: Không tìm thấy món ăn với ID: " + itemId);
+            System.out.println("Thread [" + Thread.currentThread().getName() + "]: Cannot find menu item with ID: " + itemId);
             return false;
         }
 
@@ -70,11 +70,11 @@ public class MenuItemRepository extends CsvRepository<MenuItem> {
             
             // Cập nhật lại list và lưu xuống CSV
             saveAll(allItems);
-            System.out.println("Thread [" + Thread.currentThread().getName() + "]: Đã trừ " + quantity + " tồn kho thành công cho món: " + targetItem.getItemName() + ". Còn lại: " + targetItem.getStockQty());
+            System.out.println("Thread [" + Thread.currentThread().getName() + "]: Successfully deducted " + quantity + " stock for item: " + targetItem.getItemName() + ". Remaining: " + targetItem.getStockQty());
             return true;
         } else {
             // Không đủ kho -> Báo lỗi số âm
-            System.out.println("Thread [" + Thread.currentThread().getName() + "]: Thất bại: Không đủ tồn kho cho món " + targetItem.getItemName() + ". Kho hiện tại: " + targetItem.getStockQty() + ", Yêu cầu: " + quantity);
+            System.out.println("Thread [" + Thread.currentThread().getName() + "]: Failed: Insufficient stock for item " + targetItem.getItemName() + ". Current stock: " + targetItem.getStockQty() + ", Requested: " + quantity);
             return false;
         }
     }

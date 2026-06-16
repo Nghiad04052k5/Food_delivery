@@ -16,7 +16,7 @@ public class MenuItemRepositoryTest {
     private static final String TEST_CSV_FILE = "test_menu_items.csv";
 
     public static void main(String[] args) {
-        System.out.println("=== BẮT ĐẦU TEST LỚP GENERIC & ĐỒNG BỘ (SYNCHRONIZED) ===");
+        System.out.println("=== STARTING GENERIC & SYNCHRONIZED TEST ===");
         
         // 1. Chuẩn bị dữ liệu mẫu (Tạo file test_menu_items.csv)
         prepareTestData();
@@ -26,14 +26,14 @@ public class MenuItemRepositoryTest {
         // Đọc thử xem Generic parseLine hoạt động không
         MenuItem item = repo.findById(1);
         if (item != null) {
-            System.out.println("Đọc file thành công (Generic hoạt động tốt): " + item.getItemName() + " | Tồn kho ban đầu: " + item.getStockQty());
+            System.out.println("Successfully read file (Generic works fine): " + item.getItemName() + " | Initial stock: " + item.getStockQty());
         } else {
-            System.out.println("Lỗi: Không đọc được dữ liệu.");
+            System.out.println("Error: Cannot read data.");
             return;
         }
 
         // 2. Test đa luồng (Đoạn mã "ăn điểm")
-        System.out.println("\n--- Bắt đầu Test Đa Luồng (Ép hệ thống trừ tồn kho đồng thời) ---");
+        System.out.println("\n--- Starting Multi-threading Test (Concurrent stock deduction) ---");
         // Số lượng tồn kho ban đầu là 10. Ta cho 15 luồng, mỗi luồng mua 1 sản phẩm.
         // Kỳ vọng: 10 luồng đầu mua thành công, 5 luồng sau báo lỗi không đủ kho, Tồn kho cuối cùng = 0 (Không bị số âm)
         
@@ -57,12 +57,12 @@ public class MenuItemRepositoryTest {
         
         // 3. Kiểm tra lại kết quả cuối cùng
         MenuItem finalItem = repo.findById(1);
-        System.out.println("\n--- KẾT QUẢ SAU KHI TEST ---");
-        System.out.println("Tồn kho thực tế còn lại trong file CSV: " + finalItem.getStockQty());
+        System.out.println("\n--- TEST RESULTS ---");
+        System.out.println("Actual remaining stock in CSV: " + finalItem.getStockQty());
         if (finalItem.getStockQty() == 0) {
-            System.out.println("=> THÀNH CÔNG: Tồn kho không bị âm. Thuật toán Lock (Synchronized) hoạt động chính xác tuyệt đối!");
+            System.out.println("=> SUCCESS: Stock is not negative. Lock (Synchronized) algorithm works perfectly!");
         } else {
-            System.out.println("=> THẤT BẠI: Thuật toán Lock có lỗi.");
+            System.out.println("=> FAILED: Lock algorithm has a bug.");
         }
     }
 

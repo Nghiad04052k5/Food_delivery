@@ -19,7 +19,7 @@ public class OrderRepositoryTest {
     private static final String TEST_CSV_FILE = "test_orders.csv";
 
     public static void main(String[] args) {
-        System.out.println("=== BẮT ĐẦU TEST LỚP ORDER REPOSITORY & KHÓA LẠC QUAN (OPTIMISTIC LOCKING) ===");
+        System.out.println("=== STARTING ORDER REPOSITORY & OPTIMISTIC LOCKING TEST ===");
 
         // 1. Chuẩn bị dữ liệu mẫu
         prepareTestData();
@@ -29,11 +29,11 @@ public class OrderRepositoryTest {
         // Đọc thử dữ liệu ban đầu
         Order initialOrder = repo.findById(1);
         if (initialOrder != null) {
-            System.out.println("Đọc đơn hàng mẫu thành công:");
+            System.out.println("Successfully read sample order:");
             System.out.println("ID=" + initialOrder.getId() + ", Status=" + initialOrder.getStatus() 
                     + ", DriverId=" + initialOrder.getDriverId() + ", Version=" + initialOrder.getVersion());
         } else {
-            System.err.println("Lỗi: Không đọc được dữ liệu đơn hàng mẫu.");
+            System.err.println("Error: Cannot read sample order data.");
             return;
         }
 
@@ -48,7 +48,7 @@ public class OrderRepositoryTest {
 
         final int expectedVersion = initialOrder.getVersion(); // là 0
 
-        System.out.println("\n--- Bắt đầu kích hoạt luồng tranh chấp gán đơn hàng ---");
+        System.out.println("\n--- Starting driver assignment contention threads ---");
 
         for (int i = 1; i <= numThreads; i++) {
             final Integer driverId = 100 + i; // Driver IDs: 101, 102, 103, 104, 105
@@ -57,22 +57,22 @@ public class OrderRepositoryTest {
             executorService.execute(() -> {
                 Thread.currentThread().setName(threadName);
                 try {
-                    System.out.println("[" + Thread.currentThread().getName() + "] Đang cố gắng gán Driver ID: " + driverId + " với Expected Version: " + expectedVersion);
+                    System.out.println("[" + Thread.currentThread().getName() + "] Trying to assign Driver ID: " + driverId + " with Expected Version: " + expectedVersion);
                     
                     // Thực hiện gán tài xế
                     boolean result = repo.assignDriverWithOptimistic(1, driverId, expectedVersion);
                     
                     if (result) {
                         successCount.incrementAndGet();
-                        System.out.println(">>> [" + Thread.currentThread().getName() + "] THÀNH CÔNG: Đã gán thành công Driver ID " + driverId);
+                        System.out.println(">>> [" + Thread.currentThread().getName() + "] SUCCESS: Driver ID " + driverId + " assigned successfully");
                     } else {
                         failureCount.incrementAndGet();
                     }
                 } catch (OptimisticLockException e) {
                     exceptionCount.incrementAndGet();
-                    System.out.println("!!! [" + Thread.currentThread().getName() + "] THẤT BẠI (Xung đột version): " + e.getMessage());
+                    System.out.println("!!! [" + Thread.currentThread().getName() + "] FAILED (Version conflict): " + e.getMessage());
                 } catch (Exception e) {
-                    System.err.println("[" + Thread.currentThread().getName() + "] Lỗi hệ thống: " + e.getMessage());
+                    System.err.println("[" + Thread.currentThread().getName() + "] System error: " + e.getMessage());
                 }
             });
         }
@@ -85,23 +85,23 @@ public class OrderRepositoryTest {
         }
 
         // 3. Kiểm tra kết quả cuối cùng
-        System.out.println("\n--- KẾT QUẢ MÔ PHỎNG TRANH CHẤP ---");
-        System.out.println("Tổng số luồng chạy: " + numThreads);
-        System.out.println("Số luồng gán thành công (Success): " + successCount.get());
-        System.out.println("Số luồng bị từ chối do xung đột (OptimisticLockException): " + exceptionCount.get());
+        System.out.println("\n--- CONTENTION SIMULATION RESULTS ---");
+        System.out.println("Total threads run: " + numThreads);
+        System.out.println("Successful assignments (Success): " + successCount.get());
+        System.out.println("Rejected threads due to conflict (OptimisticLockException): " + exceptionCount.get());
 
         Order finalOrder = repo.findById(1);
-        System.out.println("\nThông tin đơn hàng hiện tại trong file CSV:");
+        System.out.println("\nCurrent order info in CSV file:");
         System.out.println("ID=" + finalOrder.getId() + ", Status=" + finalOrder.getStatus() 
                 + ", Assigned DriverId=" + finalOrder.getDriverId() + ", Version=" + finalOrder.getVersion());
 
         // Ràng buộc kiểm chứng
         if (successCount.get() == 1 && exceptionCount.get() == (numThreads - 1)) {
-            System.out.println("\n=> KẾT LUẬN: THÀNH CÔNG! Chỉ có duy nhất 1 luồng gán tài xế thành công.");
-            System.out.println("Các luồng còn lại đều bị chặn và ném ra OptimisticLockException chính xác.");
-            System.out.println("Race Condition 1 (Double Assignment) đã được loại bỏ hoàn toàn nhờ Khóa Lạc Quan.");
+            System.out.println("\n=> CONCLUSION: SUCCESS! Only exactly 1 thread successfully assigned the driver.");
+            System.out.println("The remaining threads were blocked and properly threw OptimisticLockException.");
+            System.out.println("Race Condition 1 (Double Assignment) has been completely eliminated thanks to Optimistic Locking.");
         } else {
-            System.err.println("\n=> KẾT LUẬN: THẤT BẠI! Lỗi đồng bộ hóa Khóa Lạc Quan.");
+            System.err.println("\n=> CONCLUSION: FAILED! Optimistic Locking synchronization error.");
         }
 
         // Dọn dẹp file test
@@ -125,7 +125,7 @@ public class OrderRepositoryTest {
                 bw.newLine();
             }
         } catch (IOException e) {
-            System.err.println("Lỗi tạo dữ liệu mẫu test: " + e.getMessage());
+            System.err.println("Error creating sample test data: " + e.getMessage());
         }
     }
 }
