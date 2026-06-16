@@ -1,6 +1,5 @@
 package com.delivery;
 
-import com.delivery.util.GeoUtils;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
@@ -284,8 +283,8 @@ public class DataGenerator {
                 double restLon = restaurantLongitudes[targetRestId];
 
                 // Chặng 2: Từ Nhà hàng đến Khách hàng để tính khoảng cách và thời gian ước tính
-                double distance = GeoUtils.calculateHaversineDistance(restLat, restLon, custLat, custLon);
-                int estTime = Dispatcher.estimateDeliveryTimeStatic(distance);
+                double distance = com.delivery.repository.GeoUtils.calculateDistance(restLat, restLon, custLat, custLon);
+                int estTime = (int) (distance * 3) + 10;
 
                 routeWriter.write(String.format(Locale.US, "%d,%d,%.2f,%d\n", orderId, orderId, distance, estTime));
             }

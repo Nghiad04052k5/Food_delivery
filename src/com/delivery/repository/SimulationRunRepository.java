@@ -18,7 +18,7 @@ public class SimulationRunRepository extends CsvRepository<SimulationRun> {
             run.setTotalOrders(Integer.parseInt(parts[1].trim()));
             run.setTotalSuccess(Integer.parseInt(parts[2].trim()));
             run.setTotalFailed(Integer.parseInt(parts[3].trim()));
-            run.setDurationMs(Integer.parseInt(parts[4].trim()));
+            run.setDurationMs(Long.parseLong(parts[4].trim()));
             return run;
         }
         return null;
@@ -40,3 +40,4 @@ public class SimulationRunRepository extends CsvRepository<SimulationRun> {
         return "simulation_run_id,total_orders,total_success,total_failed,duration_ms";
     }
 }
+

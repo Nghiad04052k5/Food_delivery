@@ -51,7 +51,7 @@ public class OrderRepositoryTest {
         System.out.println("\n--- Bắt đầu kích hoạt luồng tranh chấp gán đơn hàng ---");
 
         for (int i = 1; i <= numThreads; i++) {
-            final int driverId = 100 + i; // Driver IDs: 101, 102, 103, 104, 105
+            final Integer driverId = 100 + i; // Driver IDs: 101, 102, 103, 104, 105
             final String threadName = "Thread-Assign-Driver-" + driverId;
 
             executorService.execute(() -> {
@@ -129,3 +129,4 @@ public class OrderRepositoryTest {
         }
     }
 }
+

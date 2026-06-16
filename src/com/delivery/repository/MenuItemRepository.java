@@ -48,19 +48,19 @@ public class MenuItemRepository extends CsvRepository<MenuItem> {
 
     // ĐOẠN CODE "ĂN ĐIỂM": Thuật toán Lock (Synchronized) trừ số lượng kho
     // Synchronized đảm bảo chỉ 1 thread được chạy qua hàm này tại 1 thời điểm trên cùng 1 instance Repository
-    public synchronized boolean deductStock(int menuItemId, int quantity) {
-        List<MenuItem> allItems = findAll();
+    public synchronized boolean validateAndDeductStockAtomically(int itemId, int quantity) {
+        List<MenuItem> allItems = readAll();
         MenuItem targetItem = null;
 
         for (MenuItem item : allItems) {
-            if (item.getId() == menuItemId) {
+            if (item.getId() == itemId) {
                 targetItem = item;
                 break;
             }
         }
 
         if (targetItem == null) {
-            System.out.println("Thread [" + Thread.currentThread().getName() + "]: Không tìm thấy món ăn với ID: " + menuItemId);
+            System.out.println("Thread [" + Thread.currentThread().getName() + "]: Không tìm thấy món ăn với ID: " + itemId);
             return false;
         }
 

@@ -67,7 +67,7 @@ public class DriverRepository extends CsvRepository<Driver> {
      * CHỨC NĂNG 1: Bộ lọc nghiêm ngặt trạng thái Tài xế (Chỉ lấy người đang AVAILABLE)
      */
     public List<Driver> filterDriverAvailabilityStrictly() {
-        List<Driver> allDrivers = findAll();
+        List<Driver> allDrivers = readAll();
         List<Driver> availableDrivers = new ArrayList<>();
 
         for (Driver driver : allDrivers) {
@@ -110,7 +110,7 @@ public class DriverRepository extends CsvRepository<Driver> {
      * Từ khóa 'synchronized' giúp chặn đứng tình trạng 2 luồng đơn hàng gán cho cùng 1 tài xế
      */
     public synchronized boolean markBusyWithSync(int driverId) {
-        List<Driver> allDrivers = findAll();
+        List<Driver> allDrivers = readAll();
         for (Driver driver : allDrivers) {
             if (driver.getId() == driverId) {
                 // Kiểm tra lại một lần nữa xem tài xế có thực sự còn rảnh không (Double-check)
@@ -124,4 +124,4 @@ public class DriverRepository extends CsvRepository<Driver> {
         }
         return false; // Không tìm thấy ID tài xế
     }
-}
+}

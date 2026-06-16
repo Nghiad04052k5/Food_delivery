@@ -43,7 +43,7 @@ public class MenuItemRepositoryTest {
         for (int i = 1; i <= numberOfThreads; i++) {
             executorService.execute(() -> {
                 // Các luồng tranh nhau trừ món ăn số 1, mỗi luồng trừ 1 cái
-                repo.deductStock(1, 1);
+                repo.validateAndDeductStockAtomically(1, 1);
             });
         }
         

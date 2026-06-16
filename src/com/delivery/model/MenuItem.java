@@ -62,8 +62,8 @@ public class MenuItem extends BaseEntity {
     @Override
     public String toString() {
         return "MenuItem{" +
-                "id=" + id +
-                ", restaurantId=" + restaurantId +
+                "id='" + id + '\'' +
+                ", restaurantId='" + restaurantId + '\'' +
                 ", itemName='" + itemName + '\'' +
                 ", price=" + price +
                 ", stockQty=" + stockQty +

@@ -4,12 +4,12 @@ public class SimulationRun extends BaseEntity {
     private int totalOrders;
     private int totalSuccess;
     private int totalFailed;
-    private int durationMs;
+    private long durationMs;
 
     public SimulationRun() {
     }
 
-    public SimulationRun(int id, int totalOrders, int totalSuccess, int totalFailed, int durationMs) {
+    public SimulationRun(int id, int totalOrders, int totalSuccess, int totalFailed, long durationMs) {
         this.id = id;
         this.totalOrders = totalOrders;
         this.totalSuccess = totalSuccess;
@@ -41,18 +41,18 @@ public class SimulationRun extends BaseEntity {
         this.totalFailed = totalFailed;
     }
 
-    public int getDurationMs() {
+    public long getDurationMs() {
         return durationMs;
     }
 
-    public void setDurationMs(int durationMs) {
+    public void setDurationMs(long durationMs) {
         this.durationMs = durationMs;
     }
 
     @Override
     public String toString() {
         return "SimulationRun{" +
-                "id=" + id +
+                "id='" + id + '\'' +
                 ", totalOrders=" + totalOrders +
                 ", totalSuccess=" + totalSuccess +
                 ", totalFailed=" + totalFailed +
@@ -60,3 +60,4 @@ public class SimulationRun extends BaseEntity {
                 '}';
     }
 }
+

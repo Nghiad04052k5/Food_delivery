@@ -28,10 +28,10 @@ public class DeliveryRoute extends BaseEntity {
 
     @Override
     public String toString() {
-        return "DeliveryRoute{id=" + getId() +
-                ", orderId=" + orderId +
+        return "DeliveryRoute{id='" + getId() + '\'' +
+                ", orderId='" + orderId + '\'' +
                 ", distanceKm=" + distanceKm +
                 ", estimatedTimeMin=" + estimatedTimeMin +
                 '}';
     }
-}
+}

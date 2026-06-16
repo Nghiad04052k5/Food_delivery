@@ -2,16 +2,16 @@ package com.delivery.model;
 
 public class Order extends BaseEntity {
     private int customerId;
-    private Integer driverId; // Can be null
+    private Integer driverId; // Can be null or empty
     private double totalPrice;
-    private String paymentMethod; // CASH, ONLINE_PAYMENT, QR_CODE
+    private PaymentMethod paymentMethod;
     private OrderStatus status;
     private int version;
 
     public Order() {
     }
 
-    public Order(int id, int customerId, Integer driverId, double totalPrice, String paymentMethod, OrderStatus status, int version) {
+    public Order(int id, int customerId, Integer driverId, double totalPrice, PaymentMethod paymentMethod, OrderStatus status, int version) {
         this.id = id;
         this.customerId = customerId;
         this.driverId = driverId;
@@ -45,11 +45,11 @@ public class Order extends BaseEntity {
         this.totalPrice = totalPrice;
     }
 
-    public String getPaymentMethod() {
+    public PaymentMethod getPaymentMethod() {
         return paymentMethod;
     }
 
-    public void setPaymentMethod(String paymentMethod) {
+    public void setPaymentMethod(PaymentMethod paymentMethod) {
         this.paymentMethod = paymentMethod;
     }
 
@@ -72,11 +72,11 @@ public class Order extends BaseEntity {
     @Override
     public String toString() {
         return "Order{" +
-                "id=" + id +
-                ", customerId=" + customerId +
-                ", driverId=" + driverId +
+                "id='" + id + '\'' +
+                ", customerId='" + customerId + '\'' +
+                ", driverId='" + driverId + '\'' +
                 ", totalPrice=" + totalPrice +
-                ", paymentMethod='" + paymentMethod + '\'' +
+                ", paymentMethod=" + paymentMethod +
                 ", status=" + status +
                 ", version=" + version +
                 '}';

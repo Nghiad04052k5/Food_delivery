@@ -18,7 +18,7 @@ public abstract class CsvRepository<T extends BaseEntity> {
     protected abstract String toCsvRow(T entity);
     protected abstract String getHeader();
 
-    public List<T> findAll() {
+    public List<T> readAll() {
         List<T> entities = new ArrayList<>();
         File file = new File(filePath);
         if (!file.exists()) {
@@ -41,7 +41,7 @@ public abstract class CsvRepository<T extends BaseEntity> {
     }
 
     public T findById(int id) {
-        for (T entity : findAll()) {
+        for (T entity : readAll()) {
             if (entity.getId() == id) {
                 return entity;
             }
@@ -62,8 +62,14 @@ public abstract class CsvRepository<T extends BaseEntity> {
         }
     }
 
+    public void save(T entity) {
+        List<T> entities = readAll();
+        entities.add(entity);
+        saveAll(entities);
+    }
+
     public void update(T entityToUpdate) {
-        List<T> entities = findAll();
+        List<T> entities = readAll();
         boolean updated = false;
         for (int i = 0; i < entities.size(); i++) {
             if (entities.get(i).getId() == entityToUpdate.getId()) {
@@ -76,4 +82,13 @@ public abstract class CsvRepository<T extends BaseEntity> {
             saveAll(entities);
         }
     }
+
+    public void delete(int id) {
+        List<T> entities = readAll();
+        boolean removed = entities.removeIf(e -> e.getId() == id);
+        if (removed) {
+            saveAll(entities);
+        }
+    }
 }
+
