@@ -8,31 +8,38 @@ import com.delivery.model.PaymentMethod;
 import com.delivery.repository.DriverRepository;
 import com.delivery.repository.OrderRepository;
 import com.delivery.service.OrderService;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import static org.junit.Assert.*;
+
 import java.io.File;
 
 public class SingleThreadOrderFlowTest {
-    public static void main(String[] args) {
-        System.out.println("==================================================");
-        System.out.println("BẮT ĐẦU CHẠY KIỂM THỬ: SingleThreadOrderFlowTest");
-        System.out.println("==================================================");
 
-        // Sử dụng file test tạm thời
-        String testOrderFile = "data/test_orders_t5.csv";
-        String testDriverFile = "data/test_drivers_t5.csv";
+    private OrderRepository orderRepo;
+    private DriverRepository driverRepo;
+    private OrderService orderService;
 
+    private final String testOrderFile = "data/test_orders_t5.csv";
+    private final String testDriverFile = "data/test_drivers_t5.csv";
+
+    @Before
+    public void setUp() {
         File dataDir = new File("data");
         if (!dataDir.exists()) {
             dataDir.mkdirs();
         }
 
-        // Xóa file cũ nếu có để test sạch
+        // Xóa file cũ để làm sạch môi trường test
         new File(testOrderFile).delete();
         new File(testDriverFile).delete();
 
-        OrderRepository orderRepo = new OrderRepository(testOrderFile);
-        DriverRepository driverRepo = new DriverRepository(testDriverFile);
+        orderRepo = new OrderRepository(testOrderFile);
+        driverRepo = new DriverRepository(testDriverFile);
 
-        // Tạo dummy dữ liệu tài xế
+        // Tạo dummy dữ liệu tài xế trước khi test
         Driver driver = new Driver();
         driver.setId(1);
         driver.setName("Nghia Test Driver");
@@ -40,11 +47,26 @@ public class SingleThreadOrderFlowTest {
         driver.setLongitude(10.0);
         driver.setStatus(DriverStatus.AVAILABLE);
         driverRepo.save(driver);
-        System.out.println("[Setup] Đã thêm tài xế: " + driver.getName() + " (Trạng thái: " + driver.getStatus() + ")");
 
-        OrderService orderService = new OrderService(orderRepo, driverRepo);
+        orderService = new OrderService(orderRepo, driverRepo);
+    }
 
+    @After
+    public void tearDown() {
+        // Dọn dẹp file CSV rác sau khi test xong
+        new File(testOrderFile).delete();
+        new File(testDriverFile).delete();
+    }
+
+    @Test
+    public void testOrderFlow() {
+        System.out.println("==================================================");
+        System.out.println("BẮT ĐẦU CHẠY KIỂM THỬ JUNIT: Luồng Đơn Hàng");
+        System.out.println("==================================================");
+
+        // ---------------------------------------------------------
         // 1. ĐẶT HÀNG (PLACE ORDER)
+        // ---------------------------------------------------------
         System.out.println("\nBước 1: Khách hàng đặt đơn hàng mới...");
         Order order = new Order();
         order.setId(999);
@@ -54,58 +76,39 @@ public class SingleThreadOrderFlowTest {
         orderService.createOrder(order);
 
         Order savedOrder = orderRepo.findById(999);
-        if (savedOrder != null && savedOrder.getStatus() == OrderStatus.PENDING) {
-            System.out.println(" => Đặt hàng thành công! Đơn hàng ID = 999, Trạng thái: " + savedOrder.getStatus());
-        } else {
-            System.err.println(" => Lỗi đặt hàng!");
-        }
+        assertNotNull("Đơn hàng phải được lưu thành công vào file CSV", savedOrder);
+        assertEquals("Trạng thái đơn hàng lúc mới tạo phải là PENDING", OrderStatus.PENDING, savedOrder.getStatus());
+        System.out.println(" => Đặt hàng thành công! Đơn hàng ID = 999, Trạng thái: " + savedOrder.getStatus());
 
+        // ---------------------------------------------------------
         // 2. TÌM VÀ GÁN TÀI XẾ (DISPATCH ORDER)
+        // ---------------------------------------------------------
         System.out.println("\nBước 2: Hệ thống tìm tài xế gần nhà hàng nhất (chạy tuần tự, ko lock)...");
         double restaurantLat = 10.05;
         double restaurantLon = 10.05;
         boolean dispatched = orderService.dispatchOrder(999, restaurantLat, restaurantLon);
         
-        if (dispatched) {
-            savedOrder = orderRepo.findById(999);
-            Driver savedDriver = driverRepo.findById(1);
-            
-            if (savedOrder.getStatus() == OrderStatus.CONFIRMED && savedDriver.getStatus() == DriverStatus.BUSY) {
-                System.out.println(" => Điều phối thành công!");
-                System.out.println("   - Đơn hàng 999 Trạng thái: " + savedOrder.getStatus() + ", DriverID: " + savedOrder.getDriverId());
-                System.out.println("   - Tài xế 1 Trạng thái: " + savedDriver.getStatus());
-            } else {
-                System.err.println(" => Lỗi dữ liệu sau khi điều phối!");
-            }
-        } else {
-            System.err.println(" => Điều phối thất bại!");
-        }
+        assertTrue("Điều phối đơn hàng phải thành công", dispatched);
+        savedOrder = orderRepo.findById(999);
+        Driver savedDriver = driverRepo.findById(1);
+        
+        assertEquals("Trạng thái đơn phải chuyển thành CONFIRMED", OrderStatus.CONFIRMED, savedOrder.getStatus());
+        assertNotNull("DriverID phải được gán vào đơn hàng", savedOrder.getDriverId());
+        assertEquals("Trạng thái tài xế phải chuyển thành BUSY", DriverStatus.BUSY, savedDriver.getStatus());
+        System.out.println(" => Điều phối thành công!");
 
+        // ---------------------------------------------------------
         // 3. GIAO HÀNG (DELIVER ORDER)
+        // ---------------------------------------------------------
         System.out.println("\nBước 3: Tài xế hoàn thành giao hàng...");
         boolean delivered = orderService.deliverOrder(999);
         
-        if (delivered) {
-            savedOrder = orderRepo.findById(999);
-            Driver savedDriver = driverRepo.findById(1);
-            
-            if (savedOrder.getStatus() == OrderStatus.DELIVERED && savedDriver.getStatus() == DriverStatus.AVAILABLE) {
-                System.out.println(" => Giao hàng thành công!");
-                System.out.println("   - Đơn hàng 999 Trạng thái: " + savedOrder.getStatus());
-                System.out.println("   - Tài xế 1 Trạng thái: " + savedDriver.getStatus());
-            } else {
-                System.err.println(" => Lỗi dữ liệu sau khi giao!");
-            }
-        } else {
-            System.err.println(" => Giao hàng thất bại!");
-        }
-
-        System.out.println("\n==================================================");
-        System.out.println("KẾT LUẬN: BÀI TEST CHẠY THÀNH CÔNG, KHÔNG LỖI DỮ LIỆU!");
-        System.out.println("==================================================");
-
-        // Dọn dẹp
-        new File(testOrderFile).delete();
-        new File(testDriverFile).delete();
+        assertTrue("Xác nhận giao hàng phải thành công", delivered);
+        savedOrder = orderRepo.findById(999);
+        savedDriver = driverRepo.findById(1);
+        
+        assertEquals("Trạng thái đơn phải chuyển thành DELIVERED", OrderStatus.DELIVERED, savedOrder.getStatus());
+        assertEquals("Trạng thái tài xế phải quay về AVAILABLE", DriverStatus.AVAILABLE, savedDriver.getStatus());
+        System.out.println(" => Giao hàng thành công!");
     }
 }
