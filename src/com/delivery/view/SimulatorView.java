@@ -155,7 +155,8 @@ public class SimulatorView {
                 System.out.print("Nhap password: ");
                 String pass = scanner.nextLine();
                 // Gọi CustomerController.login()
-                loggedInCustomer = customerController.login(email, pass);                if (loggedInCustomer == null) {
+                loggedInCustomer = customerController.login(email, hashPassword(pass));
+                if (loggedInCustomer == null) {
                     System.out.println("Tai khoan khong ton tai hoac sai mat khau!");
                 }
 
@@ -663,7 +664,7 @@ public class SimulatorView {
                 System.out.print("Nhap password: ");
                 String pass = scanner.nextLine();
                 // Gọi DriverController.login()
-                loggedInDriver = driverController.login(email, pass);
+                loggedInDriver = driverController.login(email, hashPassword(pass));
                 if (loggedInDriver == null) {
                     System.out.println("Tai khoan khong ton tai hoac sai mat khau!");
                 }
@@ -954,24 +955,34 @@ public class SimulatorView {
             System.out.println("2. Xem thong ke nha hang");
             System.out.println("3. Xem thong ke tai xe");
             System.out.println("4. Xem thong ke don hang");
+            System.out.println("5. Xem Dashboard tong quan");
+            System.out.println("6. Chinh sua thong tin Khach hang");
+            System.out.println("7. Chinh sua thong tin Nha hang");
+            System.out.println("8. Chinh sua thong tin Tai xe");
             System.out.println("0. Dang xuat");
             System.out.print("Chon: ");
             String ac = scanner.nextLine();
 
             if (ac.equals("1")) {
                 displayCustomersAdmin();
-
             } else if (ac.equals("2")) {
                 displayRestaurantsAdmin();
-
             } else if (ac.equals("3")) {
                 displayDriversAdmin();
-
             } else if (ac.equals("4")) {
                 displayOrdersAdmin();
-
+            } else if (ac.equals("5")) {
+                displayDashboardAdmin();
+            } else if (ac.equals("6")) {
+                editCustomerAdmin();
+            } else if (ac.equals("7")) {
+                editRestaurantAdmin();
+            } else if (ac.equals("8")) {
+                editDriverAdmin();
             } else if (ac.equals("0")) {
                 break;
+            } else {
+                System.out.println("Lua chon khong hop le!");
             }
         }
     }
@@ -1090,6 +1101,118 @@ public class SimulatorView {
         System.out.println("╚═══════════════════════════════════════════════════════════════════════════════╝");
         System.out.println("Tong cong: " + orders.size() + " don hang");
     }
+
+    private void displayDashboardAdmin() {
+        List<Order> orders = orderRepo.readAll();
+        double totalRevenue = orders.stream()
+                .filter(o -> o.getStatus() == OrderStatus.DELIVERED)
+                .mapToDouble(Order::getTotalPrice)
+                .sum();
+        
+        long pending = orders.stream().filter(o -> o.getStatus() == OrderStatus.PENDING).count();
+        long confirmed = orders.stream().filter(o -> o.getStatus() == OrderStatus.CONFIRMED).count();
+        long delivering = orders.stream().filter(o -> o.getStatus() == OrderStatus.DELIVERING).count();
+        long delivered = orders.stream().filter(o -> o.getStatus() == OrderStatus.DELIVERED).count();
+        long cancelled = orders.stream().filter(o -> o.getStatus() == OrderStatus.CANCELLED).count();
+        
+        System.out.println("\n╔══════════════════════════════════════════════════════════════════════╗");
+        System.out.println("║                          DASHBOARD TONG QUAN                         ║");
+        System.out.println("╠══════════════════════════════════════════════════════════════════════╣");
+        System.out.println(String.format("║ Tong doanh thu (Da giao): %-42.0f VND ║", totalRevenue));
+        System.out.println(String.format("║ Tong so don hang:         %-42d ║", orders.size()));
+        System.out.println(String.format("║   - Cho xu ly (PENDING):  %-42d ║", pending));
+        System.out.println(String.format("║   - Da xac nhan (CONFIRM):%-42d ║", confirmed));
+        System.out.println(String.format("║   - Dang giao (DELIVERING):%-41d ║", delivering));
+        System.out.println(String.format("║   - Da giao (DELIVERED):  %-42d ║", delivered));
+        System.out.println(String.format("║   - Da huy (CANCELLED):   %-42d ║", cancelled));
+        System.out.println(String.format("║ Tong so khach hang:       %-42d ║", customerRepo.readAll().size()));
+        System.out.println(String.format("║ Tong so nha hang:         %-42d ║", restaurantRepo.readAll().size()));
+        System.out.println(String.format("║ Tong so tai xe:           %-42d ║", driverRepo.readAll().size()));
+        System.out.println("╚══════════════════════════════════════════════════════════════════════╝");
+    }
+
+    private void editCustomerAdmin() {
+        System.out.print("Nhap ID khach hang can sua: ");
+        int cid;
+        try { cid = Integer.parseInt(scanner.nextLine()); } catch (NumberFormatException e) { System.out.println("ID khong hop le!"); return; }
+        Customer c = customerRepo.findById(cid);
+        if (c == null) {
+            System.out.println("Khong tim thay khach hang!");
+            return;
+        }
+        System.out.println("Dang sua Khach hang: " + c.getName());
+        System.out.print("Ten moi (Enter de giu nguyen): "); String name = scanner.nextLine();
+        System.out.print("SDT moi (Enter de giu nguyen): "); String phone = scanner.nextLine();
+        System.out.print("Dia chi moi (Enter de giu nguyen): "); String address = scanner.nextLine();
+        
+        if (!name.isEmpty()) c.setName(name);
+        if (!phone.isEmpty()) c.setPhone(phone);
+        if (!address.isEmpty()) c.setAddress(address);
+        
+        customerRepo.update(c);
+        System.out.println("Cap nhat khach hang thanh cong!");
+    }
+
+    private void editRestaurantAdmin() {
+        System.out.print("Nhap ID nha hang can sua: ");
+        int rid;
+        try { rid = Integer.parseInt(scanner.nextLine()); } catch (NumberFormatException e) { System.out.println("ID khong hop le!"); return; }
+        Restaurant r = restaurantRepo.findById(rid);
+        if (r == null) {
+            System.out.println("Khong tim thay nha hang!");
+            return;
+        }
+        System.out.println("Dang sua Nha hang: " + r.getName());
+        System.out.print("Ten moi (Enter de giu nguyen): "); String name = scanner.nextLine();
+        System.out.print("SDT moi (Enter de giu nguyen): "); String phone = scanner.nextLine();
+        System.out.print("Trang thai moi (OPEN/CLOSED, Enter de giu nguyen): "); String status = scanner.nextLine();
+        
+        if (!name.isEmpty()) r.setName(name);
+        if (!phone.isEmpty()) r.setPhone(phone);
+        if (!status.isEmpty()) {
+            try {
+                r.setStatus(RestaurantStatus.valueOf(status.toUpperCase()));
+            } catch (Exception e) {
+                System.out.println("Trang thai khong hop le!");
+            }
+        }
+        
+        restaurantRepo.update(r);
+        System.out.println("Cap nhat nha hang thanh cong!");
+    }
+
+    private void editDriverAdmin() {
+        System.out.print("Nhap ID tai xe can sua: ");
+        int did;
+        try { did = Integer.parseInt(scanner.nextLine()); } catch (NumberFormatException e) { System.out.println("ID khong hop le!"); return; }
+        Driver d = driverRepo.findById(did);
+        if (d == null) {
+            System.out.println("Khong tim thay tai xe!");
+            return;
+        }
+        System.out.println("Dang sua Tai xe: " + d.getName());
+        System.out.print("Ten moi (Enter de giu nguyen): "); String name = scanner.nextLine();
+        System.out.print("SDT moi (Enter de giu nguyen): "); String phone = scanner.nextLine();
+        System.out.print("Trang thai moi (AVAILABLE/BUSY/OFFLINE, Enter de giu nguyen): "); String status = scanner.nextLine();
+        System.out.print("Tien thu ho (QR) moi (Enter de giu nguyen): "); String money = scanner.nextLine();
+
+        if (!name.isEmpty()) d.setName(name);
+        if (!phone.isEmpty()) d.setPhone(phone);
+        if (!status.isEmpty()) {
+            try {
+                d.setStatus(DriverStatus.valueOf(status.toUpperCase()));
+            } catch (Exception e) {
+                System.out.println("Trang thai khong hop le!");
+            }
+        }
+        if (!money.isEmpty()) {
+            try { d.setCollectedQrMoney(Double.parseDouble(money)); } catch (NumberFormatException e) { System.out.println("Tien khong hop le!"); }
+        }
+        
+        driverRepo.update(d);
+        System.out.println("Cap nhat tai xe thanh cong!");
+    }
+
 
     private String truncate(String str, int maxLength) {
         if (str == null) return "";

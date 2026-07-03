@@ -77,6 +77,22 @@ public class DataGenerator {
         return new BufferedWriter(new java.io.OutputStreamWriter(new java.io.FileOutputStream(OUTPUT_DIR + fileName), StandardCharsets.UTF_8));
     }
 
+    private static String hashPassword(String password) {
+        try {
+            java.security.MessageDigest digest = java.security.MessageDigest.getInstance("SHA-256");
+            byte[] hash = digest.digest(password.getBytes(StandardCharsets.UTF_8));
+            StringBuilder hexString = new StringBuilder();
+            for (byte b : hash) {
+                String hex = Integer.toHexString(0xff & b);
+                if (hex.length() == 1) hexString.append('0');
+                hexString.append(hex);
+            }
+            return hexString.toString();
+        } catch (java.security.NoSuchAlgorithmException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
 
 
     private static String getRandomName() {
@@ -105,7 +121,7 @@ public class DataGenerator {
 
                 String cleanNameForEmail = name.toLowerCase().replaceAll("\\s+", "");
                 String email = cleanNameForEmail + i + "@gmail.com";
-                String password = "customer" + i;
+                String password = hashPassword("customer" + i);
 
                 writer.write(String.format(Locale.US, "%d,%s,%s,%s,%.6f,%.6f,%s,%s\n",
                         i, name, phone, address, lat, lon, email, password));
@@ -172,7 +188,7 @@ public class DataGenerator {
                 String phone = getRandomPhone();
                 String cleanNameForEmail = name.toLowerCase().replaceAll("\\s+", "");
                 String email = cleanNameForEmail + i + "@driver.com";
-                String password = "driver" + i;
+                String password = hashPassword("driver" + i);
 
                 double lat = 10.72 + random.nextDouble() * 0.13;
                 double lon = 106.60 + random.nextDouble() * 0.15;
