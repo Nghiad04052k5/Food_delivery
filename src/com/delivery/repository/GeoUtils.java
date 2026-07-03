@@ -18,12 +18,17 @@ public class GeoUtils {
 
         // Áp dụng công thức Haversine toán học
         double a = Math.sin(deltaLat / 2) * Math.sin(deltaLat / 2) +
-                   Math.cos(latRad1) * Math.cos(latRad2) *
-                   Math.sin(deltaLon / 2) * Math.sin(deltaLon / 2);
+                Math.cos(latRad1) * Math.cos(latRad2) *
+                        Math.sin(deltaLon / 2) * Math.sin(deltaLon / 2);
 
         double c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 
-        // Trả ra kết quả tính bằng KM
-        return EARTH_RADIUS * c;
+        double straightLineDistance = c * EARTH_RADIUS; // Đây là đường chim bay gốc
+
+        // SỬA TẠI ĐÂY: Nhân thêm hệ số đường bộ trung bình (ví dụ 1.35)
+        double roadDistanceFactor = 1.35;
+        double finalRoadDistance = straightLineDistance * roadDistanceFactor;
+
+        return finalRoadDistance;
     }
 }

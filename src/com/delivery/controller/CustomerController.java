@@ -1,68 +1,34 @@
 package com.delivery.controller;
 
 import com.delivery.model.Customer;
-import com.delivery.repository.CsvRepository;
-
+import com.delivery.repository.CustomerRepository;
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Locale;
-
-/**
- * CustomerRepository - nội bộ trong Controller để đọc/ghi customers.csv.
- * Được định nghĩa bên trong package controller để Controller tự quản lý.
- */
-class CustomerRepository extends CsvRepository<Customer> {
-
-    public CustomerRepository(String filePath) {
-        super(filePath);
-    }
-
-    @Override
-    protected Customer parseLine(String line) {
-        // Cấu trúc: customer_id,name,phone,address,latitude,longitude,email,password
-        String[] parts = line.split(",");
-        if (parts.length >= 8) {
-            Customer c = new Customer();
-            c.setId(Integer.parseInt(parts[0].trim()));
-            c.setName(parts[1].trim());
-            c.setPhone(parts[2].trim());
-            c.setAddress(parts[3].trim());
-            c.setLatitude(Double.parseDouble(parts[4].trim()));
-            c.setLongitude(Double.parseDouble(parts[5].trim()));
-            c.setEmail(parts[6].trim());
-            c.setPassword(parts[7].trim());
-            return c;
-        }
-        return null;
-    }
-
-    @Override
-    protected String toCsvRow(Customer c) {
-        return String.format(Locale.US, "%d,%s,%s,%s,%.6f,%.6f,%s,%s",
-                c.getId(), c.getName(), c.getPhone(), c.getAddress(),
-                c.getLatitude(), c.getLongitude(), c.getEmail(), c.getPassword());
-    }
-
-    @Override
-    protected String getHeader() {
-        return "customer_id,name,phone,address,latitude,longitude,email,password";
-    }
-}
 
 /**
  * CustomerController - Sub-Controller xử lý nghiệp vụ Khách hàng.
  *
  * Nhiệm vụ (Thành viên 3 - Tuấn):
  * - Đăng ký khách hàng mới -> lưu vào customers.csv
+ * - Đăng nhập khách hàng (kiểm tra email + password đã hash)
+ * - Cập nhật thông tin Profile khách hàng
  * - Xem thông tin khách hàng theo ID
  * - Liệt kê tất cả khách hàng
+ * - Xem lịch sử đơn hàng (Nhiệm vụ bổ sung - chưa dùng trong tuần này)
  */
 public class CustomerController {
 
     private final CustomerRepository customerRepository;
 
+    public CustomerController(CustomerRepository customerRepository) {
+        this.customerRepository = customerRepository;
+    }
+
+    // Giữ lại constructor cũ để không phá vỡ code cũ nếu có nơi khác dùng
     public CustomerController(String customerFilePath) {
         this.customerRepository = new CustomerRepository(customerFilePath);
     }
@@ -74,7 +40,6 @@ public class CustomerController {
     public Customer registerCustomer(String name, String phone, String address,
                                      double latitude, double longitude,
                                      String email, String password) {
-        // Tự sinh ID tự tăng dựa trên danh sách hiện có
         List<Customer> all = customerRepository.readAll();
         int newId = all.stream().mapToInt(c -> c.getId()).max().orElse(0) + 1;
 
@@ -84,6 +49,48 @@ public class CustomerController {
 
         System.out.println("==> [CustomerController] Dang ky thanh cong! ID=" + newId + ", Ten=" + name);
         return newCustomer;
+    }
+
+    /**
+     * Đăng nhập khách hàng: Dò tìm theo email và password đã băm (SHA-256).
+     * @param email    Email khách hàng
+     * @param hashedPassword Mật khẩu đã được băm SHA-256
+     * @return Đối tượng Customer nếu khớp, null nếu không tìm thấy
+     */
+    public Customer login(String email, String password) {
+        for (Customer c : customerRepository.readAll()) {
+            if (c.getEmail().equalsIgnoreCase(email) && c.getPassword().equals(password)) {
+                System.out.println("==> [CustomerController] Dang nhap thanh cong! Ten=" + c.getName());
+                return c;
+            }
+        }
+        System.out.println("==> [CustomerController] Dang nhap that bai! Email=" + email);
+        return null;
+    }
+
+    /**
+     * Cập nhật thông tin profile của khách hàng (tên, SĐT, địa chỉ).
+     * Chỉ cập nhật trường nào khác null/rỗng.
+     */
+    public boolean updateProfile(Customer customer, String newName, String newPhone, String newAddress) {
+        boolean changed = false;
+        if (newName != null && !newName.isEmpty()) {
+            customer.setName(newName);
+            changed = true;
+        }
+        if (newPhone != null && !newPhone.isEmpty()) {
+            customer.setPhone(newPhone);
+            changed = true;
+        }
+        if (newAddress != null && !newAddress.isEmpty()) {
+            customer.setAddress(newAddress);
+            changed = true;
+        }
+        if (changed) {
+            customerRepository.update(customer);
+            System.out.println("==> [CustomerController] Cap nhat profile thanh cong! ID=" + customer.getId());
+        }
+        return changed;
     }
 
     /**
@@ -108,32 +115,32 @@ public class CustomerController {
         return all;
     }
 
-
     /**
-     * NHIỆM VỤ BỔ SUNG: Xem lịch sử đặt hàng của một Khách hàng dựa trên ID
-     * Hàm này sẽ đọc trực tiếp từ file orders.csv và lọc ra các đơn hàng của khách đó.
+     * NHIỆM VỤ BỔ SUNG (Chưa dùng trong tuần này):
+     * Xem lịch sử đặt hàng của một Khách hàng dựa trên ID.
+     * Hàm này đọc trực tiếp từ file orders.csv và lọc ra các đơn của khách đó.
      */
     public List<String> getViewPastOrderHistory(int customerId, String orderCsvPath) {
         List<String> history = new ArrayList<>();
         File file = new File(orderCsvPath);
         if (!file.exists()) return history;
 
-        try (java.io.BufferedReader br = new java.io.BufferedReader(new java.io.FileReader(file))) {
-            String line = br.readLine(); // Bỏ qua dòng tiêu đề (Header)
+        try (BufferedReader br = new BufferedReader(new FileReader(file))) {
+            br.readLine(); // Bỏ qua dòng tiêu đề (Header)
+            String line;
             while ((line = br.readLine()) != null) {
                 if (line.trim().isEmpty()) continue;
                 String[] parts = line.split(",");
-                // Cấu trúc orders.csv: order_id,customer_id,restaurant_id,driver_id,total_amount,status,...
                 if (parts.length >= 6) {
                     int idCustInOrder = Integer.parseInt(parts[1].trim());
                     if (idCustInOrder == customerId) {
-                        history.add(String.format("Đơn hàng ID: %s | Tổng tiền: %s VNĐ | Trạng thái: %s", 
-                                parts[0], parts[4], parts[5]));
+                        history.add(String.format("Don hang ID: %s | Tong tien: %s VND | Trang thai: %s",
+                                parts[0], parts[3], parts[5]));
                     }
                 }
             }
         } catch (IOException e) {
-            System.err.println("Lỗi khi đọc lịch sử đơn hàng: " + e.getMessage());
+            System.err.println("Loi khi doc lich su don hang: " + e.getMessage());
         }
         return history;
     }

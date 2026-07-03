@@ -15,7 +15,8 @@ public class DriverRepository extends CsvRepository<Driver> {
 
     // =========================================================
     // CÁC HÀM ABSTRACT BẮT BUỘC IMPLEMENT TỪ CsvRepository
-    // Cấu trúc file: driver_id,name,phone,email,password,latitude,longitude,collected_qr_money,status,version
+    // Cấu trúc file:
+    // driver_id,name,phone,email,password,latitude,longitude,collected_qr_money,status,version
     // =========================================================
 
     @Override
@@ -50,8 +51,7 @@ public class DriverRepository extends CsvRepository<Driver> {
                 driver.getLongitude(),
                 driver.getCollectedQrMoney(),
                 driver.getStatus().name(),
-                driver.getVersion()
-        );
+                driver.getVersion());
     }
 
     @Override
@@ -64,7 +64,8 @@ public class DriverRepository extends CsvRepository<Driver> {
     // =========================================================
 
     /**
-     * CHỨC NĂNG 1: Bộ lọc nghiêm ngặt trạng thái Tài xế (Chỉ lấy người đang AVAILABLE)
+     * CHỨC NĂNG 1: Bộ lọc nghiêm ngặt trạng thái Tài xế (Chỉ lấy người đang
+     * AVAILABLE)
      */
     public List<Driver> filterDriverAvailabilityStrictly() {
         List<Driver> allDrivers = readAll();
@@ -94,8 +95,37 @@ public class DriverRepository extends CsvRepository<Driver> {
         for (Driver driver : availableDrivers) {
             double distance = GeoUtils.calculateDistance(
                     driver.getLatitude(), driver.getLongitude(),
-                    restaurantLat, restaurantLon
-            );
+                    restaurantLat, restaurantLon);
+
+            if (distance < minDistance) {
+                minDistance = distance;
+                nearestDriver = driver;
+            }
+        }
+        return nearestDriver;
+    }
+
+    /**
+     * CHỨC NĂNG 2.5: Tìm tài xế rảnh rỗi ở GẦN NHÀ HÀNG NHẤT nhưng loại trừ danh sách ID đã biết
+     */
+    public Driver findNearestAvailableDriverExcluding(double restaurantLat, double restaurantLon, java.util.Set<Integer> excludedIds) {
+        List<Driver> availableDrivers = filterDriverAvailabilityStrictly();
+
+        if (availableDrivers.isEmpty()) {
+            return null;
+        }
+
+        Driver nearestDriver = null;
+        double minDistance = Double.MAX_VALUE;
+
+        for (Driver driver : availableDrivers) {
+            if (excludedIds != null && excludedIds.contains(driver.getId())) {
+                continue; // Bỏ qua tài xế này vì họ đã từ chối đơn
+            }
+
+            double distance = GeoUtils.calculateDistance(
+                    driver.getLatitude(), driver.getLongitude(),
+                    restaurantLat, restaurantLon);
 
             if (distance < minDistance) {
                 minDistance = distance;
@@ -107,7 +137,8 @@ public class DriverRepository extends CsvRepository<Driver> {
 
     /**
      * CHỨC NĂNG 3: Chuyển trạng thái tài xế sang bận một cách đồng bộ
-     * Từ khóa 'synchronized' giúp chặn đứng tình trạng 2 luồng đơn hàng gán cho cùng 1 tài xế
+     * Từ khóa 'synchronized' giúp chặn đứng tình trạng 2 luồng đơn hàng gán cho
+     * cùng 1 tài xế
      */
     public synchronized boolean markBusyWithSync(int driverId) {
         List<Driver> allDrivers = readAll();
@@ -124,4 +155,4 @@ public class DriverRepository extends CsvRepository<Driver> {
         }
         return false; // Không tìm thấy ID tài xế
     }
-}
+}

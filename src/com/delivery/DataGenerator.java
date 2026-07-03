@@ -2,11 +2,8 @@ package com.delivery;
 
 import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
 import java.util.*;
 
 public class DataGenerator {
@@ -15,8 +12,8 @@ public class DataGenerator {
     private static final int NUM_CUSTOMERS = 2000;
     private static final int NUM_RESTAURANTS = 200;
     private static final int NUM_MENU_ITEMS = 1500; // Khoảng ~7 món mỗi nhà hàng
-    private static final int NUM_DRIVERS = 300;
-    private static final int NUM_ORDERS = 5000;
+    private static final int NUM_DRIVERS = 4000;    // Mỗi tài xế chỉ được gán duy nhất 1 đơn hàng
+    private static final int NUM_ORDERS = 5000;     // Số đơn đủ cho 4000 tài xế + một số đơn PENDING/CANCELLED
     private static final int NUM_SIMULATION_RUNS = 20; // Sinh ra lịch sử của 20 lần chạy mô phỏng trước đó
 
     private static final String OUTPUT_DIR = "data/";
@@ -35,6 +32,7 @@ public class DataGenerator {
 
     private static final String[] FOOD_NAMES = {"Pho Bo", "Banh Mi Dac Biet", "Com Tam Suon Nuong", "Bun Cha", "Goi Cuon", "Ga Ran", "Tra Sua Tran Chau", "Ca Phe Sua Da", "Pizza Hai San", "Mi Cay", "Banh Trang Tron", "Hu Tieu", "Che Thap Cam", "Sam Bo Luong", "Trai Cay Tuoi", "Banh Moouse", "Tiramisu Cake", "Sua Yogurt"};
 
+    // Lưu tọa độ trong quá trình sinh để tính Haversine chính xác
     // Lưu tọa độ trong quá trình sinh để tính Haversine chính xác
     private static final double[] customerLatitudes = new double[NUM_CUSTOMERS + 1];
     private static final double[] customerLongitudes = new double[NUM_CUSTOMERS + 1];
@@ -79,24 +77,7 @@ public class DataGenerator {
         return new BufferedWriter(new java.io.OutputStreamWriter(new java.io.FileOutputStream(OUTPUT_DIR + fileName), StandardCharsets.UTF_8));
     }
 
-    // 1. Hàm băm SHA-256 bảo mật mật khẩu
-    private static String hashPassword(String password) {
-        try {
-            MessageDigest digest = MessageDigest.getInstance("SHA-256");
-            byte[] hash = digest.digest(password.getBytes(StandardCharsets.UTF_8));
-            StringBuilder hexString = new StringBuilder();
-            for (byte b : hash) {
-                String hex = Integer.toHexString(0xff & b);
-                if (hex.length() == 1) {
-                    hexString.append('0');
-                }
-                hexString.append(hex);
-            }
-            return hexString.toString();
-        } catch (NoSuchAlgorithmException e) {
-            throw new RuntimeException(e);
-        }
-    }
+
 
     private static String getRandomName() {
         return HO[random.nextInt(HO.length)] + " " + DEM[random.nextInt(DEM.length)] + " " + TEN[random.nextInt(TEN.length)];
@@ -124,11 +105,10 @@ public class DataGenerator {
 
                 String cleanNameForEmail = name.toLowerCase().replaceAll("\\s+", "");
                 String email = cleanNameForEmail + i + "@gmail.com";
-                String rawPassword = "CustomerPass" + i + "!";
-                String hashedPassword = hashPassword(rawPassword);
+                String password = "customer" + i;
 
                 writer.write(String.format(Locale.US, "%d,%s,%s,%s,%.6f,%.6f,%s,%s\n",
-                        i, name, phone, address, lat, lon, email, hashedPassword));
+                        i, name, phone, address, lat, lon, email, password));
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -192,8 +172,7 @@ public class DataGenerator {
                 String phone = getRandomPhone();
                 String cleanNameForEmail = name.toLowerCase().replaceAll("\\s+", "");
                 String email = cleanNameForEmail + i + "@driver.com";
-                String rawPassword = "DriverPass" + i + "!";
-                String hashedPassword = hashPassword(rawPassword);
+                String password = "driver" + i;
 
                 double lat = 10.72 + random.nextDouble() * 0.13;
                 double lon = 106.60 + random.nextDouble() * 0.15;
@@ -204,7 +183,7 @@ public class DataGenerator {
                 String status = statuses[random.nextInt(statuses.length)];
 
                 writer.write(String.format(Locale.US, "%d,%s,%s,%s,%s,%.6f,%.6f,%.1f,%s,0\n",
-                        i, name, phone, email, hashedPassword, lat, lon, collectedQrMoney, status));
+                        i, name, phone, email, password, lat, lon, collectedQrMoney, status));
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -217,6 +196,14 @@ public class DataGenerator {
         for (MenuItem item : allMenuItems) {
             itemsByRest.computeIfAbsent(item.restaurantId, k -> new ArrayList<>()).add(item);
         }
+
+        // Tạo danh sách tài xế và xáo trộn để phân bổ ngẫu nhiên (mỗi tài xế chỉ được 1 đơn)
+        List<Integer> availableDrivers = new ArrayList<>();
+        for (int i = 1; i <= NUM_DRIVERS; i++) {
+            availableDrivers.add(i);
+        }
+        Collections.shuffle(availableDrivers);
+        int driverIndex = 0;
 
         try (BufferedWriter orderWriter = getWriter("orders.csv"); 
              BufferedWriter itemWriter = getWriter("order_items.csv"); 
@@ -263,9 +250,12 @@ public class DataGenerator {
                 String orderStatus = orderStatuses[random.nextInt(orderStatuses.length)];
                 
                 Integer driverId = null;
-                // Nếu trạng thái khác PENDING hoặc CANCELLED thì gán tài xế
+                // Nếu trạng thái khác PENDING hoặc CANCELLED thì gán tài xế (mỗi tài xế duy nhất 1 đơn)
                 if (!"PENDING".equals(orderStatus) && !"CANCELLED".equals(orderStatus)) {
-                    driverId = random.nextInt(NUM_DRIVERS) + 1;
+                    if (driverIndex < availableDrivers.size()) {
+                        driverId = availableDrivers.get(driverIndex);
+                        driverIndex++;
+                    }
                 }
 
                 orderWriter.write(String.format(Locale.US, "%d,%d,%s,%.1f,%s,%s,0\n",

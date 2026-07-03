@@ -2,7 +2,6 @@ package com.delivery.view;
 
 import com.delivery.model.SimulationRun;
 import com.delivery.repository.SimulationRunRepository;
-
 import java.util.List;
 
 /**
@@ -43,7 +42,7 @@ public class ReportView {
         }
 
         // Header bảng
-        String separator = "─".repeat(78);
+        String separator = repeatChar('─', 78);
         System.out.println(YELLOW + separator + RESET);
         System.out.printf(BOLD + "%-6s | %-12s | %-10s | %-10s | %-12s | %-8s%n" + RESET,
                 "ID", "TONG DON", "THANH CONG", "THAT BAI", "THOI GIAN(ms)", "TY LE %");
@@ -88,7 +87,7 @@ public class ReportView {
 
         String rateColor = avgSuccessRate >= 90 ? GREEN : (avgSuccessRate >= 70 ? YELLOW : RED);
 
-        String separator = "═".repeat(50);
+        String separator = repeatChar('═', 50);
         System.out.println(CYAN + separator + RESET);
         System.out.printf(BOLD + "  %-30s: %d lan%n" + RESET,   "So lan mo phong", totalRuns);
         System.out.printf(BOLD + "  %-30s: %d don%n" + RESET,   "Tong so don hang xu ly", totalOrders);
@@ -142,14 +141,22 @@ public class ReportView {
     // HELPER
     // =========================================================
 
+    private static String repeatChar(char c, int count) {
+        StringBuilder sb = new StringBuilder(count);
+        for (int i = 0; i < count; i++) {
+            sb.append(c);
+        }
+        return sb.toString();
+    }
+
     private void printBanner(String title) {
         int width = 50;
         int padding = (width - title.length() - 2) / 2;
-        String pad = " ".repeat(Math.max(0, padding));
+        String pad = repeatChar(' ', Math.max(0, padding));
         System.out.println();
-        System.out.println(CYAN + BOLD + "╔" + "═".repeat(width) + "╗");
-        System.out.println("║" + pad + " " + title + " " + pad + "║");
-        System.out.println("╚" + "═".repeat(width) + "╝" + RESET);
+        System.out.println(CYAN + BOLD + "╔" + repeatChar('═', width) + "╗");
+        System.out.println("║" + pad + " " + title + " " + pad + " ║");
+        System.out.println("╚" + repeatChar('═', width) + "╝" + RESET);
         System.out.println();
     }
 }
