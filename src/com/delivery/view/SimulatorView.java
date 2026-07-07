@@ -44,6 +44,9 @@ public class SimulatorView {
     private final OrderItemRepository orderItemRepo;
     private final MenuItemRepository  menuItemRepo;
 
+    // [TUẦN 8 - Tuấn] ReportView để in báo cáo so sánh 4 cơ chế khóa từ menu Admin
+    private final ReportView reportView;
+
     // Lưu đánh giá tạm thời trong bộ nhớ (In-memory, chưa có FeedbackRepository)
     static class Feedback {
         int    restaurantId;
@@ -78,6 +81,8 @@ public class SimulatorView {
         this.orderRepo            = orderRepo;
         this.orderItemRepo        = orderItemRepo;
         this.menuItemRepo         = menuItemRepo;
+        // [TUẦN 8 - Tuấn] Khởi tạo ReportView để Admin xem bảng so sánh 4 cơ chế
+        this.reportView           = new ReportView("data/simulation_runs.csv");
     }
 
     // =========================================================
@@ -959,6 +964,7 @@ public class SimulatorView {
             System.out.println("6. Chinh sua thong tin Khach hang");
             System.out.println("7. Chinh sua thong tin Nha hang");
             System.out.println("8. Chinh sua thong tin Tai xe");
+            System.out.println("9. [TUAN 8] Bao cao so sanh 4 co che Khoa (NO_LOCK/SYNC/FILE/OPTIMISTIC)");
             System.out.println("0. Dang xuat");
             System.out.print("Chon: ");
             String ac = scanner.nextLine();
@@ -979,6 +985,10 @@ public class SimulatorView {
                 editRestaurantAdmin();
             } else if (ac.equals("8")) {
                 editDriverAdmin();
+            } else if (ac.equals("9")) {
+                // [TUẦN 8 - Tuấn] In bảng so sánh 4 cơ chế khóa từ dữ liệu simulation_runs.csv
+                System.out.println();
+                reportView.printFullReport();
             } else if (ac.equals("0")) {
                 break;
             } else {

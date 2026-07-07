@@ -2,6 +2,7 @@ package com.delivery.controller;
 
 import com.delivery.model.Order;
 import com.delivery.model.OrderStatus;
+import com.delivery.repository.OptimisticLockException;
 import com.delivery.repository.OrderRepository;
 import com.delivery.service.OrderService;
 
@@ -37,10 +38,15 @@ public class OrderController {
 
     /**
      * Đặt đơn hàng mới.
+     * Bắt OptimisticLockException nếu có xung đột đa luồng khi lưu đơn.
      */
     public void placeOrder(Order order) {
-        orderService.createOrder(order);
-        System.out.println("Da dat don hang: " + order.getId());
+        try {
+            orderService.createOrder(order);
+            System.out.println("Da dat don hang: " + order.getId());
+        } catch (OptimisticLockException e) {
+            System.out.println("[!] Xung dot du lieu khi dat hang (co nhieu luong dang chay cung luc). Vui long thu lai!");
+        }
     }
 
     /**
@@ -63,13 +69,18 @@ public class OrderController {
 
     /**
      * Xác nhận giao hàng thành công.
+     * Bắt OptimisticLockException nếu có xung đột đa luồng khi cập nhật trạng thái.
      */
     public void deliverOrder(int orderId) {
-        boolean success = orderService.deliverOrder(orderId);
-        if (success) {
-            System.out.println("Don hang " + orderId + " da duoc giao thanh cong.");
-        } else {
-            System.out.println("Loi xac nhan giao hang cho don hang " + orderId + ".");
+        try {
+            boolean success = orderService.deliverOrder(orderId);
+            if (success) {
+                System.out.println("Don hang " + orderId + " da duoc giao thanh cong.");
+            } else {
+                System.out.println("Loi xac nhan giao hang cho don hang " + orderId + ".");
+            }
+        } catch (OptimisticLockException e) {
+            System.out.println("[!] Trang thai don hang " + orderId + " da bi thay doi boi luong khac. Vui long lam moi!");
         }
     }
 

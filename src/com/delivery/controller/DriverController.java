@@ -3,6 +3,7 @@ package com.delivery.controller;
 import com.delivery.model.Driver;
 import com.delivery.model.DriverStatus;
 import com.delivery.repository.DriverRepository;
+import com.delivery.repository.OptimisticLockException;
 
 import java.util.List;
 
@@ -97,7 +98,8 @@ public class DriverController {
     /**
      * Chuyển trạng thái tài xế: toggle giữa AVAILABLE và OFFLINE.
      * Nếu đang BUSY thì không cho đổi.
-     * @return true nếu đổi thành công, false nếu đang BUSY
+     * Bắt OptimisticLockException nếu có xung đột đa luồng khi ghi trạng thái.
+     * @return true nếu đổi thành công, false nếu đang BUSY hoặc lỗi xung đột
      */
     public boolean toggleOnlineStatus(Driver driver) {
         if (driver.getStatus() == DriverStatus.BUSY) {
@@ -105,15 +107,21 @@ public class DriverController {
                     + " dang ban giao hang, khong the doi trang thai!");
             return false;
         }
-        if (driver.getStatus() == DriverStatus.AVAILABLE) {
-            driver.setStatus(DriverStatus.OFFLINE);
-        } else {
-            driver.setStatus(DriverStatus.AVAILABLE);
+        try {
+            if (driver.getStatus() == DriverStatus.AVAILABLE) {
+                driver.setStatus(DriverStatus.OFFLINE);
+            } else {
+                driver.setStatus(DriverStatus.AVAILABLE);
+            }
+            driverRepository.update(driver);
+            System.out.println("==> [DriverController] Tai xe ID=" + driver.getId()
+                    + " doi trang thai -> " + driver.getStatus());
+            return true;
+        } catch (OptimisticLockException e) {
+            System.out.println("[!] Xung dot trang thai tai xe ID=" + driver.getId()
+                    + ": Trang thai da bi cap nhat boi tien trinh khac!");
+            return false;
         }
-        driverRepository.update(driver);
-        System.out.println("==> [DriverController] Tai xe ID=" + driver.getId()
-                + " doi trang thai -> " + driver.getStatus());
-        return true;
     }
 
     /**
@@ -166,18 +174,24 @@ public class DriverController {
 
     /**
      * Dispatch thủ công: Đánh dấu tài xế BUSY bằng cơ chế synchronized.
-     * Gọi markBusyWithSync để tránh race condition khi 2 luồng cùng nhắm vào 1 tài xế.
+     * Bắt OptimisticLockException nếu có xung đột đa luồng (Driver Overload protection).
      */
     public boolean dispatchDriver(int driverId) {
-        boolean success = driverRepository.markBusyWithSync(driverId);
-        if (success) {
-            System.out.println("==> [DriverController] Dispatch thanh cong! Tai xe ID="
-                    + driverId + " da chuyen sang BUSY.");
-        } else {
-            System.out.println("==> [DriverController] Dispatch THAT BAI! Tai xe ID="
-                    + driverId + " khong con san sang (da BUSY hoac khong ton tai).");
+        try {
+            boolean success = driverRepository.markBusyWithSync(driverId);
+            if (success) {
+                System.out.println("==> [DriverController] Dispatch thanh cong! Tai xe ID="
+                        + driverId + " da chuyen sang BUSY.");
+            } else {
+                System.out.println("[!] Dispatch THAT BAI: Tai xe ID=" + driverId
+                        + " khong con san sang (da BUSY hoac khong ton tai). Co the bi luong khac gian truoc!");
+            }
+            return success;
+        } catch (OptimisticLockException e) {
+            System.out.println("[!] Xung dot khi phan cong tai xe (Driver Overload): Tai xe ID=" + driverId
+                    + " da duoc nhan boi 2 don hang cung luc!");
+            return false;
         }
-        return success;
     }
 
     /**

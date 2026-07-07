@@ -8,6 +8,7 @@ import com.delivery.model.PaymentMethod;
 import com.delivery.model.Restaurant;
 import com.delivery.model.RestaurantStatus;
 import com.delivery.repository.MenuItemRepository;
+import com.delivery.repository.OptimisticLockException;
 import com.delivery.repository.OrderItemRepository;
 import com.delivery.repository.OrderRepository;
 import com.delivery.repository.RestaurantRepository;
@@ -135,18 +136,25 @@ public class RestaurantController {
     }
 
     /**
-     * Trừ số lượng tồn kho của một món ăn (gọi đoạn code 'ăn điểm' synchronized).
-     * @return true nếu trừ kho thành công, false nếu không đủ tồn kho
+     * Trừ số lượng tồn kho của một món ăn (synchronized - chống Race Condition).
+     * Bắt OptimisticLockException nếu có xung đột khi ghi đồng thời (Oversell protection).
+     * @return true nếu trừ kho thành công, false nếu không đủ tồn kho hoặc lỗi xung đột
      */
     public boolean deductMenuItemStock(int menuItemId, int quantity) {
-        boolean result = menuItemRepository.validateAndDeductStockAtomically(menuItemId, quantity);
-        if (result) {
-            System.out.println("==> [RestaurantController] Tru kho thanh cong: MonID="
-                    + menuItemId + ", SoLuong=" + quantity);
-        } else {
-            System.out.println("==> [RestaurantController] THAT BAI: Khong du ton kho MonID=" + menuItemId);
+        try {
+            boolean result = menuItemRepository.validateAndDeductStockAtomically(menuItemId, quantity);
+            if (result) {
+                System.out.println("==> [RestaurantController] Tru kho thanh cong: MonID="
+                        + menuItemId + ", SoLuong=" + quantity);
+            } else {
+                System.out.println("==> [RestaurantController] THAT BAI: Mon an het hang hoac khong du ton kho MonID=" + menuItemId);
+            }
+            return result;
+        } catch (OptimisticLockException e) {
+            System.out.println("[!] Xung dot ton kho (Oversell): Mon an ID=" + menuItemId
+                    + " vua bi mua het boi luong khac! Vui long chon mon khac.");
+            return false;
         }
-        return result;
     }
 
     /**
