@@ -164,6 +164,8 @@ public class SimulatorController {
                     o.setCustomerId(1);
                     o.setTotalPrice(10000);
                     o.setStatus(OrderStatus.PENDING);
+                    o.setPaymentMethod(PaymentMethod.CASH);
+                    o.setVersion(0);
                     
                     synchronized (orderService) {
                         // De don gian hoa ID, tao id moi an toan
