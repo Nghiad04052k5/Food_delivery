@@ -987,8 +987,10 @@ public class SimulatorView {
                 editDriverAdmin();
             } else if (ac.equals("9")) {
                 // [TUẦN 8 - Tuấn] In bảng so sánh 4 cơ chế khóa từ dữ liệu simulation_runs.csv
+                System.out.println("\n--- CHAY MO PHONG KHOA TAI ---");
+                com.delivery.simulator.SimulatorController sim = new com.delivery.simulator.SimulatorController(menuItemRepo, orderRepo, driverRepo, new com.delivery.service.OrderService(orderRepo, driverRepo), reportView);
+                sim.runSimulation();
                 System.out.println();
-                reportView.printFullReport();
             } else if (ac.equals("0")) {
                 break;
             } else {

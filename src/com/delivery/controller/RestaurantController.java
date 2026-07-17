@@ -151,8 +151,7 @@ public class RestaurantController {
             }
             return result;
         } catch (OptimisticLockException e) {
-            System.out.println("[!] Xung dot ton kho (Oversell): Mon an ID=" + menuItemId
-                    + " vua bi mua het boi luong khac! Vui long chon mon khac.");
+            System.out.println("Món ăn vừa có người mua hết");
             return false;
         }
     }

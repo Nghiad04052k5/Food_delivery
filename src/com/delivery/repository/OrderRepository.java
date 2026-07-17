@@ -50,17 +50,88 @@ public class OrderRepository extends CsvRepository<Order> {
         return "order_id,customer_id,driver_id,total_price,payment_method,status,version";
     }
 
-    // Cơ chế Khóa Lạc Quan (Optimistic Locking)
+    public boolean validateAndAssignDriverAtomically(int orderId, int driverId) {
+        LockMechanism mechanism = LockConfig.getMechanism();
+
+        if (mechanism == LockMechanism.NO_LOCK) {
+            return assignWithoutLock(orderId, driverId);
+        } else if (mechanism == LockMechanism.SYNCHRONIZED) {
+            synchronized (LockManager.getLock("Order_" + orderId)) {
+                return assignWithoutLock(orderId, driverId);
+            }
+        } else if (mechanism == LockMechanism.FILE_LOCK) {
+            boolean[] result = new boolean[1];
+            LockManager.executeWithFileLock(this.filePath, () -> {
+                result[0] = assignWithoutLock(orderId, driverId);
+            });
+            return result[0];
+        } else if (mechanism == LockMechanism.OPTIMISTIC) {
+            return assignOptimistic(orderId, driverId);
+        }
+        return false;
+    }
+
+    private boolean assignWithoutLock(int orderId, int driverId) {
+        List<Order> allOrders = readAll();
+        Order targetOrder = null;
+        for (Order o : allOrders) {
+            if (o.getId() == orderId) {
+                targetOrder = o;
+                break;
+            }
+        }
+
+        if (targetOrder == null || targetOrder.getDriverId() != null) return false;
+
+        // Giả lập trễ
+        try { Thread.sleep(5); } catch (InterruptedException ignored) {}
+
+        targetOrder.setDriverId(driverId);
+        targetOrder.setStatus(OrderStatus.CONFIRMED);
+        saveAll(allOrders);
+        return true;
+    }
+
+    private boolean assignOptimistic(int orderId, int driverId) {
+        Order initialOrder = findById(orderId);
+        if (initialOrder == null || initialOrder.getDriverId() != null) return false;
+        
+        int expectedVersion = initialOrder.getVersion();
+        
+        try { Thread.sleep(5); } catch (InterruptedException ignored) {}
+
+        boolean[] result = new boolean[1];
+        synchronized (LockManager.getLock("Order_DB_" + orderId)) {
+            List<Order> allOrders = readAll();
+            Order targetOrder = null;
+            for (Order o : allOrders) {
+                if (o.getId() == orderId) {
+                    targetOrder = o;
+                    break;
+                }
+            }
+            
+            if (targetOrder != null) {
+                if (targetOrder.getVersion() != expectedVersion) {
+                    throw new OptimisticLockException("Version mismatch for Order " + orderId);
+                }
+                if (targetOrder.getDriverId() == null) {
+                    targetOrder.setDriverId(driverId);
+                    targetOrder.setStatus(OrderStatus.CONFIRMED);
+                    targetOrder.setVersion(expectedVersion + 1);
+                    saveAll(allOrders);
+                    result[0] = true;
+                }
+            }
+        }
+        return result[0];
+    }
+
+    // Cơ chế Khóa Lạc Quan (Optimistic Locking) cũ để tương thích với test
     public synchronized boolean allocateOrderWithOptimisticLocking(int orderId, Integer driverId) {
         List<Order> orders = readAll();
         for (Order o : orders) {
             if (o.getId() == orderId) {
-                // Giả định logic cơ bản của Optimistic Locking (cần truyền version vào, nhưng
-                // diagram không có tham số version)
-                // Diagram yêu cầu: allocateOrderWithOptimisticLocking(orderId: int, driverId:
-                // Integer)
-                // Để test vẫn hoạt động, có thể ta cần giữ một biến currentVersion, ở đây ta cứ
-                // lấy version hiện tại + 1
                 o.setDriverId(driverId);
                 o.setStatus(OrderStatus.CONFIRMED);
                 o.setVersion(o.getVersion() + 1);
@@ -71,8 +142,7 @@ public class OrderRepository extends CsvRepository<Order> {
         return false;
     }
 
-    // Giữ lại hàm cũ để Test của Nguyên không bị lỗi do thiếu tham số
-    // expectedVersion
+    // Giữ lại hàm cũ để Test của Nguyên không bị lỗi do thiếu tham số expectedVersion
     public synchronized boolean assignDriverWithOptimistic(int orderId, Integer driverId, int expectedVersion) {
         List<Order> orders = readAll();
         for (Order o : orders) {

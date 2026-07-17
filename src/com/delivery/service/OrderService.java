@@ -43,24 +43,27 @@ public class OrderService {
             return false;
         }
         
-        // Nếu đơn hàng đã có tài xế rồi thì không dispatch nữa
         if (order.getDriverId() != null) {
             return false;
         }
 
-        // 1. Tìm tài xế rảnh rỗi gần nhất (loại trừ những người đã từ chối)
         Set<Integer> excludedIds = rejectedDriversMap.getOrDefault(orderId, Collections.emptySet());
         Driver nearestDriver = driverRepository.findNearestAvailableDriverExcluding(restaurantLat, restaurantLon, excludedIds);
         
         if (nearestDriver != null) {
-            // 2. Gán tài xế bận (tạm thời để họ không nhận đơn khác)
-            nearestDriver.setStatus(DriverStatus.BUSY);
-            driverRepository.update(nearestDriver);
+            // 2. Gán tài xế bận (Atomic)
+            boolean driverSecured = driverRepository.validateAndSetStatusAtomically(nearestDriver.getId(), DriverStatus.AVAILABLE, DriverStatus.BUSY);
+            if (!driverSecured) {
+                return false;
+            }
 
-            // 3. Cập nhật đơn hàng (đề xuất cho tài xế này)
-            order.setDriverId(nearestDriver.getId());
-            order.setStatus(OrderStatus.CONFIRMED);
-            orderRepository.update(order);
+            // 3. Cập nhật đơn hàng (Atomic)
+            boolean orderSecured = orderRepository.validateAndAssignDriverAtomically(orderId, nearestDriver.getId());
+            if (!orderSecured) {
+                // Nếu không gán được order, phải nhả tài xế ra
+                driverRepository.validateAndSetStatusAtomically(nearestDriver.getId(), DriverStatus.BUSY, DriverStatus.AVAILABLE);
+                return false;
+            }
             return true;
         }
         return false;

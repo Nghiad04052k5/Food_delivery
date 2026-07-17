@@ -53,17 +53,21 @@ public class OrderController {
      * Điều phối tài xế cho một đơn hàng.
      */
     public void dispatchOrder(int orderId, double restaurantLat, double restaurantLon) {
-        boolean success = orderService.dispatchOrder(orderId, restaurantLat, restaurantLon);
-        if (success) {
-            if (orderRepository != null) {
-                Order updatedOrder = orderRepository.findById(orderId);
-                System.out.println("Đã điều phối đơn hàng " + orderId + " thành công cho tài xế mang ID số: " + updatedOrder.getDriverId());
+        try {
+            boolean success = orderService.dispatchOrder(orderId, restaurantLat, restaurantLon);
+            if (success) {
+                if (orderRepository != null) {
+                    Order updatedOrder = orderRepository.findById(orderId);
+                    System.out.println("Đã điều phối đơn hàng " + orderId + " thành công cho tài xế mang ID số: " + updatedOrder.getDriverId());
+                } else {
+                    System.out.println("Da dieu phoi don hang " + orderId + " thanh cong cho tai xe.");
+                }
             } else {
-                System.out.println("Da dieu phoi don hang " + orderId + " thanh cong cho tai xe.");
+                System.out.println("Loi dieu phoi don hang " + orderId
+                        + " (Khong tim thay don hang hoac khong co tai xe).");
             }
-        } else {
-            System.out.println("Loi dieu phoi don hang " + orderId
-                    + " (Khong tim thay don hang hoac khong co tai xe).");
+        } catch (OptimisticLockException e) {
+            System.out.println("Tài xế vừa bị giành mất");
         }
     }
 
