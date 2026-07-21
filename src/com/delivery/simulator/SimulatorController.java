@@ -31,7 +31,7 @@ public class SimulatorController {
     }
 
     public void runSimulation() {
-        System.out.println("\n=== BAT DAU CONG CU BAN TAI MO PHONG 1000 DON HANG ===");
+        System.out.println("\n=== BAT DAU CONG CU BAN TAI MO PHONG 100 DON HANG ===");
         LockMechanism[] mechanisms = {LockMechanism.NO_LOCK, LockMechanism.SYNCHRONIZED, LockMechanism.FILE_LOCK, LockMechanism.OPTIMISTIC};
 
         for (LockMechanism mech : mechanisms) {

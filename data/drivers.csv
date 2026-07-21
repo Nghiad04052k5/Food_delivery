@@ -1,8 +1,8 @@
 driver_id,name,phone,email,password,latitude,longitude,collected_qr_money,status,version
 1,Tai xe 1,0123,tx1@gmail.com,pass,10.000000,106.000000,0.00,BUSY,1
-2,Tai xe 2,0123,tx2@gmail.com,pass,10.000000,106.000000,0.00,AVAILABLE,4
+2,Tai xe 2,0123,tx2@gmail.com,pass,10.000000,106.000000,0.00,BUSY,1
 3,Tai xe 3,0123,tx3@gmail.com,pass,10.000000,106.000000,0.00,BUSY,1
-4,Tai xe 4,0123,tx4@gmail.com,pass,10.000000,106.000000,0.00,BUSY,1
+4,Tai xe 4,0123,tx4@gmail.com,pass,10.000000,106.000000,0.00,AVAILABLE,2
 5,Tai xe 5,0123,tx5@gmail.com,pass,10.000000,106.000000,0.00,AVAILABLE,0
 6,Tai xe 6,0123,tx6@gmail.com,pass,10.000000,106.000000,0.00,AVAILABLE,0
 7,Tai xe 7,0123,tx7@gmail.com,pass,10.000000,106.000000,0.00,AVAILABLE,0
