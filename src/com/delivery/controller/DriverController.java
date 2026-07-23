@@ -178,7 +178,7 @@ public class DriverController {
      */
     public boolean dispatchDriver(int driverId) {
         try {
-            boolean success = driverRepository.markBusyWithSync(driverId);
+            boolean success = driverRepository.validateAndSetStatusAtomically(driverId, DriverStatus.AVAILABLE, DriverStatus.BUSY);
             if (success) {
                 System.out.println("==> [DriverController] Dispatch thanh cong! Tai xe ID="
                         + driverId + " da chuyen sang BUSY.");

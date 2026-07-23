@@ -135,24 +135,77 @@ public class DriverRepository extends CsvRepository<Driver> {
         return nearestDriver;
     }
 
-    /**
-     * CHỨC NĂNG 3: Chuyển trạng thái tài xế sang bận một cách đồng bộ
-     * Từ khóa 'synchronized' giúp chặn đứng tình trạng 2 luồng đơn hàng gán cho
-     * cùng 1 tài xế
-     */
-    public synchronized boolean markBusyWithSync(int driverId) {
+    public boolean validateAndSetStatusAtomically(int driverId, DriverStatus expectedStatus, DriverStatus newStatus) {
+        LockMechanism mechanism = LockConfig.getMechanism();
+
+        if (mechanism == LockMechanism.NO_LOCK) {
+            return updateStatusWithoutLock(driverId, expectedStatus, newStatus);
+        } else if (mechanism == LockMechanism.SYNCHRONIZED) {
+            synchronized (LockManager.getLock("Driver_" + driverId)) {
+                return updateStatusWithoutLock(driverId, expectedStatus, newStatus);
+            }
+        } else if (mechanism == LockMechanism.FILE_LOCK) {
+            boolean[] result = new boolean[1];
+            LockManager.executeWithFileLock(this.filePath, () -> {
+                result[0] = updateStatusWithoutLock(driverId, expectedStatus, newStatus);
+            });
+            return result[0];
+        } else if (mechanism == LockMechanism.OPTIMISTIC) {
+            return updateStatusOptimistic(driverId, expectedStatus, newStatus);
+        }
+        return false;
+    }
+
+    private boolean updateStatusWithoutLock(int driverId, DriverStatus expectedStatus, DriverStatus newStatus) {
         List<Driver> allDrivers = readAll();
-        for (Driver driver : allDrivers) {
-            if (driver.getId() == driverId) {
-                // Kiểm tra lại một lần nữa xem tài xế có thực sự còn rảnh không (Double-check)
-                if (driver.getStatus() == DriverStatus.AVAILABLE) {
-                    driver.setStatus(DriverStatus.BUSY); // Đánh dấu bận ngay lập tức
-                    update(driver); // Lưu thay đổi xuống file thông qua lớp Repository cha
-                    return true; // Gán tài xế thành công
-                }
-                return false; // Tài xế đã bị luồng khác giật mất trước đó vài mili giây
+        Driver targetDriver = null;
+        for (Driver d : allDrivers) {
+            if (d.getId() == driverId) {
+                targetDriver = d;
+                break;
             }
         }
-        return false; // Không tìm thấy ID tài xế
+
+        if (targetDriver == null || targetDriver.getStatus() != expectedStatus) return false;
+
+        try { Thread.sleep(5); } catch (InterruptedException ignored) {}
+
+        targetDriver.setStatus(newStatus);
+        saveAll(allDrivers);
+        return true;
+    }
+
+    private boolean updateStatusOptimistic(int driverId, DriverStatus expectedStatus, DriverStatus newStatus) {
+        Driver initialDriver = findById(driverId);
+        if (initialDriver == null || initialDriver.getStatus() != expectedStatus) return false;
+        
+        int expectedVersion = initialDriver.getVersion();
+        
+        try { Thread.sleep(5); } catch (InterruptedException ignored) {}
+
+        boolean[] result = new boolean[1];
+        synchronized (LockManager.getLock("Driver_DB_" + driverId)) {
+            List<Driver> allDrivers = readAll();
+            Driver targetDriver = null;
+            for (Driver d : allDrivers) {
+                if (d.getId() == driverId) {
+                    targetDriver = d;
+                    break;
+                }
+            }
+            
+            if (targetDriver != null) {
+                if (targetDriver.getVersion() != expectedVersion) {
+                    throw new OptimisticLockException("Version mismatch for Driver " + driverId);
+                }
+                if (targetDriver.getStatus() == expectedStatus) {
+                    targetDriver.setStatus(newStatus);
+                    targetDriver.setVersion(expectedVersion + 1);
+                    saveAll(allDrivers);
+                    result[0] = true;
+                }
+            }
+        }
+        return result[0];
     }
 }
